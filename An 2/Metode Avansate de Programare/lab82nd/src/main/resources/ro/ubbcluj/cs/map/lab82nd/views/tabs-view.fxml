@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1200.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.ubbcluj.cs.map.lab82nd.controller.TabController">
+  <tabs>
+    <Tab text="Users">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="513.0" prefWidth="752.0">
+               <children>
+                  <TableView fx:id="userTableView" layoutX="14.0" layoutY="14.0" prefHeight="396.0" prefWidth="760.0">
+                    <columns>
+                      <TableColumn fx:id="firstName" prefWidth="186.0" text="firstName" />
+                      <TableColumn fx:id="lastName" prefWidth="161.0" text="lastName" />
+                        <TableColumn fx:id="email" prefWidth="326.0" text="email" />
+                        <TableColumn fx:id="password" minWidth="0.0" prefWidth="0.0" text="password" visible="false" />
+                    </columns>
+                  </TableView>
+                  <TextField fx:id="firstNameTextField" layoutX="14.0" layoutY="461.0" promptText="firstName" />
+                  <TextField fx:id="lastNameTextField" layoutX="14.0" layoutY="492.0" promptText="lastName" />
+                  <TextField fx:id="emailTextField" layoutX="14.0" layoutY="526.0" promptText="email" />
+                  <TextField fx:id="passwordTextField" layoutX="14.0" layoutY="558.0" promptText="password" />
+                  <Button layoutX="787.0" layoutY="386.0" mnemonicParsing="false" onAction="#onPressDeleteUser" prefHeight="25.0" prefWidth="131.0" text="DELETE USER" />
+                  <Button layoutX="172.0" layoutY="558.0" mnemonicParsing="false" onAction="#onPressAddUser" text="ADD USER" />
+                  <Button fx:id="previousButton" layoutX="14.0" layoutY="419.0" mnemonicParsing="false" onAction="#onPressPrevious" text="PREVIOUS" />
+                  <Button fx:id="nextButton" layoutX="698.0" layoutY="419.0" mnemonicParsing="false" onAction="#onPressNext" prefHeight="25.0" prefWidth="76.0" text="NEXT" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Friendships">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+               <children>
+                  <TextField fx:id="user1TextField" layoutX="14.0" layoutY="451.0" promptText="email1" />
+                  <TextField fx:id="user2TextField" layoutX="14.0" layoutY="488.0" promptText="email2" />
+                  <TableView fx:id="friendshipTableView" layoutX="14.0" layoutY="14.0" prefHeight="396.0" prefWidth="760.0">
+                    <columns>
+                      <TableColumn fx:id="user1" prefWidth="129.0" text="user1" />
+                      <TableColumn fx:id="user2" prefWidth="134.0" text="user2" />
+                        <TableColumn fx:id="friendsFrom" prefWidth="106.0" text="friendsFrom" />
+                        <TableColumn fx:id="status" prefWidth="106.0" text="status" />
+                    </columns>
+                  </TableView>
+                  <Button layoutX="787.0" layoutY="386.0" mnemonicParsing="false" onAction="#onPressDeleteFriendship" prefHeight="25.0" prefWidth="183.0" text="DELETE FRIENDSHIP" />
+                  <Button layoutX="182.0" layoutY="488.0" mnemonicParsing="false" onAction="#onPressAddFriendship" text="ADD FRIENDSHIP" />
+                  <Button layoutX="14.0" layoutY="548.0" mnemonicParsing="false" onAction="#onPressNumberOfCommunities" text="SHOW NUMBER OF COMMUNITIES" />
+                  <Button layoutX="14.0" layoutY="590.0" mnemonicParsing="false" onAction="#onPressMostSociableCommunity" text="SHOW MOST SOCIABLE COMMUNITY" />
+                  <TextField fx:id="userTextField" layoutX="14.0" layoutY="631.0" prefHeight="25.0" prefWidth="152.0" promptText="email" />
+                  <Button layoutX="182.0" layoutY="669.0" mnemonicParsing="false" onAction="#onPressShowFriendshipsByUserinMonth" text="SHOW ALL FRIENDSHIPS BY THIS USER IN THIS MONTH" />
+                  <TextField fx:id="monthTextField" layoutX="14.0" layoutY="669.0" promptText="month" />
+                  <Button layoutX="794.0" layoutY="104.0" mnemonicParsing="false" onAction="#onPressAccept" prefHeight="25.0" prefWidth="206.0" text="ACCEPT FRIENDSHIP" />
+                  <Button fx:id="onPressDecline" layoutX="794.0" layoutY="143.0" mnemonicParsing="false" onAction="#onPressDecline" prefHeight="25.0" prefWidth="205.0" text="DECLINE FRIENDSHIP" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>

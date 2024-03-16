@@ -1,0 +1,6 @@
+1,01/10/2024,Utilities
+2,04/10/2023,Fashion
+3,03/15/2023,Groceries
+4,03/16/2023,Utilities
+5,12/17/2023,Electronics
+6,01/01/2024,Utilities

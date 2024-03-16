@@ -1,0 +1,104 @@
+1. NR SUBLISTE CARE AU MAX NIVELE IMPARE UN NR PAR
+
+;niv e 0 la inceput
+(defun obtine_nr_niv_impare(l niv)
+    (cond
+        ((AND (numberp l) (equal (mod niv 2) 1))  (list l))
+        ((atom l) nil)
+        (t (mapcan #'(lambda (x)
+                        (obtine_nr_niv_impare x (+ 1 niv))
+                        ) l
+            )
+        )
+    )
+)
+
+;daca am lista goala la inceput obtin nil
+(defun maxim_lista(l)
+    (cond
+        ((null (cdr l)) (car l))
+        (t (max (car l) (maxim_lista (cdr l))))
+    )
+)
+
+(defun verificare(l)
+    (cond
+        ((null (maxim_lista (obtine_nr_niv_impare l 0))) nil)
+        ((equal (mod (maxim_lista (obtine_nr_niv_impare l 0)) 2) 0) t)
+        (t nil)
+    )
+)
+
+(defun main(l)
+    (cond
+        ((atom l) 0)
+        ((verificare l) (+ 1 (apply '+ (mapcar #'main l))))
+        (t (apply '+(mapcar #'main l)))
+    )
+)
+
+2.NR SUBLISTE CARE AU PRIMUL ATOM NUMERIC DE LA ORICE NUVEL NR IMPAR
+
+;pastrez doar atomi numerici
+(defun linearizeaza(l)
+    (cond  
+        ((numberp l) (list l))
+        ((atom l) nil)
+        (t (mapcan #'linearizeaza l))
+    )
+)
+
+(defun verifica(l)
+    (cond  
+        ((eq(mod (car (linearizeaza l)) 2) 1) t)
+        (t nil)
+    )
+)
+
+(defun verifica_ultimul_impar(l)
+    (cond
+        ((AND (null (cdr l)) (equal 1 (mod (car l) 2))) t)
+        ((null (cdr l)) nil)
+        (t (verifica_ultimul_impar (cdr l)))
+    )
+)
+
+(defun numara(l)
+    (cond  
+        ((atom l) 0)
+        ((verifica l) (+ 1 (apply '+(mapcar #'numara l))))
+        (t (apply '+ (mapcar #'numara l)))
+    )
+)
+
+
+3.NR SUBLISTE LA CARE SUMA DE PE NIVELE IMPARE E UN NR PAR
+
+;pun niv=0 initial ca lista mare sa fie pe nivelul 1
+(defun suma_niv_impare(l niv)
+    (cond
+        ((AND (numberp l) (equal 1 (mod niv 2))) l)
+        ((atom l) 0)
+        (t (apply '+ (mapcar #'(lambda (x)
+                                    (suma_niv_impare x (+ niv 1))
+                                ) l
+                    )
+            )
+        )
+    )
+)
+
+(defun verificare(l)
+    (cond
+        ((equal (mod (suma_niv_impare l 0) 2) 0) t)
+        (t nil)
+    )
+)
+
+(defun main(l)
+    (cond
+        ((atom l) 0)
+        ((verificare l) (+ 1 (apply '+ (mapcar #'main l))))
+        (t  (apply '+ (mapcar #'main l)))
+    )
+)

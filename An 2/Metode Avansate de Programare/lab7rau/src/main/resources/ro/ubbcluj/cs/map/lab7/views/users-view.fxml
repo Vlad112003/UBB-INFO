@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="483.0" prefWidth="758.0" tabClosingPolicy="UNAVAILABLE" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/21" fx:controller="ro.ubbcluj.cs.map.lab7.controller.UserController">
+  <tabs>
+    <Tab text="Users">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="454.0" prefWidth="535.0">
+               <children>
+                  <TableView fx:id="userTableView" layoutX="14.0" layoutY="14.0" prefHeight="200.0" prefWidth="723.0">
+                    <columns>
+                      <TableColumn prefWidth="108.0" text="firstName" />
+                      <TableColumn minWidth="0.0" prefWidth="111.0" text="lastName" />
+                        <TableColumn prefWidth="149.0" text="email" />
+                        <TableColumn minWidth="0.0" prefWidth="100.0" text="password" />
+                    </columns>
+                  </TableView>
+                  <TextField layoutX="14.0" layoutY="227.0" promptText="firstName" />
+                  <TextField layoutX="14.0" layoutY="260.0" promptText="lastName" />
+                  <TextField layoutX="14.0" layoutY="291.0" promptText="email" />
+                  <TextField layoutX="14.0" layoutY="323.0" promptText="password" />
+                  <Button layoutX="651.0" layoutY="227.0" mnemonicParsing="false" onAction="#onPressDelete" text="DELETE USER" />
+                  <Button layoutX="91.0" layoutY="358.0" mnemonicParsing="false" text="ADD USER" />
+               </children></AnchorPane>
+      </content>
+    </Tab>
+    <Tab text="Friendships">
+      <content>
+        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="454.0" prefWidth="617.0" />
+      </content>
+    </Tab>
+  </tabs>
+</TabPane>

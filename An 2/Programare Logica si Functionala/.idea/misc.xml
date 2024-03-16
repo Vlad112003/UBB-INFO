@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" default="true">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+  <component name="SltLispProjectSdk">
+    <option name="currentSDK" value="2928d49ac3214f44bb5a686d34d6774f" />
+  </component>
+</project>

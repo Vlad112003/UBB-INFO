@@ -1,0 +1,14 @@
+D:\Faculta An2 Sem1\IntelliJ\CSharp\labCSharp\labCSharp\bin\Debug\net8.0\labCSharp.exe
+D:\Faculta An2 Sem1\IntelliJ\CSharp\labCSharp\labCSharp\bin\Debug\net8.0\labCSharp.deps.json
+D:\Faculta An2 Sem1\IntelliJ\CSharp\labCSharp\labCSharp\bin\Debug\net8.0\labCSharp.runtimeconfig.json
+D:\Faculta An2 Sem1\IntelliJ\CSharp\labCSharp\labCSharp\bin\Debug\net8.0\labCSharp.dll
+D:\Faculta An2 Sem1\IntelliJ\CSharp\labCSharp\labCSharp\bin\Debug\net8.0\labCSharp.pdb
+D:\Faculta An2 Sem1\IntelliJ\CSharp\labCSharp\labCSharp\obj\Debug\net8.0\labCSharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Faculta An2 Sem1\IntelliJ\CSharp\labCSharp\labCSharp\obj\Debug\net8.0\labCSharp.AssemblyInfoInputs.cache
+D:\Faculta An2 Sem1\IntelliJ\CSharp\labCSharp\labCSharp\obj\Debug\net8.0\labCSharp.AssemblyInfo.cs
+D:\Faculta An2 Sem1\IntelliJ\CSharp\labCSharp\labCSharp\obj\Debug\net8.0\labCSharp.csproj.CoreCompileInputs.cache
+D:\Faculta An2 Sem1\IntelliJ\CSharp\labCSharp\labCSharp\obj\Debug\net8.0\labCSharp.dll
+D:\Faculta An2 Sem1\IntelliJ\CSharp\labCSharp\labCSharp\obj\Debug\net8.0\refint\labCSharp.dll
+D:\Faculta An2 Sem1\IntelliJ\CSharp\labCSharp\labCSharp\obj\Debug\net8.0\labCSharp.pdb
+D:\Faculta An2 Sem1\IntelliJ\CSharp\labCSharp\labCSharp\obj\Debug\net8.0\labCSharp.genruntimeconfig.cache
+D:\Faculta An2 Sem1\IntelliJ\CSharp\labCSharp\labCSharp\obj\Debug\net8.0\ref\labCSharp.dll

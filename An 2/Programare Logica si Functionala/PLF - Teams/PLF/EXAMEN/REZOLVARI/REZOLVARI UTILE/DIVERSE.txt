@@ -1,0 +1,132 @@
+1. PATH CU MAPCAN
+
+(defun apartine_arbore(l elem)
+    (cond
+        ((null l) nil)
+        ((listp (car l))  (OR (apartine_arbore (car l) elem) (apartine_arbore (cdr l) elem)))
+        ((equal (car l) elem) t)
+        (t (apartine_arbore (cdr l) elem))
+    )
+)
+
+(defun path(l elem)
+    (cond
+        ((and (listp l) (apartine_arbore l elem))
+            (append (list (car l)) (mapcan #'(lambda (x)
+                                            (path x elem)
+                                      ) l
+                            )
+            )
+        )
+    )
+)
+
+2. ELIMINARE ELEM CU MAPCAN
+
+(defun eliminare_aparitii(l elem)
+    (cond
+        ((and (atom l) (equal l elem)) nil)
+        ((atom l) (list l))
+        (t (list (mapcan #'(lambda (x)
+                                (eliminare_aparitii x elem)
+                            ) l
+                 )
+            )
+        )
+    )
+)
+
+(defun elimina_main(l elem)
+    (car (eliminare_aparitii l elem))
+)
+
+
+3.DUBLARE DIN N IN N - nu o sa dea asa ceva, prea ez
+
+(defun dublare(l poz_act poz)
+    (cond
+        ((null l) nil)
+        ((equal (mod poz_act poz) 0)  
+                (append (list (car l) (car l)) (dublare (cdr l) (+ 1 poz_act) poz))
+        )
+        (t (append (list (car l)) (dublare (cdr l) (+ 1 poz_act) poz)))
+    )
+)
+
+4.INVERSEAZA O LISTA NELINIARA IN PROLOG
+
+inverseaza([],R,R):-!.
+inverseaza([H|T],R,Rez):-is_list(H),!,inverseaza(H,[],RH),
+	inverseaza(T,[RH|R],Rez).
+inverseaza([H|T],R,Rez):-inverseaza(T,[H|R],Rez).
+
+inverseaza_fct(L,R):-inverseaza(L,[],R).
+
+
+5.INLOCUIRE EVEN CU SUCCESOR IN 2 MODURI
+
+(defun inlocuire_even_succ(l)
+    (cond
+        ((and (numberp l) (equal (mod l 2) 0)) (+ 1 l))
+        ((atom l) l)
+        (t (mapcar #'inlocuire_even_succ l))
+    )
+)
+
+(defun iar(l)
+    (cond
+        ((null l) nil)
+        ((and (numberp (car l)) (equal (mod (car l) 2) 0))  (cons (+ 1 (car l)) (iar (cdr l))))
+        ((atom (car l)) (cons (car l) (iar (cdr l))) )
+        (t (cons (iar (car l)) (iar (cdr l))))
+    )
+)
+
+
+6. X^N IN 2 FELURI (CARE E AL DOILEA???? - ceva cu x^(n/2) * x^(n/2))
+
+putere2(_,0,1):-!.
+putere2(N,P,R):-P<0,!,P1 is -P,putere2(N,P1,R1),R is 1/R1.
+putere2(N,P,R):-P1 is P-1,putere2(N,P1,R1), R is R1*N.
+
+7. LISTA -> MULTIME IN 2 FELURI
+
+elimina_elem([],_,[]):-!.
+elimina_elem([H|T],H,R):-elimina_elem(T,H,R),!.
+elimina_elem([H|T],E,[H|R]):-elimina_elem(T,E,R).
+
+
+lista_multime1([],[]):-!.
+lista_multime1([H|T],[H|R]):-elimina_elem(T,H,R1),lista_multime1(R1,R).
+
+apare([Elem|_],Elem):-!.
+apare([_|T],Elem):-apare(T,Elem).
+
+lista_multime2([],R,R):-!.
+lista_multime2([H|T],R,_):-apare(R,H),!,lista_multime2(T,R,_).
+lista_multime2([H|T],[H|R],_):-lista_multime2(T,R,_).
+
+8. SUMA PRIMELOR N NR NAT IN 2 FELURI
+
+suma(0,0):-!.
+suma(N,R):-N1 is N-1,suma(N1,R1),R is R1+N.
+
+
+suma_gauss(N,R):-N1 is N+1,N3 is N*N1, R is N3/2.
+
+
+9. INALTIMEA CU MAPCAR
+
+(defun inaltime_nod(a e gasit)
+    (cond
+    ((atom a) -1)
+    ((AND (listp a) (equal gasit NIL) (not (equal e (car a)))) (apply #'max(mapcar #'(lambda (x)(inaltime_nod x e NIL)) a)))
+    (t (+ 1 (apply #'max(mapcar #'(lambda (x)(inaltime_nod x e T)) a))) )
+    )
+)
+
+; main(a, e) = inaltime_nod(a, e, NIL)
+; main(a:list, e:element)
+(defun main(l e)
+(inaltime_nod l e NIL)
+)

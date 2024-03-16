@@ -1,0 +1,36 @@
+1. COMBINARI:
+
+comb([H|_],1,[H]).
+comb([_|T],K,C):-comb(T,K,C).
+comb([H|T],K,[H|C]):-K>1,K1 is K-1,comb(T,K1,C).
+
+saaaau pot inlocui ultima linie ca sa mi le dea cu elem in ord. crescatoare:
+comb([H|T],K,[H,H1|R]):- K>1,K1 is K-1,
+				comb(T,N1,[H1|R]),
+				H<H1.
+
+2. SUBLISTE:
+
+subliste([],[]).
+subliste([_|T],Rez):-subliste(T,Rez).
+subliste([H|T],[H|Rez]):-subliste(T,Rez).
+
+
+3. ARANJAMENTE:
+
+insereaza(E,L,[E|L]).
+insereaza(E,[H|T],[H|Rez]):-insereaza(E,T,Rez).
+
+aranj([H|_],1,[H]).
+aranj([_|T],K,R):-aranj(T,K,R).
+aranj([H|T],K,R):-K>1,K1 is K-1,
+	aranj(T,K1,R1),
+	insereaza(H,R1,R).
+
+4. PERMUTARI:
+
+insereaza(E,L,[E|L]).
+insereaza(E,[H|T],[H|Rez]):-insereaza(E,T,Rez).
+
+perm([], []).
+perm([E|T],P):-perm(T, L),insereaza(E,L,P).

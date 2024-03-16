@@ -1,0 +1,2 @@
+CREATE DATABASE Magazin_Jocuri2
+GO

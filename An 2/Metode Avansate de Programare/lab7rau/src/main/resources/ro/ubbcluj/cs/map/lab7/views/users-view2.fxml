@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ro.ubbcluj.cs.map.lab7.controller.UserController">
+    <children>
+        <TableView fx:id="userTableView" layoutX="145.0" layoutY="41.0" prefHeight="205.0" prefWidth="310.0">
+            <columns>
+                <TableColumn fx:id="firstName" prefWidth="75.0" text="firstName" />
+                <TableColumn fx:id="lastName" prefWidth="75.0" text="lastName" />
+                <TableColumn fx:id="email" prefWidth="75.0" text="email" />
+<!--                <TableColumn fx:id="password" prefWidth="75.0" text="password" />-->
+            </columns>
+        </TableView>
+        <Button layoutX="145.0" layoutY="294.0" mnemonicParsing="false" onAction="#onPressDelete" text="Delete" />
+        <CheckBox layoutX="237.0" layoutY="298.0" mnemonicParsing="false" text="CheckBox" />
+    </children>
+</AnchorPane>
