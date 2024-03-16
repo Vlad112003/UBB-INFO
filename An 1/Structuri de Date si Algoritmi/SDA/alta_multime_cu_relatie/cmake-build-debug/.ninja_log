@@ -1,0 +1,22 @@
+# ninja log v5
+0	77	7062001940698412	CMakeFiles/alta_multime_cu_relatie.dir/IteratorMultime.cpp.obj	e9a46ff00109feea
+21	116	7062001941100838	CMakeFiles/alta_multime_cu_relatie.dir/TestScurt.cpp.obj	884e41e348e85763
+6	380	7062001943736771	CMakeFiles/alta_multime_cu_relatie.dir/main.cpp.obj	578d0359639352d5
+11	404	7062001943972496	CMakeFiles/alta_multime_cu_relatie.dir/Multime.cpp.obj	387a365677ae317b
+16	425	7062001944193487	CMakeFiles/alta_multime_cu_relatie.dir/TestExtins.cpp.obj	551ee6746f9ece3e
+425	528	7062001945179290	alta_multime_cu_relatie.exe	351a63474bd894dc
+3	360	7062003425472727	CMakeFiles/alta_multime_cu_relatie.dir/main.cpp.obj	578d0359639352d5
+360	463	7062003426469755	alta_multime_cu_relatie.exe	351a63474bd894dc
+4	140	7062007625238115	CMakeFiles/alta_multime_cu_relatie.dir/IteratorMultime.cpp.obj	e9a46ff00109feea
+10	166	7062007625821248	CMakeFiles/alta_multime_cu_relatie.dir/TestScurt.cpp.obj	884e41e348e85763
+21	559	7062007629737514	CMakeFiles/alta_multime_cu_relatie.dir/Multime.cpp.obj	387a365677ae317b
+15	582	7062007629972893	CMakeFiles/alta_multime_cu_relatie.dir/TestExtins.cpp.obj	551ee6746f9ece3e
+582	685	7062007630968858	alta_multime_cu_relatie.exe	351a63474bd894dc
+3	474	7062010267498142	CMakeFiles/alta_multime_cu_relatie.dir/Multime.cpp.obj	387a365677ae317b
+474	577	7062010268489935	alta_multime_cu_relatie.exe	351a63474bd894dc
+3	70	7062010409216046	CMakeFiles/alta_multime_cu_relatie.dir/IteratorMultime.cpp.obj	e9a46ff00109feea
+13	102	7062010409534109	CMakeFiles/alta_multime_cu_relatie.dir/TestScurt.cpp.obj	884e41e348e85763
+8	549	7062010414001930	CMakeFiles/alta_multime_cu_relatie.dir/main.cpp.obj	578d0359639352d5
+17	582	7062010414325574	CMakeFiles/alta_multime_cu_relatie.dir/Multime.cpp.obj	387a365677ae317b
+21	595	7062010414455561	CMakeFiles/alta_multime_cu_relatie.dir/TestExtins.cpp.obj	551ee6746f9ece3e
+595	699	7062010415459216	alta_multime_cu_relatie.exe	351a63474bd894dc

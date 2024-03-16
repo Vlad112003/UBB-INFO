@@ -1,0 +1,253 @@
+//KOSARAJU
+#include    <fstream>
+#include    <iostream>
+#include    <vector>
+#include    <stack>
+#define NMax 100005
+using namespace std;
+ifstream fin("ctc.in");
+ofstream fout("ctc.out");
+stack < int > S;
+vector<int> G[NMax],GT[NMax],CTC[NMax];
+int N, M, NrCTC;
+int beenThere[NMax];
+void Read()
+{
+    fin >> N >> M;
+    for(int i = 1; i <= M; i++)
+    {
+        int x,y;
+        fin >> x >> y;
+        G[x].push_back(y); // Construim graful G
+        GT[y].push_back(x); // Construim transpusa grafului G
+    }
+}
+void DFSP(int Nod)
+{
+    beenThere[Nod] = 1;
+    for(unsigned int i=0; i<G[Nod].size();i++) {
+        int Vecin = G[Nod][i];
+        if(!beenThere[Vecin])
+            DFSP(Vecin);
+    }
+    S.push(Nod);
+}
+void DFSM(int Nod)
+{
+    beenThere[Nod] = 2;
+    CTC[NrCTC].push_back(Nod);
+    for(unsigned int i=0; i<GT[Nod].size();i++) {
+        int Vecin = GT[Nod][i];
+        if(beenThere[Vecin]==1)
+            DFSM(Vecin);
+    }
+}
+void Solve()
+{
+    for(int i=1;i<=N;i++)
+        if(!beenThere[i])
+            DFSP(i);
+    while(!S.empty()) {
+        int Nod = S.top();
+        cout << Nod << " ";
+        if (beenThere[Nod] == 1) {
+            NrCTC++;
+            DFSM(Nod);
+        }
+        S.pop();
+    }
+}
+void Print()
+{
+    fout << NrCTC <<"\n";
+    for(int i = 1; i <= NrCTC; i++) {
+        for(unsigned int j = 0; j < CTC[i].size(); j++)
+            fout << CTC[i][j] <<" ";
+        fout<<"\n";
+    }
+}
+int main()
+{
+    Read();
+    Solve();
+    Print();
+    return 0;
+}
+
+
+
+
+// MOORE
+void Moore(int n, int mat[][101], int u)
+{
+    for (int i = 1; i <= n; i++)
+    {
+        L[i] = INF;
+    }
+    L[u] = 0;
+    Q.push(u);
+    while (!Q.empty())
+    {
+        int x = Q.front();
+        Q.pop();
+        for (int i = 1; i <= n; i++)
+        {
+            if (mat[x][i])
+            {
+                if (L[i] == INF)
+                {
+                    P[i] = x;
+                    L[i] = L[x] + 1;
+                    Q.push(i);
+                }
+            }
+        }
+    }
+}
+
+void Moore_drum(int x)
+{
+    int len = L[x];
+    D[len] = x;
+    while (len)
+    {
+        D[len - 1] = P[D[len]];
+        len--;
+    }
+}
+
+
+
+
+// BFS
+void BFS(int x)
+{
+    isVisited[x] = true;
+    dist[x] = 0;
+    Q.push(x);
+    while (!Q.empty())
+    {
+        int k = Q.front();
+        Q.pop();
+        for (auto vecin : G[k])
+        {
+            if (!isVisited[vecin])
+            {
+                isVisited[vecin] = true;
+                dist[vecin] = dist[k] + 1;
+                Q.push(vecin);
+            }
+        }
+    }
+}
+
+// DFS
+void DFS(int x)
+{
+    isVisited[x] = true;
+    for (auto i : G[x])
+    {
+        if (!isVisited[i])
+        {
+            cout << i << " ";
+            DFS(i);
+        }
+    }
+}
+
+
+
+
+// ROY FLOYD
+void royFloyd(int n, int mat[][101])
+{
+    for (int k = 1; k <= n; k++)
+        for (int i = 1; i <= n; i++)
+            for (int j = 1; j <= n; j++)
+            {
+                if (mat[i][k] != inf && mat[k][j] != inf)
+                {
+                    if (mat[i][j] > mat[i][k] + mat[k][j])
+                    {
+                        mat[i][j] = mat[i][k] + mat[k][j];
+                    }
+                }
+            }
+}
+
+
+
+
+// DIJKSTRA
+using pi = pair<int, int>;
+
+int n, m, p;
+vector<pi> G[CAP];
+vector<int> d;
+
+void Dijkstra(int s)
+{
+    d = vector<int>(n + 1, INF);
+    priority_queue<pi, vector<pi>, greater<pi>> Q;
+    d[s] = 0;
+    Q.push({0, s});
+    while (!Q.empty())
+    {
+        int x = Q.top().second;
+        int cost = Q.top().first;
+        Q.pop();
+
+        if (cost > d[x])
+            continue;
+
+        for (auto it : G[x])
+        {
+            int y = it.first;
+            int costOfEdge = it.second;
+
+            if (d[x] + costOfEdge < d[y])
+            {
+                d[y] = d[x] + costOfEdge;
+                Q.push({d[y], y});
+            }
+        }
+    }
+}
+
+
+
+// BELLMAN FORD
+void BellmanFord(int s)
+{
+    d = vector<int>(n + 1, INF);
+    d[s] = 0;
+    for (int i = 1; i <= n - 1; i++)
+    {
+        for (int u = 1; u <= n; u++)
+        {
+            for (auto it : G[u])
+            {
+                int v = it.first;
+                int costOfEdge = it.second;
+
+                if (d[u] + costOfEdge < d[v])
+                    d[v] = d[u] + costOfEdge;
+            }
+        }
+    }
+
+    for (int u = 1; u <= n; u++)
+    {
+        for (auto it : G[u])
+        {
+            int v = it.first;
+            int costOfEdge = it.second;
+
+            if (d[u] + costOfEdge < d[v])
+            {
+                fout << "Negative cycle detected!" << endl;
+                return;
+            }
+        }
+    }
+}

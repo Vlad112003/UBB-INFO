@@ -1,0 +1,147 @@
+     1                                  ;de la tastatura se citeste un nume de fisier input. Se creaza un alt fisier de output in care se pune continutul fisierului de input su toate caracterele mici schimbate cu codul lor ascii
+     2                                  bits 32 ; assembling for the 32 bits architecture
+     3                                  
+     4                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     5                                  global start        
+     6                                  
+     7                                  ; declare external functions needed by our program
+     8                                  extern exit,gets,printf,fopen,fscanf,fprintf,fclose               ; tell nasm that exit exists even if we won't be defining it
+     9                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+    10                                  import gets msvcrt.dll
+    11                                  import printf msvcrt.dll                          ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    12                                  import fopen msvcrt.dll
+    13                                  import fscanf msvcrt.dll
+    14                                  import fprintf msvcrt.dll
+    15                                  import fclose msvcrt.dll
+    16                                  ; our data is declared here (the variables needed by our program)
+    17                                  segment data use32 class=data
+    18 00000000 FF<rept>                    s times 100 db -1
+    19 00000064 7200                        mod_acces_citire db 'r',0
+    20 00000066 FFFFFFFF                    descriptor1 dd -1
+    21 0000006A FFFFFFFF                    descriptor2 dd -1
+    22 0000006E 257300                      format_afisare_tastatura db '%s',0
+    23 00000071 256300                      format_afisare_tastatura1 db '%c',0
+    24 00000074 256300                      format_afisare_fisier_1 db '%c',0
+    25 00000077 256400                      format_afisare_fisier_2 db '%d',0
+    26 0000007A 257300                      format_afisare_fisier_3 db '%s',0
+    27 0000007D 0A0D00                      new_line db 10,13,0
+    28 00000080 FF<rept>                    continut_fisier times 100 db -1
+    29 000000E4 256300                      format_citire_fisier db '%c',0
+    30 000000E7 FF                          chr db -1
+    31 000000E8 7700                        mod_acces_output db 'w',0
+    32 000000EA 6F75747075742E7478-         fisier_output db 'output.txt',0
+    32 000000F3 7400               
+    33                                  ; our code starts here
+    34                                  segment code use32 class=code
+    35                                      start:
+    36 00000000 68[00000000]                    push dword s
+    37 00000005 FF15[00000000]                  call [gets]
+    38                                          
+    39                                          ;-------------------------------------------
+    40                                          ;printf(format,vraiabile)
+    41 0000000B 68[00000000]                    push dword s
+    42 00000010 68[6E000000]                    push dword format_afisare_tastatura
+    43 00000015 FF15[00000000]                  call [printf]
+    44                                          ;-------------------------------------------
+    45                                          
+    46                                          ;fopen(nume_fisier,mod_acces)
+    47 0000001B 68[64000000]                    push dword mod_acces_citire
+    48 00000020 68[00000000]                    push dword s
+    49 00000025 FF15[00000000]                  call [fopen]
+    50                                          
+    51 0000002B 83F800                          cmp eax,0
+    52 0000002E 0F84BD000000                    je nu_s_a_deschis_fisierul
+    53 00000034 A3[66000000]                    mov [descriptor1],eax
+    54                                          
+    55 00000039 BF[80000000]                    mov edi,continut_fisier
+    56                                          
+    57                                          repeta:
+    58                                              ;fscanf(descriptor,format,variabile)
+    59 0000003E 68[E7000000]                        push dword chr
+    60 00000043 68[E4000000]                        push dword format_citire_fisier
+    61 00000048 FF35[66000000]                      push dword[descriptor1]
+    62 0000004E FF15[00000000]                      call [fscanf]
+    63 00000054 83C40C                              add esp, 4*3
+    64                                              
+    65 00000057 83F8FF                              cmp eax,-1 ;a ajuns la final, nu mai are de citit
+    66 0000005A 740C                                je final_citire_fisier
+    67                                              
+    68 0000005C A0[E7000000]                        mov al,byte[chr]
+    69 00000061 8807                                mov byte[edi],al
+    70 00000063 83C701                              add edi,1
+    71                                              
+    72 00000066 EBD6                                jmp repeta
+    73                                          final_citire_fisier:
+    74                                          
+    75 00000068 C60700                          mov byte[edi],0
+    76                                          ;in continut_fisier acum avem toate literele teoretic
+    77                                          
+    78                                          ;fopen(nume_fisier,mod_acces)
+    79 0000006B 68[E8000000]                    push dword mod_acces_output
+    80 00000070 68[EA000000]                    push dword fisier_output
+    81 00000075 FF15[00000000]                  call [fopen]
+    82 0000007B 83C408                          add esp, 4*2
+    83                                          
+    84 0000007E 83F800                          cmp eax,0 ;daca s-a deschis fisierului
+    85 00000081 746E                            je nu_s_a_deschis_fisierul
+    86 00000083 A3[6A000000]                    mov [descriptor2],eax
+    87                                          
+    88 00000088 BF[80000000]                    mov edi,continut_fisier
+    89                                          ;afisez pe ecran sa vad ce e in continut_fisier
+    90 0000008D 68[80000000]                    push dword continut_fisier
+    91 00000092 68[6E000000]                    push dword format_afisare_tastatura
+    92 00000097 FF15[00000000]                  call [printf]
+    93 0000009D 83C408                          add esp,4*2
+    94                                          
+    95                                          repeta1:
+    96                                          
+    97 000000A0 803F00                              cmp byte[edi],0
+    98 000000A3 744C                                je final_repeta1 ;am treminat toate caracterele
+    99                                              
+   100 000000A5 803F61                              cmp byte[edi],'a'
+   101 000000A8 7226                                jb nu_e
+   102 000000AA 803F7A                              cmp byte[edi],'z'
+   103 000000AD 7721                                ja nu_e
+   104                                              
+   105 000000AF B800000000                          mov eax,0
+   106 000000B4 8A07                                mov al,byte[edi]
+   107                                                  
+   108 000000B6 50                                  push dword eax
+   109 000000B7 68[77000000]                        push dword format_afisare_fisier_2
+   110 000000BC FF35[6A000000]                      push dword[descriptor2]
+   111 000000C2 FF15[00000000]                      call [fprintf]
+   112 000000C8 83C40C                              add esp,4*3
+   113                                              
+   114 000000CB 83C701                              add edi,1
+   115 000000CE EBD0                                jmp repeta1
+   116                                              
+   117                                              nu_e:
+   118 000000D0 B800000000                              mov eax,0
+   119 000000D5 8A07                                    mov al,byte[edi]
+   120                                                  
+   121 000000D7 50                                      push dword eax
+   122 000000D8 68[74000000]                            push dword format_afisare_fisier_1
+   123 000000DD FF35[6A000000]                          push dword[descriptor2]
+   124 000000E3 FF15[00000000]                          call [fprintf]
+   125 000000E9 83C40C                                  add esp,4*3
+   126                                                  
+   127 000000EC 83C701                              add edi,1
+   128 000000EF EBAF                                jmp repeta1
+   129                                          final_repeta1:
+   130                                              
+   131                                          
+   132                                          
+   133                                          nu_s_a_deschis_fisierul:
+   134                                          ;inchidem fisierele fclose(descriptor)
+   135 000000F1 FF35[66000000]                  push dword [descriptor1]
+   136 000000F7 FF15[00000000]                  call [fclose]
+   137 000000FD 83C404                          add esp,4
+   138                                          
+   139 00000100 FF35[6A000000]                  push dword [descriptor2]
+   140 00000106 FF15[00000000]                  call [fclose]
+   141 0000010C 83C404                          add esp,4
+   142                                          
+   143                                      
+   144                                          ; exit(0)
+   145 0000010F 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+   146 00000111 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

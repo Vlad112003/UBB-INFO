@@ -1,0 +1,61 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/wait.h>
+#include <string.h>
+#include <time.h>
+
+int main()
+{
+        int p_c[2],c_p[2];
+        int res=pipe(p_c);
+        srand(time(0));
+        res=pipe(c_p);
+        if(res==-1)
+        {
+                perror("pipe()");
+                exit(EXIT_FAILURE);
+        }
+        int pid=fork();
+        if(pid==-1)
+        {
+                printf("Eroare");
+                perror("fork()");
+                exit(EXIT_FAILURE);
+        }
+        if(pid==0)
+        {       //Copil
+                char semn;
+                int minim=1000,maxim=9999;
+                do{
+                int numar=minim+rand()%(maxim-minim); // Un numar intre minim si maxim
+                write(c_p[1],&numar,sizeof(int));
+                read(p_c[0],&semn,sizeof(char));
+                if(semn=='<')minim=numar+1;
+                if(semn=='>')maxim=numar-1;
+                }while(semn!='=');
+
+                close(c_p[0]);
+                close(p_c[1]);
+                close(c_p[1]);
+                close(p_c[0]);
+                exit(EXIT_SUCCESS);
+        }
+        //Parinte
+        int rand_numar=1000+random()%9000,ghici;
+        char c;
+        while(1){
+        read(c_p[0],&ghici,sizeof(int));
+        if(ghici<rand_numar)c='<';
+        if(ghici>rand_numar)c='>';
+        if(ghici==rand_numar)c='=';
+        write(p_c[1],&c,sizeof(char));
+        printf("%d %c nr\n",ghici,c);
+        if(c=='=')break;
+        }
+        close(c_p[0]);
+        close(p_c[1]);
+        close(c_p[1]);
+	close(p_c[0]);
+        return 0;
+}

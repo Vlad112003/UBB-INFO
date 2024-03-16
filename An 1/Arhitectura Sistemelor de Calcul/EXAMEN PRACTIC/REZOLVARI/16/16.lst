@@ -1,0 +1,77 @@
+     1                                  ; se citesc nr din fisier, sa se faca suma nr mai mici decat 8 si sa se afiseze pe ecran
+     2                                  bits 32 ; assembling for the 32 bits architecture
+     3                                  
+     4                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     5                                  global start        
+     6                                  
+     7                                  ; declare external functions needed by our program
+     8                                  extern exit,fopen,fclose,fscanf,printf               ; tell nasm that exit exists even if we won't be defining it
+     9                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+    10                                  import fclose msvcrt.dll                          ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    11                                  import fopen msvcrt.dll
+    12                                  import fscanf msvcrt.dll
+    13                                  import printf msvcrt.dll
+    14                                  ; our data is declared here (the variables needed by our program)
+    15                                  segment data use32 class=data
+    16 00000000 7200                        mod_acces_r db 'r',0
+    17 00000002 696E7075742E747874-         nume db 'input.txt',0
+    17 0000000B 00                 
+    18 0000000C FFFFFFFF                    descriptor dd -1
+    19 00000010 FFFFFFFF                    nr dd -1
+    20 00000014 256400                      format_d db '%d',0
+    21 00000017 0800                        opt dw 8
+    22 00000019 0000                        suma dw 0
+    23                                  ; our code starts here
+    24                                  segment code use32 class=code
+    25                                      start:
+    26                                          ;fopen(nume,mod_acces)
+    27 00000000 68[00000000]                    push dword mod_acces_r
+    28 00000005 68[02000000]                    push dword nume
+    29 0000000A FF15[00000000]                  call [fopen]
+    30 00000010 83C408                          add esp,4*2
+    31                                          
+    32 00000013 83F800                          cmp eax,0
+    33 00000016 746E                            je final_tot
+    34 00000018 A3[0C000000]                    mov dword[descriptor],eax
+    35                                          
+    36                                          repeta:
+    37                                              ;fscanf(descriptor,format,variabile)
+    38 0000001D 68[10000000]                        push dword nr
+    39 00000022 68[14000000]                        push dword format_d
+    40 00000027 FF35[0C000000]                      push dword[descriptor]
+    41 0000002D FF15[00000000]                      call [fscanf]
+    42 00000033 83C40C                              add esp,4*3
+    43                                              
+    44 00000036 83F8FF                              cmp eax,-1
+    45 00000039 7421                                je final_repeta
+    46                                              
+    47 0000003B A1[10000000]                        mov eax,dword[nr]
+    48 00000040 663B05[17000000]                    cmp ax,word[opt]
+    49 00000047 7311                                jae nu_aduna
+    50                                              
+    51 00000049 668B1D[19000000]                    mov bx,word[suma]
+    52 00000050 6601C3                              add bx,ax
+    53 00000053 66891D[19000000]                    mov word[suma],bx
+    54                                              
+    55                                              nu_aduna:
+    56 0000005A EBC1                                jmp repeta
+    57                                          final_repeta:
+    58                                          
+    59                                          ;afisare suma pe ecran
+    60 0000005C BB00000000                      mov ebx,0
+    61 00000061 668B1D[19000000]                mov bx,word[suma]
+    62                                          
+    63 00000068 53                              push ebx
+    64 00000069 68[14000000]                    push dword format_d
+    65 0000006E FF15[00000000]                  call [printf]
+    66 00000074 83C408                          add esp,4*2
+    67                                          
+    68                                          ;fclose(descriptor)
+    69 00000077 FF35[0C000000]                  push dword[descriptor]
+    70 0000007D FF15[00000000]                  call [fclose]
+    71 00000083 83C404                          add esp,4*1
+    72                                          
+    73                                          final_tot:
+    74                                          ; exit(0)
+    75 00000086 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    76 00000088 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

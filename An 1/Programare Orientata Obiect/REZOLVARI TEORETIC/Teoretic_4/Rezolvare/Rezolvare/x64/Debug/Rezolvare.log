@@ -1,0 +1,6 @@
+﻿  main.cpp
+D:\Sem_2\OOP\Sesiune\Teoretic\Teoretic_4\Rezolvare\Rezolvare\main.cpp(49,21): warning C4101: 'exp': unreferenced local variable
+D:\Sem_2\OOP\Sesiune\Teoretic\Teoretic_4\Rezolvare\Rezolvare\main.cpp(69,21): warning C4101: 'exp': unreferenced local variable
+D:\Sem_2\OOP\Sesiune\Teoretic\Teoretic_4\Rezolvare\Rezolvare\main.cpp(74,22): warning C4101: 'exp': unreferenced local variable
+D:\Sem_2\OOP\Sesiune\Teoretic\Teoretic_4\Rezolvare\Rezolvare\main.cpp(79,22): warning C4101: 'exp': unreferenced local variable
+  Rezolvare.vcxproj -> D:\Sem_2\OOP\Sesiune\Teoretic\Teoretic_4\Rezolvare\x64\Debug\Rezolvare.exe

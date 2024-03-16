@@ -1,0 +1,87 @@
+//3
+#include <stdio.h>
+#include <pthread.h>
+#include <stdlib.h>
+#include <limits.h>
+
+pthread_t thr[51],citire;
+int n,nb,fr[101],v[9000],sum=0,minim=INT_MAX;
+pthread_barrier_t barr;
+int* aux;
+
+//pthread_mutex_t mtx=PTHREAD_MUTEX_INITIALIZER;
+
+pthread_mutex_t mtx;
+void* cititor(void* a)
+{
+        FILE* fd=fopen("fisier","r");
+        int i;
+        for(i=0;i<n;i++)
+        {
+                fscanf(fd,"%d",&v[i]);
+        }
+        fclose(fd);
+        return NULL;
+}
+
+void* worker(void* arg)
+{
+        int indice=*(int*)arg; //nr ce trebuie prelucrat
+        int i,avr;
+
+        for(i=0;i<n;i++)
+        {
+        if(v[i]==indice && v[i]>=2 && v[i]<=100) fr[v[i]]++;
+        }
+
+        pthread_mutex_lock(&mtx);
+                sum+=fr[indice];
+        pthread_mutex_unlock(&mtx);
+
+
+        pthread_barrier_wait(&barr);
+        avr=sum/50;
+
+        pthread_mutex_lock(&mtx);
+                if(abs(avr-fr[indice])<minim) minim=abs(avr-fr[indice]);
+        pthread_mutex_unlock(&mtx);
+
+        printf("ACEST NR: %d   APARITII: %d\n",indice,fr[indice]);
+
+        free(arg);
+        return NULL;
+}
+
+int main(int argc,char** argv)
+{
+        int cnt=-1,i;
+        //int* aux;
+
+        scanf("%d",&n);
+        pthread_create(&citire,NULL,cititor,NULL);
+        pthread_join(citire,NULL);
+
+        pthread_mutex_init(&mtx,NULL);
+
+        pthread_barrier_init(&barr,NULL,50);
+
+        for(i=2;i<=100;i++)
+        {
+                if(i%2==0) {
+                 aux=(int*)malloc(sizeof(int));
+                 *aux=i;
+                pthread_create(&thr[++cnt],NULL,worker,aux);
+                }
+        }
+
+        for(i=0;i<=cnt;i++)      pthread_join(thr[i],NULL);
+        pthread_mutex_destroy(&mtx);
+        pthread_barrier_destroy(&barr);
+        for(i=2;i<=100;i++)
+        {
+                if(abs(sum/50-fr[i])==minim && i%2==0) printf("NR: %d - %d\n",i,fr[i]);
+        }
+        printf("AVR: %d   MIN: %d\n",sum/50,minim);
+
+        return 0;
+}

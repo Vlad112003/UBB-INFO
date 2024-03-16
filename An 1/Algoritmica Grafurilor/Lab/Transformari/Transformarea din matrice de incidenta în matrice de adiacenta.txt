@@ -1,0 +1,54 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    int n, m;
+    cin >> n >> m; // citim numarul de noduri si de muchii
+
+    // citim matricea de incidenta
+    vector<vector<int>> inc(n, vector<int>(m));
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            cin >> inc[i][j];
+        }
+    }
+
+    // initializam matricea de adiacenta cu 0
+    vector<vector<int>> adj(n, vector<int>(n, 0));
+
+    // construim matricea de adiacenta
+    for (int j = 0; j < m; j++) {
+        int u = -1, v = -1; // nodurile incidente muchiei j
+        for (int i = 0; i < n; i++) {
+            if (inc[i][j] == 1) {
+                if (u == -1) {
+                    u = i;
+                } else {
+                    v = i;
+                    break;
+                }
+            }
+        }
+        adj[u][v] = 1;
+        adj[v][u] = 1; // graf neorientat, deci adaugam si muchia inversa
+    }
+
+    // afisam matricea de adiacenta
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < n; j++) {
+            cout << adj[i][j] << " ";
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
+
+
+
+
+În acest cod, matricea de incidență este citită de la tastatură și stocată într-un vector bidimensional inc. Matricea de adiacență este inițializată cu 0 și construită parcurgând matricea de incidență și determinând nodurile incidente fiecărei muchii. Pentru a construi matricea de adiacență, parcurgem matricea de incidență pe coloane (adica pe muchii), și căutam nodurile incidente. Pentru asta, cautam prima valoare 1 din coloana si o atribuim lui u. Continuam sa cautam pana gasim a doua valoare 1 din coloana, si atunci ii atribuim acelei valori nodului v. Dupa aceea, marcam in matricea de adiacenta muchia dintre u si v cu valoarea 1, si muchia dintre v si u cu valoarea 1, daca graf-ul este neorientat.
+
+La final, afișăm matricea de adiacență.

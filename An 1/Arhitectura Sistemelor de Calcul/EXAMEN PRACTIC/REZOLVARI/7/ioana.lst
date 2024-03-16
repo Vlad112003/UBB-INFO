@@ -1,0 +1,111 @@
+     1                                  bits 32
+     2                                  global start        
+     3                                  extern exit, printf, fprintf, fopen, fclose
+     4                                  import exit msvcrt.dll 
+     5                                  import printf msvcrt.dll
+     6                                  import fprintf msvcrt.dll
+     7                                  import fopen msvcrt.dll
+     8                                  import fclose msvcrt.dll
+     9                                  segment data use32 class=data
+    10 00000000 BC0A000000000000B3-         sir dq 0ABCh, 498700000AB3h, 1320ACE54Fh
+    10 00000009 0A0000874900004FE5-
+    10 00000012 AC2013000000       
+    11                                      lens equ $-sir
+    12 00000018 612942797465732063-         format_afisare1 db 'a)Bytes care compun quadword sunt: ', 0
+    12 00000021 61726520636F6D7075-
+    12 0000002A 6E2071756164776F72-
+    12 00000033 642073756E743A2000 
+    13 0000003C 25782000                    format_afisare_bytes db '%x ', 0
+    14                                      
+    15                                      
+    16 00000040 0200                        k dw 2
+    17 00000042 00<rept>                    words times 12 db 0
+    18 0000004E 0A00                        zece dw 10
+    19                                      
+    20 00000050 FF                          nrdwords db -1
+    21 00000051 6965736972652E7478-         numefisier db 'iesire.txt', 0
+    21 0000005A 7400               
+    22 0000005C 7700                        mod_acces db 'w', 0
+    23 0000005E 00000000                    descriptor dd 0
+    24 00000062 AA0A0000                    capat1 dd 0AAAh
+    25 00000066 FFFF0000                    capat2 dd 0FFFFh
+    26 0000006A 256400                      format_afisare2 db '%d', 0
+    27                                      
+    28                                      
+    29                                  
+    30                                  ; our code starts here
+    31                                  segment code use32 class=code
+    32                                      start:
+    33                                          ; se da un sir de qword definit in data segment. elementele sirului sunt in baza 16
+    34                                          ;   a)sa se printeze bytes care compun qword urile din sir
+    35                                          ;   b)sa se identifice words care au ultima cifra egala cu constanta k definita in segmentul de date. sa se salveze aceste words in sirul d
+    36                                          ;   c)sa se identifice dwords care sunt cuprinse in intervalul AAA - FFFF. sa se determine numarul dwords din acest interval. sa se afiseze acest numar in baza 10 in fisierul 'iesire.txt'
+    37 00000000 BE[00000000]                    mov esi, sir
+    38 00000005 68[18000000]                    push format_afisare1
+    39 0000000A FF15[00000000]                  call [printf]
+    40 00000010 83C404                          add esp, 4*1
+    41 00000013 B918000000                      mov ecx, lens
+    42                                  
+    43                                          repeta:
+    44 00000018 B800000000                          mov eax, 0
+    45 0000001D AC                                  lodsb
+    46 0000001E 87CB                                xchg ecx, ebx
+    47 00000020 50                                  push eax
+    48 00000021 68[3C000000]                        push format_afisare_bytes
+    49 00000026 FF15[00000000]                      call [printf]
+    50 0000002C 83C408                              add esp, 4*2
+    51 0000002F 87CB                                xchg ecx, ebx
+    52 00000031 E2E5                                loop repeta
+    53                                              
+    54                                              
+    55 00000033 BE[00000000]                    mov esi, sir
+    56 00000038 BF[42000000]                    mov edi, words
+    57 0000003D B90C000000                      mov ecx, lens/2
+    58                                          
+    59                                          repeta1:
+    60 00000042 B800000000                          mov eax, 0
+    61 00000047 66AD                                lodsw
+    62 00000049 89C3                                mov ebx, eax
+    63 0000004B 66F735[4E000000]                    div word[zece]
+    64 00000052 663B15[40000000]                    cmp dx, word[k]
+    65 00000059 7505                                jne finalrepeta1
+    66 0000005B 6689D8                              mov ax, bx
+    67 0000005E 66AB                                stosw
+    68                                              finalrepeta1:
+    69 00000060 E2E0                                loop repeta1
+    70                                              
+    71 00000062 BE[00000000]                    mov esi, sir
+    72 00000067 B906000000                      mov ecx, lens/4
+    73 0000006C BB00000000                      mov ebx, 0
+    74                                          repeta2:
+    75 00000071 AD                                  lodsd
+    76 00000072 3B05[62000000]                      cmp eax, [capat1]
+    77 00000078 7209                                jb finalrepeta2
+    78 0000007A 3B05[66000000]                      cmp eax, [capat2]
+    79 00000080 7701                                ja finalrepeta2
+    80 00000082 43                                  inc ebx
+    81                                              finalrepeta2:
+    82 00000083 E2EC                                loop repeta2
+    83 00000085 68[5C000000]                    push mod_acces
+    84 0000008A 68[51000000]                    push numefisier
+    85 0000008F FF15[00000000]                  call [fopen]
+    86 00000095 83C408                          add esp, 4*2
+    87                                          
+    88 00000098 83F800                          cmp eax, 0
+    89 0000009B 7429                            je final
+    90 0000009D A3[5E000000]                    mov [descriptor], eax
+    91                                          
+    92 000000A2 53                              push ebx
+    93 000000A3 68[6A000000]                    push format_afisare2
+    94 000000A8 FF35[5E000000]                  push dword[descriptor]
+    95 000000AE FF15[00000000]                  call [fprintf]
+    96 000000B4 83C40C                          add esp, 4*3
+    97                                          
+    98 000000B7 FF35[5E000000]                  push dword[descriptor]
+    99 000000BD FF15[00000000]                  call [fclose]
+   100 000000C3 83C404                          add esp, 4*1
+   101                                          
+   102                                          final:
+   103                                          ; exit(0)
+   104 000000C6 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+   105 000000C8 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

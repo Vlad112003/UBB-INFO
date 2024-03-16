@@ -1,0 +1,3 @@
+D:/FacultaSem2/SDA/incaunaptcmake/cmake-build-debug/CMakeFiles/incaunaptcmake.dir
+D:/FacultaSem2/SDA/incaunaptcmake/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/FacultaSem2/SDA/incaunaptcmake/cmake-build-debug/CMakeFiles/rebuild_cache.dir

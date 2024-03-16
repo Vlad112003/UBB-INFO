@@ -1,0 +1,3 @@
+D:/FacultaSem2/SDA/colectie_cu_main/out/build/x64-Debug/CMakeFiles/colectie_cu_main.dir
+D:/FacultaSem2/SDA/colectie_cu_main/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+D:/FacultaSem2/SDA/colectie_cu_main/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

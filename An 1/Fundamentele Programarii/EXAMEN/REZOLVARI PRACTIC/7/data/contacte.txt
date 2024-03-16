@@ -1,0 +1,9 @@
+id1/contact3/111/prieteni
+id5/contact1/222/altele
+id9/contact2/333/familie
+id2/contact4/444/job
+id7/contact5/555/familie
+id8/contact7/666/prieteni
+id0/contact6/777/altele
+id8/contact8/888/familie
+id10/contact10/101010/job

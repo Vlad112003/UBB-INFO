@@ -1,0 +1,141 @@
+#include <iostream>
+#include <fstream>
+#include <vector>
+
+using namespace std;
+
+ifstream fin("in.txt");
+
+struct Muchii
+{
+    int i;
+    int j;
+} muchii[101];
+
+int main()
+{
+    int n, a[101][101];
+    fin >> n;
+    int x, y;
+    int nr_muchii = 0;
+    while (fin >> x >> y)
+    {
+        muchii[++nr_muchii].i = x;
+        muchii[nr_muchii].j = y;
+        a[x][y] = 1;
+        a[y][x] = 1;
+    }
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= n; j++)
+        {
+            cout << a[i][j] << " ";
+        }
+        cout << '\n';
+    }
+
+    cout << endl;
+
+    vector<int> G[1000];
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= n; j++)
+        {
+            if (a[i][j] == 1)
+            {
+                G[i].push_back(j);
+            }
+        }
+    }
+
+    for (int i = 1; i <= n; i++)
+    {
+        cout << i << ": ";
+        for (auto j : G[i])
+        {
+            cout << j << " ";
+        }
+        cout << '\n';
+    }
+
+    cout << endl;
+
+    int mat_incidenta[101][101] = {0};
+    for (int i = 1; i <= n; i++)
+        for (auto j : G[i])
+        {
+            for (int k = 1; k <= nr_muchii; k++)
+            {
+                if (muchii[k].i == i && muchii[k].j == j || muchii[k].i == j && muchii[k].j == i)
+                    mat_incidenta[i][k] = 1;
+            }
+        }
+
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= nr_muchii; j++)
+        {
+            cout << mat_incidenta[i][j] << " ";
+        }
+        cout << '\n';
+    }
+
+    cout << endl;
+
+    vector<int> list_adc[1000];
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= nr_muchii; j++)
+        {
+            if (mat_incidenta[i][j] == 1)
+            {
+                if (muchii[j].i == i)
+                {
+                    list_adc[i].push_back(muchii[j].j);
+                }
+                else if (muchii[j].j == i)
+                {
+                    list_adc[i].push_back(muchii[j].i);
+                }
+            }
+        }
+    }
+    for (int i = 1; i <= n; i++)
+    {
+        cout << i << ": ";
+        for (auto j : list_adc[i])
+        {
+            cout << j << " ";
+        }
+        cout << '\n';
+    }
+
+    cout << endl;
+
+    int mat_adiac2[101][101] = {0};
+    for (int i = 1; i <= n; i++)
+        for (auto j : list_adc[i])
+        {
+            mat_adiac2[i][j] = 1;
+        }
+    for (int i = 1; i <= n; i++)
+    {
+        for (int j = 1; j <= n; j++)
+        {
+            cout << mat_adiac2[i][j] << " ";
+        }
+        cout << '\n';
+    }
+
+    cout << endl;
+
+    for (int i = 1; i <= n; i++)
+    {
+        cout << i << ": ";
+        for (auto j : G[i])
+        {
+            cout << j << " ";
+        }
+        cout << '\n';
+    }
+}

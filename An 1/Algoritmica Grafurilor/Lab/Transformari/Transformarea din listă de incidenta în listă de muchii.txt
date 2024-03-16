@@ -1,0 +1,68 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    int n, m;
+    cin >> n >> m; // citim numarul de noduri si de muchii
+
+    vector<vector<int>> incidenta(n, vector<int>(m, 0)); // initializam matricea de incidenta
+
+    // citim matricea de incidenta de la tastatura
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            cin >> incidenta[i][j];
+        }
+    }
+
+    // initializam vectorul de muchii
+    vector<pair<int, int>> muchii;
+
+    // parcurgem matricea de incidenta si adaugam fiecare pereche de noduri conectate de o muchie in vectorul de muchii
+    for (int j = 0; j < m; j++) {
+        int u = -1, v = -1; // initializam varibilele u si v cu -1 pentru a detecta erori
+
+        for (int i = 0; i < n; i++) {
+            if (incidenta[i][j] == 1) {
+                if (u == -1) {
+                    u = i; // primul nod al muchiei
+                } else {
+                    v = i; // al doilea nod al muchiei
+                }
+            }
+        }
+
+        if (u != -1 && v != -1) {
+            muchii.push_back({u, v}); // adaugam perechea de noduri in vectorul de muchii
+        } else {
+            cerr << "Eroare: Muchia " << j << " nu este conectata la doua noduri!" << endl;
+        }
+    }
+
+    // afisam vectorul de muchii
+    cout << "Lista de muchii este: ";
+    for (auto p : muchii) {
+        cout << "(" << p.first << ", " << p.second << ") ";
+    }
+    cout << endl;
+
+    return 0;
+}
+
+
+
+
+
+Exemplu de input:
+
+4 5
+1 0 0 1 0
+1 1 0 0 1
+0 1 1 0 0
+0 0 1 1 1
+
+
+Exemplu de output:
+
+Lista de muchii este: (0, 3) (1, 0) (1, 4) (2, 1) (3, 2) (3, 3) (3, 4)

@@ -1,0 +1,87 @@
+//1
+#include <stdio.h>
+#include <pthread.h>
+#include <stdlib.h>
+#include <limits.h>
+
+pthread_t citire,thr[26];
+int n,nb,fr[100],v[9000];
+pthread_barrier_t barr;
+int sum=0,avr,minim=INT_MAX;
+pthread_mutex_t mtx=PTHREAD_MUTEX_INITIALIZER;
+
+void* cititor(void* a)
+{
+        FILE* fd=fopen("fisier","r");
+        int i;
+        for(i=0;i<n;i++)
+        {
+                fscanf(fd,"%d",&v[i]);
+        }
+        fclose(fd);
+        return NULL;
+}
+
+void* worker(void* arg)
+{
+        int i,indice=*(int*)arg; //nr ce trebuie prelucrat
+
+        for(i=0;i<n;i++)
+                if(v[i]==indice) fr[indice]++;
+
+        pthread_mutex_lock(&mtx);
+                sum+=fr[indice];
+        pthread_mutex_unlock(&mtx);
+
+        pthread_barrier_wait(&barr);
+        avr=sum/25;
+
+        pthread_mutex_lock(&mtx);
+                if(abs(avr-fr[indice]<minim)) minim=abs(avr-fr[indice]);
+        pthread_mutex_unlock(&mtx);
+
+        printf("AVR: %d   MINIM: %d\n",avr,minim);
+        return NULL;
+}
+
+int prim(int x)
+{
+        int i;
+        if(x==2) return 1;
+        for(i=2;i<=x/2;i++)
+        {
+                if(x%i==0) return 0;
+        }
+        return 1;
+}
+
+int main(int argc,char** argv)
+{
+        int cnt=-1,i;
+        int* aux;
+
+        scanf("%d",&n);
+        pthread_create(&citire,NULL,cititor,NULL);
+        pthread_join(citire,NULL);
+
+        pthread_barrier_init(&barr,NULL,25);
+
+        for(i=2;i<100;i++)
+        {
+                aux=(int*)malloc(sizeof(int));
+                *aux=i;
+                if(prim(i)==1) pthread_create(&thr[++cnt],NULL,worker,aux);
+        }
+
+        for(i=0;i<cnt;i++)      pthread_join(thr[i],NULL);
+        pthread_mutex_destroy(&mtx);
+
+        for(i=2;i<100;i++)
+        {
+                if(abs(sum/25-fr[i])==minim && prim(i)) printf("NR: %d - %d\n",i,fr[i]);
+        }
+
+        printf("FINAL \n AVR: %d MIN: %d\n",avr,minim);
+
+        return 0;
+}

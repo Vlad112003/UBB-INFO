@@ -1,0 +1,78 @@
+//5
+#include <pthread.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
+
+pthread_mutex_t mtx=PTHREAD_MUTEX_INITIALIZER;
+pthread_barrier_t barr;
+int v[90000];
+pthread_t citire,thr[30];
+int n,minim=INT_MAX;
+
+
+void* cititor(void* a)
+{
+        FILE* fd=fopen("fisier","r");
+        int i;
+        for(i=0;i<n;i++)
+        {
+                fscanf(fd,"%d",&v[i]);
+        }
+        fclose(fd);
+        return NULL;
+}
+
+
+void* worker(void* arg)
+{
+        int dif=0,si=0,sp=0,i,indice=*(int*)arg;
+        for(i=indice*300;i<indice*300+300;i++)
+        {
+                if(v[i]%2==0) sp+=v[i];
+                else si+=v[i];
+        }
+
+        dif=abs(sp-si);
+
+        pthread_barrier_wait(&barr);
+
+        pthread_mutex_lock(&mtx);
+
+                if(dif<minim) minim=dif;
+
+        pthread_mutex_unlock(&mtx);
+
+        printf("INTERVAL: %d - %d -> DIF: %d\n",indice*300,indice*300+300,dif);
+        return NULL;
+}
+
+
+int main(int argc, char**argv)
+{
+
+        scanf("%d",&n);
+        int i;
+        pthread_mutex_init(&mtx,NULL);
+
+        pthread_barrier_init(&barr,NULL,n/300);
+
+        pthread_create(&citire,NULL,cititor,NULL);
+        pthread_join(citire,NULL);
+
+        for(i=0;i<n/300;i++)
+        {
+        int* aux=(int*)malloc(sizeof(int));
+        *aux=i;
+        pthread_create(&thr[i],NULL,worker,aux);
+        }
+
+        for(i=0;i<n/300;i++)
+                pthread_join(thr[i],NULL);
+
+        pthread_mutex_destroy(&mtx);
+
+        printf("MINIM CALCULAT: %d\n",minim);
+
+        return 0;
+}

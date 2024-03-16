@@ -1,0 +1,39 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+vector<pair<int, int>> fromAdjListToEdgeList(int n, const vector<vector<int>>& adjList) {
+    vector<pair<int, int>> edgeList;
+    for (int u = 0; u < n; u++) {
+        for (int v : adjList[u]) {
+            if (u < v) { // adăugăm doar muchiile cu u < v pentru a evita duplicarea muchiilor
+                edgeList.push_back({u, v});
+            }
+        }
+    }
+    return edgeList;
+}
+
+int main() {
+    int n;
+    cin >> n;
+    vector<vector<int>> adjList(n);
+    for (int u = 0; u < n; u++) {
+        int k;
+        cin >> k;
+        for (int j = 0; j < k; j++) {
+            int v;
+            cin >> v;
+            adjList[u].push_back(v);
+        }
+    }
+    vector<pair<int, int>> edgeList = fromAdjListToEdgeList(n, adjList);
+    // afișăm lista de muchii
+    for (auto edge : edgeList) {
+        cout << edge.first << " " << edge.second << "\n";
+    }
+    return 0;
+}
+
+
+În acest exemplu, se citește numărul de noduri n ale grafului și lista de adiacență a grafului sub forma a n linii. Fiecare linie începe cu numărul k de vecini ai nodului u, urmat de k noduri care sunt vecini ai lui u în graf. Apoi se apelează funcția fromAdjListToEdgeList care transformă lista de adiacență în lista de muchii corespunzătoare și se afișează această listă de muchii. Funcția fromAdjListToEdgeList parcurge lista de adiacență și adaugă muchiile cu nodul u ca sursă și nodul v ca destinație în lista de muchii, cu condiția ca u să fie mai mic decât v pentru a evita duplicarea muchiilor.

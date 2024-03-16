@@ -1,0 +1,125 @@
+#include <iostream>
+
+struct Nod {
+    int cheie;
+    int valoare;
+    int next;
+};
+
+class MultiDictionarOrdonat {
+private:
+    Nod* tablou;
+    int capacitate;
+    int dimensiune;
+    int primulLiber;
+
+public:
+    MultiDictionarOrdonat(int capacitate) {
+        this->capacitate = capacitate;
+        this->dimensiune = 0;
+        this->primulLiber = 0;
+        this->tablou = new Nod[capacitate];
+
+        for (int i = 0; i < capacitate - 1; i++) {
+            this->tablou[i].next = i + 1;
+        }
+
+        this->tablou[capacitate - 1].next = -1;
+    }
+
+    ~MultiDictionarOrdonat() {
+        delete[] tablou;
+    }
+
+    int cautaPozitie(int cheie) {
+        int pozitie = primulLiber;
+        while (pozitie != -1 && tablou[pozitie].cheie != cheie) {
+            pozitie = tablou[pozitie].next;
+        }
+        return pozitie;
+    }
+
+    void insereaza(int cheie, int valoare) {
+        int pozitie = cautaPozitie(cheie);
+        if (pozitie == -1) {
+            std::cout << "Cheia " << cheie << " exista deja in MultiDictionar.\n";
+            return;
+        }
+
+        if (dimensiune == capacitate) {
+            std::cout << "MultiDictionarul este plin.\n";
+            return;
+        }
+
+        tablou[pozitie].cheie = cheie;
+        tablou[pozitie].valoare = valoare;
+
+        // Insereaza nodul in ABC
+        if (dimensiune == 0) {
+            tablou[pozitie].next = -1;  // primul element
+        } else {
+            int parinte = -1;
+            int curent = pozitie;
+            while (curent != -1 && tablou[curent].cheie < cheie) {
+                parinte = curent;
+                curent = tablou[curent].next;
+            }
+            tablou[pozitie].next = curent;
+            if (parinte == -1) {
+                primulLiber = pozitie;
+            } else {
+                tablou[parinte].next = pozitie;
+            }
+        }
+
+        dimensiune++;
+        std::cout << "Cheia " << cheie << " a fost inserata cu succes.\n";
+    }
+
+    void sterge(int cheie) {
+        int pozitie = cautaPozitie(cheie);
+        if (pozitie == -1) {
+            std::cout << "Cheia " << cheie << " nu a fost gasita in MultiDictionar.\n";
+            return;
+        }
+
+        if (pozitie == primulLiber) {
+            primulLiber = tablou[pozitie].next;
+        } else {
+            int parinte = -1;
+            int curent = primulLiber;
+            while (curent != -1 && curent != pozitie) {
+                parinte = curent;
+                curent = tablou[curent].next;
+            }
+            tablou[parinte].next = tablou[pozitie].next;
+        }
+
+        tablou[pozitie].next = primulLiber;
+        primulLiber = pozitie;
+        dimensiune--;
+        std::cout << "Cheia " << cheie << " a fost stearsa cu succes.\n";
+    }
+
+    void afiseaza() {
+        std::cout << "MultiDictionar Ordonat:\n";
+        for (int i = 0; i < capacitate; i++) {
+            if (tablou[i].cheie != -1) {
+                std::cout << "Cheie: " << tablou[i].cheie << ", Valoare: " << tablou[i].valoare << "\n";
+            }
+        }
+    }
+};
+
+int main() {
+    MultiDictionarOrdonat md(10);
+    md.insereaza(5, 10);
+    md.insereaza(3, 6);
+    md.insereaza(7, 14);
+    md.insereaza(3, 8);  // Cheia exista deja
+    md.afiseaza();
+    md.sterge(5);
+    md.afiseaza();
+
+    return 0;
+}

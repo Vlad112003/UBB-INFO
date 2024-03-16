@@ -1,0 +1,134 @@
+     1                                  ;Se da fișierul ala "preufung.txt", câte conține un text de maxim 200 caractere, conține litere mici, mari, spatii și puncte. 
+     2                                  ;Afiseaza pe ecran pe randuri diferite cuvintele cu nr impar de litere și sa se înlocuiască litera din mijloc cu spatiu
+     3                                  bits 32 ; assembling for the 32 bits architecture
+     4                                  
+     5                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     6                                  global start        
+     7                                  
+     8                                  ; declare external functions needed by our program
+     9                                  extern exit,fopen,fscanf,fclose,printf,fprintf               ; tell nasm that exit exists even if we won't be defining it
+    10                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+    11                                  import fopen msvcrt.dll                          ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    12                                  import fscanf msvcrt.dll
+    13                                  import fclose msvcrt.dll
+    14                                  import printf msvcrt.dll
+    15                                  import fprintf msvcrt.dll
+    16                                  ; our data is declared here (the variables needed by our program)
+    17                                  segment data use32 class=data
+    18 00000000 FFFFFFFF                    descriptor dd -1
+    19 00000004 7200                        mod_acces db 'r',0
+    20 00000006 696E7075742E747874-         nume db 'input.txt',0
+    20 0000000F 00                 
+    21 00000010 FF                          chr db -1
+    22 00000011 256300                      format_c db '%c',0
+    23 00000014 257300                      format_s db '%s',0
+    24 00000017 FF<rept>                    sir times 100 db -1
+    25 0000007B FF<rept>                    cuvant times 100 db -1
+    26 000000DF 0A0D00                      new_line db 10,13,0
+    27 000000E2 00                          cnt db 0
+    28 000000E3 02                          doi db 2
+    29                                  
+    30                                  ; our code starts here
+    31                                  segment code use32 class=code
+    32                                      start:
+    33                                          ;fopen(nume,mod_acces)
+    34 00000000 68[04000000]                    push dword mod_acces
+    35 00000005 68[06000000]                    push dword nume
+    36 0000000A FF15[00000000]                  call [fopen]
+    37 00000010 83C408                          add esp,4*2
+    38                                          
+    39 00000013 83F800                          cmp eax,0
+    40 00000016 0F84EB000000                    je final_tot
+    41 0000001C A3[00000000]                    mov [descriptor],eax
+    42                                          
+    43 00000021 BF[17000000]                    mov edi,sir
+    44                                          repeta:
+    45                                              ;fscanf(descriptor,format,variabile)
+    46 00000026 68[10000000]                        push dword chr
+    47 0000002B 68[11000000]                        push dword format_c
+    48 00000030 FF35[00000000]                      push dword[descriptor]
+    49 00000036 FF15[00000000]                      call [fscanf]
+    50 0000003C 83C40C                              add esp,4*3
+    51                                              
+    52 0000003F 83F8FF                              cmp eax,-1
+    53 00000042 7408                                je final_repeta
+    54                                              
+    55 00000044 A0[10000000]                        mov al,byte[chr]
+    56 00000049 AA                                  stosb
+    57 0000004A EBDA                                jmp repeta
+    58                                              
+    59                                          final_repeta:
+    60                                          ;-------------------------------------------
+    61                                          ;pana aici merge----------------------------
+    62                                          
+    63 0000004C BE[17000000]                    mov esi,sir
+    64 00000051 BF[7B000000]                    mov edi,cuvant
+    65                                          
+    66                                          repeta1:
+    67 00000056 AC                                  lodsb
+    68 00000057 3C00                                cmp al,0
+    69 00000059 0F8499000000                        je final_repeta1
+    70                                              
+    71 0000005F 3C20                                cmp al,' '
+    72 00000061 7418                                je verifica
+    73 00000063 3C2E                                cmp al,'.'
+    74 00000065 7414                                je verifica
+    75                                              
+    76 00000067 AA                                  stosb ;daca nu e spatiu,stocheaza in continuare literele cuvantului si creste contorul pt litere
+    77 00000068 B800000000                          mov eax,0
+    78 0000006D A0[E2000000]                        mov al,byte[cnt]
+    79 00000072 FEC0                                inc al
+    80 00000074 A2[E2000000]                        mov byte[cnt],al
+    81 00000079 EBDB                                jmp repeta1
+    82                                              
+    83                                              verifica:
+    84 0000007B B800000000                              mov eax,0
+    85 00000080 A0[E2000000]                            mov al,byte[cnt]
+    86 00000085 3C00                                    cmp al,0
+    87 00000087 745E                                    je sari_afisare ;in caz ca a fost . spatiu sau invers si atunci sa nu fie 0/2
+    88 00000089 F635[E3000000]                          div byte[doi]
+    89 0000008F 80FC00                                  cmp ah,0
+    90 00000092 7453                                    je sari_afisare ;daca cuv are nr par de litere,nu il afisez
+    91                                              afisare:
+    92 00000094 66B80000                                    mov ax,0
+    93 00000098 A0[E2000000]                                mov al,byte[cnt]
+    94 0000009D F635[E3000000]                              div byte[doi]
+    95                                  
+    96 000000A3 0FB6C0                                      movzx eax,al
+    97                                                      
+    98 000000A6 C680[7B000000]20                            mov byte[cuvant+eax],' '
+    99 000000AD C60700                                      mov byte[edi],0
+   100                                                      ;printf(format,variabile)
+   101 000000B0 68[7B000000]                                push dword cuvant
+   102 000000B5 68[14000000]                                push dword format_s
+   103 000000BA FF15[00000000]                              call [printf]
+   104 000000C0 83C408                                      add esp,4*2
+   105                                  
+   106                                                      ;reactualizare edi si contor pt urmatorul cuvant
+   107 000000C3 BF[7B000000]                                mov edi,cuvant
+   108 000000C8 B000                                        mov al,0
+   109 000000CA A2[E2000000]                                mov byte[cnt],al
+   110                                                      ;afisare de linie noua
+   111 000000CF 68[DF000000]                                push dword new_line
+   112 000000D4 68[14000000]                                push dword format_s
+   113 000000D9 FF15[00000000]                              call [printf]
+   114 000000DF 83C408                                      add esp,4*2
+   115 000000E2 E96FFFFFFF                                  jmp repeta1
+   116                                              sari_afisare:
+   117 000000E7 BF[7B000000]                                mov edi,cuvant
+   118 000000EC B000                                        mov al,0
+   119 000000EE A2[E2000000]                                mov byte[cnt],al
+   120 000000F3 E95EFFFFFF                          jmp repeta1
+   121                                          
+   122                                          final_repeta1:
+   123                                          
+   124                                          ;fclose(descriptor)
+   125 000000F8 FF35[00000000]                  push dword[descriptor]
+   126 000000FE FF15[00000000]                  call [fclose]
+   127 00000104 83C404                          add esp,4*1
+   128                                          
+   129                                          final_tot:
+   130                                          
+   131                                          ; exit(0)
+   132 00000107 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+   133 00000109 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

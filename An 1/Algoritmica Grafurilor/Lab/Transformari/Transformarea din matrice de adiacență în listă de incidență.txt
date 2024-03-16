@@ -1,0 +1,39 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    int n, m;
+    cin >> n >> m;
+    
+    vector<vector<int>> adj_matrix(n, vector<int>(n, 0));
+    for (int i = 0; i < m; i++) {
+        int u, v;
+        cin >> u >> v;
+        adj_matrix[u][v] = 1;
+        adj_matrix[v][u] = 1;
+    }
+    
+    vector<vector<int>> inc_list;
+    for (int i = 0; i < n; i++) {
+        for (int j = i+1; j < n; j++) {
+            if (adj_matrix[i][j] == 1) {
+                vector<int> edge(3);
+                edge[0] = i;
+                edge[1] = j;
+                edge[2] = 1;
+                inc_list.push_back(edge);
+            }
+        }
+    }
+    
+    for (int i = 0; i < inc_list.size(); i++) {
+        cout << inc_list[i][0] << " " << inc_list[i][1] << " " << inc_list[i][2] << endl;
+    }
+    
+    return 0;
+}
+
+
+
+În acest exemplu, citim numărul de noduri și muchii, apoi matricea de adiacență și apoi creăm lista de incidență prin parcurgerea matricei și crearea unei muchii pentru fiecare element non-zero din matrice. Lista de incidență este apoi afișată la consolă.

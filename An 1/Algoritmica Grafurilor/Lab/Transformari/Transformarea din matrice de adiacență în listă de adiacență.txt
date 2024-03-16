@@ -1,0 +1,41 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+vector<vector<int>> fromAdjMatrixToAdjList(int n, const vector<vector<int>>& adjMatrix) {
+    vector<vector<int>> adjList(n);
+    for (int u = 0; u < n; u++) {
+        for (int v = 0; v < n; v++) {
+            if (adjMatrix[u][v] == 1) {
+                adjList[u].push_back(v);
+            }
+        }
+    }
+    return adjList;
+}
+
+int main() {
+    int n;
+    cin >> n;
+    vector<vector<int>> adjMatrix(n, vector<int>(n, 0));
+    for (int u = 0; u < n; u++) {
+        for (int v = 0; v < n; v++) {
+            cin >> adjMatrix[u][v];
+        }
+    }
+    vector<vector<int>> adjList = fromAdjMatrixToAdjList(n, adjMatrix);
+    // afișăm lista de adiacență
+    for (int u = 0; u < n; u++) {
+        cout << u << ": ";
+        for (int v : adjList[u]) {
+            cout << v << " ";
+        }
+        cout << "\n";
+    }
+    return 0;
+}
+
+
+În acest exemplu, se citește numărul de noduri n ale grafului și matricea de adiacență a grafului sub forma a n linii cu n numere. Apoi se apelează funcția fromAdjMatrixToAdjList care transformă matricea de adiacență în lista de adiacență corespunzătoare și se afișează această listă de adiacență. Funcția fromAdjMatrixToAdjList parcurge matricea de adiacență și pentru fiecare valoare 1 găsită în matrice adaugă nodul corespunzător în lista de adiacență a nodului u.
+
+

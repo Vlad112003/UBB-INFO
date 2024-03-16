@@ -1,0 +1,35 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+vector<vector<int>> fromEdgeListToAdjList(int n, const vector<pair<int, int>>& edges) {
+    vector<vector<int>> adjList(n);
+    for (auto edge : edges) {
+        int u = edge.first, v = edge.second;
+        adjList[u].push_back(v);
+        adjList[v].push_back(u); // adăugăm și muchia inversă pentru grafuri neorientate
+    }
+    return adjList;
+}
+
+int main() {
+    int n, m;
+    cin >> n >> m;
+    vector<pair<int, int>> edges(m);
+    for (int i = 0; i < m; i++) {
+        cin >> edges[i].first >> edges[i].second;
+    }
+    vector<vector<int>> adjList = fromEdgeListToAdjList(n, edges);
+    // afișăm lista de adiacență
+    for (int u = 0; u < n; u++) {
+        cout << u << ": ";
+        for (int v : adjList[u]) {
+            cout << v << " ";
+        }
+        cout << "\n";
+    }
+    return 0;
+}
+
+
+În acest exemplu, se citește numărul de noduri n și numărul de muchii m ale grafului. Apoi se citește lista de muchii sub forma a m perechi de noduri. Se apelează funcția fromEdgeListToAdjList care transformă lista de muchii în lista de adiacență corespunzătoare și se afișează această listă de adiacență. Funcția fromEdgeListToAdjList parcurge lista de muchii și pentru fiecare muchie adaugă nodurile corespunzătoare în listele de adiacență ale ambelor noduri ale muchiei, deoarece grafurile sunt considerate a fi neorientate.

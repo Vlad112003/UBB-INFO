@@ -1,0 +1,13 @@
+Functia stergeValoriPentruCheie(MDO^i, cheie ^i)
+//pre: MDO este Multidictionar ordonat
+       cheie este de tip TCheie
+//post: se returneaza o lista cu valorile din MDO pe care le avea cheia stearsa
+	//Se creeaza lista L
+	creeaza(L)
+	adauga(L, Nod.valoare);
+	sterge_recursiv(MDO,Nod)
+	size(MDO) <- size(MDO) - size(L)
+	returneaza (L) 
+	
+	
+	

@@ -1,0 +1,3 @@
+D:/FacultaSem2/SDA/quicksortu/cmake-build-debug/CMakeFiles/quicksortu.dir
+D:/FacultaSem2/SDA/quicksortu/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/FacultaSem2/SDA/quicksortu/cmake-build-debug/CMakeFiles/rebuild_cache.dir

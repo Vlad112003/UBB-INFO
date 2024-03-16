@@ -1,0 +1,50 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main()
+{
+    int n, m;
+    cin >> n >> m; // citim numarul de noduri si muchii
+
+    vector<vector<int>> incid(n, vector<int>(m)); // declaram matricea de incidenta
+
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            cin >> incid[i][j]; // citim matricea de incidenta
+        }
+    }
+
+    vector<vector<int>> lista;
+
+    for (int i = 0; i < m; i++) {
+        vector<int> muchie;
+        for (int j = 0; j < n; j++) {
+            if (incid[j][i] == 1) {
+                muchie.push_back(j); // adaugam nodurile incidente muchiei
+            } else if (incid[j][i] == -1) {
+                muchie.push_back(-j); // adaugam negativul nodului incident
+            }
+        }
+        lista.push_back(muchie); // adaugam muchia in lista de incidenta
+    }
+
+    // afisam lista de incidenta
+    for (int i = 0; i < lista.size(); i++) {
+        for (int j = 0; j < lista[i].size(); j++) {
+            cout << lista[i][j] << " ";
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
+
+
+
+În acest exemplu, mai întâi citim numărul de noduri și muchii de la tastatură. Apoi, declarăm matricea de incidență și o citim de la tastatură.
+
+Pentru a transforma matricea de incidență în listă de incidență, parcurgem fiecare coloană a matricei și adăugăm nodurile incidente muchiei respective într-un vector. Dacă valoarea din matrice este 1, adăugăm nodul respectiv în vector. Dacă valoarea este -1, adăugăm negativul nodului. Astfel, obținem lista de incidentă.
+
+În final, afișăm lista de incidentă.

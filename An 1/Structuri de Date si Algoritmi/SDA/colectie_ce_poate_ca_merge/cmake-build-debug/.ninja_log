@@ -1,0 +1,7 @@
+# ninja log v5
+1	908	7013498889823322	CMakeFiles/colectie_ce_poate_ca_merge.dir/IteratorColectie.cpp.obj	ef1e7f225b955006
+81	923	7013498889971078	CMakeFiles/colectie_ce_poate_ca_merge.dir/TestScurt.cpp.obj	ed7dd5eff56ceb9c
+90	1256	7013498893300596	CMakeFiles/colectie_ce_poate_ca_merge.dir/main.cpp.obj	c13b768ac10a5ff4
+63	1269	7013498893434268	CMakeFiles/colectie_ce_poate_ca_merge.dir/Colectie.cpp.obj	4a97902ca17beb9c
+73	1501	7013498895752018	CMakeFiles/colectie_ce_poate_ca_merge.dir/TestExtins.cpp.obj	fb710be62191b8f6
+1501	2435	7013498905034437	colectie_ce_poate_ca_merge.exe	b70af5c1d7b401e0

@@ -1,0 +1,1 @@
+adb gtr 12 r ert16

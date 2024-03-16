@@ -1,0 +1,14 @@
+# ninja log v5
+2	839	7080314577868986	CMakeFiles/lab6sda.dir/main.cpp.obj	f3e913d23b6bac5d
+22	448	7080307058970736	CMakeFiles/lab6sda.dir/TestScurt.cpp.obj	a0e8842d48c2e4aa
+383	494	7080326146446327	lab6sda.exe	3eb40c5a87b9354b
+11	729	7080307061768313	CMakeFiles/lab6sda.dir/TestExtins.cpp.obj	14036488d53eea3a
+2	383	7080326145351120	CMakeFiles/lab6sda.dir/IteratorMDO.cpp.obj	80afd1712d15d786
+3	770	7080311108441266	CMakeFiles/lab6sda.dir/MDO.cpp.obj	21b3864301ee18b7
+3	610	7080322324876183	CMakeFiles/lab6sda.dir/MyTestuletz.cpp.obj	86b07d0d6a7f6b5d
+3	385	7080326571755478	CMakeFiles/lab6sda.dir/IteratorMDO.cpp.obj	80afd1712d15d786
+386	498	7080326572858360	lab6sda.exe	3eb40c5a87b9354b
+3	387	7080326843703477	CMakeFiles/lab6sda.dir/IteratorMDO.cpp.obj	80afd1712d15d786
+387	497	7080326844773566	lab6sda.exe	3eb40c5a87b9354b
+3	591	7080335529155123	CMakeFiles/lab6sda.dir/main.cpp.obj	f3e913d23b6bac5d
+591	920	7080335532407794	lab6sda.exe	3eb40c5a87b9354b

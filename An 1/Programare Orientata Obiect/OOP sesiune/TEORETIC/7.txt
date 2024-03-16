@@ -1,0 +1,78 @@
+Subject 1.
+
+1. Specificati si testati.
+
+vector<int> f(int a){
+	if(a<0) throw std::exception("Illegal argument");
+	vector<int> rez;
+	for(int i = 1;i<=a;i++){
+		if(a%i==0) rez.push_back(i);
+	}
+	return rez;
+}
+
+
+ 2. Ce rezulta in urma executiei codului. Daca sunt erori, semnalati.
+ 
+ a)
+ 
+int except(int v) {
+	if (v < 0) throw 1;
+	else if (v > 0) throw exception("2");
+	return 0;
+}
+
+int main() {
+	try {
+		cout << except(1 < 1) << endl;
+		cout << except(-5) << endl;
+		cout << except(6) << endl;
+	}
+	catch (exception& e) {
+		cout << "2"<<endl;
+	}
+	catch (int a) {
+		cout << "-"<<endl;
+	}
+	cout << "+" << endl;
+	return 0;
+}
+
+b)
+
+class A {
+	int x;
+public:
+	A(int _a) : x{ _a } {};
+	void print() { cout << x << endl; }
+};
+
+A f(A a) {
+	a.print();
+	a = A{ 10 };
+	a.print();
+	return a;
+}
+
+int main() {
+	A a{ 4 };
+	a.print();
+	f(a);
+	a.print();
+	return 0;
+}
+
+3. Definire de clase dupa o diagrama UML; foarte asemanator cu celelalt numar.
+
+4. Implementati clasa Catalog astfel incat sa se poata rula codul de mai jos.
+
+int main() {
+	Catalog<int> cat{ "OOP" };
+	cat = cat + 10;
+	cat = cat + 9;
+	int sum = 0;
+	for (auto& c : cat) {
+		sum += c;
+	}
+	cout<<sum<<endl;
+}

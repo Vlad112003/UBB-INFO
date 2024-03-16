@@ -1,0 +1,62 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/wait.h>
+#include <string.h>
+
+int main()
+{
+        int suma=0;
+        int f[2];
+        int res=pipe(f);
+        if (res==-1)
+        {
+                perror("pipe()");
+                exit(EXIT_FAILURE);
+        }
+
+        int f1[2];
+        int res1=pipe(f1);
+        if (res1==-1)
+        {
+                perror("pipe()");
+                exit(EXIT_FAILURE);
+        }
+
+        int a,b;
+        int pid=fork();
+        if(pid==0)
+        {       close(f1[0]);
+                close(f[1]);
+                read(f[0],&a,sizeof(int));
+                read(f[0],&b,sizeof(int));
+
+                suma=a+b;
+                write(f1[1],&suma,sizeof(int));
+                close(f1[1]);
+                close(f[0]);
+                printf("[CHILD] %d\n",suma);
+                exit(0);
+
+        }
+
+        //acum sunt in parinte
+        close(f[0]);
+        close(f1[1]);
+
+        FILE  *fp;
+        fp=fopen("fisier1","r");
+        fscanf(fp,"%d %d",&a,&b);
+
+        write(f[1],&a,sizeof(int));
+        write(f[1],&b,sizeof(int));
+        fclose(fp);
+        int status;
+        wait(&status); //astept sa termine copilul
+        printf("[PARENT] Copilul a terminat cu exit status %d\n",status);
+        close(f[1]);
+        read(f1[0],&suma,sizeof(int));
+	 printf("[PARENT] %d\n",suma);
+        close(f1[0]);
+        return 0;
+}

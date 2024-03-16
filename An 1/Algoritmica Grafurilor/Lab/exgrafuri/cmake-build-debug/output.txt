@@ -1,0 +1,4 @@
+Nodul 1: 2 4 
+Nodul 2: 1 3 
+Nodul 3: 2 4 4 
+Nodul 4: 1 3 3 

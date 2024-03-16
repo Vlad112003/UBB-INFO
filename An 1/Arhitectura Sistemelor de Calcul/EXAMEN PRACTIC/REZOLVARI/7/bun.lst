@@ -1,0 +1,123 @@
+     1                                  ; se da un sir de qword definit in data segment. elementele sirului sunt in baza 16
+     2                                  ;   a)sa se printeze bytes care compun qword urile din sir
+     3                                  ;   b)sa se identifice words care au ultima cifra egala cu constanta k definita in segmentul de date. sa se salveze aceste words in sirul d
+     4                                  ;   c)sa se identifice dwords care sunt cuprinse in intervalul AAA - FFFF. sa se determine numarul dwords din acest interval. sa se afiseze acest numar in baza 10 in fisierul 'iesire.txt'
+     5                                  bits 32 ; assembling for the 32 bits architecture
+     6                                  
+     7                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     8                                  global start        
+     9                                  
+    10                                  ; declare external functions needed by our program
+    11                                  extern exit,printf,fopen,fprintf,fclose               ; tell nasm that exit exists even if we won't be defining it
+    12                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+    13                                  import printf msvcrt.dll                          ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    14                                  import fopen msvcrt.dll
+    15                                  import fprintf msvcrt.dll
+    16                                  import fclose msvcrt.dll
+    17                                  ; our data is declared here (the variables needed by our program)
+    18                                  segment data use32 class=data
+    19 00000000 8877665544332211DD-         s dq 1122334455667788h, 11AA22BB33CC44DDh, 0ABCh
+    19 00000009 44CC33BB22AA11BC0A-
+    19 00000012 000000000000       
+    20                                      lens equ $-s
+    21 00000018 FFFFFFFF                    copie dd -1
+    22 0000001C FFFFFFFF                    copie1 dd -1
+    23 00000020 25782000                    format1 db '%x ',0
+    24 00000024 256400                      format2 db '%d',0
+    25 00000027 1000                        hexa dw 010h ;adica 16
+    26 00000029 0200                        k dw 2h
+    27 0000002B 0A0D00                      new_line db 10,13,0
+    28 0000002E 2573                        format_extra db '%s'
+    29 00000030 FFFF<rept>                  words times 20 dw -1
+    30 00000058 AA0A0000                    inceput dd 0AAAh
+    31 0000005C FFFF0000                    final dd 0FFFFh
+    32 00000060 6965736972652E7478-         nume_fisier db 'iesire.txt',0
+    32 00000069 7400               
+    33 0000006B 7700                        mod_acces db 'w',0
+    34 0000006D FFFFFFFF                    descriptor dd -1
+    35                                  ; our code starts here
+    36                                  segment code use32 class=code
+    37                                      start:
+    38                                          ;------------------
+    39                                          ;a-----------------
+    40 00000000 B918000000                      mov ecx, lens
+    41 00000005 BE[00000000]                    mov esi,s
+    42                                          repeta1:
+    43 0000000A B800000000                          mov eax,0
+    44 0000000F AC                                  lodsb
+    45                                              
+    46 00000010 890D[18000000]                      mov [copie],ecx
+    47                                              ;printf(format,variabile)
+    48 00000016 50                                  push eax
+    49 00000017 68[20000000]                        push dword format1
+    50 0000001C FF15[00000000]                      call [printf]
+    51 00000022 83C408                              add esp,4*2
+    52                                              
+    53 00000025 8B0D[18000000]                      mov ecx,[copie]
+    54 0000002B E2DD                            loop repeta1
+    55                                          ;-------------------
+    56                                          ;b------------------
+    57 0000002D B90C000000                      mov ecx, lens/2
+    58 00000032 BE[00000000]                    mov esi,s
+    59 00000037 BF[30000000]                    mov edi,words
+    60                                          repeta2:
+    61 0000003C B800000000                          mov eax,0
+    62 00000041 66AD                                lodsw
+    63                                              
+    64 00000043 A3[1C000000]                        mov [copie1],eax
+    65 00000048 66F735[27000000]                    div word[hexa] ;in dx am restul
+    66 0000004F 663B15[29000000]                    cmp dx,word[k]
+    67 00000056 7402                                je stocare
+    68 00000058 EB02                                jmp final2
+    69                                              
+    70                                              stocare:
+    71 0000005A 66AB                                    stosw
+    72                                              
+    73                                              final2:
+    74 0000005C E2DE                            loop repeta2
+    75                                          ;-------------------
+    76                                          ;c------------------
+    77 0000005E B906000000                      mov ecx, lens/4
+    78 00000063 BE[00000000]                    mov esi,s
+    79 00000068 BB00000000                      mov ebx,0
+    80                                          repeta3:
+    81 0000006D B800000000                          mov eax,0
+    82 00000072 AD                                  lodsd
+    83                                              
+    84 00000073 3B05[58000000]                      cmp eax,[inceput]
+    85 00000079 7209                                jb final3
+    86 0000007B 3B05[5C000000]                      cmp eax,[final]
+    87 00000081 7701                                ja final3
+    88 00000083 43                                  inc ebx
+    89                                              
+    90                                              final3:
+    91 00000084 E2E7                            loop repeta3
+    92                                          
+    93                                          ;afisare ebx in fisier iesire.txt
+    94                                          ;fopen(nume_fisier,mod_acces)
+    95 00000086 68[6B000000]                    push dword mod_acces
+    96 0000008B 68[60000000]                    push dword nume_fisier
+    97 00000090 FF15[00000000]                  call [fopen]
+    98                                          
+    99 00000096 83F800                          cmp eax,0
+   100 00000099 7429                            je nu_s_a_deschis
+   101 0000009B A3[6D000000]                    mov [descriptor],eax
+   102                                          
+   103                                          ;fprintf(descriptor,format,variabile)
+   104 000000A0 53                              push dword ebx
+   105 000000A1 68[20000000]                    push dword format1
+   106 000000A6 FF35[6D000000]                  push dword[descriptor]
+   107 000000AC FF15[00000000]                  call [fprintf]
+   108 000000B2 83C40C                          add esp,4*3
+   109                                          
+   110                                          ;fclose(descriptor)
+   111 000000B5 FF35[6D000000]                  push dword[descriptor]
+   112 000000BB FF15[00000000]                  call [fclose]
+   113 000000C1 83C404                          add esp,4*1
+   114                                          
+   115                                          
+   116                                          
+   117                                          nu_s_a_deschis:
+   118                                          ; exit(0)
+   119 000000C4 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+   120 000000C6 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

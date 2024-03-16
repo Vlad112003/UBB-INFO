@@ -1,0 +1,26 @@
+# ninja log v5
+0	58	7012918144270910	CMakeFiles/colectie_cu_main.dir/App.cpp.obj	32c7adb8c29e3b03
+9	86	7012918144552364	CMakeFiles/colectie_cu_main.dir/IteratorColectie.cpp.obj	1d117de5d4ed08ce
+24	114	7012918144848755	CMakeFiles/colectie_cu_main.dir/TestScurt.cpp.obj	a76c72d3a40e29c8
+5	372	7012918147413892	CMakeFiles/colectie_cu_main.dir/Colectie.cpp.obj	c16539faef5ef483
+19	381	7012918147503849	CMakeFiles/colectie_cu_main.dir/main.cpp.obj	4024dd910e794913
+14	584	7012918149529231	CMakeFiles/colectie_cu_main.dir/TestExtins.cpp.obj	c28ce9a7f3c07cd1
+584	694	7012918150602815	colectie_cu_main.exe	51ba41fe3d7c56e3
+2	348	7012919393760018	CMakeFiles/colectie_cu_main.dir/Colectie.cpp.obj	c16539faef5ef483
+348	459	7012919394821786	colectie_cu_main.exe	51ba41fe3d7c56e3
+3	347	7012920053870462	CMakeFiles/colectie_cu_main.dir/Colectie.cpp.obj	c16539faef5ef483
+347	460	7012920054929063	colectie_cu_main.exe	51ba41fe3d7c56e3
+2	351	7012920705765035	CMakeFiles/colectie_cu_main.dir/Colectie.cpp.obj	c16539faef5ef483
+352	465	7012920706839813	colectie_cu_main.exe	51ba41fe3d7c56e3
+3	343	7012921041859824	CMakeFiles/colectie_cu_main.dir/main.cpp.obj	4024dd910e794913
+343	453	7012921042922249	colectie_cu_main.exe	51ba41fe3d7c56e3
+3	351	7012923464164214	CMakeFiles/colectie_cu_main.dir/Colectie.cpp.obj	c16539faef5ef483
+352	462	7012923465229442	colectie_cu_main.exe	51ba41fe3d7c56e3
+2	403	7013018642735508	CMakeFiles/colectie_cu_main.dir/main.cpp.obj	4024dd910e794913
+403	531	7013018643982407	colectie_cu_main.exe	51ba41fe3d7c56e3
+8	99	7013039062419549	CMakeFiles/colectie_cu_main.dir/IteratorColectie.cpp.obj	1d117de5d4ed08ce
+24	141	7013039062843791	CMakeFiles/colectie_cu_main.dir/TestScurt.cpp.obj	a76c72d3a40e29c8
+13	455	7013039065978160	CMakeFiles/colectie_cu_main.dir/main.cpp.obj	4024dd910e794913
+3	529	7013039066723263	CMakeFiles/colectie_cu_main.dir/Colectie.cpp.obj	c16539faef5ef483
+18	764	7013039069058384	CMakeFiles/colectie_cu_main.dir/TestExtins.cpp.obj	c28ce9a7f3c07cd1
+764	917	7013039070537046	colectie_cu_main.exe	51ba41fe3d7c56e3

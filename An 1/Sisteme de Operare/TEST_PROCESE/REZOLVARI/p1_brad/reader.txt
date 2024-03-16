@@ -1,0 +1,56 @@
+
+#include <fcntl.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#define MAX_BUF 1024
+int main(int argc, char* argv[]) {
+    // set the FIFO path
+    char* fifo1 = "./fifo1";
+    // open the FIFO for read
+    int fd = open(fifo1, O_RDONLY);
+    if (fd == -1)
+    {
+        perror("open()");
+        exit(EXIT_FAILURE);
+    }
+    int a,suma=0,i;
+
+    int f[2];
+        int res=pipe(f);
+        if(res==-1)
+        {
+        perror("pipe()");
+        exit(EXIT_FAILURE);
+        }
+        int pid=fork();
+        if(pid==-1)
+        {
+        perror("fork()");
+        exit(EXIT_FAILURE);
+        }
+        if(pid==0) //inCOPIL
+        {
+        close(f[0]);
+        read(fd,&a,sizeof(int));
+
+        while(a!=0)
+        {suma+=a%10;
+        a/=10;}
+        write(f[1],&suma,sizeof(int));
+        close(f[1]);
+        exit(suma);
+        }
+        //inPARINTE
+        close(f[1]);
+        read(f[0],&a,sizeof(int));
+        for(i=1;i<=a;i++)
+        {
+        if(a%i==0) printf("%d ",i);
+        }
+        printf("\n");
+
+    close(fd);
+    return 0;
+}
+

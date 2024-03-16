@@ -1,0 +1,3 @@
+D:/FacultaSem2/SDA/multime_cu_relatie/cmake-build-debug/CMakeFiles/multime_cu_relatie.dir
+D:/FacultaSem2/SDA/multime_cu_relatie/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/FacultaSem2/SDA/multime_cu_relatie/cmake-build-debug/CMakeFiles/rebuild_cache.dir

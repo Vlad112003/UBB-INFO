@@ -1,0 +1,64 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    int n, m; // numărul de noduri și de muchii
+    cin >> n >> m;
+
+    // citim matricea de incidență
+    vector<vector<int>> mat(n, vector<int>(m));
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            cin >> mat[i][j];
+        }
+    }
+
+    // transformăm matricea în lista de muchii
+    vector<pair<int, int>> lst;
+    for (int j = 0; j < m; j++) {
+        int u = -1, v = -1;
+        for (int i = 0; i < n; i++) {
+            if (mat[i][j] == 1) {
+                if (u == -1) {
+                    u = i;
+                } else {
+                    v = i;
+                }
+            }
+        }
+        if (u != -1 && v != -1) {
+            lst.push_back({u, v});
+        }
+    }
+
+    // afișăm lista de muchii
+    for (auto p : lst) {
+        cout << "(" << p.first << ", " << p.second << ")" << endl;
+    }
+
+    return 0;
+}
+
+
+
+
+
+
+
+Exemplu de utilizare:
+
+Input:
+4 5
+1 0 1 0 0
+0 1 1 1 0
+0 0 0 1 1
+1 0 0 0 1
+
+Output:
+(0, 2)
+(1, 2)
+(1, 3)
+(2, 3)
+(0, 3)

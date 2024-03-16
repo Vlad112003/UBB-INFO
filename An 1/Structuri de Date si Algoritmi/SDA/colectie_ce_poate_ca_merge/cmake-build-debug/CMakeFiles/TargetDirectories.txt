@@ -1,0 +1,3 @@
+D:/FacultaSem2/SDA/colectie_ce_poate_ca_merge/cmake-build-debug/CMakeFiles/colectie_ce_poate_ca_merge.dir
+D:/FacultaSem2/SDA/colectie_ce_poate_ca_merge/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/FacultaSem2/SDA/colectie_ce_poate_ca_merge/cmake-build-debug/CMakeFiles/rebuild_cache.dir

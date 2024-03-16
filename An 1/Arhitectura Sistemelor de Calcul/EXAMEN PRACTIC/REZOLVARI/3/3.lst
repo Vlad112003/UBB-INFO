@@ -1,0 +1,94 @@
+     1                                  ;Se citeste o propozitie de la tastatura. Sa se inverseze fiecare cuvant si sa se afiseze pe ecran.
+     2                                  bits 32 ; assembling for the 32 bits architecture
+     3                                  
+     4                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     5                                  global start        
+     6                                  
+     7                                  ; declare external functions needed by our program
+     8                                  extern exit,printf,scanf,gets               ; tell nasm that exit exists even if we won't be defining it
+     9                                  import exit msvcrt.dll    
+    10                                  import printf msvcrt.dll
+    11                                  import scanf msvcrt.dll
+    12                                  import gets msvcrt.dll
+    13                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    14                                  
+    15                                  ; our data is declared here (the variables needed by our program)
+    16                                  segment data use32 class=data
+    17 00000000 FF<rept>                    sursa times 100 db -1
+    18 00000064 257300                      format_citire db '%s',0
+    19 00000067 25732000                    format_afisare db '%s ',0
+    20 0000006B FF<rept>                    destinatie times 100 db -1
+    21 000000CF FF<rept>                    inv times 100 db -1
+    22                                  
+    23                                  ; our code starts here
+    24                                  segment code use32 class=code
+    25                                      start:
+    26                                          ;scanf(format,variabila)
+    27 00000000 68[00000000]                    push dword sursa
+    28 00000005 FF15[00000000]                  call [gets]
+    29 0000000B 83C408                          add esp, 4*2
+    30                                          
+    31 0000000E BE[00000000]                    mov esi,sursa
+    32 00000013 BF[6B000000]                    mov edi,destinatie     
+    33 00000018 B9FFFFFFFF                      mov ecx,-1
+    34                                          
+    35                                          repeta: ;aici iau cate un cuvant pe rand (verific spatiu) si il inversez
+    36                                              
+    37 0000001D 803E00                              cmp byte[esi],0 ;verificam daca am ajuns la final  - conditie de oprire
+    38 00000020 7446                                je final_repeta
+    39                                              
+    40 00000022 803E20                              cmp byte[esi],' ' ;verificam daca am terminat de stocat primul cuvant sau nu - am ajuns la spatiu
+    41 00000025 7502                                jne stocheaza_litera ;daca nu, stocam in continuare litere si trecem mai departe
+    42 00000027 7403                                je inverseaza ;daca da, inversam cuvantul si il afisam
+    43                                              
+    44                                              stocheaza_litera:
+    45 00000029 A4                                      movsb  ;se stocheaza in edi caracterul de la esi
+    46 0000002A EBF1                                    jmp repeta
+    47                                                  
+    48                                              inverseaza:
+    49 0000002C 83EF01                                  sub edi,1
+    50 0000002F BB[CF000000]                            mov ebx,inv
+    51                                                  repeta1:
+    52 00000034 81FF[6A000000]                              cmp edi,destinatie-1 ;pt ca destinatie o sa fie primul octet
+    53 0000003A 740C                                        je final_repeta1
+    54 0000003C 8A07                                        mov al,byte[edi]
+    55 0000003E 8803                                        mov byte[ebx],al
+    56 00000040 83EF01                                      sub edi,1
+    57 00000043 83C301                                      add ebx,1
+    58 00000046 EBEC                                        jmp repeta1
+    59                                                  final_repeta1:
+    60 00000048 C60300                                      mov byte[ebx],0
+    61                                                  ;printf(format,variabila) - afisam cuvantul inversat din edi
+    62 0000004B 68[CF000000]                            push dword inv
+    63 00000050 68[67000000]                            push dword format_afisare
+    64 00000055 FF15[00000000]                          call [printf]
+    65 0000005B 83C408                                  add esp, 4*2
+    66                                                  
+    67 0000005E BF[6B000000]                            mov edi,destinatie
+    68 00000063 83C601                                  add esi,1
+    69 00000066 EBB5                                    jmp repeta
+    70                                                  
+    71                                                  
+    72                                          final_repeta:
+    73 00000068 83EF01                          sub edi,1
+    74 0000006B BB[CF000000]                    mov ebx,inv
+    75                                          repeta2:
+    76 00000070 81FF[6A000000]                              cmp edi,destinatie-1 ;pt ca destinatie o sa fie primul octet
+    77 00000076 740C                                        je final_repeta2
+    78 00000078 8A07                                        mov al,byte[edi]
+    79 0000007A 8803                                        mov byte[ebx],al
+    80 0000007C 83EF01                                      sub edi,1
+    81 0000007F 83C301                                      add ebx,1
+    82 00000082 EBEC                                        jmp repeta2
+    83                                         final_repeta2:
+    84 00000084 C60300                         mov byte[ebx],0
+    85                                         ;printf(format,variabila) - afisam cuvantul inversat din edi
+    86 00000087 68[CF000000]                   push dword inv
+    87 0000008C 68[67000000]                   push dword format_afisare
+    88 00000091 FF15[00000000]                 call [printf]
+    89 00000097 83C408                         add esp, 4*2
+    90                                  
+    91                                      
+    92                                          ; exit(0)
+    93 0000009A 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    94 0000009C FF15[00000000]                  call    [exit]       ; call exit to terminate the program

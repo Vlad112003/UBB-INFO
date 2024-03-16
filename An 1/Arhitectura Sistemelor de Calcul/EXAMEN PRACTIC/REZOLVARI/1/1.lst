@@ -1,0 +1,115 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                                            ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                                            extern exit,fopen,fclose,fscanf,printf
+    11                                  import exit msvcrt.dll
+    12                                  import fopen msvcrt.dll
+    13                                  import fscanf msvcrt.dll
+    14                                  import fclose msvcrt.dll
+    15                                  import printf msvcrt.dll
+    16                                  ; our data is declared here (the variables needed by our program)
+    17                                  segment data use32 class=data
+    18 00000000 FF                          a db -1
+    19 00000001 10000000                    min dd 16
+    20 00000005 7200                        mod_acces db "r",0
+    21 00000007 696E7075742E747874-         nume_fisier db "input.txt",0
+    21 00000010 00                 
+    22 00000011 FFFFFFFF                    descriptor dd -1
+    23 00000015 256300                      format_citire db "%c",0
+    24 00000018 2563256400                  format_afisare db "%c%d",0
+    25 0000001D 20000000                    spatiu dd ' '
+    26                                      
+    27                                  ; our code starts here
+    28                                  segment code use32 class=code
+    29                                      start:
+    30                                          
+    31 00000000 68[05000000]                    push dword mod_acces
+    32 00000005 68[07000000]                    push dword nume_fisier
+    33 0000000A FF15[00000000]                  call [fopen]
+    34 00000010 83C408                          add esp, 4*2
+    35                                          
+    36 00000013 A3[11000000]                    mov [descriptor],eax
+    37 00000018 83F800                          cmp eax,0
+    38 0000001B 0F84A7000000                    je final
+    39                                          
+    40                                          repeta:
+    41                                  
+    42 00000021 68[00000000]                    push dword a
+    43 00000026 68[15000000]                    push dword format_citire
+    44 0000002B FF35[11000000]                  push dword [descriptor]
+    45 00000031 FF15[00000000]                  call [fscanf]
+    46 00000037 83C40C                          add esp, 4*3
+    47                                          
+    48 0000003A 83F8FF                          cmp eax,-1
+    49 0000003D 746F                            je final_repeta ;verific daca mai sunt caractere de citit
+    50                                          
+    51 0000003F 803D[00000000]20                cmp byte[a],' '
+    52 00000046 7526                            jne sari_1      ;sa nu afisam daca nu s-a terminat primul numar
+    53                                          
+    54 00000048 FF35[01000000]                  push dword[min]
+    55 0000004E FF35[1D000000]                  push dword[spatiu]
+    56 00000054 68[18000000]                    push dword format_afisare
+    57 00000059 FF15[00000000]                  call [printf]
+    58 0000005F 83C40C                          add esp, 4*3
+    59                                          
+    60 00000062 C705[01000000]1000-             mov dword[min],16
+    60 0000006A 0000               
+    61 0000006C EB3B                            jmp sari_repeta    ;sa trec la urmatorul caracter, dupa ce actualizez minimul la 16 din nou
+    62                                          
+    63                                          sari_1: 
+    64                                          
+    65 0000006E 803D[00000000]39                cmp byte[a],'9'
+    66 00000075 7E02                            jle sari_numar
+    67 00000077 770B                            ja sari_caracter
+    68                                          
+    69                                          sari_numar:
+    70 00000079 8A1D[00000000]                  mov bl,byte[a]
+    71 0000007F 80EB30                          sub bl,'0'
+    72 00000082 EB0C                            jmp actualizare
+    73                                          
+    74                                          sari_caracter:
+    75 00000084 8A1D[00000000]                  mov bl,byte[a]
+    76 0000008A 80EB41                          sub bl,'A'
+    77 0000008D 80C30A                          add bl,10
+    78                                          
+    79                                          actualizare:
+    80 00000090 88D9                            mov cl,bl
+    81 00000092 BB00000000                      mov ebx,0
+    82 00000097 88CB                            mov bl,cl ;fac sa fie 0 in rest in ebx
+    83 00000099 391D[01000000]                  cmp dword[min],ebx
+    84 0000009F 7702                            ja mai_mic
+    85 000000A1 7E06                            jle sari_repeta
+    86                                          
+    87                                          mai_mic:
+    88 000000A3 891D[01000000]                  mov dword[min],ebx
+    89                                          
+    90                                          sari_repeta:
+    91                                          
+    92 000000A9 E973FFFFFF                      jmp repeta
+    93                                          
+    94                                          final_repeta:
+    95                                          
+    96                                          ; afisez pe ecran ultimul minim
+    97 000000AE FF35[01000000]                  push dword[min]
+    98 000000B4 FF35[1D000000]                  push dword[spatiu]
+    99 000000BA 68[18000000]                    push dword format_afisare
+   100 000000BF FF15[00000000]                  call [printf]
+   101 000000C5 83C40C                          add esp, 4*3
+   102                                          
+   103                                          
+   104                                          final:
+   105 000000C8 FF35[11000000]                  push dword[descriptor]
+   106 000000CE E8(00000000)                    call fclose
+   107 000000D3 83C404                          add esp, 4*1
+   108                                          
+   109                                          
+   110                                      
+   111                                          ; exit(0)
+   112 000000D6 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+   113 000000D8 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

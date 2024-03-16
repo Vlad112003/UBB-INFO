@@ -1,0 +1,12 @@
+5/DE CE IUBIM FEMEILE?/Mircea Cărtărescu/2002
+1/BĂTRÂNUL ȘI MAREA/Ernest Hemingway/1920
+2/PORTRETUL LUI DORIAN GRAY/Oscar Wilde/1922
+3/DON QUIJOTE DE LA MANCHA/Miguel de Cervantes/1900
+4/FERMA ANIMALELOR/George Orwell/1956
+6/LOLITA/Vladimir Nabokov/1998
+7/FEMEIA LA 30 DE ANI/Honore de Balzac/1976
+8/DRAGOSTEA ÎN VREMEA HOLEREI/Gabriel Garcia Marquez/1890
+9/MICUL PRINȚ/Antoine de Saint-Exupery/1923
+10/PUTEREA PREZENTULUI/Eckhart Tolle/1987
+11/acest titlu/acest autor/1918
+12/alt titlu/alt autor/1922

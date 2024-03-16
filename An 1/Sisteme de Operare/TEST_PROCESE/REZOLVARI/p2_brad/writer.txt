@@ -1,0 +1,41 @@
+#include <fcntl.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <unistd.h>
+
+int main()
+{
+
+        //creez fifo
+        char* fifo1="./fifo1";
+        int res=mkfifo(fifo1,0644);
+        if(res==-1)
+        {
+                perror("mkfifo()");
+                exit(EXIT_FAILURE);
+        }
+        //deschid fifo sa scriu
+        int fd=open(fifo1,O_WRONLY);
+        if(fd==-1)
+        {
+                perror("open()");
+                exit(EXIT_FAILURE);
+        }
+
+        int a,b,cmmmc;
+        scanf("%d %d",&a,&b);
+        if(a>b) cmmmc=b;
+        else cmmmc=a;
+        while(cmmmc%a!=0 || cmmmc%b!=0) cmmmc++;
+
+        //scriu in fifo
+        write(fd,&cmmmc,sizeof(int));
+        close(fd);
+
+        //remove fifo
+        unlink(fifo1);
+        return 0;
+
+}

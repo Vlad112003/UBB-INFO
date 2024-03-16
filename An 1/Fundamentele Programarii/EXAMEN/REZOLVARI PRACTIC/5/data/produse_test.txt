@@ -1,0 +1,11 @@
+1/ou/0.5
+2/paine/2.9
+4/avocado/5.1
+6/amandine/2.3
+7/zahar/6.1
+8/merisoare/10.9
+9/lapte/5
+3/cozonac/7.9
+5/mandarine/4.7
+10/bomboane/5.9
+11/tiramisu/11.2

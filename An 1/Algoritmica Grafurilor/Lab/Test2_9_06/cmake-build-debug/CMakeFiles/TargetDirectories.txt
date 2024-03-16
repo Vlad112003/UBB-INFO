@@ -1,0 +1,3 @@
+D:/FacultaSem2/Grafuri/Lab/Test2_9_06/cmake-build-debug/CMakeFiles/Test2_9_06.dir
+D:/FacultaSem2/Grafuri/Lab/Test2_9_06/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/FacultaSem2/Grafuri/Lab/Test2_9_06/cmake-build-debug/CMakeFiles/rebuild_cache.dir

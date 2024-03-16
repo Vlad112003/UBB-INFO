@@ -1,0 +1,86 @@
+//2
+#include <pthread.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
+
+pthread_mutex_t mtx=PTHREAD_MUTEX_INITIALIZER;
+int sum=0,avr,minim=INT_MAX;
+pthread_barrier_t barr;
+int fr[10],v[90000];
+pthread_t citire,thr[10];
+int n;
+
+void* cititor(void* a)
+{
+        FILE* fd=fopen("fisier","r");
+        int i;
+        for(i=0;i<n;i++)
+        {
+                fscanf(fd,"%d",&v[i]);
+        }
+        fclose(fd);
+        return NULL;
+}
+
+void* worker(void* arg)
+{
+
+        int i,indice=*(int*)arg;
+        for(i=0;i<n;i++)
+        {
+                if(v[i]%10==indice) fr[indice]++;
+        }
+
+        pthread_mutex_lock(&mtx);
+        sum=sum+fr[indice];
+        pthread_mutex_unlock(&mtx);
+
+        pthread_barrier_wait(&barr);
+
+        //printf("APARITII %d: %d \n",indice,fr[indice]);
+        avr=sum/10;
+
+        pthread_mutex_lock(&mtx);
+
+                if(abs(avr-fr[indice])<minim) minim=abs(avr-fr[indice]);
+                //printf("AVR: %d          MINIM: %d\n",avr,minim);
+
+        pthread_mutex_unlock(&mtx);
+
+        return NULL;
+}
+
+
+int main(int argc, char**argv)
+{
+
+        scanf("%d",&n);
+        int i;
+        pthread_mutex_init(&mtx,NULL);
+
+        pthread_barrier_init(&barr,NULL,10);
+
+        pthread_create(&citire,NULL,cititor,NULL);
+        pthread_join(citire,NULL);
+
+        for(i=0;i<=9;i++)
+        {
+
+        int* aux=(int*)malloc(sizeof(int));
+        *aux=i;
+        pthread_create(&thr[i],NULL,worker,aux); //dau i ca si argument
+        }
+
+        for(i=0;i<=9;i++)
+                pthread_join(thr[i],NULL);
+
+        pthread_mutex_destroy(&mtx);
+
+        for(i=0;i<=9;i++)
+        {
+                if(avr-fr[i]==minim) printf("NR: %d - %d\n",i,fr[i]);
+        }
+
+        return 0;
+}

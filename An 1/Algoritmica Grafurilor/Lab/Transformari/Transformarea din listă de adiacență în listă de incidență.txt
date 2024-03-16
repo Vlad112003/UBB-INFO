@@ -1,0 +1,42 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+vector<pair<int, int>> fromAdjListToIncidenceList(const vector<vector<int>>& adjList) {
+    int n = adjList.size();
+    int m = 0;
+    for (auto neighbors : adjList) {
+        m += neighbors.size();
+    }
+    vector<pair<int, int>> incidenceList(m);
+    int index = 0;
+    for (int u = 0; u < n; u++) {
+        for (int v : adjList[u]) {
+            incidenceList[index] = {u, v};
+            index++;
+        }
+    }
+    return incidenceList;
+}
+
+int main() {
+    int n, m;
+    cin >> n >> m;
+    vector<vector<int>> adjList(n);
+    for (int i = 0; i < m; i++) {
+        int u, v;
+        cin >> u >> v;
+        adjList[u].push_back(v);
+        adjList[v].push_back(u);
+    }
+    vector<pair<int, int>> incidenceList = fromAdjListToIncidenceList(adjList);
+    // afișăm lista de incidență
+    for (auto edge : incidenceList) {
+        cout << edge.first << " " << edge.second << "\n";
+    }
+    return 0;
+}
+
+
+
+În acest exemplu, se citește numărul de noduri n și numărul de muchii m ale grafului, urmate de lista de adiacență a grafului sub forma a m linii, fiecare linie conținând perechea de noduri care definesc o muchie. Apoi se apelează funcția fromAdjListToIncidenceList care transformă lista de adiacență în lista de incidență corespunzătoare și se afișează această listă de incidență. Funcția fromAdjListToIncidenceList parcurge lista de adiacență și adaugă o pereche de noduri în lista de incidență pentru fiecare muchie, astfel încât nodul u să fie primul element din pereche pentru fiecare muchie și v să fie al doilea element din pereche.

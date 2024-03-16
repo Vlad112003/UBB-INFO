@@ -1,0 +1,91 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/wait.h>
+#include <string.h>
+
+int main(int argc, char** argv){
+        int nr1,nr2;
+        char simbol;
+        //deschid fisier pt citit
+        if(argc!=2)
+        {
+                perror("Dati un fisier ca argument!!");
+                exit(EXIT_FAILURE);
+        }
+        FILE* fd;
+        fd=fopen(argv[1],"r");
+        if(fd==NULL)
+        {
+                perror("fopen()");
+                exit(EXIT_FAILURE);
+        }
+
+        //fac pipe
+        int f[2];
+        int res=pipe(f);
+        if(res==-1)
+        {
+                perror("pipe()");
+                exit(EXIT_FAILURE);
+        }
+        int pid=fork();
+        if(pid==-1)
+        {
+                perror("fork()");
+                exit(EXIT_FAILURE);
+        }
+        //IN COPIL
+        if(pid==0)
+        {
+                while(1)
+                {       int rez;
+                        read(f[0],&simbol,sizeof(char));
+                        if(simbol=='0') break;
+                        read(f[0],&nr1,sizeof(int));
+                        read(f[0],&nr2,sizeof(int));
+                        if(simbol=='+')
+                        {
+                                rez=nr1+nr2;
+                        }
+                        if(simbol=='*')
+                        {
+                                 rez=nr1*nr2;
+                        }
+                        if(simbol=='-')
+                        {
+                                 rez=nr1-nr2;
+			 }
+                        if(simbol==':')
+                        {
+                                 rez=nr1/nr2;
+                        }
+
+                        printf("%c %d %d => %d\n",simbol,nr1,nr2,rez);
+
+                }
+
+                close(f[1]);
+                close(f[0]);
+                exit(0);
+        }
+
+
+        //IN PARINTE
+        while(fscanf(fd,"%c %d %d\n",&simbol,&nr1,&nr2)!=-1)
+        {
+                write(f[1],&simbol,sizeof(char));
+                write(f[1],&nr1,sizeof(int));
+                write(f[1],&nr2,sizeof(int));
+        }
+        simbol='0';
+        write(f[1],&simbol,sizeof(char));
+        close(f[0]);
+        close(f[1]);
+        fclose(fd);
+	int status;
+        wait(&status);
+        return 0;
+}
+
+

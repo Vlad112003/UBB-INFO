@@ -1,0 +1,49 @@
+        -:    0:Source:D:/FacultaSem2/SDA/colectie_cu_main/main.cpp
+        -:    0:Graph:D:\FacultaSem2\SDA\colectie_cu_main\cmake-build-debug-coverage\CMakeFiles\colectie_cu_main.dir\main.cpp.gcno
+        -:    0:Data:D:\FacultaSem2\SDA\colectie_cu_main\cmake-build-debug-coverage\CMakeFiles\colectie_cu_main.dir\main.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include <iostream>
+        -:    2:#include "TestExtins.h"
+        -:    3:#include "TestScurt.h"
+        -:    4:#include "Colectie.h"
+        -:    5:#include <assert.h>
+        -:    6:using namespace std;
+        -:    7:
+        -:    8:
+function main called 1 returned 100% blocks executed 82%
+        1:    9:int main() {
+        -:   10:    //testAll();
+        -:   11:	//testAllExtins();
+        1:   12:    Colectie c;
+        1:   12-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        -:   13:    TElem e;
+        1:   14:    c.adauga(e);
+        1:   14-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   15:    c.sterge(e);
+        1:   15-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   16:    c.sterge(e);
+        1:   16-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        -:   17:
+        1:   18:    cout<<"End";
+        1:   18-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   19:}
+        1:   19-block  0
+call    0 returned 1
+        1:   19-block  1
+    $$$$$:   19-block  2
+call    1 never executed

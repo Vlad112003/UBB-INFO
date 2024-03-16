@@ -1,0 +1,3 @@
+D:/FacultaSem2/SDA/rel_multime_moment/cmake-build-debug/CMakeFiles/rel_multime_moment.dir
+D:/FacultaSem2/SDA/rel_multime_moment/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/FacultaSem2/SDA/rel_multime_moment/cmake-build-debug/CMakeFiles/rebuild_cache.dir

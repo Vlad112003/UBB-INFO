@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\Sem_2\OOP\Sesiune\Teoretic\Teoretic_6\Rezolvare\Rezolvare\main.cpp(48): warning C4715: 'Burger::getPret': not all control paths return a value
+  Rezolvare.vcxproj -> D:\Sem_2\OOP\Sesiune\Teoretic\Teoretic_6\Rezolvare\x64\Debug\Rezolvare.exe

@@ -1,0 +1,3 @@
+D:/FacultaSem2/SDA/TAD-Arbore-binar-main/cmake-build-debug/CMakeFiles/TAD_Arbore_binar_main.dir
+D:/FacultaSem2/SDA/TAD-Arbore-binar-main/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/FacultaSem2/SDA/TAD-Arbore-binar-main/cmake-build-debug/CMakeFiles/rebuild_cache.dir

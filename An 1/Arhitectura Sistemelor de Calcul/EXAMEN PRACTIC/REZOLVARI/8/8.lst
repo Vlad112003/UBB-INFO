@@ -1,0 +1,150 @@
+     1                                  ;Citesc string tastatura, creem fisier string.txt, adaugam in fisier prima data majusculele apoi minusculele invers de cum apar in sir
+     2                                  bits 32 ; assembling for the 32 bits architecture
+     3                                  
+     4                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     5                                  global start        
+     6                                  
+     7                                  ; declare external functions needed by our program
+     8                                  extern exit,gets,printf,fopen,fprintf,fclose              ; tell nasm that exit exists even if we won't be defining it
+     9                                  import exit msvcrt.dll
+    10                                  import gets msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+    11                                  import printf msvcrt.dll; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    12                                  import fopen msvcrt.dll
+    13                                  import fprintf msvcrt.dll
+    14                                  import fclose msvcrt.dll
+    15                                  ; our data is declared here (the variables needed by our program)
+    16                                  segment data use32 class=data
+    17 00000000 FF<rept>                    s times 100 db -1
+    18 00000064 FF<rept>                    s1 times 100 db -1
+    19 000000C8 257300                      format_afisare db '%s',0
+    20 000000CB 7700                        mod_acces db 'w',0 
+    21 000000CD FF<rept>                    sir_mic times 100 db -1
+    22 00000131 FF<rept>                    sir_mare times 100 db -1
+    23 00000195 0A0D00                      new_line db 10,13,0
+    24 00000198 00000000                    cnt_mare dd 0
+    25 0000019C 00000000                    cnt_mic dd 0
+    26 000001A0 25642000                    format_afisare1 db '%d ',0
+    27 000001A4 256300                      format db '%c',0
+    28 000001A7 FFFFFFFF                    descriptor dd -1
+    29 000001AB FFFFFFFF                    copie dd -1
+    30                                  ; our code starts here
+    31                                  segment code use32 class=code
+    32                                      start:
+    33 00000000 68[00000000]                    push dword s
+    34 00000005 FF15[00000000]                  call [gets]
+    35 0000000B 83C404                          add esp,4*1
+    36                                          
+    37                                          
+    38 0000000E BE[00000000]                    mov esi,s
+    39 00000013 BF[64000000]                    mov edi,s1
+    40 00000018 83EE01                          sub esi,1
+    41                                          repeta:
+    42 0000001B 83C601                              add esi,1
+    43 0000001E 8A06                                mov al,byte[esi]
+    44 00000020 8807                                mov byte[edi],al
+    45 00000022 83C701                              add edi,1
+    46 00000025 803E00                              cmp byte[esi],0
+    47 00000028 7402                                je adauga
+    48 0000002A 75EF                                jne repeta
+    49                                              
+    50                                              adauga:
+    51 0000002C C7062E747874                            mov dword[esi],'.txt'       
+    52                                          
+    53 00000032 83C604                          add esi,4
+    54 00000035 C60600                          mov byte[esi],0; sa afiseze bine cu %s
+    55                                          
+    56                                          ;fopen(nume_fisier,mod_acces)
+    57 00000038 68[CB000000]                    push dword mod_acces
+    58 0000003D 68[00000000]                    push dword s
+    59 00000042 FF15[00000000]                  call [fopen]
+    60 00000048 83C408                          add esp,4*2
+    61                                          
+    62 0000004B A3[A7010000]                    mov [descriptor],eax
+    63                                          
+    64                                          
+    65 00000050 BE[64000000]                    mov esi,s1
+    66 00000055 83EE01                          sub esi,1
+    67 00000058 BF[CD000000]                    mov edi,sir_mic
+    68 0000005D BB[31010000]                    mov ebx,sir_mare
+    69                                          repeta1:
+    70 00000062 83C601                              add esi,1
+    71 00000065 803E00                              cmp byte[esi],0
+    72 00000068 7434                                je final_repeta1
+    73                                              
+    74 0000006A 803E61                              cmp byte[esi],'a'
+    75 0000006D 7215                                jb verifica_litera_mare
+    76 0000006F 803E7A                              cmp byte[esi],'z'
+    77 00000072 77EE                                ja repeta1
+    78                                              
+    79                                              ;daca a ajuns aici inseamna ca e litera mica
+    80 00000074 8A06                                mov al,byte[esi]
+    81 00000076 8807                                mov byte[edi],al
+    82 00000078 83C701                              add edi,1
+    83 0000007B 8005[9C010000]01                    add byte[cnt_mic],1
+    84 00000082 EBDE                                jmp repeta1
+    85                                              
+    86                                              verifica_litera_mare:
+    87 00000084 803E41                                  cmp byte[esi],'A'
+    88 00000087 72D9                                    jb repeta1
+    89 00000089 803E7A                                  cmp byte[esi],'z'
+    90 0000008C 77D4                                    ja repeta1
+    91                                                  
+    92                                              ;daca a ajuns aici e litera mare
+    93 0000008E 8A06                                mov al,byte[esi]
+    94 00000090 8803                                mov byte[ebx],al
+    95 00000092 83C301                              add ebx,1
+    96 00000095 8005[98010000]01                    add byte[cnt_mare],1
+    97 0000009C EBC4                                jmp repeta1
+    98                                                  
+    99                                          final_repeta1:
+   100                                          
+   101                                          ;acum am in sir_mic literele mici si in sir_mare literele mari
+   102                                          
+   103                                          ;fprintf(descriptor,format,variabile)
+   104 0000009E 8B0D[98010000]                  mov ecx,[cnt_mare]
+   105 000000A4 BB[31010000]                    mov ebx,sir_mare
+   106                                          repeta3:
+   107 000000A9 83F900                              cmp ecx,0
+   108 000000AC 742D                                je final_repeta3
+   109                                              
+   110 000000AE B800000000                          mov eax,0
+   111 000000B3 8A440BFF                            mov al,byte[ebx+ecx-1]
+   112                                              
+   113 000000B7 890D[AB010000]                      mov [copie],ecx
+   114 000000BD 50                                  push dword eax
+   115 000000BE 68[A4010000]                        push dword format
+   116 000000C3 FF35[A7010000]                      push dword[descriptor]
+   117 000000C9 FF15[00000000]                      call [fprintf]
+   118 000000CF 83C40C                              add esp,4*3
+   119                                              
+   120 000000D2 8B0D[AB010000]                      mov ecx,[copie]
+   121 000000D8 49                                  dec ecx
+   122 000000D9 EBCE                                jmp repeta3
+   123                                          final_repeta3:
+   124                                          
+   125 000000DB 8B0D[9C010000]                  mov ecx,[cnt_mic]
+   126 000000E1 BF[CD000000]                    mov edi,sir_mic
+   127                                          repeta2:
+   128 000000E6 83F900                              cmp ecx,0
+   129 000000E9 742D                                je final_repeta2
+   130                                              
+   131 000000EB B800000000                          mov eax,0
+   132 000000F0 8A440FFF                            mov al,byte[edi+ecx-1]
+   133                                              
+   134 000000F4 890D[AB010000]                      mov [copie],ecx
+   135 000000FA 50                                  push dword eax
+   136 000000FB 68[A4010000]                        push dword format
+   137 00000100 FF35[A7010000]                      push dword[descriptor]
+   138 00000106 FF15[00000000]                      call [fprintf]
+   139 0000010C 83C40C                              add esp,4*3
+   140                                              
+   141 0000010F 8B0D[AB010000]                      mov ecx,[copie]
+   142 00000115 49                                  dec ecx
+   143 00000116 EBCE                                jmp repeta2
+   144                                          final_repeta2:
+   145                                          
+   146                                        
+   147                                      
+   148                                          ; exit(0)
+   149 00000118 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+   150 0000011A FF15[00000000]                  call    [exit]       ; call exit to terminate the program

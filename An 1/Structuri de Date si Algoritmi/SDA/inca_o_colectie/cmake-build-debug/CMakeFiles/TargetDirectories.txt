@@ -1,0 +1,3 @@
+D:/FacultaSem2/SDA/inca_o_colectie/cmake-build-debug/CMakeFiles/inca_o_colectie.dir
+D:/FacultaSem2/SDA/inca_o_colectie/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/FacultaSem2/SDA/inca_o_colectie/cmake-build-debug/CMakeFiles/rebuild_cache.dir

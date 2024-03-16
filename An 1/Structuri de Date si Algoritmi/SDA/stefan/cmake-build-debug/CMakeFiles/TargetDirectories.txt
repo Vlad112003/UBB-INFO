@@ -1,0 +1,3 @@
+/media/vlad112003/8CC2290AC228F9DA/FacultaSem2/SDA/stefan/cmake-build-debug/CMakeFiles/stefan.dir
+/media/vlad112003/8CC2290AC228F9DA/FacultaSem2/SDA/stefan/cmake-build-debug/CMakeFiles/edit_cache.dir
+/media/vlad112003/8CC2290AC228F9DA/FacultaSem2/SDA/stefan/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,39 @@
+        -:    0:Source:D:/FacultaSem2/SDA/colectie_cu_main/IteratorColectie.cpp
+        -:    0:Graph:D:\FacultaSem2\SDA\colectie_cu_main\cmake-build-debug-coverage\CMakeFiles\colectie_cu_main.dir\IteratorColectie.cpp.gcno
+        -:    0:Data:D:\FacultaSem2\SDA\colectie_cu_main\cmake-build-debug-coverage\CMakeFiles\colectie_cu_main.dir\IteratorColectie.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include "IteratorColectie.h"
+        -:    2:#include "Colectie.h"
+        -:    3:
+        -:    4:
+function _ZN16IteratorColectieC2ERK8Colectie called 0 returned 0% blocks executed 0%
+    #####:    5:IteratorColectie::IteratorColectie(const Colectie& c): col(c) {
+    #####:    6:	curent = 0;
+    #####:    7:}
+        -:    8:
+function _ZN16IteratorColectie4primEv called 0 returned 0% blocks executed 0%
+    #####:    9:void IteratorColectie::prim() {
+    #####:   10:	curent = 0;
+    #####:   11:}
+        -:   12:
+        -:   13:
+function _ZN16IteratorColectie7urmatorEv called 0 returned 0% blocks executed 0%
+    #####:   14:void IteratorColectie::urmator() {
+    #####:   15:	curent = curent+1;
+    #####:   16:}
+        -:   17:
+        -:   18:
+function _ZNK16IteratorColectie5validEv called 0 returned 0% blocks executed 0%
+    #####:   19:bool IteratorColectie::valid() const {
+    #####:   20:	return curent < col.dim();
+    %%%%%:   20-block  0
+call    0 never executed
+        -:   21:}
+        -:   22:
+        -:   23:
+        -:   24:
+function _ZNK16IteratorColectie7elementEv called 0 returned 0% blocks executed 0%
+    #####:   25:TElem IteratorColectie::element() const {
+    #####:   26:	return col.e[curent];
+    %%%%%:   26-block  0
+        -:   27:}

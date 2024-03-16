@@ -1,0 +1,102 @@
+     1                                  ;sir de la tastatura cu nr de maxim 5 cifre. sa se gaseasca max si min,sa se scrie in fisier, sa se inmulteasca si rezultatul sa se pastreze in mem
+     2                                  bits 32 ; assembling for the 32 bits architecture
+     3                                  
+     4                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     5                                  global start        
+     6                                  
+     7                                  ; declare external functions needed by our program
+     8                                  extern exit,scanf,printf,fprintf,fopen,fclose               ; tell nasm that exit exists even if we won't be defining it
+     9                                  import exit msvcrt.dll
+    10                                  import fopen msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+    11                                  import fclose msvcrt.dll
+    12                                  import fprintf msvcrt.dll
+    13                                  import printf msvcrt.dll
+    14                                  import scanf msvcrt.dll                          ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    15                                  
+    16                                  ; our data is declared here (the variables needed by our program)
+    17                                  segment data use32 class=data
+    18 00000000 FFFFFFFF                    aux dd -1
+    19 00000004 FFFFFFFF                    n dd -1
+    20 00000008 256400                      format_d db '%d',0
+    21 0000000B FFFFFFFF                    max dd -1
+    22 0000000F FFFFFFFF                    min dd -1
+    23 00000013 256420256400                format_d_d db '%d %d',0
+    24 00000019 7700                        mod_acces_w db 'w',0
+    25 0000001B 6F75747075742E7478-         nume db 'output.txt',0
+    25 00000024 7400               
+    26 00000026 FFFFFFFF                    descriptor dd -1
+    27                                  
+    28                                  ; our code starts here
+    29                                  segment code use32 class=code
+    30                                      start:
+    31                                          ;scanf(format,variabile)
+    32 00000000 68[04000000]                    push dword n
+    33 00000005 68[08000000]                    push dword format_d
+    34 0000000A FF15[00000000]                  call [scanf]
+    35 00000010 83C408                          add esp,4*2
+    36                                          
+    37 00000013 A1[04000000]                    mov eax,dword[n]
+    38 00000018 A3[0F000000]                    mov dword[min],eax
+    39 0000001D A3[0B000000]                    mov dword[max],eax
+    40                                          
+    41                                          repeta:
+    42                                              ;scanf(format,variabile)
+    43 00000022 68[04000000]                        push dword n
+    44 00000027 68[08000000]                        push dword format_d
+    45 0000002C FF15[00000000]                      call [scanf]
+    46 00000032 83C408                              add esp,4*2
+    47                                              
+    48 00000035 833D[04000000]00                    cmp dword[n],0
+    49 0000003C 7425                                je final_repeta
+    50                                              
+    51 0000003E A1[04000000]                        mov eax,dword[n]
+    52 00000043 3B05[0F000000]                      cmp eax,dword[min]
+    53 00000049 7C0A                                jl minn
+    54 0000004B 3B05[0B000000]                      cmp eax,dword[max]
+    55 00000051 7F09                                jg maxx
+    56 00000053 EBCD                                jmp repeta
+    57                                              
+    58                                              minn:
+    59 00000055 A3[0F000000]                            mov dword[min],eax
+    60 0000005A EBC6                                    jmp repeta
+    61                                              maxx:
+    62 0000005C A3[0B000000]                            mov dword[max],eax
+    63 00000061 EBBF                                    jmp repeta
+    64                                          final_repeta:
+    65                                          
+    66                                          ;fopen(nume,mod_acces)
+    67 00000063 68[19000000]                    push dword mod_acces_w
+    68 00000068 68[1B000000]                    push dword nume
+    69 0000006D FF15[00000000]                  call [fopen]
+    70                                          
+    71 00000073 83F800                          cmp eax,0
+    72 00000076 744B                            je final_tot
+    73 00000078 A3[26000000]                    mov dword[descriptor],eax
+    74                                          
+    75                                          ;fprintf(descriptor,format,variabile)
+    76 0000007D FF35[0F000000]                  push dword[min]
+    77 00000083 FF35[0B000000]                  push dword[max]
+    78 00000089 68[13000000]                    push dword format_d_d
+    79 0000008E FF35[26000000]                  push dword[descriptor]
+    80 00000094 FF15[00000000]                  call [fprintf]
+    81 0000009A 83C410                          add esp,4*4
+    82                                          
+    83                                          ;fclose(descriptor)
+    84 0000009D FF35[26000000]                  push dword[descriptor]
+    85 000000A3 FF15[00000000]                  call [fclose]
+    86 000000A9 83C404                          add esp, 4*1
+    87                                          
+    88                                          ;maxim de 5 cifre -> incap pe ax si bx
+    89 000000AC 66A1[0F000000]                  mov ax,word[min]
+    90 000000B2 66F72D[0B000000]                imul word[max]
+    91                                          ;rezultat pe dx:ax
+    92 000000B9 6652                            push dx
+    93 000000BB 6650                            push ax
+    94 000000BD 8F05[00000000]                  pop dword[aux]
+    95                                          
+    96                                          
+    97                                          final_tot:
+    98                                          
+    99                                          ; exit(0)
+   100 000000C3 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+   101 000000C5 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

@@ -1,0 +1,8 @@
+# ninja log v5
+1013	1229	7019759893533368	inca_o_colectie.exe	65213eacf22276f7
+31	218	7019759883459225	CMakeFiles/inca_o_colectie.dir/TestScurt.cpp.obj	a251d04b4f6a8799
+41	766	7019759888966420	CMakeFiles/inca_o_colectie.dir/main.cpp.obj	d5f45bb02838750c
+395	450	1679984167808999500	inca_o_colectie	dab4904ac7375886
+5	217	7019759883448906	CMakeFiles/inca_o_colectie.dir/IteratorColectie.cpp.obj	64987dd881d95481
+15	737	7019759888654043	CMakeFiles/inca_o_colectie.dir/Colectie.cpp.obj	fd5d262b673ea8b9
+23	1013	7019759891418689	CMakeFiles/inca_o_colectie.dir/TestExtins.cpp.obj	1098dfed145d39db

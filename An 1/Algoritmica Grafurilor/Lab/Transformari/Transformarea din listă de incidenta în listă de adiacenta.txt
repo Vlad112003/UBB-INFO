@@ -1,0 +1,54 @@
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+int main() {
+    int n, m;
+    cout << "Introduceti numarul de noduri: ";
+    cin >> n;
+    cout << "Introduceti numarul de muchii: ";
+    cin >> m;
+
+    // Initializam lista de incidență
+    vector<vector<int>> incidenta(m, vector<int>(n, 0));
+    cout << "Introduceti lista de incidenta: \n";
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
+            cin >> incidenta[i][j];
+        }
+    }
+
+    // Initializam lista de adiacență
+    vector<vector<int>> adiacenta(n);
+    for (int i = 0; i < m; i++) {
+        int x = -1, y = -1;
+        for (int j = 0; j < n; j++) {
+            if (incidenta[i][j] == 1) {
+                if (x == -1) {
+                    x = j;
+                } else {
+                    y = j;
+                }
+            }
+        }
+        adiacenta[x].push_back(y);
+        adiacenta[y].push_back(x);
+    }
+
+    // Afisam lista de adiacență
+    cout << "Lista de adiacenta este: \n";
+    for (int i = 0; i < n; i++) {
+        cout << i << ": ";
+        for (int j = 0; j < adiacenta[i].size(); j++) {
+            cout << adiacenta[i][j] << " ";
+        }
+        cout << "\n";
+    }
+
+    return 0;
+}
+
+
+
+În acest program, se citește de la tastatură numărul de noduri n și numărul de muchii m. Se inițializează lista de incidență și se citește de la tastatură valorile acesteia. După aceea, se inițializează lista de adiacență și se calculează valorile acesteia pe baza valorilor din lista de incidență. La final, se afișează lista de adiacență.

@@ -1,0 +1,40 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+vector<pair<int, int>> fromEdgeListToIncidenceList(const vector<pair<int, int>>& edgeList) {
+    int n = 0;
+    for (auto edge : edgeList) {
+        n = max(n, max(edge.first, edge.second) + 1);
+    }
+    int m = edgeList.size();
+    vector<pair<int, int>> incidenceList(m * 2);
+    for (int i = 0; i < m; i++) {
+        auto edge = edgeList[i];
+        int u = edge.first;
+        int v = edge.second;
+        incidenceList[i * 2] = {u, i};
+        incidenceList[i * 2 + 1] = {v, i};
+    }
+    return incidenceList;
+}
+
+int main() {
+    int n, m;
+    cin >> n >> m;
+    vector<pair<int, int>> edgeList(m);
+    for (int i = 0; i < m; i++) {
+        int u, v;
+        cin >> u >> v;
+        edgeList[i] = {u, v};
+    }
+    vector<pair<int, int>> incidenceList = fromEdgeListToIncidenceList(edgeList);
+    // afișăm lista de incidență
+    for (auto edge : incidenceList) {
+        cout << edge.first << " " << edge.second << "\n";
+    }
+    return 0;
+}
+
+
+În acest exemplu, se citește numărul de noduri n și numărul de muchii m ale grafului, urmate de lista de muchii a grafului sub forma a m linii, fiecare linie conținând perechea de noduri care definesc o muchie. Apoi se apelează funcția fromEdgeListToIncidenceList care transformă lista de muchii în lista de incidență corespunzătoare și se afișează această listă de incidență. Funcția fromEdgeListToIncidenceList parcurge lista de muchii și adaugă două perechi de noduri în lista de incidență pentru fiecare muchie, astfel încât nodul u să fie primul element din prima pereche pentru fiecare muchie și din a doua pereche pentru muchia corespunzătoare, iar v să fie al doilea element din prima pereche pentru fiecare muchie și din a doua pereche pentru muchia corespunzătoare. De asemenea, al doilea element din fiecare pereche este indexul muchiei în lista de muchii.

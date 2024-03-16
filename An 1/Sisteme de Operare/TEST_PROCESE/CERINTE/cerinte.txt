@@ -1,0 +1,89 @@
+1. Să se scrie un program C care creează un proces copil cu care comunică prin pipe.
+Procesul părinte citeşte de la tastatură un număr natural şi îl trimite prin pipe procesului copil,
+iar procesul copil verifică şi afişează dacă acest număr este par sau impar.
+
+2. Să se scrie un program C care creează un proces copil cu care comunică prin pipe.
+Procesul părinte citeşte de la tastatură un număr natural şi îl trimite prin pipe procesului copil,
+iar procesul copil verifică şi afişează dacă acest număr este prim.
+
+3. Să se scrie un program C care creează un proces copil cu care comunică prin pipe.
+Procesul părinte citeşte de la tastatură un caracter c şi un şir s şi le trimite prin pipe procesului copil,
+iar procesul copil verifică şi afişează numărul de apariţii ale caracterului c în şirul s.
+
+4. Să se scrie un program C care creează un proces copil cu care comunică prin pipe.
+Procesul părinte citeşte de la tastatură două numere întregi pe care le trimite prin pipe procesului copil,
+iar procesul copil returnează prin pipe suma lor.
+
+5. Să se scrie un program C care creează un proces copil cu care comunică prin pipe.
+Procesul părinte citeşte dintr-un fişier de tip text două numere întregi pe care le trimite prin pipe procesului copil,
+iar procesul copil returnează prin pipe suma lor.
+
+p1_brad. 	
+Scrieti 2 programe c, A si B. Programul A va citi de la tastatura un nume de
+fisier. Programul A va citi din fisier si va scrie in fifo toate cifrele din
+fisier.
+Probramul B va creea 2 procese P1 si P2. P1 va citi cifrele din fifo-ul
+mentionat anterior si va calcula suma acestora, pe care o va trimite prin
+pipe catre P2, care va afisa pe ecran divizorii numarului acestuia.
+Numele fifo-ului va fi dat ca argument in linia de comanda in ambele
+programe. Programul A va creea fifo-ul si programul B va sterge fifo-ul.
+Ambele programe terbuie compilate cu gcc -Wall -g fara erori sau warninguri.
+Ambele programe trebuie sa ruleze fara memory leaks, erori de context sau
+procese zombie.
+
+p2_brad
+Scrieti 2 programe c, A si B. Programul A va citi doua numare intregi
+de la tastatura si va scrie intr-un fifo cel mai mic multiplu comun al
+acestora. Programul B va creea 2 procese P1 si P2, P1 va citi multiplul
+din fifo-ul mentionat anterior si va calcula divizorii acestuia.
+Divizorii vor fi transmis printr-un pipe procesului P2 care ii va afisa
+pe ecran.
+Numele fifo-ului va fi dat ca argument in linia de comanda in ambele
+programe. Programul A va creea fifo-ul si programul B va sterge fifo-ul.
+Ambele programe terbuie compilate cu gcc -Wall -g fara erori sau warninguri.
+Ambele programe trebuie sa ruleze fara memory leaks, erori de context sau
+procese zombie.
+
+p3_brad (asta nu merge)
+Write 2 c programs, A and B. A will create 2 prcesses p1 and p2. p1 will
+have provided (by any means (necessary)) a file containing only numbers (as
+many as you like) then it will read from the standard input (keyboard)
+a number (n). p1 will send the first n numbers from the file to p2 via pipe.
+p2 will send the sum of al the odd numbers received to B, via fifo.
+B will display on the standard output (the console) the number received.
+The source file must be compiled using gcc with -Wall -g options WITHOUT WARNINGS OR SYNTAX ERRORS!!!
+Memory leacks and zombie processes are not allowed.
+
+model1: Un proces A genereaza 2 numere random si citeste de la tastatura un simbol aritmetic sau 0 (*/:)
+Procesul A ii transmite procesului B prin pipe cele doua numere si simbolul aritmetic iar procesul B realizeaza 
+operatia si o scrie intr un fisier.Cele doua procese isi incheie executia doar cand simbolul este citit 0.
+Deci trebuie un loop.
+
+model2: Se fac 2 procese, unul din ele genereaza random un n si citeste de la tastatura un k, 
+le trimite prin pipe la celalalt proces. Al doilea proces, daca k e par face suma cifrelor lui n, altfel 
+face produsul cifrelor lui n si scrie in fisier rezultatul obtinut.
+
+model3:Scrieti 2 procese. Primul genereaza random un numar intre 1000 si 10000, 
+al doilea incearca sa il ghiceasca(tot genereaza rand) si il trimite primului proces. Primul proces ii spune daca 
+numarul a fost <, > sau = cu cel ce trebuie ghicit. Programul se opreste in momentul in care al doilea
+proces ghiceste numarul(a primit = de la primul proces).
+
+model6: Se da un fisier text ce contine pe fiecare linie o op. artitmetica si 2 nr. Programul A va citi din fisier
+aceste date si le va trimite prin pipe la procesul B. Programul B le va citi si va afisa pe ecran 
+rezultatul operatiei.
+
+model4:Intr-un fisier avem pe fiecare linie o operatie (+/*) si un nr. Procesul a 
+citeste din fisier si transmite prin pipe. Procesul b citeste din pipe, daca operatia e + aduna cifrele numarului
+si afiseaza pe ecran rezultatul, daca e * face produsul cifrelor si afiseaza pe ecran rez. 
+
+model5: acelasi lucru ca la 4, dar avem in fisier o litera si un cuvant, trebuie sa spunem ultima poz pe care
+apare litera in cuvant (-1 daca nu apare deloc)
+
+model6: Se da un fisier text ce contine pe fiecare linie o op. artitmetica si 2 nr. Programul A va citi din fisier
+aceste date si le va trimite prin pipe la procesul B. Programul B le va citi si va afisa pe ecran 
+rezultatul operatiei.
+
+cuvinte_propozitii:în fișier sunt cuvinte, nu contează câte pe fiecare linie. 
+Procesul a le citește din fișier și le transmite prin pipe. Procesul b citește dE
+la tastatură pe rând numere pana se introduce 0. 
+Face propoziții cu primele nr cuvinte din fișier și le afișează pe ecran

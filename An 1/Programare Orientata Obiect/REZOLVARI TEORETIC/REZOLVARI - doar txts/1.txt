@@ -1,0 +1,179 @@
+1)
+Specificatii:
+Determinna oglinditul unui numar
+x->int, numarul din care se calculeaza oglinditul
+return->int, oglinditul numarului x
+throw: std::exception, daca numarul dat ca argument este mai mic sau egal decat 0
+
+void test_f(){
+	assert(f(12345)==54321);
+	assert(f(1234000)==4321);
+	try{
+	f(-13);
+	assert(false);
+	}
+	catch(exception&){
+	assert(true);
+	}
+}
+
+2)
+
+a)
+#include <iostream>
+using namespace std;
+int except(bool thrEx) {
+	if (thrEx) {
+		throw 2;
+	}
+	return 3;
+}
+int main() {
+	try {
+		cout << except(1 < 1); // 1<1 este false deci nu va intra in if si va afisa 3
+		cout << except(true); // va da throw la 2 si apoi nu va mai scrie nimic
+		cout << except(false);
+	}
+	catch (int ex) {
+		cout << ex; // va scrie 2 (pentru ca atat a dat throw)
+	}
+	cout << 4; // rezultatul va fi 324
+	return 0;
+}
+
+b)
+#include <iostream>
+using namespace std;
+class A {
+public:
+A() {cout << "A" << endl;}
+~A() {cout << "~A" << endl;}
+void print() {
+cout << "print" << endl;
+}
+};
+void f() {
+A a[2]; // va apela de 2 ori constructorul implicit a lui A: Se afiseaza AA;
+a[1].print(); // va apela print pentru o variabila: print
+} // a[2] iese din scope, deci se va apela deconstructorul: ~A~A
+int main() {
+f();
+return 0;
+}
+
+3 si 4)
+#include <iostream>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+class Smoothy {
+private:
+	int pret = 0;
+public:
+	virtual int getPret() { return pret; }
+	virtual string descriere() = 0;
+	virtual ~Smoothy() = default;
+};
+
+class DecoratorSmoothy : public Smoothy {
+private:
+	Smoothy* s;
+public:
+	DecoratorSmoothy(Smoothy* s) :s{ s } {}
+	virtual int getPret() override {
+		return s->getPret();
+	}
+	virtual string descriere() override {
+		return s->descriere();
+	}
+	virtual ~DecoratorSmoothy() override { delete s; }
+
+};
+
+class BasicSmoothy :public Smoothy {
+private:
+	string nume;
+public:
+	BasicSmoothy(string nume) :nume{ nume } {}
+	virtual string descriere() override { return nume; }
+};
+
+class SmoothyCuFrisca :public DecoratorSmoothy {
+
+public:
+	SmoothyCuFrisca(Smoothy* s) :DecoratorSmoothy{ s } {}
+	virtual string descriere()override { return DecoratorSmoothy::descriere() + " cu frisca"; }
+	virtual int getPret() override { return DecoratorSmoothy::getPret() + 2; }
+};
+class SmoothyCuUmbreluta :public DecoratorSmoothy {
+
+public:
+	SmoothyCuUmbreluta(Smoothy* s) :DecoratorSmoothy{ s } {}
+	virtual string descriere()override { return DecoratorSmoothy::descriere() + " cu umbreluta"; }
+	virtual int getPret() override { return DecoratorSmoothy::getPret() + 2; }
+};
+
+vector<Smoothy*> get_list() {
+	vector<Smoothy*> lista;
+	Smoothy* sm1 = new SmoothyCuUmbreluta(new SmoothyCuFrisca(new BasicSmoothy("kivi")));
+	lista.push_back(sm1);
+	Smoothy* sm2 = new SmoothyCuFrisca(new BasicSmoothy("capsuni"));
+	lista.push_back(sm2);
+	Smoothy* sm3 = new BasicSmoothy("kivi");
+	lista.push_back(sm3);
+	return lista;
+}
+
+template<typename Nume>class Geanta {
+private:
+	Nume nume;
+	vector<string>obiecte;
+public:
+	Geanta<Nume>(Nume nume):nume{nume}{}
+	Geanta<Nume>(const Geanta<Nume>& g):nume{g.nume},obiecte{g.obiecte}{}
+
+	Geanta<Nume> operator+(const string ob) {
+		Geanta<Nume> g = *this;
+		g.obiecte.push_back(ob);
+		return g;
+	}
+
+	auto begin() {
+		return obiecte.begin();
+	}
+
+	auto end() {
+		return obiecte.end();
+	}
+};
+
+void calatorie() {
+	Geanta<string> ganta{ "Ion" };//creaza geanta pentru Ion
+	ganta = ganta + string{ "haine" }; //adauga obiect in ganta
+	ganta = ganta + string{ "ctln" }; //adauga obiect in ganta
+	ganta + string{ "pahar" };
+	for (auto o : ganta) {//itereaza obiectele din geanta
+		cout << o << "\n";
+	}
+}
+
+int main() {
+	auto lst = get_list();
+	sort(lst.begin(), lst.end(), [](Smoothy* s1, Smoothy* s2) {
+		return s1->descriere() < s2->descriere();
+		});
+	for (auto& el : lst)
+	{
+		cout << el->descriere() << " " << el->getPret() << endl;
+		delete el;
+	}
+
+	calatorie();
+
+	return 0;
+}
+
+
+

@@ -1,0 +1,89 @@
+     1                                  ;5.	Se citeste de la tastatura un sir de caractere (litere mici si litere mari, cifre, caractere speciale, etc). Sa se formeze un sir nou doar cu literele mici si un sir nou doar cu literele mari. Sa se afiseze cele
+     2                                  bits 32 ; assembling for the 32 bits architecture
+     3                                  
+     4                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     5                                  global start        
+     6                                  
+     7                                  ; declare external functions needed by our program
+     8                                  extern exit,gets,printf              ; tell nasm that exit exists even if we won't be defining it
+     9                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+    10                                  import gets msvcrt.dll                          ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    11                                  import printf msvcrt.dll
+    12                                  
+    13                                  ; our data is declared here (the variables needed by our program)
+    14                                  segment data use32 class=data
+    15 00000000 FF<rept>                    s times 100 db -1
+    16 00000064 25732000                    format_afisare db '%s ',0
+    17 00000068 FF<rept>                    sirul_mic times 100 db -1
+    18 000000CC FF<rept>                    sirul_mare times 100 db -1
+    19 00000130 0A0D00                      new_line db 10,13,0
+    20                                  ; our code starts here
+    21                                  segment code use32 class=code
+    22                                      start:
+    23                                          ;scanf(format,variabile)
+    24 00000000 68[00000000]                    push dword s
+    25 00000005 FF15[00000000]                  call [gets]
+    26 0000000B 83C404                          add esp,4*1
+    27                                          
+    28 0000000E BE[00000000]                    mov esi,s
+    29 00000013 83EE01                          sub esi,1
+    30 00000016 BB[68000000]                    mov ebx,sirul_mic
+    31 0000001B BF[CC000000]                    mov edi,sirul_mare
+    32                                          repeta:
+    33 00000020 83C601                              add esi,1
+    34 00000023 803E00                              cmp byte[esi],0 ;verific daca am ajuns la final
+    35 00000026 742A                                je final_repeta
+    36                                              
+    37                                              ;verific litera mica
+    38 00000028 803E61                              cmp byte[esi],'a'
+    39 0000002B 7207                                jb verifica_litera_mare
+    40 0000002D 803E7A                              cmp byte[esi],'z'
+    41 00000030 77EE                                ja repeta
+    42 00000032 760C                                jbe sir_mic
+    43                                              
+    44                                              verifica_litera_mare:
+    45 00000034 803E41                                  cmp byte[esi],'A'
+    46 00000037 72E7                                    jb repeta
+    47 00000039 803E5A                                  cmp byte[esi],'Z'
+    48 0000003C 77E2                                    ja repeta
+    49 0000003E 7609                                    jbe sir_mare
+    50                                              
+    51                                              sir_mic:
+    52 00000040 8A06                                    mov al,byte[esi]
+    53 00000042 8803                                    mov byte[ebx],al
+    54 00000044 83C301                                  add ebx,1
+    55                                              
+    56 00000047 EB07                                jmp sari_siruri
+    57                                              
+    58                                              sir_mare:
+    59 00000049 8A06                                    mov al,byte[esi]
+    60 0000004B 8807                                    mov byte[edi],al
+    61 0000004D 83C701                                  add edi,1
+    62                                                  
+    63                                              sari_siruri:
+    64 00000050 EBCE                                jmp repeta
+    65                                                  
+    66                                          final_repeta:
+    67                                          
+    68 00000052 C60700                          mov byte[edi],0
+    69 00000055 C60300                          mov byte[ebx],0
+    70                                          
+    71                                          ;printf(format,variabile)
+    72 00000058 68[68000000]                    push dword sirul_mic
+    73 0000005D 68[64000000]                    push dword format_afisare
+    74 00000062 FF15[00000000]                  call [printf]
+    75 00000068 83C408                          add esp, 4*2
+    76                                          
+    77 0000006B 68[30010000]                    push dword new_line
+    78 00000070 68[64000000]                    push dword format_afisare
+    79 00000075 FF15[00000000]                  call [printf]
+    80 0000007B 83C408                          add esp, 4*2
+    81                                          
+    82 0000007E 68[CC000000]                    push dword sirul_mare
+    83 00000083 68[64000000]                    push dword format_afisare
+    84 00000088 FF15[00000000]                  call [printf]
+    85 0000008E 83C408                          add esp, 4*2
+    86                                      
+    87                                          ; exit(0)
+    88 00000091 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    89 00000093 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

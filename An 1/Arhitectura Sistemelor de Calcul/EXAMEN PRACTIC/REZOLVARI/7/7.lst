@@ -1,0 +1,102 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit,printf               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                  import printf msvcrt.dll                          ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  
+    11                                  ; our data is declared here (the variables needed by our program)
+    12                                  segment data use32 class=data
+    13 00000000 8877665544332211DD-         s dq 1122334455667788h, 11AA22BB33CC44DDh
+    13 00000009 44CC33BB22AA11     
+    14                                      lens equ ($-s)/8
+    15 00000010 25782000                    format_afisare db '%x ',0
+    16 00000014 FFFFFFFF                    copie dd -1
+    17 00000018 FFFFFFFF                    copie1 dd -1
+    18 0000001C FFFF                        aux dw -1
+    19 0000001E 0200                        k dw 2h
+    20 00000020 10                          hexa db 10h
+    21 00000021 FFFF<rept>                  sir_words times lens*4 dw -1
+    22                                  
+    23                                  ; our code starts here
+    24                                  segment code use32 class=code
+    25                                      start:
+    26                                      
+    27                                      ;-------------------------------------
+    28                                      ;a
+    29 00000000 BE[00000000]                    mov esi,s
+    30 00000005 B902000000                      mov ecx,lens 
+    31 0000000A FC                              CLD
+    32                                          
+    33                                          repeta:
+    34                                          
+    35 0000000B 890D[14000000]                      mov [copie],ecx
+    36 00000011 B908000000                          mov ecx,8 
+    37                                              repeta1:
+    38 00000016 B800000000                              mov eax,0
+    39 0000001B 8A440EFF                                mov al,[esi+ecx-1] ;incarca in al ultimul byte din primul qword(little endian) 
+    40                                                  ;esi+7 =11
+    41                                                  ;esi+6=22
+    42                                                  ;esi+5=33
+    43                                                  ;esi+4=44
+    44                                                  ;esi+3=55
+    45                                                  ;esi+2=66
+    46                                                  ;esi+1=77
+    47                                                  ;esi+0=88
+    48                                                  
+    49 0000001F 890D[18000000]                          mov [copie1],ecx ;se strica ecx la push/call
+    50                                                  
+    51 00000025 50                                      push dword eax
+    52 00000026 68[10000000]                            push dword format_afisare
+    53 0000002B FF15[00000000]                          call [printf]
+    54 00000031 83C408                                  add esp,4*2
+    55                                                  
+    56 00000034 8B0D[18000000]                          mov ecx,[copie1]
+    57                                                  
+    58 0000003A E2DA                                loop repeta1
+    59 0000003C 8B0D[14000000]                      mov ecx,[copie]  
+    60 00000042 83C608                              add esi,8 ;trec de primul qword
+    61                                          
+    62 00000045 E2C4                            loop repeta
+    63                                          
+    64                                      ;-------------------------------------
+    65                                      ; b) Sa se extraga din fiecare quadword acele word-uri care au ultima cifra egala cu o constanta k, definita in data segment
+    66 00000047 BB00000000                      mov ebx,0
+    67 0000004C BE[00000000]                    mov esi,s
+    68 00000051 BF[21000000]                    mov edi,sir_words
+    69                                          repet:
+    70 00000056 43                              inc ebx
+    71 00000057 B908000000                      mov ecx,8
+    72                                          repet2:
+    73 0000005C 83E902                              sub ecx,2
+    74                                              ;ax=[esi+ecx]
+    75 0000005F 668B040E                            mov ax,[esi+ecx]
+    76 00000063 66A3[1C000000]                      mov [aux],ax
+    77 00000069 66BA0000                            mov dx,0
+    78 0000006D 66F735[20000000]                    div word[hexa]
+    79 00000074 663B15[1E000000]                    cmp dx,[k]
+    80 0000007B 750C                                jne ultima_cifra_nu_e_k
+    81 0000007D 66A1[1C000000]                      mov ax,[aux]
+    82 00000083 668907                              mov [edi],ax
+    83 00000086 83C702                              add edi,2
+    84                                              ultima_cifra_nu_e_k:
+    85                                              
+    86 00000089 83F900                          cmp ecx,0
+    87 0000008C 75CE                            jne repet2
+    88 0000008E 83C608                          add esi,8
+    89 00000091 83FB02                          cmp ebx,lens
+    90 00000094 75C0                            jne repet
+    91                                          
+    92                                          
+    93                                          
+    94                                      
+    95                                          ; exit(0)
+    96 00000096 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    97 00000098 FF15[00000000]                  call    [exit]       ; call exit to terminate the program
+    98                                  ;Se da un sir de qwords in data segment in baza 16.
+    99                                  ;a) Sa se printeze pe ecran sirul byte-ilor care compun qword-ul
+   100                                  ;b) Sa se extraga din fiecare qword acele word-uri care au ultima cifra egala cu o constanta k definita in data segment.
+   101                                  ;c) Sa se extraga dword-urile a caror valoare este in intervalul AAAh -> FFFh. Sa se printeze in fisier nr. dword-urilor extrase.

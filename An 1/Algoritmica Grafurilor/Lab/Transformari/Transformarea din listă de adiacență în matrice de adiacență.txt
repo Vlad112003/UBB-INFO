@@ -1,0 +1,37 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+vector<vector<int>> fromAdjListToAdjMatrix(int n, const vector<vector<int>>& adjList) {
+    vector<vector<int>> adjMatrix(n, vector<int>(n, 0));
+    for (int u = 0; u < n; u++) {
+        for (int v : adjList[u]) {
+            adjMatrix[u][v] = 1;
+        }
+    }
+    return adjMatrix;
+}
+
+int main() {
+    int n, m;
+    cin >> n >> m;
+    vector<vector<int>> adjList(n);
+    for (int i = 0; i < m; i++) {
+        int u, v;
+        cin >> u >> v;
+        adjList[u].push_back(v);
+        adjList[v].push_back(u); // adăugăm și muchia inversă pentru grafuri neorientate
+    }
+    vector<vector<int>> adjMatrix = fromAdjListToAdjMatrix(n, adjList);
+    // afișăm matricea de adiacență
+    for (int u = 0; u < n; u++) {
+        for (int v = 0; v < n; v++) {
+            cout << adjMatrix[u][v] << " ";
+        }
+        cout << "\n";
+    }
+    return 0;
+}
+
+
+În acest exemplu, se citește numărul de noduri n și numărul de muchii m ale grafului. Apoi se citește lista de adiacență a grafului sub forma a n liste de noduri. Se apelează funcția fromAdjListToAdjMatrix care transformă lista de adiacență în matricea de adiacență corespunzătoare și se afișează această matrice de adiacență. Funcția fromAdjListToAdjMatrix parcurge lista de adiacență și pentru fiecare pereche de noduri adaugă o valoare 1 în matricea de adiacență corespunzătoare celor două noduri, deoarece grafurile sunt considerate a fi neorientate.

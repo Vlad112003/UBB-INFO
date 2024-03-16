@@ -1,0 +1,40 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+vector<vector<int>> fromEdgeListToIncidenceMatrix(const vector<pair<int, int>>& edgeList, int n) {
+    int m = edgeList.size();
+    vector<vector<int>> incidenceMatrix(n, vector<int>(m, 0));
+    for (int i = 0; i < m; i++) {
+        int u = edgeList[i].first;
+        int v = edgeList[i].second;
+        incidenceMatrix[u][i] = 1;
+        incidenceMatrix[v][i] = -1;
+    }
+    return incidenceMatrix;
+}
+
+int main() {
+    int n, m;
+    cin >> n >> m;
+    vector<pair<int, int>> edgeList(m);
+    for (int i = 0; i < m; i++) {
+        int u, v;
+        cin >> u >> v;
+        edgeList[i] = make_pair(u, v);
+    }
+    vector<vector<int>> incidenceMatrix = fromEdgeListToIncidenceMatrix(edgeList, n);
+    for (int i = 0; i < n; i++) {
+        for (int j = 0; j < m; j++) {
+            cout << incidenceMatrix[i][j] << " ";
+        }
+        cout << endl;
+    }
+    return 0;
+}
+
+
+
+În acest cod, funcția fromEdgeListToIncidenceMatrix primește ca parametri o listă de muchii și un număr n care reprezintă numărul de noduri din graf. Funcția returnează o matrice de incidență cu n rânduri și m coloane, unde m este numărul de muchii din graf.
+
+Matricea de incidență este construită astfel: dacă muchia i este incidentă la nodul u, atunci elementul incidenceMatrix[u][i] este 1. Dacă muchia i este incidentă la nodul v, atunci elementul incidenceMatrix[v][i] este -1. Toate celelalte elemente ale matricei sunt 0.

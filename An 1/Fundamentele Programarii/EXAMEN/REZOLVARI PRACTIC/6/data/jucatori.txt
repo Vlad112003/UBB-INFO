@@ -1,0 +1,14 @@
+nume1/prenume1/190/fundas
+nume2/prenume2/180/pivot
+nume3/prenume3/175/extrema
+nume4/prenume4/195/fundas
+nume5/prenume5/203/pivot
+nume6/prenume6/186/extrema
+nume7/prenume7/175/extrema
+nume8/prenume8/179/pivot
+nume9/prenume9/188/fundas
+n10/p10/190/pivot
+nume100/prenume100/171/extrema
+nume101/prenume101/173/fundas
+nume102/prenume102/207/fundas
+nume103/prenume103/201/pivot

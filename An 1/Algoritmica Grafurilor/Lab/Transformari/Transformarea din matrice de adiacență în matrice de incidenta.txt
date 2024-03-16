@@ -1,0 +1,42 @@
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    int n, m;
+    cin >> n >> m;
+    
+    vector<vector<int>> adj_matrix(n, vector<int>(n, 0));
+    for (int i = 0; i < m; i++) {
+        int u, v;
+        cin >> u >> v;
+        adj_matrix[u][v] = 1;
+        adj_matrix[v][u] = 1;
+    }
+    
+    vector<vector<int>> incidence_matrix(m, vector<int>(n, 0));
+    int edge_counter = 0;
+    for (int i = 0; i < n; i++) {
+        for (int j = i+1; j < n; j++) {
+            if (adj_matrix[i][j] == 1) {
+                incidence_matrix[edge_counter][i] = 1;
+                incidence_matrix[edge_counter][j] = -1;
+                edge_counter++;
+            }
+        }
+    }
+    
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
+            cout << incidence_matrix[i][j] << " ";
+        }
+        cout << endl;
+    }
+    
+    return 0;
+}
+
+
+
+
+În acest exemplu, citim numărul de noduri și muchii, apoi matricea de adiacență și apoi creăm matricea de incidență prin parcurgerea matricei de adiacență și crearea unei linii pentru fiecare muchie. Fiecare element (i, j) din matricea de incidență este setat la 1 dacă muchia i este incidentă la nodul j și -1 dacă muchia i pleacă din nodul j. Matricea de incidență este apoi afișată la consolă.

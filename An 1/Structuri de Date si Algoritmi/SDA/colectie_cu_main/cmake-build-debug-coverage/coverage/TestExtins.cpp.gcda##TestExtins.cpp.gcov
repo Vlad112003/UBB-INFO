@@ -1,0 +1,1970 @@
+        -:    0:Source:D:/FacultaSem2/SDA/colectie_cu_main/TestExtins.cpp
+        -:    0:Graph:D:\FacultaSem2\SDA\colectie_cu_main\cmake-build-debug-coverage\CMakeFiles\colectie_cu_main.dir\TestExtins.cpp.gcno
+        -:    0:Data:D:\FacultaSem2\SDA\colectie_cu_main\cmake-build-debug-coverage\CMakeFiles\colectie_cu_main.dir\TestExtins.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include <assert.h>
+        -:    2:#include "Colectie.h"
+        -:    3:#include "TestExtins.h"
+        -:    4:#include "IteratorColectie.h"
+        -:    5:#include <iostream>
+        -:    6:#include <vector>
+        -:    7:#include <exception>
+        -:    8:
+        -:    9:using namespace std;
+        -:   10:
+        -:   11:
+function _Z11testCreeazav called 0 returned 0% blocks executed 0%
+    #####:   12:void testCreeaza() {
+    #####:   13:	Colectie c;
+    %%%%%:   13-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   14:	assert(c.dim() == 0);
+    %%%%%:   14-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   14-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   14-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   14-block  3
+    %%%%%:   14-block  4
+    #####:   15:	assert(c.vida() == true);
+    %%%%%:   15-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   15-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   15-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   15-block  3
+    %%%%%:   15-block  4
+    #####:   16:	for (int i = -5; i < 5; i++) { //cautam in colectia vida
+    %%%%%:   16-block  0
+    %%%%%:   16-block  1
+    %%%%%:   16-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:   17:		assert(c.cauta(i) == false);
+    %%%%%:   17-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   17-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   17-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   17-block  3
+    %%%%%:   17-block  4
+        -:   18:	}
+    #####:   19:	for (int i = -10; i < 10; i++) { //stergem din colectia vida
+    %%%%%:   19-block  0
+    %%%%%:   19-block  1
+    %%%%%:   19-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:   20:		assert(c.sterge(i) == false);
+    %%%%%:   20-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   20-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   20-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   20-block  3
+    %%%%%:   20-block  4
+        -:   21:	}
+    #####:   22:	for (int i = -10; i < 10; i++) { //numaram aparitii in colectia vida
+    %%%%%:   22-block  0
+    %%%%%:   22-block  1
+    %%%%%:   22-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:   23:		assert(c.nrAparitii(i) == 0);
+    %%%%%:   23-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   23-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   23-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   23-block  3
+    %%%%%:   23-block  4
+        -:   24:	}
+        -:   25:
+    #####:   26:	IteratorColectie ic = c.iterator(); //iterator pe colectia vida ar trebui sa fie invalid din start
+    %%%%%:   26-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   27:	assert(ic.valid() == false);
+    %%%%%:   27-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   27-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   27-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   27-block  3
+    %%%%%:   27-block  4
+    #####:   28:}
+    %%%%%:   28-block  0
+call    0 never executed
+    $$$$$:   28-block  1
+call    1 never executed
+        -:   29:
+function _Z10testAdaugav called 0 returned 0% blocks executed 0%
+    #####:   30:void testAdauga() {
+    #####:   31:	Colectie c; //adaugam elemente [0, 10)
+    %%%%%:   31-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   32:	for (int i = 0; i < 10; i++) {
+    %%%%%:   32-block  0
+    %%%%%:   32-block  1
+    %%%%%:   32-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:   33:		c.adauga(i);
+    %%%%%:   33-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   34:	}
+    #####:   35:	assert(c.vida() == false);
+    %%%%%:   35-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   35-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   35-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   35-block  3
+    %%%%%:   35-block  4
+    #####:   36:	assert(c.dim() == 10); 
+    %%%%%:   36-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   36-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   36-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   36-block  3
+    %%%%%:   36-block  4
+    #####:   37:	for (int i = -10; i < 20; i++) { //mai adaugam elemente [-10, 20), acum anumite elemente [0, 10) sunt de 2 ori
+    %%%%%:   37-block  0
+    %%%%%:   37-block  1
+    %%%%%:   37-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:   38:		c.adauga(i);
+    %%%%%:   38-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   39:	}
+    #####:   40:	assert(c.vida() == false);
+    %%%%%:   40-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   40-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   40-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   40-block  3
+    %%%%%:   40-block  4
+    #####:   41:	assert(c.dim() == 40);
+    %%%%%:   41-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   41-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   41-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   41-block  3
+    %%%%%:   41-block  4
+    #####:   42:	for (int i = -100; i < 100; i++) { //mai adaugam elemente [-100, 100), acum anumite elemente [0, 10) sunt de 3 ori, altele [-10, 0), si [10, 20) sunt de 2 ori
+    %%%%%:   42-block  0
+    %%%%%:   42-block  1
+    %%%%%:   42-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:   43:		c.adauga(i);		
+    %%%%%:   43-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   44:	}
+    #####:   45:	assert(c.vida() == false);
+    %%%%%:   45-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   45-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   45-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   45-block  3
+    %%%%%:   45-block  4
+    #####:   46:	assert(c.dim() == 240);
+    %%%%%:   46-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   46-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   46-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   46-block  3
+    %%%%%:   46-block  4
+    #####:   47:	for (int i = -200; i < 200; i++) { //numaram de cate ori apar anumite elemente (inclusiv elemente inexistente)
+    %%%%%:   47-block  0
+    %%%%%:   47-block  1
+    %%%%%:   47-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:   48:		int count = c.nrAparitii(i);
+    %%%%%:   48-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   49:		if (i < -100) {
+    %%%%%:   49-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   50:			assert(count == 0);
+    %%%%%:   50-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:   50-block  1
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   50-block  2
+    %%%%%:   50-block  3
+    #####:   51:			assert(c.cauta(i) == false);
+    %%%%%:   51-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   51-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   51-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   51-block  3
+    %%%%%:   51-block  4
+        -:   52:		}
+    #####:   53:		else if (i < -10) {
+    %%%%%:   53-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   54:			assert(count == 1);
+    %%%%%:   54-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:   54-block  1
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   54-block  2
+    %%%%%:   54-block  3
+    #####:   55:			assert(c.cauta(i) == true);
+    %%%%%:   55-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   55-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   55-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   55-block  3
+    %%%%%:   55-block  4
+        -:   56:		}
+    #####:   57:		else if (i < 0) {
+    %%%%%:   57-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   58:			assert(count == 2);
+    %%%%%:   58-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:   58-block  1
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   58-block  2
+    %%%%%:   58-block  3
+    #####:   59:			assert(c.cauta(i) == true);
+    %%%%%:   59-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   59-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   59-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   59-block  3
+    %%%%%:   59-block  4
+        -:   60:		}
+    #####:   61:		else if (i < 10) {
+    %%%%%:   61-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   62:			assert(count == 3);
+    %%%%%:   62-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:   62-block  1
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   62-block  2
+    %%%%%:   62-block  3
+    #####:   63:			assert(c.cauta(i) == true);
+    %%%%%:   63-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   63-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   63-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   63-block  3
+    %%%%%:   63-block  4
+        -:   64:		}
+    #####:   65:		else if (i < 20) {
+    %%%%%:   65-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   66:			assert(count == 2);
+    %%%%%:   66-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:   66-block  1
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   66-block  2
+    %%%%%:   66-block  3
+    #####:   67:			assert(c.cauta(i) == true);
+    %%%%%:   67-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   67-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   67-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   67-block  3
+    %%%%%:   67-block  4
+        -:   68:		}
+    #####:   69:		else if (i < 100) {
+    %%%%%:   69-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   70:			assert(count == 1);
+    %%%%%:   70-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:   70-block  1
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   70-block  2
+    %%%%%:   70-block  3
+    #####:   71:			assert(c.cauta(i) == true);
+    %%%%%:   71-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   71-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   71-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   71-block  3
+    %%%%%:   71-block  4
+        -:   72:		}
+        -:   73:		else {
+    #####:   74:			assert(count == 0);
+    %%%%%:   74-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:   74-block  1
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   74-block  2
+    %%%%%:   74-block  3
+    #####:   75:			assert(c.cauta(i) == false);
+    %%%%%:   75-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   75-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   75-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   75-block  3
+    %%%%%:   75-block  4
+        -:   76:		}
+        -:   77:	}
+    #####:   78:	for (int i = 10000; i > -10000; i--) { //adaugam mult, si acum prima data adaugam valori mari, dupa aceea mici
+    %%%%%:   78-block  0
+    %%%%%:   78-block  1
+    %%%%%:   78-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:   79:		c.adauga(i);
+    %%%%%:   79-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   80:	}
+    #####:   81:	assert(c.dim()==20240);
+    %%%%%:   81-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   81-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   81-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   81-block  3
+    %%%%%:   81-block  4
+    #####:   82:}
+    %%%%%:   82-block  0
+call    0 never executed
+    $$$$$:   82-block  1
+call    1 never executed
+        -:   83:
+function _Z10testStergev called 0 returned 0% blocks executed 0%
+    #####:   84:void testSterge() {
+    #####:   85:	Colectie c;
+    %%%%%:   85-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:   86:	for (int i = -100; i < 100; i++) { //stergem din colectie vida
+    %%%%%:   86-block  0
+    %%%%%:   86-block  1
+    %%%%%:   86-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:   87:		assert(c.sterge(i) == false);
+    %%%%%:   87-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   87-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   87-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   87-block  3
+    %%%%%:   87-block  4
+        -:   88:	}
+    #####:   89:	assert(c.dim() == 0);
+    %%%%%:   89-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   89-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   89-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   89-block  3
+    %%%%%:   89-block  4
+    #####:   90:	for (int i = -100; i < 100; i = i + 2) { //adaugam elemente din 2 in 2 (numere pare)
+    %%%%%:   90-block  0
+    %%%%%:   90-block  1
+    %%%%%:   90-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:   91:		c.adauga(i);
+    %%%%%:   91-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:   92:	}
+    #####:   93:	for (int i = -100; i < 100; i++) { //stergem tot (inclusiv elemente inexistente)
+    %%%%%:   93-block  0
+    %%%%%:   93-block  1
+    %%%%%:   93-block  2
+branch  0 never executed
+branch  1 never executed
+        -:   94:	
+    #####:   95:		if (i % 2 == 0) {
+    %%%%%:   95-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:   96:			assert(c.sterge(i) == true);
+    %%%%%:   96-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   96-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   96-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   96-block  3
+    %%%%%:   96-block  4
+        -:   97:		}
+        -:   98:		else {
+    #####:   99:			assert(c.sterge(i) == false);
+    %%%%%:   99-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:   99-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   99-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   99-block  3
+    %%%%%:   99-block  4
+        -:  100:		}
+        -:  101:	}
+    #####:  102:	assert(c.dim() == 0);
+    %%%%%:  102-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  102-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  102-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  102-block  3
+    %%%%%:  102-block  4
+    #####:  103:	for (int i = -100; i <= 100; i = i + 2) { //adaugam elemente din 2 in 2
+    %%%%%:  103-block  0
+    %%%%%:  103-block  1
+    %%%%%:  103-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:  104:		c.adauga(i);
+    %%%%%:  104-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  105:	}
+    #####:  106:	for (int i = 100; i > -100; i--) { //stergem descrescator (in ordine inversa fata de ordinea adaugarii)
+    %%%%%:  106-block  0
+    %%%%%:  106-block  1
+    %%%%%:  106-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:  107:		if (i % 2 == 0) {
+    %%%%%:  107-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  108:			assert(c.sterge(i) == true);
+    %%%%%:  108-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  108-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  108-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  108-block  3
+    %%%%%:  108-block  4
+        -:  109:		}
+        -:  110:		else {
+    #####:  111:			assert(c.sterge(i) == false);
+    %%%%%:  111-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  111-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  111-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  111-block  3
+    %%%%%:  111-block  4
+        -:  112:		}
+        -:  113:	}
+        -:  114:	
+    #####:  115:	assert(c.dim() == 1);
+    %%%%%:  115-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  115-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  115-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  115-block  3
+    %%%%%:  115-block  4
+    #####:  116:	c.sterge(-100); 
+    %%%%%:  116-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  117:	for (int i = -100; i < 100; i++) { //adaugam de 5 ori pe fiecare element
+    %%%%%:  117-block  0
+    %%%%%:  117-block  1
+    %%%%%:  117-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:  118:		c.adauga(i);
+    %%%%%:  118-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  119:		c.adauga(i);
+    %%%%%:  119-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  120:		c.adauga(i);
+    %%%%%:  120-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  121:		c.adauga(i);
+    %%%%%:  121-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  122:		c.adauga(i);
+    %%%%%:  122-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  123:	}
+    #####:  124:	assert(c.dim() == 1000);
+    %%%%%:  124-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  124-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  124-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  124-block  3
+    %%%%%:  124-block  4
+    #####:  125:	for (int i = -100; i < 100; i++) {
+    %%%%%:  125-block  0
+    %%%%%:  125-block  1
+    %%%%%:  125-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:  126:		assert(c.nrAparitii(i) == 5);
+    %%%%%:  126-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  126-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  126-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  126-block  3
+    %%%%%:  126-block  4
+        -:  127:	}
+    #####:  128:	for (int i = -100; i < 100; i++) { //stergem o aparitie de la fiecare
+    %%%%%:  128-block  0
+    %%%%%:  128-block  1
+    %%%%%:  128-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:  129:		assert(c.sterge(i) == true);
+    %%%%%:  129-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  129-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  129-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  129-block  3
+    %%%%%:  129-block  4
+        -:  130:	}
+    #####:  131:	assert(c.dim() == 800);
+    %%%%%:  131-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  131-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  131-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  131-block  3
+    %%%%%:  131-block  4
+    #####:  132:	for (int i = -100; i < 100; i++) { 
+    %%%%%:  132-block  0
+    %%%%%:  132-block  1
+    %%%%%:  132-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:  133:		assert(c.nrAparitii(i) == 4);
+    %%%%%:  133-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  133-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  133-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  133-block  3
+    %%%%%:  133-block  4
+        -:  134:	}
+    #####:  135:	for (int i = -200; i < 200; i++) { //stergem 5 aparitii de la elemente inexistente si existente (dar si acolo exista doar 4 aparitii)
+    %%%%%:  135-block  0
+    %%%%%:  135-block  1
+    %%%%%:  135-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:  136:		if (i < -100 || i >= 100) {
+    %%%%%:  136-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:  136-block  1
+branch  2 never executed
+branch  3 never executed
+    #####:  137:			assert(c.sterge(i) == false);
+    %%%%%:  137-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  137-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  137-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  137-block  3
+    %%%%%:  137-block  4
+    #####:  138:			assert(c.sterge(i) == false);
+    %%%%%:  138-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  138-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  138-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  138-block  3
+    %%%%%:  138-block  4
+    #####:  139:			assert(c.sterge(i) == false);
+    %%%%%:  139-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  139-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  139-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  139-block  3
+    %%%%%:  139-block  4
+    #####:  140:			assert(c.sterge(i) == false);
+    %%%%%:  140-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  140-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  140-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  140-block  3
+    %%%%%:  140-block  4
+    #####:  141:			assert(c.sterge(i) == false);
+    %%%%%:  141-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  141-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  141-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  141-block  3
+    %%%%%:  141-block  4
+        -:  142:		}
+        -:  143:		else {
+    #####:  144:			assert(c.sterge(i) == true);
+    %%%%%:  144-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  144-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  144-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  144-block  3
+    %%%%%:  144-block  4
+    #####:  145:			assert(c.sterge(i) == true);
+    %%%%%:  145-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  145-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  145-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  145-block  3
+    %%%%%:  145-block  4
+    #####:  146:			assert(c.sterge(i) == true);
+    %%%%%:  146-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  146-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  146-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  146-block  3
+    %%%%%:  146-block  4
+    #####:  147:			assert(c.sterge(i) == true);
+    %%%%%:  147-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  147-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  147-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  147-block  3
+    %%%%%:  147-block  4
+    #####:  148:			assert(c.sterge(i) == false);
+    %%%%%:  148-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  148-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  148-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  148-block  3
+    %%%%%:  148-block  4
+        -:  149:		}
+        -:  150:	}	
+    #####:  151:	assert(c.dim() == 0);
+    %%%%%:  151-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  151-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  151-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  151-block  3
+    %%%%%:  151-block  4
+    #####:  152:	for (int i = -1000; i < 1000; i++) {
+    %%%%%:  152-block  0
+    %%%%%:  152-block  1
+    %%%%%:  152-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:  153:		assert(c.nrAparitii(i) == 0);
+    %%%%%:  153-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  153-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  153-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  153-block  3
+    %%%%%:  153-block  4
+        -:  154:	}
+    #####:  155:	int min = -200;
+    #####:  156:	int max = 200;
+    #####:  157:	while (min < max) { //adaugam elemente, pe 0 de 2 ori
+    %%%%%:  157-block  0
+    %%%%%:  157-block  1
+branch  0 never executed
+branch  1 never executed
+    #####:  158:		c.adauga(min);
+    %%%%%:  158-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  159:		c.adauga(max);
+    %%%%%:  159-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  160:		min++;
+    #####:  161:		max--;
+    %%%%%:  161-block  0
+        -:  162:	}
+    #####:  163:	c.adauga(0);
+    %%%%%:  163-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  164:	c.adauga(0);
+    %%%%%:  164-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  165:	assert(c.dim() == 402);
+    %%%%%:  165-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  165-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  165-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  165-block  3
+    %%%%%:  165-block  4
+    #####:  166:	for (int i = -30; i < 30; i++) { //stergem o parte dintre elemente
+    %%%%%:  166-block  0
+    %%%%%:  166-block  1
+    %%%%%:  166-block  2
+branch  0 never executed
+branch  1 never executed
+        -:  167:		
+    #####:  168:		assert(c.cauta(i) == true);
+    %%%%%:  168-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  168-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  168-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  168-block  3
+    %%%%%:  168-block  4
+    #####:  169:		assert(c.sterge(i) == true);
+    %%%%%:  169-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  169-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  169-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  169-block  3
+    %%%%%:  169-block  4
+    #####:  170:		if (i != 0) {
+    %%%%%:  170-block  0
+branch  0 never executed
+branch  1 never executed
+    #####:  171:			assert(c.cauta(i) == false);
+    %%%%%:  171-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  171-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  171-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  171-block  3
+    %%%%%:  171-block  4
+        -:  172:		}
+        -:  173:		else {
+    #####:  174:			assert(c.cauta(i) == true);
+    %%%%%:  174-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  174-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  174-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  174-block  3
+    %%%%%:  174-block  4
+        -:  175:		}
+        -:  176:	}
+    #####:  177:	assert(c.dim() == 342);
+    %%%%%:  177-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  177-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  177-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  177-block  3
+    %%%%%:  177-block  4
+        -:  178:
+    #####:  179: }
+    %%%%%:  179-block  0
+call    0 never executed
+    $$$$$:  179-block  1
+call    1 never executed
+        -:  180:
+        -:  181:
+function _Z12testIteratorv called 0 returned 0% blocks executed 0%
+    #####:  182:void testIterator() { // nu stim reprezentarea Colectiei, putem testa doar anumite lucruri generale, nu stim in ce ordine vor fi afisate elementele.
+    #####:  183:	Colectie c;
+    %%%%%:  183-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  184:	IteratorColectie ic = c.iterator(); //iterator pe colectie vida
+    %%%%%:  184-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  185:	assert(ic.valid() == false);
+    %%%%%:  185-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  185-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  185-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  185-block  3
+    %%%%%:  185-block  4
+        -:  186:
+    #####:  187:	for (int i = 0; i < 100; i++) {  //adaug 100 de elemente, fiecare e valoarea 33
+    %%%%%:  187-block  0
+    %%%%%:  187-block  1
+    %%%%%:  187-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:  188:		c.adauga(33);
+    %%%%%:  188-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  189:	}
+    #####:  190:	IteratorColectie ic2 = c.iterator(); //daca iterez doar 33 poate sa-mi dea iteratorul
+    %%%%%:  190-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  191:	assert(ic2.valid() == true);
+    %%%%%:  191-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  191-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  191-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  191-block  3
+    %%%%%:  191-block  4
+    #####:  192:	for (int i = 0; i < 100; i++) {
+    %%%%%:  192-block  0
+    %%%%%:  192-block  1
+    %%%%%:  192-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:  193:		TElem elem = ic2.element();
+    %%%%%:  193-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  194:		assert(elem == 33);
+    %%%%%:  194-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:  194-block  1
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  194-block  2
+    %%%%%:  194-block  3
+    #####:  195:		ic2.urmator();
+    %%%%%:  195-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  196:	}
+    #####:  197:	assert(ic2.valid() == false);
+    %%%%%:  197-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  197-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  197-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  197-block  3
+    %%%%%:  197-block  4
+    #####:  198:	ic2.prim(); //resetam pe primul elemente
+    %%%%%:  198-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  199:	assert(ic2.valid() == true);
+    %%%%%:  199-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  199-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  199-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  199-block  3
+    %%%%%:  199-block  4
+    #####:  200:	for (int i = 0; i < 100; i++) {
+    %%%%%:  200-block  0
+    %%%%%:  200-block  1
+    %%%%%:  200-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:  201:		TElem elem = ic2.element();
+    %%%%%:  201-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  202:		TElem elem2 = ic2.element();
+    %%%%%:  202-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  203:		assert(elem == 33);
+    %%%%%:  203-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:  203-block  1
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  203-block  2
+    %%%%%:  203-block  3
+    #####:  204:		assert(elem2 == 33);
+    %%%%%:  204-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:  204-block  1
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  204-block  2
+    %%%%%:  204-block  3
+    #####:  205:		ic2.urmator();
+    %%%%%:  205-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  206:	}
+    #####:  207:	assert(ic2.valid() == false);
+    %%%%%:  207-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  207-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  207-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  207-block  3
+    %%%%%:  207-block  4
+        -:  208:
+    #####:  209:	Colectie c2;
+    %%%%%:  209-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  210:	for (int i = -100; i < 100; i++) { //adaug 200 de elemente, fiecare de 3 ori
+    %%%%%:  210-block  0
+    %%%%%:  210-block  1
+    %%%%%:  210-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:  211:		c2.adauga(i);
+    %%%%%:  211-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  212:		c2.adauga(i);
+    %%%%%:  212-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  213:		c2.adauga(i);
+    %%%%%:  213-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  214:	}
+    #####:  215:	IteratorColectie ic3 = c2.iterator();
+    %%%%%:  215-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  216:	assert(ic3.valid() == true); //nu avem garantia ca elementele afisate vor fi egale, (adica ca vom avea acelasi element de 3 ori consecutiv), testam doar ca sunt 600 de elemente
+    %%%%%:  216-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  216-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  216-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  216-block  3
+    %%%%%:  216-block  4
+    #####:  217:	for (int i = 0; i < 600; i++) {
+    %%%%%:  217-block  0
+    %%%%%:  217-block  1
+    %%%%%:  217-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:  218:		TElem e1 = ic3.element();
+    %%%%%:  218-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  219:		ic3.urmator();
+    %%%%%:  219-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  220:	}
+    #####:  221:	assert(ic3.valid() == false);
+    %%%%%:  221-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  221-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  221-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  221-block  3
+    %%%%%:  221-block  4
+    #####:  222:	ic3.prim();
+    %%%%%:  222-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  223:	assert(ic3.valid() == true);
+    %%%%%:  223-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  223-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  223-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  223-block  3
+    %%%%%:  223-block  4
+    #####:  224:	Colectie c3;
+    %%%%%:  224-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  225:	for (int i = 0; i < 200; i= i + 4) { //adaugam doar multipli de 4
+    %%%%%:  225-block  0
+    %%%%%:  225-block  1
+    %%%%%:  225-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:  226:		c3.adauga(i);
+    %%%%%:  226-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  227:	}
+    #####:  228:	IteratorColectie ic4 = c3.iterator();
+    %%%%%:  228-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  229:	assert(ic4.valid() == true);
+    %%%%%:  229-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  229-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  229-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  229-block  3
+    %%%%%:  229-block  4
+    #####:  230:	int count = 0;
+    #####:  231:	while (ic4.valid()) { //fiecare element e multiplu de 4 si sunt in total 50 de elemente
+    %%%%%:  231-block  0
+    %%%%%:  231-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  231-block  2
+branch  3 never executed
+branch  4 never executed
+    #####:  232:		TElem e = ic4.element();
+    %%%%%:  232-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  233:		assert(e % 4 == 0);
+    %%%%%:  233-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:  233-block  1
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  233-block  2
+    %%%%%:  233-block  3
+    #####:  234:		ic4.urmator();
+    %%%%%:  234-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  235:		count++;
+    %%%%%:  235-block  0
+        -:  236:	}
+    #####:  237:	assert(count == 50);
+    %%%%%:  237-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:  237-block  1
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  237-block  2
+    %%%%%:  237-block  3
+    #####:  238:	Colectie c4; // adaugam niste elemente in colectie
+    %%%%%:  238-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  239:	for (int i = 0; i < 100; i++) {
+    %%%%%:  239-block  0
+    %%%%%:  239-block  1
+    %%%%%:  239-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:  240:		c4.adauga(i);
+    %%%%%:  240-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  241:		c4.adauga(i * (-2));
+    %%%%%:  241-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  242:		c4.adauga(i * 2);
+    %%%%%:  242-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  243:		c4.adauga(i / 2);
+    %%%%%:  243-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  244:		c4.adauga(i / (-2));
+    %%%%%:  244-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  245:	}
+        -:  246:	//iteram peste colectie si adaugam elementele intr-un vector
+    #####:  247:	vector<TElem> elemente;
+    %%%%%:  247-block  0
+call    0 never executed
+    #####:  248:	IteratorColectie ic5 = c4.iterator();
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  249:	while (ic5.valid()) {
+    %%%%%:  249-block  0
+    %%%%%:  249-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  249-block  2
+branch  3 never executed
+branch  4 never executed
+    #####:  250:		TElem e = ic5.element();
+    %%%%%:  250-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  251:		elemente.push_back(e);
+    %%%%%:  251-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  252:		ic5.urmator();
+    %%%%%:  252-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  253:	}
+        -:  254:	
+    #####:  255:	assert(elemente.size() == c4.dim());
+    %%%%%:  255-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    %%%%%:  255-block  1
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  255-block  2
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:  255-block  3
+    %%%%%:  255-block  4
+    #####:  256:	for (unsigned int i = 0; i < elemente.size(); i++) { //scoatem pe rand elemente din vectorul dat de iterator, verificam sa fie in colectie si le stergem si din vector si din c4. Incepem stergerea cu ultimul
+    %%%%%:  256-block  0
+    %%%%%:  256-block  1
+    %%%%%:  256-block  2
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  257:		TElem lastElem = elemente.at(elemente.size() - i  - 1);		
+    %%%%%:  257-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    #####:  258:		assert(c4.cauta(lastElem) == true);
+    %%%%%:  258-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  258-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  258-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  258-block  3
+    %%%%%:  258-block  4
+    #####:  259:		c4.sterge(lastElem);		
+    %%%%%:  259-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  260:	}
+        -:  261:
+    #####:  262:	Colectie c5; // adaugam niste elemente in colectie
+    %%%%%:  262-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  263:	for (int i = 0; i < 100; i++) {
+    %%%%%:  263-block  0
+    %%%%%:  263-block  1
+    %%%%%:  263-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:  264:		c5.adauga(i);
+    %%%%%:  264-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  265:		c5.adauga(i * (-2));
+    %%%%%:  265-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  266:		c5.adauga(i * 2);
+    %%%%%:  266-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  267:		c5.adauga(i / 2);
+    %%%%%:  267-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  268:		c5.adauga(i / (-2));
+    %%%%%:  268-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  269:	}
+        -:  270:	//iteram peste colectie si adaugam elementele intr-un vector
+    #####:  271:	vector<TElem> elemente2;
+    %%%%%:  271-block  0
+call    0 never executed
+    #####:  272:	IteratorColectie ic6 = c5.iterator();
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  273:	while (ic6.valid()) {
+    %%%%%:  273-block  0
+    %%%%%:  273-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  273-block  2
+branch  3 never executed
+branch  4 never executed
+    #####:  274:		TElem e = ic6.element();
+    %%%%%:  274-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  275:		elemente2.push_back(e);
+    %%%%%:  275-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  276:		ic6.urmator();
+    %%%%%:  276-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  277:	}
+        -:  278:
+    #####:  279:	assert(elemente2.size() == c5.dim());
+    %%%%%:  279-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed
+branch  3 never executed
+    %%%%%:  279-block  1
+branch  4 never executed
+branch  5 never executed
+    %%%%%:  279-block  2
+call    6 never executed
+branch  7 never executed
+branch  8 never executed
+    %%%%%:  279-block  3
+    %%%%%:  279-block  4
+    #####:  280:	for (unsigned int i = 0; i < elemente2.size(); i++) { //scoatem pe rand elemente din vectorul dat de iterator, verificam sa fie in colectie si le stergem si din vector si din c4. Incepem stergerea cu primul
+    %%%%%:  280-block  0
+    %%%%%:  280-block  1
+    %%%%%:  280-block  2
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  281:		TElem firstElem = elemente2.at(i);
+    %%%%%:  281-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  282:		assert(c5.cauta(firstElem) == true);
+    %%%%%:  282-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  282-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  282-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  282-block  3
+    %%%%%:  282-block  4
+    #####:  283:		c5.sterge(firstElem);
+    %%%%%:  283-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  284:	}
+    #####:  285:}
+    %%%%%:  285-block  0
+call    0 never executed
+call    1 never executed
+call    2 never executed
+call    3 never executed
+call    4 never executed
+call    5 never executed
+call    6 never executed
+    $$$$$:  285-block  1
+call    7 never executed
+    $$$$$:  285-block  2
+call    8 never executed
+    $$$$$:  285-block  3
+call    9 never executed
+    $$$$$:  285-block  4
+call   10 never executed
+    $$$$$:  285-block  5
+call   11 never executed
+    $$$$$:  285-block  6
+call   12 never executed
+    $$$$$:  285-block  7
+call   13 never executed
+        -:  286:
+function _Z12testQuantityv called 0 returned 0% blocks executed 0%
+    #####:  287:void testQuantity() {//scopul e sa adaugam multe date 
+    #####:  288:	Colectie c;
+    %%%%%:  288-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  289:	for (int i = 10; i >= 1; i--) {	
+    %%%%%:  289-block  0
+    %%%%%:  289-block  1
+    %%%%%:  289-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:  290:		for (int j = -30000; j < 30000; j = j + i) {
+    %%%%%:  290-block  0
+    %%%%%:  290-block  1
+    %%%%%:  290-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:  291:			c.adauga(j);
+    %%%%%:  291-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  292:		}
+        -:  293:	}
+    #####:  294:	assert(c.dim() == 175739);
+    %%%%%:  294-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  294-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  294-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  294-block  3
+    %%%%%:  294-block  4
+    #####:  295:	assert(c.nrAparitii(-30000) == 10);
+    %%%%%:  295-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  295-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  295-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  295-block  3
+    %%%%%:  295-block  4
+    #####:  296:	IteratorColectie ic = c.iterator();
+    %%%%%:  296-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  297:	assert(ic.valid() == true);
+    %%%%%:  297-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  297-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  297-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  297-block  3
+    %%%%%:  297-block  4
+    #####:  298:	for (int i = 0; i < c.dim(); i++) {
+    %%%%%:  298-block  0
+    %%%%%:  298-block  1
+    %%%%%:  298-block  2
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  298-block  3
+branch  3 never executed
+branch  4 never executed
+    #####:  299:		ic.urmator();
+    %%%%%:  299-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  300:	}
+    #####:  301:	ic.prim();
+    %%%%%:  301-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  302:	while (ic.valid()) { //fiecare element returnat de iterator trebuie sa fie in colectie si nrAparitii trebuie sa fie mai mare ca 0
+    %%%%%:  302-block  0
+    %%%%%:  302-block  1
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  302-block  2
+branch  3 never executed
+branch  4 never executed
+    #####:  303:		TElem e = ic.element();
+    %%%%%:  303-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    #####:  304:		assert(c.cauta(e) == true);
+    %%%%%:  304-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  304-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  304-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  304-block  3
+    %%%%%:  304-block  4
+    #####:  305:		assert(c.nrAparitii(e) > 0);
+    %%%%%:  305-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  305-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  305-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  305-block  3
+    %%%%%:  305-block  4
+    #####:  306:		ic.urmator();
+    %%%%%:  306-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  307:	}
+    #####:  308:	assert(ic.valid() == false);
+    %%%%%:  308-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  308-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  308-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  308-block  3
+    %%%%%:  308-block  4
+    #####:  309:	for (int i = 0; i < 10; i++) { //stergem multe elemente existente si inexistente
+    %%%%%:  309-block  0
+    %%%%%:  309-block  1
+    %%%%%:  309-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:  310:		for (int j = 40000; j >= -40000; j--) {
+    %%%%%:  310-block  0
+    %%%%%:  310-block  1
+    %%%%%:  310-block  2
+branch  0 never executed
+branch  1 never executed
+    #####:  311:			c.sterge(j);
+    %%%%%:  311-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+        -:  312:		}
+        -:  313:	}
+    #####:  314:	assert(c.dim() == 0);
+    %%%%%:  314-block  0
+call    0 never executed
+branch  1 never executed
+branch  2 never executed
+    %%%%%:  314-block  1
+branch  3 never executed
+branch  4 never executed
+    %%%%%:  314-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:  314-block  3
+    %%%%%:  314-block  4
+    #####:  315:}
+    %%%%%:  315-block  0
+call    0 never executed
+    $$$$$:  315-block  1
+call    1 never executed
+        -:  316:
+        -:  317:
+function _Z13testAllExtinsv called 0 returned 0% blocks executed 0%
+    #####:  318:void testAllExtins() {
+    #####:  319:	testCreeaza();
+    %%%%%:  319-block  0
+call    0 never executed
+    #####:  320:	testAdauga();
+call    0 never executed
+    #####:  321:	testSterge();
+call    0 never executed
+    #####:  322:	testIterator();
+call    0 never executed
+    #####:  323:	testQuantity();
+call    0 never executed
+    #####:  324:}

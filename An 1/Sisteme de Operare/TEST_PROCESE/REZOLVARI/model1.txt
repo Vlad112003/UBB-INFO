@@ -1,0 +1,95 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <sys/wait.h>
+#include <string.h>
+
+int main(int argc, char** argv)
+{       //deschid fisierul pentru scris
+        if(argc!=2)
+        {
+                perror("Da un fisier ca argument!");
+                exit(EXIT_FAILURE);
+        }
+
+        int f[2];
+        int res=pipe(f);
+        if(res==-1)
+        {
+                perror("pipe()");
+                exit(EXIT_FAILURE);
+        }
+        int pid=fork();
+        if(pid==-1)
+        {
+                perror("fork()");
+                exit(EXIT_FAILURE);
+        }
+
+
+        int a,b;
+        char op;
+                //IN COPIL
+                if(pid==0)
+                {
+                        FILE* fd;
+                        fd=fopen(argv[1],"w");
+                        if(fd==NULL)
+                        {
+                                perror("fopen()");
+                                exit(EXIT_FAILURE);
+                        }
+                        while(read(f[0],&a,sizeof(int)))
+                        {
+                                int ok,rez;
+                                ok=1;
+                                read(f[0],&b,sizeof(int));
+                                read(f[0],&op,sizeof(char));
+                                if(op=='0')break;
+                                if(op=='*')
+                                        rez=a*b;
+                                else if(op=='/')
+                                        rez=a/b;
+                                else if(op=='-')
+                                        rez=a-b;
+                                else if(op=='+')
+                                        rez=a+b;
+                                else ok=0;
+                                if(ok==1)
+                                        {fprintf(fd,"%d %c %d = %d\n",a,op,b,rez                                     );
+                                        printf("%d %c %d = %d\n",a,op,b,rez);}
+                                else
+                                        {fprintf(fd,"eroare\n");
+                                        printf("eroare\n");}
+                        }
+                        close(f[1]);
+                        close(f[0]);
+                        fclose(fd);
+                        exit(0);
+                }
+
+                //IN PARINTE
+                //citesc din pipe
+                while(1)
+                {
+                        a=rand()%100;
+                        b=rand()%100;
+                        scanf("%c",&op);
+                        if(op=='\n')
+                                scanf("%c",&op);
+                        //scriu in pipe
+                        write(f[1],&a,sizeof(int));
+                        write(f[1],&b,sizeof(int));
+                        write(f[1],&op,sizeof(char));
+                        if(op=='0')
+                                break;
+
+                }
+                close(f[1]);
+                close(f[0]);
+
+                int status;
+                wait(&status);
+
+        return 0;
+}

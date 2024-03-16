@@ -1,0 +1,3 @@
+D:/TAD/L6/out/build/x64-Debug/CMakeFiles/L6.dir
+D:/TAD/L6/out/build/x64-Debug/CMakeFiles/edit_cache.dir
+D:/TAD/L6/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir

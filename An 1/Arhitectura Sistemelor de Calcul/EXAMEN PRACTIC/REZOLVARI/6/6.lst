@@ -1,0 +1,134 @@
+     1                                  ;Se citesc din fisierul numere.txt mai multe numere (pare si impare). Sa se creeze 2 siruri rezultat N si P astfel: N - doar numere impare si P - doar numere pare. Afisati cele 2 siruri rezultate pe ecran.
+     2                                  bits 32 ; assembling for the 32 bits architecture
+     3                                  
+     4                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     5                                  global start        
+     6                                  
+     7                                  ; declare external functions needed by our program
+     8                                  extern exit,fscanf,fopen,fclose,printf              ; tell nasm that exit exists even if we won't be defining it
+     9                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+    10                                  import fscanf msvcrt.dll                          ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    11                                  import fopen msvcrt.dll
+    12                                  import fclose msvcrt.dll
+    13                                  import printf msvcrt.dll
+    14                                  ; our data is declared here (the variables needed by our program)
+    15                                  segment data use32 class=data
+    16 00000000 6E756D6572652E7478-         filename db "numere.txt",0
+    16 00000009 7400               
+    17 0000000B 7200                        acces_mode db 'r',0
+    18 0000000D FFFFFFFF                    descriptor dd -1
+    19 00000011 FFFFFFFF                    cif dd -1
+    20 00000015 256300                      format db '%c',0
+    21 00000018 257300                      format_afisare db '%s',0
+    22 0000001B FF<rept>                    destinatie times 100 db -1
+    23 0000007F 02                          doi db 2
+    24 00000080 FF<rept>                    sir_par times 100 db -1
+    25 000000E4 FF<rept>                    sir_impar times 100 db -1
+    26 00000148 0A0D00                      new_line db 10,13,0
+    27                                      
+    28                                      
+    29                                  ; our code starts here
+    30                                  segment code use32 class=code
+    31                                      start:
+    32 00000000 BE[1B000000]                    mov esi,destinatie
+    33 00000005 BF[80000000]                    mov edi,sir_par
+    34 0000000A BB[E4000000]                    mov ebx,sir_impar
+    35                                          ;fopen(filename,acces_mode)
+    36 0000000F 68[0B000000]                    push dword acces_mode
+    37 00000014 68[00000000]                    push dword filename
+    38 00000019 FF15[00000000]                  call [fopen]
+    39                                          
+    40                                          ;vedem daca s-a deschis
+    41 0000001F 83F800                          cmp eax,0
+    42 00000022 0F84CD000000                    je out_program
+    43 00000028 A3[0D000000]                    mov dword[descriptor],eax
+    44                                          
+    45                                          repeta:
+    46                                              ;fscanf(descriptor,format,variabila)
+    47 0000002D 68[11000000]                        push dword cif
+    48 00000032 68[15000000]                        push dword format
+    49 00000037 FF35[0D000000]                      push dword [descriptor]
+    50 0000003D FF15[00000000]                      call [fscanf]
+    51 00000043 83C40C                              add esp,4*3
+    52                                              
+    53 00000046 83F8FF                              cmp eax,-1
+    54 00000049 7456                                je out_citire
+    55                                              
+    56 0000004B 803E20                              cmp byte[esi],' '
+    57 0000004E 7502                                jne stocheaza
+    58 00000050 740C                                je verifica
+    59                                              
+    60                                              stocheaza:
+    61 00000052 83C601                                  add esi,1
+    62 00000055 A0[11000000]                            mov al,byte[cif]
+    63 0000005A 8806                                    mov byte[esi],al
+    64 0000005C EBCF                                    jmp repeta
+    65                                              
+    66                                              verifica:
+    67 0000005E 802E30                                  sub byte[esi],'0'
+    68 00000061 660FB606                                movzx ax,byte[esi]
+    69 00000065 800630                                  add byte[esi],'0'
+    70 00000068 F635[7F000000]                          div byte[doi]
+    71 0000006E 80FC00                                  cmp ah,0
+    72 00000071 7402                                    je par
+    73 00000073 7516                                    jne impar
+    74                                                  
+    75                                                  par:
+    76                                                      repeta1:
+    77 00000075 81FE[1A000000]                                  cmp esi,destinatie-1
+    78 0000007B 740C                                            je final_repeta1
+    79 0000007D 8A06                                            mov al,byte[esi]
+    80 0000007F 8807                                            mov byte[edi],al
+    81 00000081 83C701                                          add edi,1
+    82 00000084 83EE01                                          sub esi,1
+    83 00000087 EBEC                                            jmp repeta1
+    84                                                          final_repeta1:
+    85 00000089 EBA2                                    jmp repeta
+    86                                                  impar:
+    87                                                      repeta2:
+    88 0000008B 81FE[1A000000]                                  cmp esi,destinatie-1
+    89 00000091 740C                                            je final_repeta2
+    90 00000093 8A06                                            mov al,byte[esi]
+    91 00000095 8803                                            mov byte[ebx],al
+    92 00000097 83C301                                          add ebx,1
+    93 0000009A 83EE01                                          sub esi,1
+    94 0000009D EBEC                                            jmp repeta2
+    95                                                          final_repeta2:                    
+    96                                              
+    97 0000009F EB8C                                jmp repeta
+    98                                          out_citire:
+    99                                          
+   100                                          ;mai trebuie sa pun ultimul numar din fisier in sirul lui
+   101                                          
+   102                                          ;fclose(descriptor)
+   103 000000A1 FF35[0D000000]                  push dword [descriptor]
+   104 000000A7 FF15[00000000]                  call [fclose]
+   105 000000AD 83C404                          add esp,4*1
+   106                                          
+   107                                          ;pregatesc de afisare cu %s
+   108 000000B0 83C701                          add edi,1
+   109 000000B3 C60700                          mov byte[edi],0
+   110                                          
+   111 000000B6 83C301                          add ebx,1
+   112 000000B9 C60300                          mov byte[ebx],0
+   113                                          
+   114                                          ;printf(format,variabile)
+   115 000000BC 68[80000000]                    push dword sir_par
+   116 000000C1 68[18000000]                    push dword format_afisare
+   117 000000C6 FF15[00000000]                  call [printf]
+   118 000000CC 83C408                          add esp,4*2
+   119                                          
+   120 000000CF 68[48010000]                    push dword new_line
+   121 000000D4 68[18000000]                    push dword format_afisare
+   122 000000D9 FF15[00000000]                  call [printf]
+   123 000000DF 83C408                          add esp,4*2
+   124                                          
+   125 000000E2 68[E4000000]                    push dword sir_impar
+   126 000000E7 68[18000000]                    push dword format_afisare
+   127 000000EC FF15[00000000]                  call [printf]
+   128 000000F2 83C408                          add esp,4*2
+   129                                          
+   130                                          out_program:
+   131                                          ; exit(0)
+   132 000000F5 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+   133 000000F7 FF15[00000000]                  call    [exit]       ; call exit to terminate the program

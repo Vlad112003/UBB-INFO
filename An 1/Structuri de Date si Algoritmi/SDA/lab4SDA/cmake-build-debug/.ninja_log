@@ -1,0 +1,13 @@
+# ninja log v5
+5	1016	7056115895680580	CMakeFiles/lab4SDA.dir/main.cpp.obj	cdeb231161865ebe
+502	871	7056133155220409	lab4SDA.exe	a746d2a6579f8b66
+6	500	7056133151170533	CMakeFiles/lab4SDA.dir/Iterator.cpp.obj	2185568a2eda840
+18	718	7056129230479508	CMakeFiles/lab4SDA.dir/TestScurt.cpp.obj	27ef6dd21a0796de
+47	1189	7056121775421769	CMakeFiles/lab4SDA.dir/TestExtins.cpp.obj	1c967a7e0b1eeba1
+7	1595	7056121779469121	CMakeFiles/lab4SDA.dir/LO.cpp.obj	7a8065151e868148
+1	349	7062097796559761	CMakeFiles/lab4SDA.dir/Iterator.cpp.obj	211fd1dd48a8f2b1
+33	571	7062097798767873	CMakeFiles/lab4SDA.dir/TestExtins.cpp.obj	76534ba07ef3dfab
+25	700	7062097800071404	CMakeFiles/lab4SDA.dir/main.cpp.obj	a53234bcbdc120d7
+16	796	7062097801028363	CMakeFiles/lab4SDA.dir/TestScurt.cpp.obj	6f563e0bc54b21fd
+9	799	7062097801056551	CMakeFiles/lab4SDA.dir/LO.cpp.obj	ada5db125342a718
+800	970	7062097802713233	lab4SDA.exe	748e7a2b654fd975
