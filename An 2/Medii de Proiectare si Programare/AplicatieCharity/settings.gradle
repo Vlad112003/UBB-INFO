@@ -1,0 +1,8 @@
+rootProject.name = 'AplicatieCharity'
+include 'Server'
+include 'Common'
+include 'Client'
+include 'Networking'
+include 'ServiceModule'
+include 'Persistance'
+

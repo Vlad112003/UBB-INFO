@@ -1,0 +1,549 @@
+29 Mar 2024 19:02:25,819 INFO  project.kidscompetitions.Repository.CompetitionRepository 24 <init> - Initializing CompetitionRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+29 Mar 2024 19:02:25,824 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:02:25,824 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:02:25,824 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:02:25,825 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:02:25,826 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:02:26,007 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a7d2fb4)
+29 Mar 2024 19:02:26,010 TRACE project.kidscompetitions.Repository.SignUpRepository 30 <init> - Enter Constructor entry with properties {jdbc.url=jdbc:sqlite:KidsComp.db}
+29 Mar 2024 19:02:26,010 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:02:26,011 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:02:26,011 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:02:26,011 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:02:26,011 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:02:26,012 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@646a460e)
+29 Mar 2024 19:02:26,013 INFO  project.kidscompetitions.Repository.ParticipantRepository 25 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+29 Mar 2024 19:02:26,013 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:02:26,013 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:02:26,013 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:02:26,013 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:02:26,013 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:02:26,014 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@33e11ec1)
+29 Mar 2024 19:02:26,014 INFO  project.kidscompetitions.Repository.CompetitionRepository 24 <init> - Initializing CompetitionRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+29 Mar 2024 19:02:26,014 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:02:26,014 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:02:26,015 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:02:26,015 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:02:26,015 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:02:26,016 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@58d6485)
+29 Mar 2024 19:02:26,016 INFO  project.kidscompetitions.Repository.EmployeeRepository 23 <init> - Initializing Employee with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+29 Mar 2024 19:02:26,017 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:02:26,017 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:02:26,017 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:02:26,017 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:02:26,017 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:02:26,018 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@49f55c8d)
+29 Mar 2024 19:02:26,018 INFO  project.kidscompetitions.Repository.ParticipantRepository 25 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+29 Mar 2024 19:02:26,018 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:02:26,018 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:02:26,018 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:02:26,019 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:02:26,019 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:02:26,019 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@27b2a07a)
+29 Mar 2024 19:09:31,834 INFO  project.kidscompetitions.Repository.CompetitionRepository 24 <init> - Initializing CompetitionRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+29 Mar 2024 19:09:31,838 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:09:31,838 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:09:31,838 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:09:31,839 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:09:31,839 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:09:31,967 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@525aee33)
+29 Mar 2024 19:09:31,968 TRACE project.kidscompetitions.Repository.SignUpRepository 30 <init> - Enter Constructor entry with properties {jdbc.url=jdbc:sqlite:KidsComp.db}
+29 Mar 2024 19:09:31,969 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:09:31,969 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:09:31,969 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:09:31,969 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:09:31,969 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:09:31,970 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6769c5b8)
+29 Mar 2024 19:09:31,974 INFO  project.kidscompetitions.Repository.ParticipantRepository 25 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+29 Mar 2024 19:09:31,974 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:09:31,975 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:09:31,975 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:09:31,975 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:09:31,975 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:09:31,976 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@58d6485)
+29 Mar 2024 19:09:31,977 INFO  project.kidscompetitions.Repository.CompetitionRepository 24 <init> - Initializing CompetitionRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+29 Mar 2024 19:09:31,977 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:09:31,977 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:09:31,977 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:09:31,978 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:09:31,978 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:09:31,979 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ce03589)
+29 Mar 2024 19:09:31,981 INFO  project.kidscompetitions.Repository.EmployeeRepository 23 <init> - Initializing Employee with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+29 Mar 2024 19:09:31,981 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:09:31,982 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:09:31,982 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:09:31,982 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:09:31,982 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:09:31,983 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@27b2a07a)
+29 Mar 2024 19:09:31,983 INFO  project.kidscompetitions.Repository.ParticipantRepository 25 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+29 Mar 2024 19:09:31,984 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:09:31,984 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:09:31,984 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:09:31,984 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:09:31,984 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:09:31,985 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a539578)
+29 Mar 2024 19:09:42,615 TRACE project.kidscompetitions.Repository.EmployeeRepository 60 findOneByUsername - Enter Finding employee with id {}Mariana
+29 Mar 2024 19:09:42,620 TRACE project.kidscompetitions.Repository.EmployeeRepository 69 findOneByUsername - Exit with(Employee with id {} foundMariana)
+29 Mar 2024 19:15:33,834 INFO  project.kidscompetitions.Repository.CompetitionRepository 24 <init> - Initializing CompetitionRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+29 Mar 2024 19:15:33,838 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:15:33,839 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:15:33,839 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:15:33,839 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:15:33,839 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:15:33,972 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@525aee33)
+29 Mar 2024 19:15:33,975 TRACE project.kidscompetitions.Repository.SignUpRepository 30 <init> - Enter Constructor entry with properties {jdbc.url=jdbc:sqlite:KidsComp.db}
+29 Mar 2024 19:15:33,975 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:15:33,976 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:15:33,976 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:15:33,976 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:15:33,976 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:15:33,977 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6769c5b8)
+29 Mar 2024 19:15:33,980 INFO  project.kidscompetitions.Repository.ParticipantRepository 25 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+29 Mar 2024 19:15:33,980 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:15:33,980 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:15:33,980 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:15:33,981 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:15:33,981 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:15:33,981 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@58d6485)
+29 Mar 2024 19:15:33,982 INFO  project.kidscompetitions.Repository.CompetitionRepository 24 <init> - Initializing CompetitionRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+29 Mar 2024 19:15:33,982 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:15:33,982 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:15:33,982 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:15:33,983 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:15:33,983 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:15:33,984 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ce03589)
+29 Mar 2024 19:15:33,987 INFO  project.kidscompetitions.Repository.EmployeeRepository 23 <init> - Initializing Employee with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+29 Mar 2024 19:15:33,987 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:15:33,988 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:15:33,988 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:15:33,988 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:15:33,988 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:15:33,989 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@27b2a07a)
+29 Mar 2024 19:15:33,989 INFO  project.kidscompetitions.Repository.ParticipantRepository 25 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+29 Mar 2024 19:15:33,989 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:15:33,989 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:15:33,990 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:15:33,990 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:15:33,990 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:15:33,991 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a539578)
+29 Mar 2024 19:15:47,601 TRACE project.kidscompetitions.Repository.EmployeeRepository 60 findOneByUsername - Enter Finding employee with id {}Mariana
+29 Mar 2024 19:15:47,606 TRACE project.kidscompetitions.Repository.EmployeeRepository 69 findOneByUsername - Exit with(Employee with id {} foundMariana)
+29 Mar 2024 19:17:37,320 INFO  project.kidscompetitions.Repository.CompetitionRepository 24 <init> - Initializing CompetitionRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+29 Mar 2024 19:17:37,323 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:17:37,323 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:17:37,323 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:17:37,324 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:17:37,324 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:17:37,461 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@525aee33)
+29 Mar 2024 19:17:37,462 TRACE project.kidscompetitions.Repository.SignUpRepository 30 <init> - Enter Constructor entry with properties {jdbc.url=jdbc:sqlite:KidsComp.db}
+29 Mar 2024 19:17:37,462 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:17:37,462 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:17:37,462 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:17:37,463 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:17:37,463 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:17:37,463 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6769c5b8)
+29 Mar 2024 19:17:37,464 INFO  project.kidscompetitions.Repository.ParticipantRepository 25 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+29 Mar 2024 19:17:37,464 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:17:37,464 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:17:37,465 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:17:37,465 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:17:37,465 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:17:37,465 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@58d6485)
+29 Mar 2024 19:17:37,466 INFO  project.kidscompetitions.Repository.CompetitionRepository 24 <init> - Initializing CompetitionRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+29 Mar 2024 19:17:37,466 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:17:37,466 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:17:37,466 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:17:37,467 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:17:37,467 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:17:37,467 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ce03589)
+29 Mar 2024 19:17:37,468 INFO  project.kidscompetitions.Repository.EmployeeRepository 23 <init> - Initializing Employee with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+29 Mar 2024 19:17:37,468 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:17:37,469 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:17:37,469 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:17:37,469 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:17:37,469 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:17:37,469 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@27b2a07a)
+29 Mar 2024 19:17:37,470 INFO  project.kidscompetitions.Repository.ParticipantRepository 25 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+29 Mar 2024 19:17:37,470 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:17:37,470 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:17:37,470 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:17:37,470 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:17:37,470 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:17:37,471 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a539578)
+29 Mar 2024 19:17:43,708 TRACE project.kidscompetitions.Repository.EmployeeRepository 60 findOneByUsername - Enter Finding employee with id {}Mariana
+29 Mar 2024 19:17:43,713 TRACE project.kidscompetitions.Repository.EmployeeRepository 69 findOneByUsername - Exit with(Employee with id {} foundMariana)
+29 Mar 2024 19:17:43,776 TRACE project.kidscompetitions.Repository.CompetitionRepository 58 findAll - Enter Getting all the athletics tests entry
+29 Mar 2024 19:17:43,776 INFO  project.kidscompetitions.Repository.CompetitionRepository 63 findAll - ResultSet
+29 Mar 2024 19:17:43,779 TRACE project.kidscompetitions.Repository.CompetitionRepository 73 findAll - Exit with(Got all athletics tests successfully)
+29 Mar 2024 19:17:43,779 TRACE project.kidscompetitions.Repository.ParticipantRepository 59 findAll - Enter getting all participants entry
+29 Mar 2024 19:17:43,779 INFO  project.kidscompetitions.Repository.ParticipantRepository 64 findAll - suntem dupa resultset
+29 Mar 2024 19:17:43,781 TRACE project.kidscompetitions.Repository.ParticipantRepository 74 findAll - Exit with(Got all participants successfully)
+29 Mar 2024 19:20:31,657 INFO  project.kidscompetitions.Repository.CompetitionRepository 24 <init> - Initializing CompetitionRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+29 Mar 2024 19:20:31,660 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:20:31,660 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:20:31,660 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:20:31,661 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:20:31,661 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:20:31,815 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@525aee33)
+29 Mar 2024 19:20:31,816 TRACE project.kidscompetitions.Repository.SignUpRepository 30 <init> - Enter Constructor entry with properties {jdbc.url=jdbc:sqlite:KidsComp.db}
+29 Mar 2024 19:20:31,816 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:20:31,816 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:20:31,816 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:20:31,816 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:20:31,816 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:20:31,817 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6769c5b8)
+29 Mar 2024 19:20:31,818 INFO  project.kidscompetitions.Repository.ParticipantRepository 25 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+29 Mar 2024 19:20:31,818 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:20:31,818 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:20:31,818 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:20:31,818 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:20:31,818 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:20:31,819 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@58d6485)
+29 Mar 2024 19:20:31,819 INFO  project.kidscompetitions.Repository.CompetitionRepository 24 <init> - Initializing CompetitionRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+29 Mar 2024 19:20:31,819 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:20:31,819 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:20:31,820 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:20:31,820 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:20:31,820 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:20:31,821 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ce03589)
+29 Mar 2024 19:20:31,822 INFO  project.kidscompetitions.Repository.EmployeeRepository 23 <init> - Initializing Employee with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+29 Mar 2024 19:20:31,822 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:20:31,822 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:20:31,823 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:20:31,823 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:20:31,823 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:20:31,824 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@27b2a07a)
+29 Mar 2024 19:20:31,824 INFO  project.kidscompetitions.Repository.ParticipantRepository 25 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+29 Mar 2024 19:20:31,824 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+29 Mar 2024 19:20:31,824 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+29 Mar 2024 19:20:31,824 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+29 Mar 2024 19:20:31,824 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+29 Mar 2024 19:20:31,825 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+29 Mar 2024 19:20:31,825 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a539578)
+29 Mar 2024 19:20:38,479 TRACE project.kidscompetitions.Repository.EmployeeRepository 60 findOneByUsername - Enter Finding employee with id {}Mariana
+29 Mar 2024 19:20:38,484 TRACE project.kidscompetitions.Repository.EmployeeRepository 69 findOneByUsername - Exit with(Employee with id {} foundMariana)
+29 Mar 2024 19:20:38,550 TRACE project.kidscompetitions.Repository.CompetitionRepository 58 findAll - Enter Getting all the athletics tests entry
+29 Mar 2024 19:20:38,551 INFO  project.kidscompetitions.Repository.CompetitionRepository 63 findAll - ResultSet
+29 Mar 2024 19:20:38,552 TRACE project.kidscompetitions.Repository.CompetitionRepository 73 findAll - Exit with(Got all athletics tests successfully)
+29 Mar 2024 19:20:38,552 TRACE project.kidscompetitions.Repository.ParticipantRepository 59 findAll - Enter getting all participants entry
+29 Mar 2024 19:20:38,553 INFO  project.kidscompetitions.Repository.ParticipantRepository 64 findAll - suntem dupa resultset
+29 Mar 2024 19:20:38,553 TRACE project.kidscompetitions.Repository.ParticipantRepository 74 findAll - Exit with(Got all participants successfully)
+29 Mar 2024 19:21:44,200 TRACE project.kidscompetitions.Repository.ParticipantRepository 33 findOne - Enter Finding participant with id {}1
+29 Mar 2024 19:21:44,202 TRACE project.kidscompetitions.Repository.ParticipantRepository 44 findOne - Exit with(Participant with id {} found1)
+29 Mar 2024 19:21:44,203 TRACE project.kidscompetitions.Repository.CompetitionRepository 32 findOne - Enter Finding competitions with id {}1
+29 Mar 2024 19:21:44,204 TRACE project.kidscompetitions.Repository.CompetitionRepository 43 findOne - Exit with(Competition with id {} found1)
+29 Mar 2024 19:21:44,204 TRACE project.kidscompetitions.Repository.SignUpRepository 50 save - Enter Entry to save sign up
+29 Mar 2024 19:21:44,244 TRACE project.kidscompetitions.Repository.SignUpRepository 58 save - Exit with(Added sign up {}SignUp{participant=Sign_Up 1: childName= Paul, birthDate= 26/06/2003', competition=Athletics_Tests 1: age groups= 6-8, name= painting'} Entity: id=null')
+29 Mar 2024 19:21:50,010 TRACE project.kidscompetitions.Repository.SignUpRepository 87 findAllSignUps - Enter Entry the filter
+29 Mar 2024 19:21:50,010 TRACE project.kidscompetitions.Repository.ParticipantRepository 33 findOne - Enter Finding participant with id {}1
+29 Mar 2024 19:21:50,011 TRACE project.kidscompetitions.Repository.ParticipantRepository 44 findOne - Exit with(Participant with id {} found1)
+29 Mar 2024 19:21:50,011 TRACE project.kidscompetitions.Repository.SignUpRepository 100 findAllSignUps - Exit with(Got all the comps successfully)
+30 Mar 2024 19:13:37,724 INFO  project.kidscompetitions.Repository.CompetitionRepository 24 <init> - Initializing CompetitionRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+30 Mar 2024 19:13:37,732 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+30 Mar 2024 19:13:37,733 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+30 Mar 2024 19:13:37,734 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+30 Mar 2024 19:13:37,735 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+30 Mar 2024 19:13:37,735 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+30 Mar 2024 19:13:38,103 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@525aee33)
+30 Mar 2024 19:13:38,106 TRACE project.kidscompetitions.Repository.SignUpRepository 30 <init> - Enter Constructor entry with properties {jdbc.url=jdbc:sqlite:KidsComp.db}
+30 Mar 2024 19:13:38,107 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+30 Mar 2024 19:13:38,107 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+30 Mar 2024 19:13:38,107 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+30 Mar 2024 19:13:38,108 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+30 Mar 2024 19:13:38,108 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+30 Mar 2024 19:13:38,109 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6769c5b8)
+30 Mar 2024 19:13:38,112 INFO  project.kidscompetitions.Repository.ParticipantRepository 25 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+30 Mar 2024 19:13:38,112 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+30 Mar 2024 19:13:38,113 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+30 Mar 2024 19:13:38,113 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+30 Mar 2024 19:13:38,113 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+30 Mar 2024 19:13:38,114 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+30 Mar 2024 19:13:38,115 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@58d6485)
+30 Mar 2024 19:13:38,115 INFO  project.kidscompetitions.Repository.CompetitionRepository 24 <init> - Initializing CompetitionRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+30 Mar 2024 19:13:38,116 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+30 Mar 2024 19:13:38,116 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+30 Mar 2024 19:13:38,116 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+30 Mar 2024 19:13:38,117 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+30 Mar 2024 19:13:38,117 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+30 Mar 2024 19:13:38,118 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ce03589)
+30 Mar 2024 19:13:38,121 INFO  project.kidscompetitions.Repository.EmployeeRepository 23 <init> - Initializing Employee with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+30 Mar 2024 19:13:38,121 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+30 Mar 2024 19:13:38,121 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+30 Mar 2024 19:13:38,122 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+30 Mar 2024 19:13:38,122 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+30 Mar 2024 19:13:38,122 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+30 Mar 2024 19:13:38,124 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@27b2a07a)
+30 Mar 2024 19:13:38,124 INFO  project.kidscompetitions.Repository.ParticipantRepository 25 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+30 Mar 2024 19:13:38,125 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+30 Mar 2024 19:13:38,125 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+30 Mar 2024 19:13:38,125 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+30 Mar 2024 19:13:38,126 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+30 Mar 2024 19:13:38,126 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+30 Mar 2024 19:13:38,127 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a539578)
+30 Mar 2024 19:13:48,988 TRACE project.kidscompetitions.Repository.EmployeeRepository 60 findOneByUsername - Enter Finding employee with id {}Mariana
+30 Mar 2024 19:13:48,995 TRACE project.kidscompetitions.Repository.EmployeeRepository 69 findOneByUsername - Exit with(Employee with id {} foundMariana)
+30 Mar 2024 19:13:49,127 TRACE project.kidscompetitions.Repository.CompetitionRepository 58 findAll - Enter Getting all the athletics tests entry
+30 Mar 2024 19:13:49,128 INFO  project.kidscompetitions.Repository.CompetitionRepository 63 findAll - ResultSet
+30 Mar 2024 19:13:49,130 TRACE project.kidscompetitions.Repository.CompetitionRepository 73 findAll - Exit with(Got all athletics tests successfully)
+30 Mar 2024 19:13:49,130 TRACE project.kidscompetitions.Repository.ParticipantRepository 59 findAll - Enter getting all participants entry
+30 Mar 2024 19:13:49,131 INFO  project.kidscompetitions.Repository.ParticipantRepository 64 findAll - suntem dupa resultset
+30 Mar 2024 19:13:49,132 TRACE project.kidscompetitions.Repository.ParticipantRepository 74 findAll - Exit with(Got all participants successfully)
+01 Apr 2024 10:41:04,800 INFO  project.kidscompetitions.Repository.CompetitionRepository 24 <init> - Initializing CompetitionRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+01 Apr 2024 10:41:04,827 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 10:41:04,828 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 10:41:04,829 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 10:41:04,829 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 10:41:04,830 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 10:41:05,273 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@525aee33)
+01 Apr 2024 10:41:05,297 TRACE project.kidscompetitions.Repository.SignUpRepository 30 <init> - Enter Constructor entry with properties {jdbc.url=jdbc:sqlite:KidsComp.db}
+01 Apr 2024 10:41:05,297 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 10:41:05,297 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 10:41:05,298 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 10:41:05,298 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 10:41:05,299 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 10:41:05,300 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6769c5b8)
+01 Apr 2024 10:41:05,321 INFO  project.kidscompetitions.Repository.ParticipantRepository 25 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+01 Apr 2024 10:41:05,321 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 10:41:05,321 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 10:41:05,322 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 10:41:05,322 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 10:41:05,322 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 10:41:05,324 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@58d6485)
+01 Apr 2024 10:41:05,324 INFO  project.kidscompetitions.Repository.CompetitionRepository 24 <init> - Initializing CompetitionRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+01 Apr 2024 10:41:05,325 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 10:41:05,325 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 10:41:05,326 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 10:41:05,326 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 10:41:05,326 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 10:41:05,328 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ce03589)
+01 Apr 2024 10:41:05,354 INFO  project.kidscompetitions.Repository.EmployeeRepository 23 <init> - Initializing Employee with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+01 Apr 2024 10:41:05,354 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 10:41:05,354 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 10:41:05,355 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 10:41:05,356 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 10:41:05,356 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 10:41:05,357 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@27b2a07a)
+01 Apr 2024 10:41:05,357 INFO  project.kidscompetitions.Repository.ParticipantRepository 25 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+01 Apr 2024 10:41:05,358 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 10:41:05,358 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 10:41:05,358 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 10:41:05,359 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 10:41:05,359 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 10:41:05,360 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a539578)
+01 Apr 2024 10:41:13,610 TRACE project.kidscompetitions.Repository.EmployeeRepository 60 findOneByUsername - Enter Finding employee with id {}Mariana
+01 Apr 2024 10:41:13,618 TRACE project.kidscompetitions.Repository.EmployeeRepository 69 findOneByUsername - Exit with(Employee with id {} foundMariana)
+01 Apr 2024 10:41:13,825 TRACE project.kidscompetitions.Repository.CompetitionRepository 58 findAll - Enter Getting all the athletics tests entry
+01 Apr 2024 10:41:13,827 INFO  project.kidscompetitions.Repository.CompetitionRepository 63 findAll - ResultSet
+01 Apr 2024 10:41:13,845 TRACE project.kidscompetitions.Repository.CompetitionRepository 73 findAll - Exit with(Got all athletics tests successfully)
+01 Apr 2024 10:41:13,846 TRACE project.kidscompetitions.Repository.ParticipantRepository 59 findAll - Enter getting all participants entry
+01 Apr 2024 10:41:13,847 INFO  project.kidscompetitions.Repository.ParticipantRepository 64 findAll - suntem dupa resultset
+01 Apr 2024 10:41:13,864 TRACE project.kidscompetitions.Repository.ParticipantRepository 74 findAll - Exit with(Got all participants successfully)
+01 Apr 2024 10:42:03,891 TRACE project.kidscompetitions.Repository.ParticipantRepository 33 findOne - Enter Finding participant with id {}1
+01 Apr 2024 10:42:03,894 TRACE project.kidscompetitions.Repository.ParticipantRepository 44 findOne - Exit with(Participant with id {} found1)
+01 Apr 2024 10:42:03,895 TRACE project.kidscompetitions.Repository.CompetitionRepository 32 findOne - Enter Finding competitions with id {}1
+01 Apr 2024 10:42:03,896 TRACE project.kidscompetitions.Repository.CompetitionRepository 43 findOne - Exit with(Competition with id {} found1)
+01 Apr 2024 10:42:03,963 TRACE project.kidscompetitions.Repository.SignUpRepository 50 save - Enter Entry to save sign up
+01 Apr 2024 10:42:03,985 TRACE project.kidscompetitions.Repository.SignUpRepository 58 save - Exit with(Added sign up {}SignUp{participant=Sign_Up 1: childName= Paul, birthDate= 26/06/2003', competition=Athletics_Tests 1: age groups= 6-8, name= painting'} Entity: id=null')
+01 Apr 2024 10:42:11,125 TRACE project.kidscompetitions.Repository.SignUpRepository 87 findAllSignUps - Enter Entry the filter
+01 Apr 2024 10:42:11,127 TRACE project.kidscompetitions.Repository.ParticipantRepository 33 findOne - Enter Finding participant with id {}1
+01 Apr 2024 10:42:11,129 TRACE project.kidscompetitions.Repository.ParticipantRepository 44 findOne - Exit with(Participant with id {} found1)
+01 Apr 2024 10:42:11,130 TRACE project.kidscompetitions.Repository.ParticipantRepository 33 findOne - Enter Finding participant with id {}1
+01 Apr 2024 10:42:11,132 TRACE project.kidscompetitions.Repository.ParticipantRepository 44 findOne - Exit with(Participant with id {} found1)
+01 Apr 2024 10:42:11,132 TRACE project.kidscompetitions.Repository.SignUpRepository 100 findAllSignUps - Exit with(Got all the comps successfully)
+01 Apr 2024 10:42:16,409 TRACE project.kidscompetitions.Repository.CompetitionRepository 58 findAll - Enter Getting all the athletics tests entry
+01 Apr 2024 10:42:16,411 INFO  project.kidscompetitions.Repository.CompetitionRepository 63 findAll - ResultSet
+01 Apr 2024 10:42:16,412 TRACE project.kidscompetitions.Repository.CompetitionRepository 73 findAll - Exit with(Got all athletics tests successfully)
+01 Apr 2024 10:49:49,959 INFO  project.kidscompetitions.Repository.CompetitionRepository 24 <init> - Initializing CompetitionRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+01 Apr 2024 10:49:49,969 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 10:49:49,969 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 10:49:49,969 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 10:49:49,970 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 10:49:49,971 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 10:49:50,308 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@525aee33)
+01 Apr 2024 10:49:50,311 TRACE project.kidscompetitions.Repository.SignUpRepository 30 <init> - Enter Constructor entry with properties {jdbc.url=jdbc:sqlite:KidsComp.db}
+01 Apr 2024 10:49:50,312 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 10:49:50,313 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 10:49:50,314 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 10:49:50,315 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 10:49:50,316 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 10:49:50,318 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6769c5b8)
+01 Apr 2024 10:49:50,320 INFO  project.kidscompetitions.Repository.ParticipantRepository 25 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+01 Apr 2024 10:49:50,320 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 10:49:50,321 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 10:49:50,321 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 10:49:50,322 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 10:49:50,322 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 10:49:50,324 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@58d6485)
+01 Apr 2024 10:49:50,325 INFO  project.kidscompetitions.Repository.CompetitionRepository 24 <init> - Initializing CompetitionRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+01 Apr 2024 10:49:50,326 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 10:49:50,326 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 10:49:50,327 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 10:49:50,327 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 10:49:50,327 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 10:49:50,329 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ce03589)
+01 Apr 2024 10:49:50,334 INFO  project.kidscompetitions.Repository.EmployeeRepository 23 <init> - Initializing Employee with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+01 Apr 2024 10:49:50,335 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 10:49:50,335 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 10:49:50,336 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 10:49:50,337 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 10:49:50,337 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 10:49:50,339 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@27b2a07a)
+01 Apr 2024 10:49:50,340 INFO  project.kidscompetitions.Repository.ParticipantRepository 25 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+01 Apr 2024 10:49:50,340 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 10:49:50,341 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 10:49:50,342 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 10:49:50,342 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 10:49:50,343 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 10:49:50,345 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a539578)
+01 Apr 2024 10:49:57,325 TRACE project.kidscompetitions.Repository.EmployeeRepository 60 findOneByUsername - Enter Finding employee with id {}Mariana
+01 Apr 2024 10:49:57,342 TRACE project.kidscompetitions.Repository.EmployeeRepository 69 findOneByUsername - Exit with(Employee with id {} foundMariana)
+01 Apr 2024 10:49:57,476 TRACE project.kidscompetitions.Repository.CompetitionRepository 58 findAll - Enter Getting all the athletics tests entry
+01 Apr 2024 10:49:57,477 INFO  project.kidscompetitions.Repository.CompetitionRepository 63 findAll - ResultSet
+01 Apr 2024 10:49:57,480 TRACE project.kidscompetitions.Repository.CompetitionRepository 73 findAll - Exit with(Got all athletics tests successfully)
+01 Apr 2024 10:49:57,480 TRACE project.kidscompetitions.Repository.ParticipantRepository 59 findAll - Enter getting all participants entry
+01 Apr 2024 10:49:57,481 INFO  project.kidscompetitions.Repository.ParticipantRepository 64 findAll - suntem dupa resultset
+01 Apr 2024 10:49:57,482 TRACE project.kidscompetitions.Repository.ParticipantRepository 74 findAll - Exit with(Got all participants successfully)
+01 Apr 2024 10:50:59,071 INFO  project.kidscompetitions.Repository.CompetitionRepository 24 <init> - Initializing CompetitionRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+01 Apr 2024 10:50:59,078 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 10:50:59,079 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 10:50:59,079 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 10:50:59,080 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 10:50:59,081 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 10:50:59,433 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@525aee33)
+01 Apr 2024 10:50:59,435 TRACE project.kidscompetitions.Repository.SignUpRepository 30 <init> - Enter Constructor entry with properties {jdbc.url=jdbc:sqlite:KidsComp.db}
+01 Apr 2024 10:50:59,435 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 10:50:59,436 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 10:50:59,436 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 10:50:59,437 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 10:50:59,438 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 10:50:59,440 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6769c5b8)
+01 Apr 2024 10:50:59,442 INFO  project.kidscompetitions.Repository.ParticipantRepository 25 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+01 Apr 2024 10:50:59,443 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 10:50:59,444 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 10:50:59,444 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 10:50:59,445 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 10:50:59,445 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 10:50:59,447 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@58d6485)
+01 Apr 2024 10:50:59,448 INFO  project.kidscompetitions.Repository.CompetitionRepository 24 <init> - Initializing CompetitionRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+01 Apr 2024 10:50:59,448 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 10:50:59,448 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 10:50:59,449 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 10:50:59,449 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 10:50:59,450 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 10:50:59,451 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ce03589)
+01 Apr 2024 10:50:59,453 INFO  project.kidscompetitions.Repository.EmployeeRepository 23 <init> - Initializing Employee with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+01 Apr 2024 10:50:59,454 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 10:50:59,454 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 10:50:59,455 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 10:50:59,455 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 10:50:59,456 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 10:50:59,457 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@27b2a07a)
+01 Apr 2024 10:50:59,458 INFO  project.kidscompetitions.Repository.ParticipantRepository 25 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+01 Apr 2024 10:50:59,459 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 10:50:59,459 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 10:50:59,460 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 10:50:59,460 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 10:50:59,461 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 10:50:59,463 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a539578)
+01 Apr 2024 10:51:08,727 TRACE project.kidscompetitions.Repository.EmployeeRepository 60 findOneByUsername - Enter Finding employee with id {}Mariana
+01 Apr 2024 10:51:08,747 TRACE project.kidscompetitions.Repository.EmployeeRepository 69 findOneByUsername - Exit with(Employee with id {} foundMariana)
+01 Apr 2024 10:51:08,870 TRACE project.kidscompetitions.Repository.CompetitionRepository 58 findAll - Enter Getting all the athletics tests entry
+01 Apr 2024 10:51:08,872 INFO  project.kidscompetitions.Repository.CompetitionRepository 63 findAll - ResultSet
+01 Apr 2024 10:51:08,875 TRACE project.kidscompetitions.Repository.CompetitionRepository 73 findAll - Exit with(Got all athletics tests successfully)
+01 Apr 2024 10:51:08,877 TRACE project.kidscompetitions.Repository.ParticipantRepository 59 findAll - Enter getting all participants entry
+01 Apr 2024 10:51:08,879 INFO  project.kidscompetitions.Repository.ParticipantRepository 64 findAll - suntem dupa resultset
+01 Apr 2024 10:51:08,880 TRACE project.kidscompetitions.Repository.ParticipantRepository 74 findAll - Exit with(Got all participants successfully)
+01 Apr 2024 10:51:57,888 INFO  project.kidscompetitions.Repository.CompetitionRepository 24 <init> - Initializing CompetitionRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+01 Apr 2024 10:51:57,896 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 10:51:57,897 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 10:51:57,897 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 10:51:57,898 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 10:51:57,899 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 10:51:58,166 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@525aee33)
+01 Apr 2024 10:51:58,169 TRACE project.kidscompetitions.Repository.SignUpRepository 30 <init> - Enter Constructor entry with properties {jdbc.url=jdbc:sqlite:KidsComp.db}
+01 Apr 2024 10:51:58,170 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 10:51:58,170 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 10:51:58,171 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 10:51:58,171 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 10:51:58,172 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 10:51:58,173 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6769c5b8)
+01 Apr 2024 10:51:58,175 INFO  project.kidscompetitions.Repository.ParticipantRepository 25 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+01 Apr 2024 10:51:58,175 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 10:51:58,176 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 10:51:58,176 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 10:51:58,177 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 10:51:58,177 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 10:51:58,178 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@58d6485)
+01 Apr 2024 10:51:58,179 INFO  project.kidscompetitions.Repository.CompetitionRepository 24 <init> - Initializing CompetitionRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+01 Apr 2024 10:51:58,180 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 10:51:58,181 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 10:51:58,181 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 10:51:58,182 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 10:51:58,182 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 10:51:58,184 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ce03589)
+01 Apr 2024 10:51:58,186 INFO  project.kidscompetitions.Repository.EmployeeRepository 23 <init> - Initializing Employee with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+01 Apr 2024 10:51:58,186 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 10:51:58,187 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 10:51:58,187 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 10:51:58,187 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 10:51:58,187 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 10:51:58,189 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@27b2a07a)
+01 Apr 2024 10:51:58,189 INFO  project.kidscompetitions.Repository.ParticipantRepository 25 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+01 Apr 2024 10:51:58,190 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 10:51:58,190 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 10:51:58,190 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 10:51:58,190 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 10:51:58,191 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 10:51:58,192 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@a539578)
+01 Apr 2024 10:52:06,858 TRACE project.kidscompetitions.Repository.EmployeeRepository 60 findOneByUsername - Enter Finding employee with id {}Grigoreta
+01 Apr 2024 10:52:06,877 TRACE project.kidscompetitions.Repository.EmployeeRepository 78 findOneByUsername - Exit with(No employee found with id {}Grigoreta)
+01 Apr 2024 10:52:16,339 TRACE project.kidscompetitions.Repository.EmployeeRepository 60 findOneByUsername - Enter Finding employee with id {}Mariana
+01 Apr 2024 10:52:16,341 TRACE project.kidscompetitions.Repository.EmployeeRepository 69 findOneByUsername - Exit with(Employee with id {} foundMariana)
+01 Apr 2024 10:52:16,466 TRACE project.kidscompetitions.Repository.CompetitionRepository 58 findAll - Enter Getting all the athletics tests entry
+01 Apr 2024 10:52:16,467 INFO  project.kidscompetitions.Repository.CompetitionRepository 63 findAll - ResultSet
+01 Apr 2024 10:52:16,470 TRACE project.kidscompetitions.Repository.CompetitionRepository 73 findAll - Exit with(Got all athletics tests successfully)
+01 Apr 2024 10:52:16,472 TRACE project.kidscompetitions.Repository.ParticipantRepository 59 findAll - Enter getting all participants entry
+01 Apr 2024 10:52:16,473 INFO  project.kidscompetitions.Repository.ParticipantRepository 64 findAll - suntem dupa resultset
+01 Apr 2024 10:52:16,474 TRACE project.kidscompetitions.Repository.ParticipantRepository 74 findAll - Exit with(Got all participants successfully)
+01 Apr 2024 18:02:13,653 INFO  project.kidscompetitions.Repository.CompetitionRepository 24 <init> - Initializing CompetitionRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+01 Apr 2024 18:02:13,659 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 18:02:13,660 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 18:02:13,660 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 18:02:13,660 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 18:02:13,661 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 18:02:13,936 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@52d1c4e)
+01 Apr 2024 18:02:13,938 TRACE project.kidscompetitions.Repository.SignUpRepository 30 <init> - Enter Constructor entry with properties {jdbc.url=jdbc:sqlite:KidsComp.db}
+01 Apr 2024 18:02:13,938 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 18:02:13,939 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 18:02:13,939 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 18:02:13,939 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 18:02:13,939 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 18:02:13,940 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5ecd5983)
+01 Apr 2024 18:02:13,943 INFO  project.kidscompetitions.Repository.ParticipantRepository 25 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+01 Apr 2024 18:02:13,943 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 18:02:13,943 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 18:02:13,943 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 18:02:13,944 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 18:02:13,944 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 18:02:13,945 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@44cfc9ee)
+01 Apr 2024 18:02:13,945 INFO  project.kidscompetitions.Repository.CompetitionRepository 24 <init> - Initializing CompetitionRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+01 Apr 2024 18:02:13,945 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 18:02:13,945 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 18:02:13,946 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 18:02:13,946 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 18:02:13,946 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 18:02:13,947 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@70fa81b5)
+01 Apr 2024 18:02:13,949 INFO  project.kidscompetitions.Repository.EmployeeRepository 23 <init> - Initializing Employee with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+01 Apr 2024 18:02:13,949 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 18:02:13,949 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 18:02:13,950 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 18:02:13,950 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 18:02:13,950 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 18:02:13,952 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@556d6ac1)
+01 Apr 2024 18:02:13,952 INFO  project.kidscompetitions.Repository.ParticipantRepository 25 <init> - Initializing ParticipantRepository with properties: {jdbc.url=jdbc:sqlite:KidsComp.db} 
+01 Apr 2024 18:02:13,952 TRACE project.kidscompetitions.dbConnection.JdbcUtils 47 getConnection - Enter
+01 Apr 2024 18:02:13,953 TRACE project.kidscompetitions.dbConnection.JdbcUtils 24 getNewConnection - Enter
+01 Apr 2024 18:02:13,953 INFO  project.kidscompetitions.dbConnection.JdbcUtils 29 getNewConnection - trying to connect to database ... jdbc:sqlite:KidsComp.db
+01 Apr 2024 18:02:13,953 INFO  project.kidscompetitions.dbConnection.JdbcUtils 30 getNewConnection - user: null
+01 Apr 2024 18:02:13,953 INFO  project.kidscompetitions.dbConnection.JdbcUtils 31 getNewConnection - pass: null
+01 Apr 2024 18:02:13,954 TRACE project.kidscompetitions.dbConnection.JdbcUtils 56 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@713ebef0)

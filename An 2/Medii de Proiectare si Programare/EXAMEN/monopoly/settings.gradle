@@ -1,0 +1,9 @@
+rootProject.name = 'monopoly'
+include 'Model'
+include 'Persistence'
+include 'Services'
+include 'Network'
+include 'Server'
+include 'Client'
+include 'Rest'
+

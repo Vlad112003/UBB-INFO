@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.kidscompetitions.Controller.LogInController">
+    <children>
+        <GridPane layoutX="179.0" layoutY="163.0" prefHeight="110.0" prefWidth="281.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="136.0" minWidth="10.0" prefWidth="72.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="210.0" minWidth="10.0" prefWidth="210.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="56.8" minHeight="10.0" prefHeight="54.8" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="56.39999999999999" minHeight="10.0" prefHeight="56.39999999999999" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Label text="Username" />
+                <Label text="Password" GridPane.rowIndex="1" />
+                <TextField fx:id="usernameField" GridPane.columnIndex="1" />
+                <PasswordField fx:id="passField" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            </children>
+        </GridPane>
+        <Button fx:id="logInButton" layoutX="507.0" layoutY="341.0" mnemonicParsing="false" onAction="#onLogInButtonClicked" text="Log in " />
+    </children>
+</AnchorPane>

@@ -1,0 +1,16 @@
+D:\FacultaAn2Sem2\SGBD\sgbdd\lab1\lab1\bin\Debug\net8.0-windows\lab1.exe
+D:\FacultaAn2Sem2\SGBD\sgbdd\lab1\lab1\bin\Debug\net8.0-windows\lab1.deps.json
+D:\FacultaAn2Sem2\SGBD\sgbdd\lab1\lab1\bin\Debug\net8.0-windows\lab1.runtimeconfig.json
+D:\FacultaAn2Sem2\SGBD\sgbdd\lab1\lab1\bin\Debug\net8.0-windows\lab1.dll
+D:\FacultaAn2Sem2\SGBD\sgbdd\lab1\lab1\bin\Debug\net8.0-windows\lab1.pdb
+D:\FacultaAn2Sem2\SGBD\sgbdd\lab1\lab1\obj\Debug\net8.0-windows\lab1.Form1.resources
+D:\FacultaAn2Sem2\SGBD\sgbdd\lab1\lab1\obj\Debug\net8.0-windows\lab1.csproj.GenerateResource.cache
+D:\FacultaAn2Sem2\SGBD\sgbdd\lab1\lab1\obj\Debug\net8.0-windows\lab1.GeneratedMSBuildEditorConfig.editorconfig
+D:\FacultaAn2Sem2\SGBD\sgbdd\lab1\lab1\obj\Debug\net8.0-windows\lab1.AssemblyInfoInputs.cache
+D:\FacultaAn2Sem2\SGBD\sgbdd\lab1\lab1\obj\Debug\net8.0-windows\lab1.AssemblyInfo.cs
+D:\FacultaAn2Sem2\SGBD\sgbdd\lab1\lab1\obj\Debug\net8.0-windows\lab1.csproj.CoreCompileInputs.cache
+D:\FacultaAn2Sem2\SGBD\sgbdd\lab1\lab1\obj\Debug\net8.0-windows\lab1.dll
+D:\FacultaAn2Sem2\SGBD\sgbdd\lab1\lab1\obj\Debug\net8.0-windows\refint\lab1.dll
+D:\FacultaAn2Sem2\SGBD\sgbdd\lab1\lab1\obj\Debug\net8.0-windows\lab1.pdb
+D:\FacultaAn2Sem2\SGBD\sgbdd\lab1\lab1\obj\Debug\net8.0-windows\lab1.genruntimeconfig.cache
+D:\FacultaAn2Sem2\SGBD\sgbdd\lab1\lab1\obj\Debug\net8.0-windows\ref\lab1.dll

@@ -7,3 +7,4 @@ D:\FacultaAn2Sem2\SGBD\sgbd1lab\sgbd1lab\obj\Debug\sgbd1lab.csproj.GenerateResou
 D:\FacultaAn2Sem2\SGBD\sgbd1lab\sgbd1lab\obj\Debug\sgbd1lab.csproj.CoreCompileInputs.cache
 D:\FacultaAn2Sem2\SGBD\sgbd1lab\sgbd1lab\obj\Debug\sgbd1lab.exe
 D:\FacultaAn2Sem2\SGBD\sgbd1lab\sgbd1lab\obj\Debug\sgbd1lab.pdb
+D:\FacultaAn2Sem2\SGBD\sgbd1lab\sgbd1lab\obj\Debug\sgbd1lab.Form1.resources

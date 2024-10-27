@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controllers.MainController">
+    <children>
+      <Label fx:id="lbl11" alignment="CENTER" layoutX="100.0" layoutY="30.0" onMouseClicked="#handle11" prefHeight="50.0" prefWidth="50.0" style="-fx-border-color: blue; -fx-text-alignment: center;" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="lbl12" alignment="CENTER" layoutX="225.0" layoutY="30.0" onMouseClicked="#handle12" prefHeight="50.0" prefWidth="50.0" style="-fx-border-color: blue; -fx-text-alignment: center;" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="lbl13" alignment="CENTER" layoutX="350.0" layoutY="30.0" onMouseClicked="#handle13" prefHeight="50.0" prefWidth="50.0" style="-fx-border-color: blue; -fx-text-alignment: center;" textAlignment="JUSTIFY">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="lbl21" alignment="CENTER" layoutX="100.0" layoutY="100.0" onMouseClicked="#handle21" prefHeight="50.0" prefWidth="50.0" style="-fx-border-color: blue; -fx-text-alignment: center;" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="lbl22" alignment="CENTER" layoutX="225.0" layoutY="100.0" onMouseClicked="#handle22" prefHeight="50.0" prefWidth="50.0" style="-fx-border-color: blue; -fx-text-alignment: center;" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="lbl23" alignment="CENTER" layoutX="350.0" layoutY="100.0" onMouseClicked="#handle23" prefHeight="50.0" prefWidth="50.0" style="-fx-border-color: blue; -fx-text-alignment: center;" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="lbl31" alignment="CENTER" layoutX="100.0" layoutY="170.0" onMouseClicked="#handle31" prefHeight="50.0" prefWidth="50.0" style="-fx-border-color: blue; -fx-text-alignment: center;" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="lbl32" alignment="CENTER" layoutX="225.0" layoutY="170.0" onMouseClicked="#handle32" prefHeight="50.0" prefWidth="50.0" style="-fx-border-color: blue; -fx-text-alignment: center;" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <Label fx:id="lbl33" alignment="CENTER" contentDisplay="CENTER" layoutX="350.0" layoutY="170.0" onMouseClicked="#handle33" prefHeight="50.0" prefWidth="50.0" style="-fx-border-color: blue; -fx-text-alignment: center;" textAlignment="CENTER">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <TableView fx:id="table" layoutX="31.0" layoutY="250.0" prefHeight="231.0" prefWidth="431.0">
+        <columns>
+          <TableColumn fx:id="usernameColumn" prefWidth="89.5999755859375" text="Player" />
+          <TableColumn fx:id="dateColumn" prefWidth="151.20001220703125" text="Date" />
+            <TableColumn fx:id="timeColumn" prefWidth="100.0" text="Time" />
+            <TableColumn fx:id="pctColumn" prefWidth="89.5999755859375" text="Score" />
+        </columns>
+      </TableView>
+      <Label fx:id="pozCalcLbl" layoutX="3.0" layoutY="22.0" prefHeight="18.0" prefWidth="80.0" />
+    </children>
+</AnchorPane>

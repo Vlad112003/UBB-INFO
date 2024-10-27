@@ -1,0 +1,9 @@
+rootProject.name = "SERVER_CLIENT_MPP"
+include 'Model'
+include 'Persistance'
+include 'Services'
+include 'Networking'
+include 'Services'
+include 'Client'
+include 'Server'
+

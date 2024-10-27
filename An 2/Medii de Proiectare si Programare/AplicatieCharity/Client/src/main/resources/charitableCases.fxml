@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.charity.controllers.CharitableCasesController">
+   <children>
+      <TableView fx:id="tableView" layoutX="93.0" layoutY="83.0" prefHeight="200.0" prefWidth="420.0">
+        <columns>
+          <TableColumn fx:id="tableColumnName" prefWidth="291.99993896484375" text="Name" />
+          <TableColumn fx:id="tableColumnAmount" minWidth="0.0" prefWidth="128.00006103515625" text="TotalAmount" />
+        </columns>
+      </TableView>
+      <Button layoutX="525.0" layoutY="20.0" mnemonicParsing="false" text="Logout" fx:id="logoutButton" onAction="#handleLogout" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="450.0" prefWidth="440.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="client.controllers.MainController">
+    <children>
+        <Label fx:id="indiciu11" alignment="CENTER" layoutX="21.0" layoutY="17.0" maxHeight="50" maxWidth="100"
+               onMouseClicked="#indiciu11Click" prefHeight="50.0" prefWidth="100.0" style="-fx-border-color: black;"
+               text="Indiciu" textAlignment="CENTER" wrapText="true"/>
+        <Label fx:id="indiciu21" alignment="CENTER" layoutX="21.0" layoutY="67.0" maxHeight="50" maxWidth="100"
+               onMouseClicked="#indiciu21Click" prefHeight="50.0" prefWidth="100.0" style="-fx-border-color: black;"
+               text="Indiciu" textAlignment="CENTER" wrapText="true"/>
+        <Label fx:id="indiciu31" alignment="CENTER" layoutX="21.0" layoutY="117.0" maxHeight="50" maxWidth="100"
+               onMouseClicked="#indiciu31Click" prefHeight="50.0" prefWidth="100.0" style="-fx-border-color: black;"
+               text="Indiciu" textAlignment="CENTER" wrapText="true"/>
+        <Label fx:id="indiciu41" alignment="CENTER" layoutX="21.0" layoutY="167.0" maxHeight="50" maxWidth="100"
+               onMouseClicked="#indiciu41Click" prefHeight="50.0" prefWidth="100.0" style="-fx-border-color: black;"
+               text="Indiciu" textAlignment="CENTER" wrapText="true"/>
+        <Label fx:id="indiciu12" alignment="CENTER" layoutX="121.0" layoutY="17.0" maxHeight="50" maxWidth="100"
+               onMouseClicked="#indiciu12Click" prefHeight="50.0" prefWidth="100.0" style="-fx-border-color: black;"
+               text="Indiciu" textAlignment="CENTER" wrapText="true"/>
+        <Label fx:id="indiciu22" alignment="CENTER" layoutX="121.0" layoutY="67.0" maxHeight="50" maxWidth="100"
+               onMouseClicked="#indiciu22Click" prefHeight="50.0" prefWidth="100.0" style="-fx-border-color: black;"
+               text="Indiciu" textAlignment="CENTER" wrapText="true"/>
+        <Label fx:id="indiciu32" alignment="CENTER" layoutX="121.0" layoutY="117.0" maxHeight="50" maxWidth="100"
+               onMouseClicked="#indiciu32Click" prefHeight="50.0" prefWidth="100.0" style="-fx-border-color: black;"
+               text="Indiciu" textAlignment="CENTER" wrapText="true"/>
+        <Label fx:id="indiciu42" alignment="CENTER" layoutX="121.0" layoutY="167.0" maxHeight="50" maxWidth="100"
+               onMouseClicked="#indiciu42Click" prefHeight="50.0" prefWidth="100.0" style="-fx-border-color: black;"
+               text="Indiciu" textAlignment="CENTER" wrapText="true"/>
+        <Label fx:id="indiciu13" alignment="CENTER" layoutX="221.0" layoutY="17.0" maxHeight="50" maxWidth="100"
+               onMouseClicked="#indiciu13Click" prefHeight="50.0" prefWidth="100.0" style="-fx-border-color: black;"
+               text="Indiciu" textAlignment="CENTER" wrapText="true"/>
+        <Label fx:id="indiciu23" alignment="CENTER" layoutX="221.0" layoutY="67.0" maxHeight="50" maxWidth="100"
+               onMouseClicked="#indiciu23Click" prefHeight="50.0" prefWidth="100.0" style="-fx-border-color: black;"
+               text="Indiciu" textAlignment="CENTER" wrapText="true"/>
+        <Label fx:id="indiciu33" alignment="CENTER" layoutX="221.0" layoutY="117.0" maxHeight="50" maxWidth="100"
+               onMouseClicked="#indiciu33Click" prefHeight="50.0" prefWidth="100.0" style="-fx-border-color: black;"
+               text="Indiciu" textAlignment="CENTER" wrapText="true"/>
+        <Label fx:id="indiciu43" alignment="CENTER" layoutX="221.0" layoutY="167.0" maxHeight="50" maxWidth="100"
+               onMouseClicked="#indiciu43Click" prefHeight="50.0" prefWidth="100.0" style="-fx-border-color: black;"
+               text="Indiciu" textAlignment="CENTER" wrapText="true"/>
+        <Label fx:id="indiciu14" alignment="CENTER" layoutX="321.0" layoutY="17.0" maxHeight="50" maxWidth="100"
+               onMouseClicked="#indiciu14Click" prefHeight="50.0" prefWidth="100.0" style="-fx-border-color: black;"
+               text="Indiciu" textAlignment="CENTER" wrapText="true"/>
+        <Label fx:id="indiciu24" alignment="CENTER" layoutX="321.0" layoutY="67.0" maxHeight="50" maxWidth="100"
+               onMouseClicked="#indiciu24Click" prefHeight="50.0" prefWidth="100.0" style="-fx-border-color: black;"
+               text="Indiciu" textAlignment="CENTER" wrapText="true"/>
+        <Label fx:id="indiciu34" alignment="CENTER" layoutX="321.0" layoutY="117.0" maxHeight="50" maxWidth="100"
+               onMouseClicked="#indiciu34Click" prefHeight="50.0" prefWidth="100.0" style="-fx-border-color: black;"
+               text="Indiciu" textAlignment="CENTER" wrapText="true"/>
+        <Label fx:id="indiciu44" alignment="CENTER" layoutX="321.0" layoutY="167.0" maxHeight="50" maxWidth="100"
+               onMouseClicked="#indiciu44Click" prefHeight="50.0" prefWidth="100.0" style="-fx-border-color: black;"
+               text="Indiciu" textAlignment="CENTER" wrapText="true"/>
+        <TableView fx:id="scoresTable" layoutX="19.0" layoutY="258.0" prefHeight="175.0" prefWidth="400.0">
+            <columns>
+                <TableColumn fx:id="usernameColumn" prefWidth="77.0" text="Username"/>
+                <TableColumn fx:id="dateColumn" prefWidth="61.0" text="Date"/>
+                <TableColumn fx:id="timeColumn" prefWidth="57.0" text="Time"/>
+                <TableColumn fx:id="numberOfTriesColumn" prefWidth="95.0" text="No. Tries"/>
+                <TableColumn fx:id="hintColumn" prefWidth="109.0" text="Hint"/>
+            </columns>
+        </TableView>
+        <Label fx:id="numberOfTries" layoutX="21.0" layoutY="228.0" prefHeight="20.0" prefWidth="120.0" text="Number of tries:"/>
+        <Label fx:id="hintPosition" layoutX="221.0" layoutY="228.0" prefHeight="20.0" prefWidth="120.0" text="Hint position:"/>
+    </children>
+</AnchorPane>

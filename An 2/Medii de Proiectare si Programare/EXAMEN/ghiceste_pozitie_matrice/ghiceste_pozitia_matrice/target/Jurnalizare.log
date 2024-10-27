@@ -1,0 +1,56 @@
+20 Jun 2023 17:26:10,775 TRACE persistance.players.PlayerRepository 44 findByUsername - Enter
+20 Jun 2023 17:26:10,777 TRACE persistance.Utils 44 getConnection - Enter
+20 Jun 2023 17:26:10,778 TRACE persistance.Utils 22 getNewConnection - Enter
+20 Jun 2023 17:26:10,784 INFO  persistance.Utils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:E:sem4mppEXAMENiunie12_2023ghiceste_pozitia_matriceidentifier.sqlite
+20 Jun 2023 17:26:10,785 INFO  persistance.Utils 28 getNewConnection - user: null
+20 Jun 2023 17:26:10,785 INFO  persistance.Utils 29 getNewConnection - pass: null
+20 Jun 2023 17:26:10,916 TRACE persistance.Utils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1807f5a7)
+20 Jun 2023 17:26:10,920 ERROR persistance.players.PlayerRepository 33 executeQuery - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: player)
+20 Jun 2023 17:26:10,921 TRACE persistance.players.PlayerRepository 36 executeQuery - Exit
+20 Jun 2023 17:26:44,739 TRACE persistance.players.PlayerRepository 44 findByUsername - Enter
+20 Jun 2023 17:27:01,763 TRACE persistance.Utils 44 getConnection - Enter
+20 Jun 2023 17:27:01,763 TRACE persistance.Utils 22 getNewConnection - Enter
+20 Jun 2023 17:27:01,789 INFO  persistance.Utils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:E:sem4mppEXAMENiunie12_2023ghiceste_pozitia_matriceidentifier.sqlite
+20 Jun 2023 17:27:01,790 INFO  persistance.Utils 28 getNewConnection - user: null
+20 Jun 2023 17:27:01,790 INFO  persistance.Utils 29 getNewConnection - pass: null
+20 Jun 2023 17:27:02,440 TRACE persistance.Utils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1807f5a7)
+20 Jun 2023 17:28:27,749 TRACE persistance.players.PlayerRepository 44 findByUsername - Enter
+20 Jun 2023 17:28:27,758 TRACE persistance.Utils 44 getConnection - Enter
+20 Jun 2023 17:28:27,758 TRACE persistance.Utils 22 getNewConnection - Enter
+20 Jun 2023 17:28:27,781 INFO  persistance.Utils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+20 Jun 2023 17:28:27,782 INFO  persistance.Utils 28 getNewConnection - user: null
+20 Jun 2023 17:28:27,782 INFO  persistance.Utils 29 getNewConnection - pass: null
+20 Jun 2023 17:28:28,415 TRACE persistance.Utils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1807f5a7)
+20 Jun 2023 17:28:28,422 TRACE persistance.players.PlayerRepository 36 executeQuery - Exit
+20 Jun 2023 17:28:51,572 TRACE persistance.players.PlayerRepository 44 findByUsername - Enter
+20 Jun 2023 17:28:51,574 TRACE persistance.Utils 44 getConnection - Enter
+20 Jun 2023 17:28:51,574 TRACE persistance.Utils 22 getNewConnection - Enter
+20 Jun 2023 17:28:51,580 INFO  persistance.Utils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+20 Jun 2023 17:28:51,580 INFO  persistance.Utils 28 getNewConnection - user: null
+20 Jun 2023 17:28:51,580 INFO  persistance.Utils 29 getNewConnection - pass: null
+20 Jun 2023 17:28:51,692 TRACE persistance.Utils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@71687585)
+20 Jun 2023 17:28:51,695 TRACE persistance.players.PlayerRepository 36 executeQuery - Exit
+20 Jun 2023 17:29:05,852 TRACE persistance.players.PlayerRepository 44 findByUsername - Enter
+20 Jun 2023 17:29:05,852 TRACE persistance.Utils 44 getConnection - Enter
+20 Jun 2023 17:29:05,853 TRACE persistance.Utils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@71687585)
+20 Jun 2023 17:29:05,853 TRACE persistance.players.PlayerRepository 36 executeQuery - Exit
+20 Jun 2023 17:34:15,905 TRACE persistance.players.PlayerRepository 44 findByUsername - Enter
+20 Jun 2023 17:34:21,676 TRACE persistance.Utils 44 getConnection - Enter
+20 Jun 2023 17:34:21,676 TRACE persistance.Utils 22 getNewConnection - Enter
+20 Jun 2023 17:34:21,702 INFO  persistance.Utils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+20 Jun 2023 17:34:21,702 INFO  persistance.Utils 28 getNewConnection - user: null
+20 Jun 2023 17:34:21,703 INFO  persistance.Utils 29 getNewConnection - pass: null
+20 Jun 2023 17:34:22,351 TRACE persistance.Utils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1807f5a7)
+20 Jun 2023 17:34:45,428 TRACE persistance.players.PlayerRepository 36 executeQuery - Exit
+20 Jun 2023 17:37:12,252 TRACE persistance.players.PlayerRepository 44 findByUsername - Enter
+20 Jun 2023 17:37:12,255 TRACE persistance.Utils 44 getConnection - Enter
+20 Jun 2023 17:37:12,255 TRACE persistance.Utils 22 getNewConnection - Enter
+20 Jun 2023 17:37:12,261 INFO  persistance.Utils 27 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+20 Jun 2023 17:37:12,262 INFO  persistance.Utils 28 getNewConnection - user: null
+20 Jun 2023 17:37:12,262 INFO  persistance.Utils 29 getNewConnection - pass: null
+20 Jun 2023 17:37:12,375 TRACE persistance.Utils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@71687585)
+20 Jun 2023 17:37:12,378 TRACE persistance.players.PlayerRepository 36 executeQuery - Exit
+20 Jun 2023 17:37:33,514 TRACE persistance.players.PlayerRepository 44 findByUsername - Enter
+20 Jun 2023 17:37:33,514 TRACE persistance.Utils 44 getConnection - Enter
+20 Jun 2023 17:37:33,514 TRACE persistance.Utils 53 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@71687585)
+20 Jun 2023 17:37:33,514 TRACE persistance.players.PlayerRepository 36 executeQuery - Exit

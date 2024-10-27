@@ -1,0 +1,1346 @@
+18 Mar 2024 18:44:27,130 INFO  org.example.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+18 Mar 2024 18:44:27,133 INFO  org.example.Repository.UserDB 156 findByEmail - Entry findByEmail with email vlod
+18 Mar 2024 18:44:27,135 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 18:44:27,136 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 18:44:27,136 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 18:44:27,136 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 18:44:27,136 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 18:44:27,318 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@798162bc)
+18 Mar 2024 18:44:27,324 ERROR org.example.Repository.UserDB 178 findByEmail - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+18 Mar 2024 18:44:27,324 INFO  org.example.Repository.UserDB 181 findByEmail - Exit findByEmail with result null
+18 Mar 2024 18:44:27,325 INFO  org.example.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+18 Mar 2024 18:44:27,325 INFO  org.example.Repository.TeamDB 152 getTeamByName - Entry getTeamByName with name team
+18 Mar 2024 18:44:27,326 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 18:44:27,326 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 18:44:27,326 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 18:44:27,326 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 18:44:27,327 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 18:44:27,327 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@49b2a47d)
+18 Mar 2024 18:44:27,329 ERROR org.example.Repository.TeamDB 170 getTeamByName - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: teams)
+18 Mar 2024 18:44:27,329 INFO  org.example.Repository.TeamDB 173 getTeamByName - Exit getTeamByName with result null
+18 Mar 2024 18:44:33,410 INFO  org.example.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+18 Mar 2024 18:44:33,413 INFO  org.example.Repository.UserDB 156 findByEmail - Entry findByEmail with email vlod
+18 Mar 2024 18:44:33,414 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 18:44:33,414 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 18:44:33,415 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 18:44:33,415 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 18:44:33,415 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 18:44:33,580 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@798162bc)
+18 Mar 2024 18:44:33,586 ERROR org.example.Repository.UserDB 178 findByEmail - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+18 Mar 2024 18:44:33,587 INFO  org.example.Repository.UserDB 181 findByEmail - Exit findByEmail with result null
+18 Mar 2024 18:44:33,588 INFO  org.example.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+18 Mar 2024 18:44:33,588 INFO  org.example.Repository.TeamDB 152 getTeamByName - Entry getTeamByName with name team
+18 Mar 2024 18:44:33,588 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 18:44:33,588 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 18:44:33,590 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 18:44:33,590 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 18:44:33,590 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 18:44:33,591 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@49b2a47d)
+18 Mar 2024 18:44:33,592 ERROR org.example.Repository.TeamDB 170 getTeamByName - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: teams)
+18 Mar 2024 18:44:33,592 INFO  org.example.Repository.TeamDB 173 getTeamByName - Exit getTeamByName with result null
+18 Mar 2024 18:44:42,861 INFO  org.example.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+18 Mar 2024 18:44:42,865 INFO  org.example.Repository.UserDB 156 findByEmail - Entry findByEmail with email vlod
+18 Mar 2024 18:44:42,867 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 18:44:42,867 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 18:44:42,867 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 18:44:42,867 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 18:44:42,867 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 18:44:43,047 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@798162bc)
+18 Mar 2024 18:44:43,052 ERROR org.example.Repository.UserDB 178 findByEmail - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+18 Mar 2024 18:44:43,052 INFO  org.example.Repository.UserDB 181 findByEmail - Exit findByEmail with result null
+18 Mar 2024 18:44:43,053 INFO  org.example.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+18 Mar 2024 18:44:43,054 INFO  org.example.Repository.TeamDB 152 getTeamByName - Entry getTeamByName with name team
+18 Mar 2024 18:44:43,054 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 18:44:43,054 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 18:44:43,055 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 18:44:43,055 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 18:44:43,055 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 18:44:43,056 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@49b2a47d)
+18 Mar 2024 18:44:43,057 ERROR org.example.Repository.TeamDB 170 getTeamByName - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: teams)
+18 Mar 2024 18:44:43,057 INFO  org.example.Repository.TeamDB 173 getTeamByName - Exit getTeamByName with result null
+18 Mar 2024 18:45:13,747 INFO  org.example.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+18 Mar 2024 18:45:13,751 INFO  org.example.Repository.UserDB 156 findByEmail - Entry findByEmail with email vlod
+18 Mar 2024 18:45:13,752 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 18:45:13,752 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 18:45:13,753 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 18:45:13,753 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 18:45:13,754 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 18:45:13,927 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@798162bc)
+18 Mar 2024 18:45:13,933 ERROR org.example.Repository.UserDB 178 findByEmail - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+18 Mar 2024 18:45:13,934 INFO  org.example.Repository.UserDB 181 findByEmail - Exit findByEmail with result null
+18 Mar 2024 18:45:13,935 INFO  org.example.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+18 Mar 2024 18:45:13,935 INFO  org.example.Repository.TeamDB 152 getTeamByName - Entry getTeamByName with name team
+18 Mar 2024 18:45:13,936 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 18:45:13,936 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 18:45:13,936 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 18:45:13,936 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 18:45:13,936 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 18:45:13,937 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@49b2a47d)
+18 Mar 2024 18:45:13,938 ERROR org.example.Repository.TeamDB 170 getTeamByName - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: teams)
+18 Mar 2024 18:45:13,938 INFO  org.example.Repository.TeamDB 173 getTeamByName - Exit getTeamByName with result null
+18 Mar 2024 18:46:01,649 INFO  org.example.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+18 Mar 2024 18:46:01,652 INFO  org.example.Repository.UserDB 156 findByEmail - Entry findByEmail with email vlod
+18 Mar 2024 18:46:01,653 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 18:46:01,654 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 18:46:01,654 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 18:46:01,654 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 18:46:01,654 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 18:46:01,822 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@798162bc)
+18 Mar 2024 18:46:01,827 ERROR org.example.Repository.UserDB 178 findByEmail - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+18 Mar 2024 18:46:01,828 INFO  org.example.Repository.UserDB 181 findByEmail - Exit findByEmail with result null
+18 Mar 2024 18:46:01,830 INFO  org.example.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+18 Mar 2024 18:46:01,830 INFO  org.example.Repository.TeamDB 152 getTeamByName - Entry getTeamByName with name team
+18 Mar 2024 18:46:01,830 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 18:46:01,831 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 18:46:01,831 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 18:46:01,831 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 18:46:01,831 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 18:46:01,832 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@49b2a47d)
+18 Mar 2024 18:46:01,832 ERROR org.example.Repository.TeamDB 170 getTeamByName - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: teams)
+18 Mar 2024 18:46:01,833 INFO  org.example.Repository.TeamDB 173 getTeamByName - Exit getTeamByName with result null
+18 Mar 2024 18:47:07,879 INFO  org.example.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+18 Mar 2024 18:47:21,134 INFO  org.example.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+18 Mar 2024 18:47:21,137 INFO  org.example.Repository.UserDB 156 findByEmail - Entry findByEmail with email vlod
+18 Mar 2024 18:47:21,138 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 18:47:21,139 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 18:47:21,139 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 18:47:21,140 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 18:47:21,140 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 18:47:21,320 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@71c27ee8)
+18 Mar 2024 18:47:21,326 ERROR org.example.Repository.UserDB 178 findByEmail - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+18 Mar 2024 18:47:21,326 INFO  org.example.Repository.UserDB 181 findByEmail - Exit findByEmail with result null
+18 Mar 2024 18:47:21,328 INFO  org.example.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+18 Mar 2024 18:47:28,462 INFO  org.example.Repository.TeamDB 152 getTeamByName - Entry getTeamByName with name team
+18 Mar 2024 18:47:28,463 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 18:47:28,463 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 18:47:28,464 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 18:47:28,464 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 18:47:28,465 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 18:47:28,467 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6ee6f53)
+18 Mar 2024 18:47:28,469 ERROR org.example.Repository.TeamDB 170 getTeamByName - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: teams)
+18 Mar 2024 18:47:28,470 INFO  org.example.Repository.TeamDB 173 getTeamByName - Exit getTeamByName with result null
+18 Mar 2024 18:49:00,009 INFO  org.example.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+18 Mar 2024 18:49:00,012 INFO  org.example.Repository.UserDB 156 findByEmail - Entry findByEmail with email vlod
+18 Mar 2024 18:49:00,014 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 18:49:00,014 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 18:49:00,014 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 18:49:00,015 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 18:49:00,015 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 18:49:00,196 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@798162bc)
+18 Mar 2024 18:49:00,201 ERROR org.example.Repository.UserDB 178 findByEmail - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+18 Mar 2024 18:49:00,202 INFO  org.example.Repository.UserDB 181 findByEmail - Exit findByEmail with result null
+18 Mar 2024 18:49:00,204 INFO  org.example.Repository.TeamDB 23 <init> - Initializing TeamDBRepository
+18 Mar 2024 18:49:00,204 INFO  org.example.Repository.TeamDB 152 getTeamByName - Entry getTeamByName with name team
+18 Mar 2024 18:49:00,204 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 18:49:00,204 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 18:49:00,205 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 18:49:00,205 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 18:49:00,205 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 18:49:00,206 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@49b2a47d)
+18 Mar 2024 18:49:00,206 ERROR org.example.Repository.TeamDB 170 getTeamByName - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: teams)
+18 Mar 2024 18:49:00,208 INFO  org.example.Repository.TeamDB 173 getTeamByName - Exit getTeamByName with result null
+18 Mar 2024 18:49:59,753 INFO  org.example.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+18 Mar 2024 18:49:59,756 INFO  org.example.Repository.UserDB 156 findByEmail - Entry findByEmail with email vlod
+18 Mar 2024 18:49:59,757 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 18:49:59,757 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 18:49:59,758 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 18:49:59,758 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 18:49:59,758 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 18:49:59,940 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@798162bc)
+18 Mar 2024 18:49:59,946 ERROR org.example.Repository.UserDB 178 findByEmail - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+18 Mar 2024 18:49:59,946 INFO  org.example.Repository.UserDB 181 findByEmail - Exit findByEmail with result null
+18 Mar 2024 18:49:59,948 INFO  org.example.Repository.TeamDB 23 <init> - Initializing TeamDBRepository
+18 Mar 2024 18:49:59,948 INFO  org.example.Repository.TeamDB 152 getTeamByName - Entry getTeamByName with name team
+18 Mar 2024 18:49:59,948 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 18:49:59,949 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 18:49:59,949 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 18:49:59,949 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 18:49:59,949 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 18:49:59,950 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@49b2a47d)
+18 Mar 2024 18:49:59,951 ERROR org.example.Repository.TeamDB 170 getTeamByName - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: teams)
+18 Mar 2024 18:49:59,951 INFO  org.example.Repository.TeamDB 173 getTeamByName - Exit getTeamByName with result null
+18 Mar 2024 18:50:03,730 INFO  org.example.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+18 Mar 2024 18:50:03,733 INFO  org.example.Repository.UserDB 156 findByEmail - Entry findByEmail with email vlod
+18 Mar 2024 18:50:03,735 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 18:50:03,735 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 18:50:03,735 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 18:50:03,736 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 18:50:03,736 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 18:50:03,902 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@798162bc)
+18 Mar 2024 18:50:03,907 ERROR org.example.Repository.UserDB 178 findByEmail - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+18 Mar 2024 18:50:03,908 INFO  org.example.Repository.UserDB 181 findByEmail - Exit findByEmail with result null
+18 Mar 2024 18:50:03,908 INFO  org.example.Repository.TeamDB 23 <init> - Initializing TeamDBRepository
+18 Mar 2024 18:50:03,909 INFO  org.example.Repository.TeamDB 152 getTeamByName - Entry getTeamByName with name team
+18 Mar 2024 18:50:03,909 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 18:50:03,909 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 18:50:03,909 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 18:50:03,909 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 18:50:03,910 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 18:50:03,911 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@49b2a47d)
+18 Mar 2024 18:50:03,911 ERROR org.example.Repository.TeamDB 170 getTeamByName - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: teams)
+18 Mar 2024 18:50:03,912 INFO  org.example.Repository.TeamDB 173 getTeamByName - Exit getTeamByName with result null
+18 Mar 2024 18:51:58,204 INFO  org.example.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+18 Mar 2024 18:51:58,207 INFO  org.example.Repository.UserDB 156 findByEmail - Entry findByEmail with email vlod
+18 Mar 2024 18:51:58,209 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 18:51:58,209 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 18:51:58,209 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 18:51:58,209 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 18:51:58,210 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 18:51:58,379 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@798162bc)
+18 Mar 2024 18:51:58,385 ERROR org.example.Repository.UserDB 178 findByEmail - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+18 Mar 2024 18:51:58,385 INFO  org.example.Repository.UserDB 181 findByEmail - Exit findByEmail with result null
+18 Mar 2024 18:51:58,387 INFO  org.example.Repository.TeamDB 23 <init> - Initializing TeamDBRepository
+18 Mar 2024 18:51:58,387 INFO  org.example.Repository.TeamDB 152 getTeamByName - Entry getTeamByName with name team
+18 Mar 2024 18:51:58,388 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 18:51:58,388 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 18:51:58,388 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 18:51:58,388 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 18:51:58,389 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 18:51:58,389 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@49b2a47d)
+18 Mar 2024 18:51:58,390 ERROR org.example.Repository.TeamDB 170 getTeamByName - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: teams)
+18 Mar 2024 18:51:58,390 INFO  org.example.Repository.TeamDB 173 getTeamByName - Exit getTeamByName with result null
+18 Mar 2024 18:51:58,391 INFO  org.example.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+18 Mar 2024 18:56:18,817 INFO  org.example.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+18 Mar 2024 18:56:18,820 INFO  org.example.Repository.UserDB 156 findByEmail - Entry findByEmail with email vlod
+18 Mar 2024 18:56:18,822 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 18:56:18,822 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 18:56:18,822 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 18:56:18,823 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 18:56:18,823 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 18:56:19,001 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@798162bc)
+18 Mar 2024 18:56:19,006 ERROR org.example.Repository.UserDB 178 findByEmail - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+18 Mar 2024 18:56:19,006 INFO  org.example.Repository.UserDB 181 findByEmail - Exit findByEmail with result null
+18 Mar 2024 18:56:19,008 INFO  org.example.Repository.TeamDB 23 <init> - Initializing TeamDBRepository
+18 Mar 2024 18:56:19,008 INFO  org.example.Repository.TeamDB 152 getTeamByName - Entry getTeamByName with name team
+18 Mar 2024 18:56:19,008 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 18:56:19,010 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 18:56:19,010 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 18:56:19,010 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 18:56:19,010 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 18:56:19,010 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@49b2a47d)
+18 Mar 2024 18:56:19,011 ERROR org.example.Repository.TeamDB 170 getTeamByName - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: teams)
+18 Mar 2024 18:56:19,012 INFO  org.example.Repository.TeamDB 173 getTeamByName - Exit getTeamByName with result null
+18 Mar 2024 18:56:55,493 INFO  org.example.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+18 Mar 2024 18:56:55,496 INFO  org.example.Repository.UserDB 156 findByEmail - Entry findByEmail with email vlod
+18 Mar 2024 18:56:55,498 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 18:56:55,498 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 18:56:55,499 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 18:56:55,499 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 18:56:55,499 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 18:56:55,689 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@71c27ee8)
+18 Mar 2024 18:56:55,695 ERROR org.example.Repository.UserDB 178 findByEmail - org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: users)
+18 Mar 2024 18:56:55,695 INFO  org.example.Repository.UserDB 181 findByEmail - Exit findByEmail with result null
+18 Mar 2024 18:56:55,697 INFO  org.example.Repository.TeamDB 23 <init> - Initializing TeamDBRepository
+18 Mar 2024 18:57:17,175 INFO  org.example.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+18 Mar 2024 18:57:59,273 INFO  org.example.Repository.UserDB 156 findByEmail - Entry findByEmail with email vlod
+18 Mar 2024 18:58:00,414 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 18:58:00,415 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 18:58:00,415 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 18:58:00,416 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 18:58:00,416 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 18:58:06,686 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@77825085)
+18 Mar 2024 19:00:23,015 INFO  org.example.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+18 Mar 2024 19:00:23,019 INFO  org.example.Repository.UserDB 156 findByEmail - Entry findByEmail with email vlod
+18 Mar 2024 19:00:23,021 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 19:00:23,021 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 19:00:23,021 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 19:00:23,021 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 19:00:23,022 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 19:00:23,197 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@798162bc)
+18 Mar 2024 19:00:23,207 INFO  org.example.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlod', lastName='vlod', email='vlod', password='vlod', type=GUEST}
+18 Mar 2024 19:00:23,209 INFO  org.example.Repository.TeamDB 23 <init> - Initializing TeamDBRepository
+18 Mar 2024 19:00:23,209 INFO  org.example.Repository.TeamDB 152 getTeamByName - Entry getTeamByName with name team
+18 Mar 2024 19:00:23,210 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 19:00:23,210 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 19:00:23,210 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 19:00:23,210 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 19:00:23,211 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 19:00:23,212 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@24959ca4)
+18 Mar 2024 19:00:23,214 INFO  org.example.Repository.TeamDB 161 getTeamByName - Exit getTeamByName with result Team{name='team', teammates=[]}
+18 Mar 2024 19:00:23,214 INFO  org.example.Repository.TeamDB 207 addUserToTeam - Entry addUserToTeam with userId 4b7e825e-cf4c-414d-a197-ccc5564469c1 and teamId 119e2598-c1e3-4c70-b176-d4105121ee87
+18 Mar 2024 19:00:23,214 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 19:00:23,214 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@24959ca4)
+18 Mar 2024 19:00:23,218 ERROR org.example.Repository.TeamDB 215 addUserToTeam - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_PRIMARYKEY] A PRIMARY KEY constraint failed (UNIQUE constraint failed: members.id_user, members.id_team)
+18 Mar 2024 19:00:23,218 INFO  org.example.Repository.TeamDB 218 addUserToTeam - Exit addUserToTeam
+18 Mar 2024 19:00:23,220 INFO  org.example.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+18 Mar 2024 19:00:23,220 INFO  org.example.Repository.RaceDB 215 getRaceByOrganizer - Entry getTeamByOrganizer with id_organizer 4b7e825e-cf4c-414d-a197-ccc5564469c1
+18 Mar 2024 19:00:23,220 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 19:00:23,221 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 19:00:23,221 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 19:00:23,221 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 19:00:23,221 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 19:00:23,222 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e3b3b2f)
+18 Mar 2024 19:00:23,222 INFO  org.example.Repository.RaceDB 62 findOne - Entry find one with 9cf86770-b297-4286-9bdd-7a3b876a41d2
+18 Mar 2024 19:00:23,222 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 19:00:23,223 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e3b3b2f)
+18 Mar 2024 19:00:23,224 INFO  org.example.Repository.RaceDB 73 findOne - Exit findOne with result Entity{id=9cf86770-b297-4286-9bdd-7a3b876a41d2}
+18 Mar 2024 19:00:23,224 INFO  org.example.Repository.RaceDB 225 getRaceByOrganizer - Exit getTeamByOrganizer with result Entity{id=9cf86770-b297-4286-9bdd-7a3b876a41d2}
+18 Mar 2024 19:04:08,321 INFO  org.example.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+18 Mar 2024 19:04:08,324 INFO  org.example.Repository.UserDB 156 findByEmail - Entry findByEmail with email vlod
+18 Mar 2024 19:04:08,326 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 19:04:08,326 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 19:04:08,326 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 19:04:08,326 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 19:04:08,327 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 19:04:08,501 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@798162bc)
+18 Mar 2024 19:04:08,511 INFO  org.example.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlod', lastName='vlod', email='vlod', password='vlod', type=GUEST}
+18 Mar 2024 19:04:08,512 INFO  org.example.Repository.TeamDB 23 <init> - Initializing TeamDBRepository
+18 Mar 2024 19:04:08,514 INFO  org.example.Repository.TeamDB 152 getTeamByName - Entry getTeamByName with name team
+18 Mar 2024 19:04:08,514 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 19:04:08,514 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 19:04:08,514 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 19:04:08,514 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 19:04:08,515 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 19:04:08,515 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@24959ca4)
+18 Mar 2024 19:04:08,516 INFO  org.example.Repository.TeamDB 161 getTeamByName - Exit getTeamByName with result Team{name='team', teammates=[]}
+18 Mar 2024 19:04:08,517 INFO  org.example.Repository.TeamDB 207 addUserToTeam - Entry addUserToTeam with userId 4b7e825e-cf4c-414d-a197-ccc5564469c1 and teamId 119e2598-c1e3-4c70-b176-d4105121ee87
+18 Mar 2024 19:04:08,517 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 19:04:08,517 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@24959ca4)
+18 Mar 2024 19:04:08,521 ERROR org.example.Repository.TeamDB 215 addUserToTeam - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_PRIMARYKEY] A PRIMARY KEY constraint failed (UNIQUE constraint failed: members.id_user, members.id_team)
+18 Mar 2024 19:04:08,521 INFO  org.example.Repository.TeamDB 218 addUserToTeam - Exit addUserToTeam
+18 Mar 2024 19:04:08,523 INFO  org.example.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+18 Mar 2024 19:04:08,523 INFO  org.example.Repository.RaceDB 215 getRaceByOrganizer - Entry getTeamByOrganizer with id_organizer 4b7e825e-cf4c-414d-a197-ccc5564469c1
+18 Mar 2024 19:04:08,523 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 19:04:08,524 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 19:04:08,524 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 19:04:08,524 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 19:04:08,524 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 19:04:08,525 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e3b3b2f)
+18 Mar 2024 19:04:08,526 INFO  org.example.Repository.RaceDB 62 findOne - Entry find one with 9cf86770-b297-4286-9bdd-7a3b876a41d2
+18 Mar 2024 19:04:08,526 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 19:04:08,526 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e3b3b2f)
+18 Mar 2024 19:04:08,527 INFO  org.example.Repository.RaceDB 73 findOne - Exit findOne with result Entity{id=9cf86770-b297-4286-9bdd-7a3b876a41d2}
+18 Mar 2024 19:04:08,528 INFO  org.example.Repository.RaceDB 225 getRaceByOrganizer - Exit getTeamByOrganizer with result Entity{id=9cf86770-b297-4286-9bdd-7a3b876a41d2}
+18 Mar 2024 19:08:00,888 INFO  org.example.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+18 Mar 2024 19:08:00,903 INFO  org.example.Repository.UserDB 156 findByEmail - Entry findByEmail with email vlod
+18 Mar 2024 19:08:00,904 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 19:08:00,905 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 19:08:00,905 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 19:08:00,905 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 19:08:00,905 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 19:08:01,091 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@798162bc)
+18 Mar 2024 19:08:01,147 INFO  org.example.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlod', lastName='vlod', email='vlod', password='vlod', type=GUEST}
+18 Mar 2024 19:08:01,149 INFO  org.example.Repository.TeamDB 23 <init> - Initializing TeamDBRepository
+18 Mar 2024 19:08:01,150 INFO  org.example.Repository.TeamDB 152 getTeamByName - Entry getTeamByName with name team
+18 Mar 2024 19:08:01,150 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 19:08:01,150 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 19:08:01,150 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 19:08:01,151 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 19:08:01,151 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 19:08:01,152 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@24959ca4)
+18 Mar 2024 19:08:01,153 INFO  org.example.Repository.TeamDB 161 getTeamByName - Exit getTeamByName with result Team{name='team', teammates=[]}
+18 Mar 2024 19:08:01,154 INFO  org.example.Repository.TeamDB 207 addUserToTeam - Entry addUserToTeam with userId 4b7e825e-cf4c-414d-a197-ccc5564469c1 and teamId 119e2598-c1e3-4c70-b176-d4105121ee87
+18 Mar 2024 19:08:01,154 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 19:08:01,154 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@24959ca4)
+18 Mar 2024 19:08:01,160 ERROR org.example.Repository.TeamDB 215 addUserToTeam - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_PRIMARYKEY] A PRIMARY KEY constraint failed (UNIQUE constraint failed: members.id_user, members.id_team)
+18 Mar 2024 19:08:01,160 INFO  org.example.Repository.TeamDB 218 addUserToTeam - Exit addUserToTeam
+18 Mar 2024 19:08:01,162 INFO  org.example.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+18 Mar 2024 19:08:01,162 INFO  org.example.Repository.RaceDB 215 getRaceByOrganizer - Entry getTeamByOrganizer with id_organizer 4b7e825e-cf4c-414d-a197-ccc5564469c1
+18 Mar 2024 19:08:01,162 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 19:08:01,162 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 19:08:01,163 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 19:08:01,163 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 19:08:01,163 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 19:08:01,164 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e3b3b2f)
+18 Mar 2024 19:08:01,165 INFO  org.example.Repository.RaceDB 62 findOne - Entry find one with 9cf86770-b297-4286-9bdd-7a3b876a41d2
+18 Mar 2024 19:08:01,166 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 19:08:01,166 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e3b3b2f)
+18 Mar 2024 19:08:01,167 INFO  org.example.Repository.RaceDB 73 findOne - Exit findOne with result Entity{id=9cf86770-b297-4286-9bdd-7a3b876a41d2}
+18 Mar 2024 19:08:01,167 INFO  org.example.Repository.RaceDB 225 getRaceByOrganizer - Exit getTeamByOrganizer with result Entity{id=9cf86770-b297-4286-9bdd-7a3b876a41d2}
+18 Mar 2024 19:08:28,778 INFO  org.example.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {}
+18 Mar 2024 19:08:28,782 INFO  org.example.Repository.UserDB 156 findByEmail - Entry findByEmail with email vlod
+18 Mar 2024 19:08:28,783 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 19:08:28,783 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 19:08:28,783 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... null
+18 Mar 2024 19:08:28,784 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 19:08:28,784 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 19:08:28,787 ERROR org.example.Repository.JdbcUtils 43 getNewConnection - java.sql.SQLException: The url cannot be null
+18 Mar 2024 19:08:28,787 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit
+18 Mar 2024 19:08:40,297 INFO  org.example.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {}
+18 Mar 2024 19:08:40,300 INFO  org.example.Repository.UserDB 156 findByEmail - Entry findByEmail with email vlod
+18 Mar 2024 19:08:40,301 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 19:08:40,301 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 19:08:40,301 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... null
+18 Mar 2024 19:08:40,303 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 19:08:40,303 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 19:08:40,305 ERROR org.example.Repository.JdbcUtils 43 getNewConnection - java.sql.SQLException: The url cannot be null
+18 Mar 2024 19:08:40,306 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit
+18 Mar 2024 19:08:54,032 INFO  org.example.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {}
+18 Mar 2024 19:08:54,036 INFO  org.example.Repository.UserDB 156 findByEmail - Entry findByEmail with email vlod
+18 Mar 2024 19:08:54,037 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 19:08:54,038 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 19:08:54,038 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... null
+18 Mar 2024 19:08:54,038 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 19:08:54,038 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 19:08:54,041 ERROR org.example.Repository.JdbcUtils 43 getNewConnection - java.sql.SQLException: The url cannot be null
+18 Mar 2024 19:08:54,042 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit
+18 Mar 2024 19:08:59,198 INFO  org.example.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {}
+18 Mar 2024 19:08:59,201 INFO  org.example.Repository.UserDB 156 findByEmail - Entry findByEmail with email vlod
+18 Mar 2024 19:08:59,202 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 19:08:59,202 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 19:08:59,203 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... null
+18 Mar 2024 19:08:59,203 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 19:08:59,203 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 19:08:59,206 ERROR org.example.Repository.JdbcUtils 43 getNewConnection - java.sql.SQLException: The url cannot be null
+18 Mar 2024 19:08:59,207 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit
+18 Mar 2024 19:09:13,189 INFO  org.example.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {}
+18 Mar 2024 19:09:13,192 INFO  org.example.Repository.UserDB 156 findByEmail - Entry findByEmail with email vlod
+18 Mar 2024 19:09:13,194 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 19:09:13,194 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 19:09:13,194 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... null
+18 Mar 2024 19:09:13,195 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 19:09:13,195 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 19:09:13,197 ERROR org.example.Repository.JdbcUtils 43 getNewConnection - java.sql.SQLException: The url cannot be null
+18 Mar 2024 19:09:13,198 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit
+18 Mar 2024 19:09:39,575 INFO  org.example.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+18 Mar 2024 19:09:39,578 INFO  org.example.Repository.UserDB 156 findByEmail - Entry findByEmail with email vlod
+18 Mar 2024 19:09:39,579 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 19:09:39,580 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 19:09:39,580 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 19:09:39,580 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 19:09:39,580 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 19:09:39,759 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@798162bc)
+18 Mar 2024 19:09:39,770 INFO  org.example.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlod', lastName='vlod', email='vlod', password='vlod', type=GUEST}
+18 Mar 2024 19:09:39,772 INFO  org.example.Repository.TeamDB 23 <init> - Initializing TeamDBRepository
+18 Mar 2024 19:09:39,773 INFO  org.example.Repository.TeamDB 152 getTeamByName - Entry getTeamByName with name team
+18 Mar 2024 19:09:39,773 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 19:09:39,773 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 19:09:39,773 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 19:09:39,773 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 19:09:39,773 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 19:09:39,775 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@24959ca4)
+18 Mar 2024 19:09:39,776 INFO  org.example.Repository.TeamDB 161 getTeamByName - Exit getTeamByName with result Team{name='team', teammates=[]}
+18 Mar 2024 19:09:39,777 INFO  org.example.Repository.TeamDB 207 addUserToTeam - Entry addUserToTeam with userId 4b7e825e-cf4c-414d-a197-ccc5564469c1 and teamId 119e2598-c1e3-4c70-b176-d4105121ee87
+18 Mar 2024 19:09:39,777 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 19:09:39,777 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@24959ca4)
+18 Mar 2024 19:09:39,781 ERROR org.example.Repository.TeamDB 215 addUserToTeam - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_PRIMARYKEY] A PRIMARY KEY constraint failed (UNIQUE constraint failed: members.id_user, members.id_team)
+18 Mar 2024 19:09:39,782 INFO  org.example.Repository.TeamDB 218 addUserToTeam - Exit addUserToTeam
+18 Mar 2024 19:09:39,783 INFO  org.example.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+18 Mar 2024 19:09:39,783 INFO  org.example.Repository.RaceDB 215 getRaceByOrganizer - Entry getTeamByOrganizer with id_organizer 4b7e825e-cf4c-414d-a197-ccc5564469c1
+18 Mar 2024 19:09:39,784 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 19:09:39,784 TRACE org.example.Repository.JdbcUtils 27 getNewConnection - Enter
+18 Mar 2024 19:09:39,784 INFO  org.example.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+18 Mar 2024 19:09:39,784 INFO  org.example.Repository.JdbcUtils 33 getNewConnection - user: null
+18 Mar 2024 19:09:39,784 INFO  org.example.Repository.JdbcUtils 34 getNewConnection - pass: null
+18 Mar 2024 19:09:39,786 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e3b3b2f)
+18 Mar 2024 19:09:39,786 INFO  org.example.Repository.RaceDB 62 findOne - Entry find one with 9cf86770-b297-4286-9bdd-7a3b876a41d2
+18 Mar 2024 19:09:39,786 TRACE org.example.Repository.JdbcUtils 50 getConnection - Enter
+18 Mar 2024 19:09:39,786 TRACE org.example.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e3b3b2f)
+18 Mar 2024 19:09:39,787 INFO  org.example.Repository.RaceDB 73 findOne - Exit findOne with result Entity{id=9cf86770-b297-4286-9bdd-7a3b876a41d2}
+18 Mar 2024 19:09:39,788 INFO  org.example.Repository.RaceDB 225 getRaceByOrganizer - Exit getTeamByOrganizer with result Entity{id=9cf86770-b297-4286-9bdd-7a3b876a41d2}
+01 Apr 2024 19:11:58,315 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+01 Apr 2024 19:11:58,319 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+01 Apr 2024 19:11:58,321 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+01 Apr 2024 19:12:59,557 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+01 Apr 2024 19:12:59,562 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+01 Apr 2024 19:12:59,564 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+01 Apr 2024 19:13:03,289 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+01 Apr 2024 19:13:03,290 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+01 Apr 2024 19:13:03,290 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+01 Apr 2024 19:13:03,292 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+01 Apr 2024 19:13:03,292 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+01 Apr 2024 19:13:03,292 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+01 Apr 2024 19:13:03,443 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+01 Apr 2024 19:13:03,453 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+01 Apr 2024 19:15:02,666 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+01 Apr 2024 19:15:02,671 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+01 Apr 2024 19:15:02,672 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+01 Apr 2024 19:15:06,965 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email vled
+01 Apr 2024 19:15:06,967 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+01 Apr 2024 19:15:06,967 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+01 Apr 2024 19:15:06,967 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+01 Apr 2024 19:15:06,967 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+01 Apr 2024 19:15:06,968 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+01 Apr 2024 19:15:07,102 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2432b287)
+01 Apr 2024 19:15:07,107 INFO  project.oacoacdiridiridac.Repository.UserDB 181 findByEmail - Exit findByEmail with result null
+01 Apr 2024 19:18:06,755 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+01 Apr 2024 19:18:06,760 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+01 Apr 2024 19:18:06,761 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+01 Apr 2024 19:18:11,410 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email vlad
+01 Apr 2024 19:18:11,411 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+01 Apr 2024 19:18:11,411 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+01 Apr 2024 19:18:11,411 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+01 Apr 2024 19:18:11,411 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+01 Apr 2024 19:18:11,411 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+01 Apr 2024 19:18:11,546 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@412adb7e)
+01 Apr 2024 19:18:11,550 INFO  project.oacoacdiridiridac.Repository.UserDB 181 findByEmail - Exit findByEmail with result null
+01 Apr 2024 19:18:14,625 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email vlad
+01 Apr 2024 19:18:14,625 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+01 Apr 2024 19:18:14,626 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@412adb7e)
+01 Apr 2024 19:18:14,626 INFO  project.oacoacdiridiridac.Repository.UserDB 181 findByEmail - Exit findByEmail with result null
+01 Apr 2024 19:18:20,656 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+01 Apr 2024 19:18:20,656 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+01 Apr 2024 19:18:20,656 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@412adb7e)
+01 Apr 2024 19:18:20,661 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+01 Apr 2024 19:20:23,798 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+01 Apr 2024 19:20:23,803 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+01 Apr 2024 19:20:23,804 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+01 Apr 2024 19:20:28,132 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+01 Apr 2024 19:20:28,133 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+01 Apr 2024 19:20:28,133 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+01 Apr 2024 19:20:28,134 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+01 Apr 2024 19:20:28,134 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+01 Apr 2024 19:20:28,134 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+01 Apr 2024 19:20:28,271 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@298cb6cc)
+01 Apr 2024 19:20:28,279 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+01 Apr 2024 19:20:28,280 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+01 Apr 2024 19:20:28,280 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+01 Apr 2024 19:20:28,280 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@298cb6cc)
+01 Apr 2024 19:20:28,282 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+01 Apr 2024 19:21:01,706 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+01 Apr 2024 19:21:01,710 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+01 Apr 2024 19:21:01,712 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+01 Apr 2024 19:21:05,534 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+01 Apr 2024 19:21:05,535 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+01 Apr 2024 19:21:05,535 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+01 Apr 2024 19:21:05,535 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+01 Apr 2024 19:21:05,535 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+01 Apr 2024 19:21:05,536 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+01 Apr 2024 19:21:05,668 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+01 Apr 2024 19:21:05,677 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+01 Apr 2024 19:21:05,677 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+01 Apr 2024 19:21:05,678 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+01 Apr 2024 19:21:05,678 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+01 Apr 2024 19:21:05,679 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+01 Apr 2024 19:21:34,157 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+01 Apr 2024 19:21:34,162 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+01 Apr 2024 19:21:34,163 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+01 Apr 2024 19:21:37,567 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+01 Apr 2024 19:21:37,568 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+01 Apr 2024 19:21:37,568 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+01 Apr 2024 19:21:37,569 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+01 Apr 2024 19:21:37,569 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+01 Apr 2024 19:21:37,569 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+01 Apr 2024 19:21:37,703 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca7d8b3)
+01 Apr 2024 19:21:37,712 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+01 Apr 2024 19:21:37,713 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+01 Apr 2024 19:21:37,713 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+01 Apr 2024 19:21:37,713 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca7d8b3)
+01 Apr 2024 19:21:37,714 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+01 Apr 2024 19:21:58,780 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+01 Apr 2024 19:21:58,784 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+01 Apr 2024 19:21:58,786 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+01 Apr 2024 19:22:02,327 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email vled
+01 Apr 2024 19:22:02,328 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+01 Apr 2024 19:22:02,328 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+01 Apr 2024 19:22:02,328 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+01 Apr 2024 19:22:02,329 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+01 Apr 2024 19:22:02,329 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+01 Apr 2024 19:22:02,458 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+01 Apr 2024 19:22:02,463 INFO  project.oacoacdiridiridac.Repository.UserDB 181 findByEmail - Exit findByEmail with result null
+01 Apr 2024 19:22:07,418 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+01 Apr 2024 19:22:07,419 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+01 Apr 2024 19:22:07,419 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+01 Apr 2024 19:22:07,424 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+01 Apr 2024 19:22:07,424 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+01 Apr 2024 19:22:07,424 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+01 Apr 2024 19:22:07,425 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+01 Apr 2024 19:22:07,426 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+01 Apr 2024 19:22:32,171 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+01 Apr 2024 19:22:32,176 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+01 Apr 2024 19:22:32,178 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+01 Apr 2024 19:22:36,088 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+01 Apr 2024 19:22:36,089 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+01 Apr 2024 19:22:36,089 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+01 Apr 2024 19:22:36,090 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+01 Apr 2024 19:22:36,090 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+01 Apr 2024 19:22:36,090 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+01 Apr 2024 19:22:36,227 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@349811b6)
+01 Apr 2024 19:22:36,235 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+01 Apr 2024 19:22:36,237 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+01 Apr 2024 19:22:36,237 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+01 Apr 2024 19:22:36,237 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@349811b6)
+01 Apr 2024 19:22:36,238 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+01 Apr 2024 19:23:07,414 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+01 Apr 2024 19:23:07,418 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+01 Apr 2024 19:23:07,419 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+01 Apr 2024 19:23:11,098 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+01 Apr 2024 19:23:11,099 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+01 Apr 2024 19:23:11,099 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+01 Apr 2024 19:23:11,099 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+01 Apr 2024 19:23:11,099 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+01 Apr 2024 19:23:11,100 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+01 Apr 2024 19:23:11,237 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@412adb7e)
+01 Apr 2024 19:23:11,245 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+01 Apr 2024 19:23:11,245 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+01 Apr 2024 19:23:11,246 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+01 Apr 2024 19:23:11,246 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@412adb7e)
+01 Apr 2024 19:23:11,246 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+01 Apr 2024 19:23:22,402 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+01 Apr 2024 19:23:22,407 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+01 Apr 2024 19:23:22,409 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+01 Apr 2024 19:23:26,673 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+01 Apr 2024 19:23:26,674 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+01 Apr 2024 19:23:26,675 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+01 Apr 2024 19:23:26,675 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+01 Apr 2024 19:23:26,675 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+01 Apr 2024 19:23:26,676 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+01 Apr 2024 19:23:26,813 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+01 Apr 2024 19:23:26,821 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+01 Apr 2024 19:23:26,822 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+01 Apr 2024 19:23:26,822 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+01 Apr 2024 19:23:26,822 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+01 Apr 2024 19:23:26,823 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+01 Apr 2024 19:24:07,845 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+01 Apr 2024 19:24:07,849 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+01 Apr 2024 19:24:07,850 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+01 Apr 2024 19:24:11,424 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+01 Apr 2024 19:24:11,425 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+01 Apr 2024 19:24:11,425 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+01 Apr 2024 19:24:11,426 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+01 Apr 2024 19:24:11,426 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+01 Apr 2024 19:24:11,426 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+01 Apr 2024 19:24:11,557 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3c202dd0)
+01 Apr 2024 19:24:11,565 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+01 Apr 2024 19:24:11,565 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+01 Apr 2024 19:24:11,566 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+01 Apr 2024 19:24:11,566 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3c202dd0)
+01 Apr 2024 19:24:11,567 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+01 Apr 2024 19:24:56,214 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+01 Apr 2024 19:24:56,219 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+01 Apr 2024 19:24:56,220 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+01 Apr 2024 19:25:01,738 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+01 Apr 2024 19:25:01,739 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+01 Apr 2024 19:25:01,739 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+01 Apr 2024 19:25:01,739 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+01 Apr 2024 19:25:01,740 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+01 Apr 2024 19:25:01,740 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+01 Apr 2024 19:25:01,877 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2432b287)
+01 Apr 2024 19:25:01,885 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+01 Apr 2024 19:25:01,886 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+01 Apr 2024 19:25:01,886 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+01 Apr 2024 19:25:01,887 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2432b287)
+01 Apr 2024 19:25:01,887 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:18:39,640 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:18:39,662 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:18:39,664 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:18:46,685 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:18:46,693 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:18:46,694 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:18:46,694 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:18:46,694 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:18:46,694 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:18:46,901 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2432b287)
+07 Apr 2024 23:18:46,910 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:18:46,911 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:18:46,911 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:18:46,912 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2432b287)
+07 Apr 2024 23:18:46,912 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:19:03,360 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:19:03,361 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:19:03,361 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2432b287)
+07 Apr 2024 23:19:03,361 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:19:03,362 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:19:03,362 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:19:03,362 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2432b287)
+07 Apr 2024 23:19:03,363 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:20:16,300 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:20:16,304 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:20:16,306 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:20:21,430 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:20:21,431 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:20:21,431 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:20:21,431 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:20:21,432 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:20:21,432 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:20:21,574 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2432b287)
+07 Apr 2024 23:20:21,583 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:20:21,584 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:20:21,584 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:20:21,584 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2432b287)
+07 Apr 2024 23:20:21,585 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:20:33,810 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:20:33,814 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:20:33,815 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:20:39,886 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:20:39,887 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:20:39,887 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:20:39,887 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:20:39,888 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:20:39,888 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:20:40,018 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@54b1c936)
+07 Apr 2024 23:20:40,027 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:20:40,028 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:20:40,028 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:20:40,028 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@54b1c936)
+07 Apr 2024 23:20:40,028 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:20:42,471 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:20:42,471 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:20:42,473 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@54b1c936)
+07 Apr 2024 23:20:42,473 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:20:42,474 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:20:42,474 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:20:42,474 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@54b1c936)
+07 Apr 2024 23:20:42,474 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:21:32,296 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:21:32,301 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:21:32,302 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:21:36,519 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:21:36,520 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:21:36,520 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:21:36,520 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:21:36,521 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:21:36,521 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:21:36,660 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3700906f)
+07 Apr 2024 23:21:36,669 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:21:36,669 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:21:36,670 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:21:36,670 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3700906f)
+07 Apr 2024 23:21:36,671 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:21:40,696 INFO  project.oacoacdiridiridac.Repository.TeamDB 55 findAll - Entry findAll
+07 Apr 2024 23:21:40,696 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:21:40,697 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:21:40,697 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:21:40,697 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:21:40,697 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:21:40,697 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7311b154)
+07 Apr 2024 23:21:40,699 INFO  project.oacoacdiridiridac.Repository.TeamDB 76 findAll - Exit findAll with result [Team{name='team1', teammates=[]}, Team{name='team', teammates=[]}]
+07 Apr 2024 23:22:14,922 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:22:14,926 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:22:14,928 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:22:18,858 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:22:18,859 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:22:18,860 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:22:18,860 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:22:18,861 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:22:18,861 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:22:18,995 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@412adb7e)
+07 Apr 2024 23:22:19,003 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:22:19,004 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:22:19,004 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:22:19,004 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@412adb7e)
+07 Apr 2024 23:22:19,005 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:22:20,171 INFO  project.oacoacdiridiridac.Repository.TeamDB 55 findAll - Entry findAll
+07 Apr 2024 23:22:20,171 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:22:20,171 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:22:20,172 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:22:20,172 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:22:20,172 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:22:20,173 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b0922c0)
+07 Apr 2024 23:22:20,175 INFO  project.oacoacdiridiridac.Repository.TeamDB 76 findAll - Exit findAll with result [Team{name='team1', teammates=[]}, Team{name='team', teammates=[]}]
+07 Apr 2024 23:23:13,537 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:23:13,541 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:23:13,543 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:23:49,128 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:23:49,132 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:23:49,133 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:24:46,690 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:24:46,695 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:24:46,697 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:24:49,969 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:24:49,970 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:24:49,970 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:24:49,971 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:24:49,971 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:24:49,972 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:24:50,113 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+07 Apr 2024 23:24:50,122 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:24:50,122 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:24:50,123 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:24:50,123 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+07 Apr 2024 23:24:50,123 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:25:19,813 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:25:19,818 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:25:19,819 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:25:24,624 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:25:24,625 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:25:24,625 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:25:24,626 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:25:24,626 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:25:24,626 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:25:24,764 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@298cb6cc)
+07 Apr 2024 23:25:24,774 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:25:24,775 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:25:24,775 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:25:24,775 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@298cb6cc)
+07 Apr 2024 23:25:24,776 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:25:24,818 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:25:24,818 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:25:24,818 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:25:24,818 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:25:24,818 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:25:24,819 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6b60c34f)
+07 Apr 2024 23:26:24,589 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:26:24,593 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:26:24,595 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:26:34,113 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:26:34,118 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:26:34,119 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:26:38,035 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:26:38,036 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:26:38,037 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:26:38,037 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:26:38,037 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:26:38,037 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:26:38,170 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca7d8b3)
+07 Apr 2024 23:26:38,179 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:26:38,179 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:26:38,180 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:26:38,180 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2ca7d8b3)
+07 Apr 2024 23:26:38,181 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:27:44,862 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:27:44,868 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:27:44,870 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:27:49,315 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:27:49,317 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:27:49,317 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:27:49,317 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:27:49,317 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:27:49,318 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:27:49,458 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b45a4ed)
+07 Apr 2024 23:27:49,469 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:27:49,469 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:27:49,470 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:27:49,470 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b45a4ed)
+07 Apr 2024 23:27:49,471 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:30:23,341 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:30:23,346 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:30:23,347 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:30:29,148 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:30:29,149 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:30:29,150 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:30:29,150 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:30:29,150 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:30:29,150 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:30:29,293 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2432b287)
+07 Apr 2024 23:30:29,301 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:30:29,302 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:30:29,302 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:30:29,303 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2432b287)
+07 Apr 2024 23:30:29,303 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:31:05,156 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:31:05,160 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:31:05,161 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:31:09,030 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:31:09,031 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:31:09,031 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:31:09,031 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:31:09,032 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:31:09,032 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:31:09,167 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+07 Apr 2024 23:31:09,176 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:31:09,176 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:31:09,177 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:31:09,177 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+07 Apr 2024 23:31:09,177 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:31:09,219 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:31:09,220 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:31:09,220 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:31:09,220 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:31:09,220 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:31:09,222 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2f9f132a)
+07 Apr 2024 23:31:09,223 INFO  project.oacoacdiridiridac.Repository.TeamDB 55 findAll - Entry findAll
+07 Apr 2024 23:31:09,223 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:31:09,223 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:31:09,223 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:31:09,223 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:31:09,224 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:31:09,224 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a4a5bbf)
+07 Apr 2024 23:31:09,226 INFO  project.oacoacdiridiridac.Repository.TeamDB 76 findAll - Exit findAll with result [Team{name='team1', teammates=[]}, Team{name='team', teammates=[]}]
+07 Apr 2024 23:32:08,724 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:32:08,728 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:32:08,729 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:32:12,630 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:32:12,631 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:32:12,632 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:32:12,632 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:32:12,632 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:32:12,633 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:32:12,772 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2432b287)
+07 Apr 2024 23:32:12,781 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:32:12,782 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:32:12,782 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:32:12,782 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2432b287)
+07 Apr 2024 23:32:12,783 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:32:12,823 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:32:12,823 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:32:12,823 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:32:12,824 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:32:12,824 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:32:12,824 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@77312a01)
+07 Apr 2024 23:32:12,827 INFO  project.oacoacdiridiridac.Repository.TeamDB 55 findAll - Entry findAll
+07 Apr 2024 23:32:12,827 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:32:12,827 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:32:12,827 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:32:12,827 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:32:12,828 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:32:12,828 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@36306220)
+07 Apr 2024 23:32:12,829 INFO  project.oacoacdiridiridac.Repository.TeamDB 76 findAll - Exit findAll with result [Team{name='team1', teammates=[]}, Team{name='team', teammates=[]}]
+07 Apr 2024 23:33:57,200 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:33:57,204 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:33:57,206 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:34:01,653 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:34:01,655 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:34:01,655 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:34:01,655 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:34:01,655 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:34:01,656 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:34:01,795 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+07 Apr 2024 23:34:01,804 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:34:01,805 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:34:01,805 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:34:01,805 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+07 Apr 2024 23:34:01,806 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:34:01,847 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:34:01,847 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:34:01,847 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:34:01,847 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:34:01,848 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:34:01,848 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2f9f132a)
+07 Apr 2024 23:34:01,850 INFO  project.oacoacdiridiridac.Repository.TeamDB 55 findAll - Entry findAll
+07 Apr 2024 23:34:01,850 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:34:01,850 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:34:01,850 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:34:01,851 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:34:01,851 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:34:01,852 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6a4a5bbf)
+07 Apr 2024 23:34:01,853 INFO  project.oacoacdiridiridac.Repository.TeamDB 76 findAll - Exit findAll with result [Team{name='team1', teammates=[]}, Team{name='team', teammates=[]}]
+07 Apr 2024 23:35:15,689 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:35:15,694 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:35:15,695 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:35:19,066 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:35:19,068 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:35:19,068 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:35:19,068 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:35:19,069 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:35:19,069 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:35:19,207 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@412adb7e)
+07 Apr 2024 23:35:19,216 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:35:19,216 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:35:19,216 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:35:19,216 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@412adb7e)
+07 Apr 2024 23:35:19,218 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:35:52,285 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:35:52,291 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:35:52,292 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:35:55,937 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:35:55,939 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:35:55,939 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:35:55,939 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:35:55,940 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:35:55,940 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:35:56,076 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b45a4ed)
+07 Apr 2024 23:35:56,086 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:35:56,086 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:35:56,087 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:35:56,087 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b45a4ed)
+07 Apr 2024 23:35:56,087 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:37:39,427 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:37:39,431 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:37:39,433 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:37:43,222 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:37:43,223 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:37:43,223 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:37:43,223 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:37:43,224 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:37:43,224 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:37:43,371 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@31495f9b)
+07 Apr 2024 23:37:43,380 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:37:43,381 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:37:43,382 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:37:43,382 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@31495f9b)
+07 Apr 2024 23:37:43,383 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:38:10,808 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:38:10,812 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:38:10,813 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:38:15,191 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:38:15,191 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:38:15,191 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:38:15,191 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:38:15,193 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:38:15,193 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:38:15,330 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7b127476)
+07 Apr 2024 23:38:15,340 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:38:38,286 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:38:38,287 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:38:38,287 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7b127476)
+07 Apr 2024 23:38:38,288 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:39:16,487 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:39:16,491 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:39:16,493 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:39:40,024 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:39:40,025 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:39:40,025 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:39:40,026 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:39:40,026 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:39:40,027 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:39:40,167 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+07 Apr 2024 23:39:40,177 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:39:40,177 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:39:40,178 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:39:40,178 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+07 Apr 2024 23:39:40,178 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:40:12,484 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:40:12,489 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:40:12,491 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:40:17,132 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:40:17,133 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:40:17,133 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:40:17,134 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:40:17,134 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:40:17,135 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:40:17,277 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+07 Apr 2024 23:40:17,286 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:40:17,287 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:40:17,287 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:40:17,287 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+07 Apr 2024 23:40:17,288 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:42:06,218 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:42:06,223 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:42:06,225 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:42:12,176 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:42:12,177 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:42:12,178 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:42:12,178 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:42:12,178 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:42:12,179 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:42:12,328 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b45a4ed)
+07 Apr 2024 23:42:12,337 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:42:12,339 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:42:12,339 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:42:12,340 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b45a4ed)
+07 Apr 2024 23:42:12,340 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:43:05,738 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:43:05,742 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:43:05,744 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:43:10,097 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:43:10,098 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:43:10,098 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:43:10,098 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:43:10,098 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:43:10,099 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:43:10,232 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+07 Apr 2024 23:43:10,241 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:43:10,242 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:43:10,242 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:43:10,242 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+07 Apr 2024 23:43:10,243 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:43:43,326 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:43:43,330 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:43:43,331 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:43:47,804 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:43:47,805 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:43:47,805 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:43:47,805 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:43:47,806 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:43:47,806 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:43:47,950 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+07 Apr 2024 23:43:47,960 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:43:47,960 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:43:47,961 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:43:47,961 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+07 Apr 2024 23:43:47,962 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:44:03,866 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:44:03,871 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:44:03,873 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:44:07,899 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:44:07,900 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:44:07,901 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:44:07,902 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:44:07,902 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:44:07,902 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:44:08,039 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b45a4ed)
+07 Apr 2024 23:44:08,048 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:44:08,049 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:44:08,049 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:44:08,049 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b45a4ed)
+07 Apr 2024 23:44:08,050 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:46:44,372 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:46:44,377 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:46:44,379 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:46:48,769 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:46:48,770 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:46:48,770 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:46:48,771 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:46:48,771 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:46:48,772 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:46:48,917 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b45a4ed)
+07 Apr 2024 23:46:48,927 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:46:48,929 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:46:48,929 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:46:48,929 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b45a4ed)
+07 Apr 2024 23:46:48,930 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:47:18,601 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:47:18,606 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:47:18,608 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:47:26,488 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:47:26,489 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:47:26,489 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:47:26,490 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:47:26,490 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:47:26,490 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:47:26,629 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7b127476)
+07 Apr 2024 23:47:26,639 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:47:26,640 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:47:26,640 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:47:26,640 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7b127476)
+07 Apr 2024 23:47:26,641 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:47:51,203 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:47:51,207 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:47:51,209 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:47:55,680 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:47:55,681 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:47:55,681 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:47:55,682 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:47:55,682 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:47:55,682 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:47:55,820 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b45a4ed)
+07 Apr 2024 23:47:55,829 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:47:55,830 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:47:55,830 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:47:55,831 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b45a4ed)
+07 Apr 2024 23:47:55,831 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:49:55,563 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:49:55,568 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:49:55,571 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:50:00,043 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:50:00,045 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:50:00,046 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:50:00,046 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:50:00,046 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:50:00,047 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:50:00,232 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@31495f9b)
+07 Apr 2024 23:50:00,247 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:50:00,247 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:50:00,248 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:50:00,248 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@31495f9b)
+07 Apr 2024 23:50:00,249 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:50:31,507 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:50:31,512 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:50:31,515 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:50:36,218 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:50:36,220 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:50:36,220 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:50:36,220 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:50:36,221 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:50:36,221 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:50:36,395 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@31495f9b)
+07 Apr 2024 23:50:36,408 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:50:36,410 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:50:36,410 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:50:36,411 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@31495f9b)
+07 Apr 2024 23:50:36,412 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:54:11,122 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:54:11,127 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:54:11,128 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:54:15,348 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:54:15,350 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:54:15,350 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:54:15,350 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:54:15,350 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:54:15,351 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:54:15,515 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+07 Apr 2024 23:54:15,528 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:54:15,529 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:54:15,530 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:54:15,530 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+07 Apr 2024 23:54:15,531 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:56:57,529 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+07 Apr 2024 23:56:57,535 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+07 Apr 2024 23:56:57,537 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+07 Apr 2024 23:57:01,801 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:57:01,802 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:57:01,802 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+07 Apr 2024 23:57:01,802 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+07 Apr 2024 23:57:01,803 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+07 Apr 2024 23:57:01,803 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+07 Apr 2024 23:57:01,972 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ec08948)
+07 Apr 2024 23:57:01,984 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+07 Apr 2024 23:57:01,984 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+07 Apr 2024 23:57:01,984 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+07 Apr 2024 23:57:01,984 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ec08948)
+07 Apr 2024 23:57:01,986 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+08 Apr 2024 00:02:28,023 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+08 Apr 2024 00:02:28,028 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+08 Apr 2024 00:02:28,030 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+08 Apr 2024 00:02:32,718 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+08 Apr 2024 00:02:32,719 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 00:02:32,719 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+08 Apr 2024 00:02:32,720 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+08 Apr 2024 00:02:32,720 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+08 Apr 2024 00:02:32,720 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+08 Apr 2024 00:02:32,899 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+08 Apr 2024 00:02:32,910 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+08 Apr 2024 00:02:32,910 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+08 Apr 2024 00:02:32,911 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 00:02:32,911 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+08 Apr 2024 00:02:32,913 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+08 Apr 2024 00:02:32,963 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 00:02:32,963 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+08 Apr 2024 00:02:32,963 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+08 Apr 2024 00:02:32,963 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+08 Apr 2024 00:02:32,964 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+08 Apr 2024 00:02:32,965 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@77312a01)
+08 Apr 2024 00:03:58,364 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+08 Apr 2024 00:03:58,370 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+08 Apr 2024 00:03:58,371 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+08 Apr 2024 00:04:02,346 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+08 Apr 2024 00:04:02,347 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 00:04:02,348 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+08 Apr 2024 00:04:02,348 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+08 Apr 2024 00:04:02,348 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+08 Apr 2024 00:04:02,349 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+08 Apr 2024 00:04:02,509 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+08 Apr 2024 00:04:02,522 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+08 Apr 2024 00:04:02,523 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+08 Apr 2024 00:04:02,523 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 00:04:02,523 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+08 Apr 2024 00:04:02,524 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+08 Apr 2024 00:04:02,574 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 00:04:02,574 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+08 Apr 2024 00:04:02,575 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+08 Apr 2024 00:04:02,575 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+08 Apr 2024 00:04:02,575 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+08 Apr 2024 00:04:02,576 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@77312a01)
+08 Apr 2024 00:04:59,297 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+08 Apr 2024 00:04:59,302 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+08 Apr 2024 00:04:59,304 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+08 Apr 2024 00:05:05,492 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+08 Apr 2024 00:05:05,494 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 00:05:05,494 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+08 Apr 2024 00:05:05,494 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+08 Apr 2024 00:05:05,494 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+08 Apr 2024 00:05:05,495 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+08 Apr 2024 00:05:05,672 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25f0b47c)
+08 Apr 2024 00:05:05,684 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+08 Apr 2024 00:05:05,686 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+08 Apr 2024 00:05:05,686 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 00:05:05,687 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@25f0b47c)
+08 Apr 2024 00:05:05,687 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+08 Apr 2024 00:05:05,744 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 00:05:05,744 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+08 Apr 2024 00:05:05,745 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+08 Apr 2024 00:05:05,745 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+08 Apr 2024 00:05:05,745 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+08 Apr 2024 00:05:05,746 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d957f6c)
+08 Apr 2024 00:05:05,749 INFO  project.oacoacdiridiridac.Repository.TeamDB 55 findAll - Entry findAll
+08 Apr 2024 00:05:05,749 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 00:05:05,750 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+08 Apr 2024 00:05:05,750 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+08 Apr 2024 00:05:05,750 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+08 Apr 2024 00:05:05,750 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+08 Apr 2024 00:05:05,752 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@42d9d783)
+08 Apr 2024 00:05:05,754 INFO  project.oacoacdiridiridac.Repository.TeamDB 76 findAll - Exit findAll with result [Team{name='team1', teammates=[]}, Team{name='team', teammates=[]}]
+08 Apr 2024 00:07:07,371 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+08 Apr 2024 00:07:07,376 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+08 Apr 2024 00:07:07,377 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+08 Apr 2024 00:07:11,215 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+08 Apr 2024 00:07:11,216 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 00:07:11,216 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+08 Apr 2024 00:07:11,216 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+08 Apr 2024 00:07:11,216 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+08 Apr 2024 00:07:11,218 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+08 Apr 2024 00:07:11,391 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57398a58)
+08 Apr 2024 00:07:11,402 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+08 Apr 2024 00:07:11,403 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+08 Apr 2024 00:07:11,403 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 00:07:11,403 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@57398a58)
+08 Apr 2024 00:07:11,404 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+08 Apr 2024 00:07:11,456 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 00:07:11,458 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+08 Apr 2024 00:07:11,458 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+08 Apr 2024 00:07:11,458 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+08 Apr 2024 00:07:11,459 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+08 Apr 2024 00:07:11,460 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@51ff83d5)
+08 Apr 2024 00:07:11,462 INFO  project.oacoacdiridiridac.Repository.TeamDB 55 findAll - Entry findAll
+08 Apr 2024 00:07:11,462 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 00:07:11,463 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+08 Apr 2024 00:07:11,463 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+08 Apr 2024 00:07:11,463 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+08 Apr 2024 00:07:11,463 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+08 Apr 2024 00:07:11,464 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@77312a01)
+08 Apr 2024 00:07:11,466 INFO  project.oacoacdiridiridac.Repository.TeamDB 76 findAll - Exit findAll with result [Team{name='team1', teammates=[]}, Team{name='team', teammates=[]}]
+08 Apr 2024 00:07:15,098 INFO  project.oacoacdiridiridac.Repository.TeamDB 55 findAll - Entry findAll
+08 Apr 2024 00:07:15,098 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 00:07:15,098 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@77312a01)
+08 Apr 2024 00:07:15,099 INFO  project.oacoacdiridiridac.Repository.TeamDB 76 findAll - Exit findAll with result [Team{name='team1', teammates=[]}, Team{name='team', teammates=[]}]
+08 Apr 2024 16:32:26,676 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+08 Apr 2024 16:32:26,683 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+08 Apr 2024 16:32:26,684 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+08 Apr 2024 16:32:31,374 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+08 Apr 2024 16:32:31,384 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 16:32:31,384 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+08 Apr 2024 16:32:31,384 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+08 Apr 2024 16:32:31,384 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+08 Apr 2024 16:32:31,384 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+08 Apr 2024 16:32:31,591 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+08 Apr 2024 16:32:31,603 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+08 Apr 2024 16:32:31,604 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+08 Apr 2024 16:32:31,604 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 16:32:31,605 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1fc40b28)
+08 Apr 2024 16:32:31,606 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+08 Apr 2024 16:32:31,663 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 16:32:31,664 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+08 Apr 2024 16:32:31,664 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+08 Apr 2024 16:32:31,664 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+08 Apr 2024 16:32:31,665 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+08 Apr 2024 16:32:31,666 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@51a92e02)
+08 Apr 2024 16:32:31,668 INFO  project.oacoacdiridiridac.Repository.TeamDB 55 findAll - Entry findAll
+08 Apr 2024 16:32:31,668 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 16:32:31,669 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+08 Apr 2024 16:32:31,669 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+08 Apr 2024 16:32:31,670 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+08 Apr 2024 16:32:31,670 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+08 Apr 2024 16:32:31,671 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@9180694)
+08 Apr 2024 16:32:31,673 INFO  project.oacoacdiridiridac.Repository.TeamDB 76 findAll - Exit findAll with result [Team{name='team1', teammates=[]}, Team{name='team', teammates=[]}]
+08 Apr 2024 16:32:40,006 INFO  project.oacoacdiridiridac.Repository.TeamDB 55 findAll - Entry findAll
+08 Apr 2024 16:32:40,007 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 16:32:40,007 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@9180694)
+08 Apr 2024 16:32:40,009 INFO  project.oacoacdiridiridac.Repository.TeamDB 76 findAll - Exit findAll with result [Team{name='team1', teammates=[]}, Team{name='team', teammates=[]}]
+08 Apr 2024 16:32:50,522 INFO  project.oacoacdiridiridac.Repository.TeamDB 55 findAll - Entry findAll
+08 Apr 2024 16:32:50,523 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 16:32:50,523 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@9180694)
+08 Apr 2024 16:32:50,523 INFO  project.oacoacdiridiridac.Repository.TeamDB 76 findAll - Exit findAll with result [Team{name='team1', teammates=[]}, Team{name='team', teammates=[]}]
+08 Apr 2024 16:41:57,774 INFO  project.oacoacdiridiridac.Repository.UserDB 26 <init> - Initializing UserDBRepository with properties: {jdbc.url=jdbc:sqlite:identifier.sqlite}
+08 Apr 2024 16:41:57,779 INFO  project.oacoacdiridiridac.Repository.TeamDB 22 <init> - Initializing TeamDBRepository
+08 Apr 2024 16:41:57,781 INFO  project.oacoacdiridiridac.Repository.RaceDB 25 <init> - Initializing RaceDBRepository
+08 Apr 2024 16:42:01,763 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+08 Apr 2024 16:42:01,764 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 16:42:01,765 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+08 Apr 2024 16:42:01,765 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+08 Apr 2024 16:42:01,765 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+08 Apr 2024 16:42:01,766 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+08 Apr 2024 16:42:01,975 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ec08948)
+08 Apr 2024 16:42:01,985 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+08 Apr 2024 16:42:01,986 INFO  project.oacoacdiridiridac.Repository.UserDB 156 findByEmail - Entry findByEmail with email Vlad
+08 Apr 2024 16:42:01,987 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 16:42:01,987 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ec08948)
+08 Apr 2024 16:42:01,988 INFO  project.oacoacdiridiridac.Repository.UserDB 169 findByEmail - Exit findByEmail with result User{firstName='vlad112003', lastName='vlad112003', email='Vlad', password='Vlad', type=GUEST}
+08 Apr 2024 16:42:02,035 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 16:42:02,036 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+08 Apr 2024 16:42:02,036 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+08 Apr 2024 16:42:02,036 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+08 Apr 2024 16:42:02,037 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+08 Apr 2024 16:42:02,037 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b323558)
+08 Apr 2024 16:42:02,040 INFO  project.oacoacdiridiridac.Repository.UserDB 61 findAll - Entry findAll
+08 Apr 2024 16:42:02,040 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 16:42:02,040 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3ec08948)
+08 Apr 2024 16:42:02,041 INFO  project.oacoacdiridiridac.Repository.UserDB 86 findAll - Exit findAll
+08 Apr 2024 16:42:02,041 INFO  project.oacoacdiridiridac.Repository.TeamDB 55 findAll - Entry findAll
+08 Apr 2024 16:42:02,042 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 16:42:02,042 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 27 getNewConnection - Enter
+08 Apr 2024 16:42:02,042 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 32 getNewConnection - trying to connect to database ... jdbc:sqlite:identifier.sqlite
+08 Apr 2024 16:42:02,042 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 33 getNewConnection - user: null
+08 Apr 2024 16:42:02,042 INFO  project.oacoacdiridiridac.Repository.JdbcUtils 34 getNewConnection - pass: null
+08 Apr 2024 16:42:02,044 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@696498a7)
+08 Apr 2024 16:42:02,045 INFO  project.oacoacdiridiridac.Repository.TeamDB 76 findAll - Exit findAll with result [Team{name='team1', teammates=[]}, Team{name='team', teammates=[]}]
+08 Apr 2024 16:42:02,045 INFO  project.oacoacdiridiridac.Repository.TeamDB 222 getMembers - Entry getMembers with teamId 12607fa3-e432-4f1a-bdce-46b9936b9c6f
+08 Apr 2024 16:42:02,046 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 16:42:02,046 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@696498a7)
+08 Apr 2024 16:42:02,046 INFO  project.oacoacdiridiridac.Repository.TeamDB 232 getMembers - Exit getMembers with result 423ae208-fb4b-44c2-b366-7eda3980d380,
+08 Apr 2024 16:42:02,047 INFO  project.oacoacdiridiridac.Repository.TeamDB 222 getMembers - Entry getMembers with teamId 119e2598-c1e3-4c70-b176-d4105121ee87
+08 Apr 2024 16:42:02,047 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 16:42:02,047 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@696498a7)
+08 Apr 2024 16:42:02,049 INFO  project.oacoacdiridiridac.Repository.TeamDB 232 getMembers - Exit getMembers with result 4b7e825e-cf4c-414d-a197-ccc5564469c1,
+08 Apr 2024 16:42:02,049 INFO  project.oacoacdiridiridac.Repository.TeamDB 55 findAll - Entry findAll
+08 Apr 2024 16:42:02,049 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 16:42:02,049 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@696498a7)
+08 Apr 2024 16:42:02,050 INFO  project.oacoacdiridiridac.Repository.TeamDB 76 findAll - Exit findAll with result [Team{name='team1', teammates=[]}, Team{name='team', teammates=[]}]
+08 Apr 2024 16:42:05,018 INFO  project.oacoacdiridiridac.Repository.TeamDB 55 findAll - Entry findAll
+08 Apr 2024 16:42:05,018 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 16:42:05,018 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@696498a7)
+08 Apr 2024 16:42:05,020 INFO  project.oacoacdiridiridac.Repository.TeamDB 76 findAll - Exit findAll with result [Team{name='team1', teammates=[]}, Team{name='team', teammates=[]}]
+08 Apr 2024 16:42:08,453 INFO  project.oacoacdiridiridac.Repository.TeamDB 55 findAll - Entry findAll
+08 Apr 2024 16:42:08,453 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 50 getConnection - Enter
+08 Apr 2024 16:42:08,455 TRACE project.oacoacdiridiridac.Repository.JdbcUtils 59 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@696498a7)
+08 Apr 2024 16:42:08,455 INFO  project.oacoacdiridiridac.Repository.TeamDB 76 findAll - Exit findAll with result [Team{name='team1', teammates=[]}, Team{name='team', teammates=[]}]

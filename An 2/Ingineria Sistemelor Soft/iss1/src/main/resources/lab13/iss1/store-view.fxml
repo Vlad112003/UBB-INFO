@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<!--        fx:controller="lab13.iss1.StoreView"-->
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lab13.iss1.StoreController">
+   <children>
+      <TableView layoutX="20.0" layoutY="20.0" prefHeight="200.0" prefWidth="372.0" fx:id="gameTable">
+        <columns>
+          <TableColumn prefWidth="154.0" text="GAME NAME" fx:id="titleColumn"/>
+          <TableColumn prefWidth="146.0" text="GENRE" fx:id="genreColumn"/>
+            <TableColumn prefWidth="71.0" text="PRICE" fx:id="priceColumn"/>
+        </columns>
+      </TableView>
+      <Button layoutX="405.0" layoutY="195.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="181.0" text="PURCHASE" fx:id="purchaseButton" onAction="#onPressPurchase"/>
+      <Button layoutX="405.0" layoutY="361.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="181.0" text="EXIT STORE" fx:id="exitButton" onAction="#onPressExit" />
+      <TextField layoutX="20.0" layoutY="236.0" prefHeight="25.0" prefWidth="372.0" promptText="Search Game" fx:id="searchField" />
+      <Button layoutX="210.0" layoutY="272.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="181.0" text="SEARCH" fx:id="searchButton" onAction="#onPressSearch"/>
+   </children>
+</AnchorPane>

@@ -1,0 +1,75 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.javamodularity.moduleplugin' version '1.8.12'
+    id 'org.openjfx.javafxplugin' version '0.0.13'
+    id 'org.beryx.jlink' version '2.25.0'
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    junitVersion = '5.10.0'
+}
+
+javafx {
+    version = '21'
+    modules = ['javafx.controls', 'javafx.fxml']
+}
+
+dependencies {
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.14.0'
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.14.0'
+    implementation group: 'com.google.guava', name: 'guava', version: '31.0.1-jre'
+
+    // https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc
+    implementation group: 'org.xerial', name: 'sqlite-jdbc', version: '3.45.1.0'
+
+
+    implementation('org.controlsfx:controlsfx:11.1.2')
+    implementation('com.dlsc.formsfx:formsfx-core:11.6.0') {
+        exclude(group: 'org.openjfx')
+    }
+    testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
+    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+
+    implementation 'org.slf4j:slf4j-api:1.7.32'
+    implementation 'org.slf4j:slf4j-simple:1.7.32'}
+
+test {
+    useJUnitPlatform()
+}
+
+jlink {
+    imageZip = project.file("${buildDir}/distributions/app-${javafx.platform.classifier}.zip")
+    options = ['--strip-debug', '--compress', '2', '--no-header-files', '--no-man-pages']
+    launcher {
+        name = 'app'
+    }
+}
+
+jlinkZip {
+    group = 'distribution'
+}
+
+sourceSets{
+    main{
+        java {
+            srcDirs = ['src/main/java']
+        }
+        resources{
+            srcDirs = ['src/main/resources']
+        }
+    }
+
+}
+
+application {
+    mainModule = 'org.example.javaClientServer'
+    mainClass = 'org.example.javaClientServer.HelloApplication'
+}

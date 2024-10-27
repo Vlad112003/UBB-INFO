@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$USER_HOME$/Desktop/facultare/LaboratorDeadlock4/NonRepeatableReads.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/ConsoleApplication1/DEADLOCK1.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/ConsoleApplication1/DEADLOCK2.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/ConsoleApplication1/DirtyReads1.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/ConsoleApplication1/DirtyReads2.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/ConsoleApplication1/NonRepeatableReads.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/ConsoleApplication1/NonRepeatableReads2.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/ConsoleApplication1/PhantomReads1.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/ConsoleApplication1/PhantomReads2.sql" dialect="TSQL" />
+    <file url="PROJECT" dialect="TSQL" />
+  </component>
+</project>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="458.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controllers.MainController">
+    <children>
+        <Label fx:id="numberOfPct" layoutX="26.0" layoutY="389.0" prefHeight="20.0" prefWidth="140.0" text="Number of points:" />
+      <Label fx:id="poz1" layoutX="26.0" layoutY="34.0" onMouseClicked="#poz1Click" prefHeight="38.0" prefWidth="60.0" style="-fx-border-color: black;" text="poz1" />
+      <Label fx:id="poz8" layoutX="146.0" layoutY="88.0" onMouseClicked="#poz8Click" prefHeight="38.0" prefWidth="60.0" style="-fx-border-color: black;" text="poz8" />
+      <Label fx:id="poz9" layoutX="205.0" layoutY="88.0" onMouseClicked="#poz9Click" prefHeight="38.0" prefWidth="60.0" style="-fx-border-color: black;" text="poz9" />
+      <Label fx:id="poz2" layoutX="86.0" layoutY="34.0" onMouseClicked="#poz2Click" prefHeight="38.0" prefWidth="60.0" style="-fx-border-color: black;" text="poz2" />
+      <Label fx:id="poz10" layoutX="265.0" layoutY="88.0" onMouseClicked="#poz10Click" prefHeight="38.0" prefWidth="60.0" style="-fx-border-color: black;" text="poz10" />
+      <Label fx:id="poz5" layoutX="265.0" layoutY="34.0" onMouseClicked="#poz5Click" prefHeight="38.0" prefWidth="60.0" style="-fx-border-color: black;" text="poz5" />
+      <Label fx:id="poz4" layoutX="205.0" layoutY="34.0" onMouseClicked="#poz4Click" prefHeight="38.0" prefWidth="60.0" style="-fx-border-color: black;" text="poz4" />
+      <Label fx:id="poz3" layoutX="146.0" layoutY="34.0" onMouseClicked="#poz3Click" prefHeight="38.0" prefWidth="60.0" style="-fx-border-color: black;" text="poz3" />
+      <Label fx:id="poz7" layoutX="86.0" layoutY="88.0" onMouseClicked="#poz7Click" prefHeight="38.0" prefWidth="60.0" style="-fx-border-color: black;" text="poz7" />
+      <Label fx:id="poz6" layoutX="26.0" layoutY="88.0" onMouseClicked="#poz6Click" prefHeight="38.0" prefWidth="60.0" style="-fx-border-color: black;" text="poz6" />
+      <TableView fx:id="tableView" layoutX="46.0" layoutY="166.0" prefHeight="200.0" prefWidth="374.0">
+        <columns>
+          <TableColumn fx:id="usernameCol" prefWidth="137.59997177124023" text="Username" />
+          <TableColumn fx:id="pctCol" prefWidth="144.80006408691406" text="Puncte" />
+            <TableColumn fx:id="durataCol" prefWidth="92.79998779296875" text="Durata" />
+        </columns>
+      </TableView>
+    </children>
+</AnchorPane>

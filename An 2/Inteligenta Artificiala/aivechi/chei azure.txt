@@ -1,0 +1,13 @@
+083bfe3cfd314fe483ab4e2668433820 cheie 1
+dd374ec2fb014a97a6d2d1d2d0e2f5ad cheie 2
+
+https://mursaovidiuvlad.cognitiveservices.azure.com/
+
+
+pt lab 4
+
+bf1931a006e84dbdbe44f3b8d3bfc4bd
+
+bfd423e5c3fa4196a5e56963e3f1619f
+
+https://mursavladlab4.cognitiveservices.azure.com/

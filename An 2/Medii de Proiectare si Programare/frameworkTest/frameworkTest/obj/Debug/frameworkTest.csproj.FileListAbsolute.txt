@@ -1,0 +1,6 @@
+D:\FacultaAn2Sem2\MPP\frameworkTest\frameworkTest\bin\Debug\frameworkTest.exe
+D:\FacultaAn2Sem2\MPP\frameworkTest\frameworkTest\bin\Debug\frameworkTest.pdb
+D:\FacultaAn2Sem2\MPP\frameworkTest\frameworkTest\obj\Debug\frameworkTest.csproj.AssemblyReference.cache
+D:\FacultaAn2Sem2\MPP\frameworkTest\frameworkTest\obj\Debug\frameworkTest.csproj.CoreCompileInputs.cache
+D:\FacultaAn2Sem2\MPP\frameworkTest\frameworkTest\obj\Debug\frameworkTest.exe
+D:\FacultaAn2Sem2\MPP\frameworkTest\frameworkTest\obj\Debug\frameworkTest.pdb

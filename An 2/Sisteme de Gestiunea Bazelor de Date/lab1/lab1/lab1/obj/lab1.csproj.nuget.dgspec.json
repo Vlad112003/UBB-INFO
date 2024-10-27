@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\FacultaAn2Sem2\\SGBD\\lab1\\lab1\\lab1\\lab1.csproj": {}
+  },
+  "projects": {
+    "D:\\FacultaAn2Sem2\\SGBD\\lab1\\lab1\\lab1\\lab1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\FacultaAn2Sem2\\SGBD\\lab1\\lab1\\lab1\\lab1.csproj",
+        "projectName": "lab1",
+        "projectPath": "D:\\FacultaAn2Sem2\\SGBD\\lab1\\lab1\\lab1\\lab1.csproj",
+        "packagesPath": "C:\\Users\\vladb\\.nuget\\packages\\",
+        "outputPath": "D:\\FacultaAn2Sem2\\SGBD\\lab1\\lab1\\lab1\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\vladb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Users\\vladb\\.dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

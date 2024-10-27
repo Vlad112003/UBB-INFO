@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lab13.iss1.AdminController">
+   <children>
+      <TableView layoutX="23.0" layoutY="26.0" prefHeight="200.0" prefWidth="333.0" fx:id="gameTable">
+        <columns>
+          <TableColumn prefWidth="181.0" text="GAME" fx:id="titleColumn"/>
+          <TableColumn prefWidth="83.0" text="GENRE" fx:id="genreColumn"/>
+            <TableColumn prefWidth="68.0" text="PRICE" fx:id="priceColumn"/>
+        </columns>
+      </TableView>
+      <Button layoutX="386.0" layoutY="200.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="136.0" text="DELETE GAME" fx:id="deleteButton" onAction="#onPressDelete"/>
+      <TextField layoutX="24.0" layoutY="252.0" promptText="Game Name" fx:id="nameField" />
+      <ComboBox layoutX="24.0" layoutY="283.0" prefWidth="150.0" promptText="Genre" fx:id="genreField" />
+      <TextField layoutX="23.0" layoutY="315.0" promptText="Price" fx:id="priceField" />
+      <Button layoutX="196.0" layoutY="315.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="136.0" text="ADD GAME" fx:id="addButton" onAction="#onPressAdd" />
+      <Button layoutX="386.0" layoutY="315.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="136.0" text="UPDATE GAME" fx:id="updateButton" onAction="#onPressUpdate"/>
+      <Button layoutX="494.0" layoutY="361.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="92.0" text="LOG OUT" fx:id="logoutButton" onAction="#onLogoutButtonClicked"/>
+   </children>
+</AnchorPane>

@@ -1,0 +1,12 @@
+22 Jun 2023 11:15:05,655 TRACE persistence.players.PlayerRepository 45 findByUsername - Enter
+22 Jun 2023 11:15:05,657 TRACE persistence.Utils 45 getConnection - Enter
+22 Jun 2023 11:15:05,658 TRACE persistence.Utils 23 getNewConnection - Enter
+22 Jun 2023 11:15:05,664 INFO  persistence.Utils 28 getNewConnection - trying to connect to database ... jdbc:sqlite:E:/sem4/mpp/EXAMEN/consoane_vocale/vocale/Server/voc.bd
+22 Jun 2023 11:15:05,664 INFO  persistence.Utils 29 getNewConnection - user: null
+22 Jun 2023 11:15:05,664 INFO  persistence.Utils 30 getNewConnection - pass: null
+22 Jun 2023 11:15:05,784 TRACE persistence.Utils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@71687585)
+22 Jun 2023 11:15:05,786 TRACE persistence.players.PlayerRepository 37 executeQuery - Exit
+22 Jun 2023 11:15:20,340 TRACE persistence.players.PlayerRepository 45 findByUsername - Enter
+22 Jun 2023 11:15:20,341 TRACE persistence.Utils 45 getConnection - Enter
+22 Jun 2023 11:15:20,341 TRACE persistence.Utils 54 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@71687585)
+22 Jun 2023 11:15:20,341 TRACE persistence.players.PlayerRepository 37 executeQuery - Exit

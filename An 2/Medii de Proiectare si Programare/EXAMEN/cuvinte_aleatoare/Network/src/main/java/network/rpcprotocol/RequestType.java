@@ -1,0 +1,5 @@
+package network.rpcprotocol;
+
+public enum RequestType {
+    FIND_PLAYER_BY_USERNAME, CHOOSE_POSITION, GET_SCORES, GET_FINISHED_GAME_INFO, LOGIN, GET_GAME, GET_CONF, GET_ONE_BY_USERNAME
+}

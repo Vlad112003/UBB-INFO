@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<!--        fx:controller="lab13.iss1.SignupView"-->
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lab13.iss1.SignupController">
+   <children>
+      <Button fx:id="registerButton" layoutX="200.0" layoutY="295.0" mnemonicParsing="false" onAction="#onPressRegister" prefHeight="25.0" prefWidth="201.0" text="REGISTER" />
+      <Button fx:id="exitButton" layoutX="510.0" layoutY="361.0" mnemonicParsing="false" onAction="#onPressExit" prefHeight="25.0" prefWidth="76.0" text="EXIT" />
+      <TextField id="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;?import javafx.scene.control.TextField?&gt;&lt;TextField layoutX=&quot;167.0&quot; layoutY=&quot;123.0&quot; prefHeight=&quot;25.0&quot; prefWidth=&quot;267.0&quot; promptText=&quot;Email&quot; xmlns=&quot;http://javafx.com/javafx/21&quot; xmlns:fx=&quot;http://javafx.com/fxml/1&quot; /&gt;" fx:id="emailField" layoutX="167.0" layoutY="124.0" prefHeight="25.0" prefWidth="267.0" promptText="Email" />
+      <TextField id="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&lt;?import javafx.scene.control.TextField?&gt;&lt;TextField layoutX=&quot;167.0&quot; layoutY=&quot;123.0&quot; prefHeight=&quot;25.0&quot; prefWidth=&quot;267.0&quot; promptText=&quot;Email&quot; xmlns=&quot;http://javafx.com/javafx/21&quot; xmlns:fx=&quot;http://javafx.com/fxml/1&quot; /&gt;" fx:id="usernameField" layoutX="167.0" layoutY="162.0" prefHeight="25.0" prefWidth="267.0" promptText="Username" />
+      <PasswordField fx:id="passwordField" layoutX="167.0" layoutY="200.0" prefHeight="25.0" prefWidth="267.0" promptText="Password" />
+   </children>
+</AnchorPane>

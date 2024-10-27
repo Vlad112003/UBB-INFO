@@ -1,0 +1,9 @@
+D:\FacultaAn2Sem2\SGBD\sgbd2\sgbd2\bin\Debug\sgbd2.exe.config
+D:\FacultaAn2Sem2\SGBD\sgbd2\sgbd2\bin\Debug\sgbd2.exe
+D:\FacultaAn2Sem2\SGBD\sgbd2\sgbd2\bin\Debug\sgbd2.pdb
+D:\FacultaAn2Sem2\SGBD\sgbd2\sgbd2\obj\Debug\sgbd2.csproj.AssemblyReference.cache
+D:\FacultaAn2Sem2\SGBD\sgbd2\sgbd2\obj\Debug\sgbd2.Properties.Resources.resources
+D:\FacultaAn2Sem2\SGBD\sgbd2\sgbd2\obj\Debug\sgbd2.csproj.GenerateResource.cache
+D:\FacultaAn2Sem2\SGBD\sgbd2\sgbd2\obj\Debug\sgbd2.csproj.CoreCompileInputs.cache
+D:\FacultaAn2Sem2\SGBD\sgbd2\sgbd2\obj\Debug\sgbd2.exe
+D:\FacultaAn2Sem2\SGBD\sgbd2\sgbd2\obj\Debug\sgbd2.pdb

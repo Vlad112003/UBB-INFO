@@ -1,0 +1,9 @@
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Services\bin\Debug\Services.dll
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Services\bin\Debug\Services.pdb
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Services\bin\Debug\Model.dll
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Services\bin\Debug\Model.pdb
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Services\obj\Debug\Services.csproj.AssemblyReference.cache
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Services\obj\Debug\Services.csproj.CopyComplete
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Services\obj\Debug\Services.dll
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Services\obj\Debug\Services.pdb

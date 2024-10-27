@@ -1,0 +1,11 @@
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Networking\bin\Debug\Networking.dll
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Networking\bin\Debug\Networking.pdb
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Networking\bin\Debug\Model.dll
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Networking\bin\Debug\Services.dll
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Networking\bin\Debug\Model.pdb
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Networking\bin\Debug\Services.pdb
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Networking\obj\Debug\Networking.csproj.AssemblyReference.cache
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Networking\obj\Debug\Networking.csproj.CoreCompileInputs.cache
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Networking\obj\Debug\Networking.csproj.CopyComplete
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Networking\obj\Debug\Networking.dll
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Networking\obj\Debug\Networking.pdb

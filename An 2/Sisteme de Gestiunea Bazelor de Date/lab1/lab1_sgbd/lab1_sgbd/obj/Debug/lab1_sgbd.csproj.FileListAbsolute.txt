@@ -1,0 +1,10 @@
+D:\SGBD\lab1\lab1_sgbd\lab1_sgbd\bin\Debug\lab1_sgbd.exe.config
+D:\SGBD\lab1\lab1_sgbd\lab1_sgbd\bin\Debug\lab1_sgbd.exe
+D:\SGBD\lab1\lab1_sgbd\lab1_sgbd\bin\Debug\lab1_sgbd.pdb
+D:\SGBD\lab1\lab1_sgbd\lab1_sgbd\obj\Debug\lab1_sgbd.csproj.AssemblyReference.cache
+D:\SGBD\lab1\lab1_sgbd\lab1_sgbd\obj\Debug\lab1_sgbd.Form1.resources
+D:\SGBD\lab1\lab1_sgbd\lab1_sgbd\obj\Debug\lab1_sgbd.Properties.Resources.resources
+D:\SGBD\lab1\lab1_sgbd\lab1_sgbd\obj\Debug\lab1_sgbd.csproj.GenerateResource.cache
+D:\SGBD\lab1\lab1_sgbd\lab1_sgbd\obj\Debug\lab1_sgbd.csproj.CoreCompileInputs.cache
+D:\SGBD\lab1\lab1_sgbd\lab1_sgbd\obj\Debug\lab1_sgbd.exe
+D:\SGBD\lab1\lab1_sgbd\lab1_sgbd\obj\Debug\lab1_sgbd.pdb

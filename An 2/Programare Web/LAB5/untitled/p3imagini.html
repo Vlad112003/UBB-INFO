@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Memory Game</title>
+    <style>
+        #board {
+            background: black;
+            border: #999 1px solid;
+            width: 1000px;
+            height: 800px;
+            padding: 24px;
+            margin: auto;
+        }
+
+        #board>div {
+            border: white 1px solid;
+            width: 100px;
+            height: 133px;
+            float: left;
+            margin: 10px;
+            padding: 20px;
+            font-size: 64px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        #board>div img {
+            width: 100px;
+            height: 133px;
+            margin: auto;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        var valori = [];
+        var tile_ids = [];
+        var flipped = 0;
+
+        var variabile = ['czibula.jpg', 'czibula.jpg', 'boian.jpg', 'boian.jpg', 'bufny.jpg', 'bufny.jpg', 'sterca.jpg', 'sterca.jpg', 'serban.jpg', 'serban.jpg', 'suciu.jpg', 'suciu.jpg', 'badarinza.jpg', 'badarinza.jpg', 'gabimircea.jpg', 'gabimircea.jpg', 'vancea.jpg', 'vancea.jpg', 'mursa.jpg', 'mursa.jpg', 'boanca.jpg', 'boanca.jpg', 'modoi.jpg', 'modoi.jpg'];
+
+        Array.prototype.tile_shuffle = function () {
+            var i = this.length,
+                j, temp;
+            while (--i > 0) {
+                j = Math.floor(Math.random() * (i + 1));
+                temp = this[j];
+                this[j] = this[i];
+                this[i] = temp;
+            }
+        }
+
+        function FlipTile(tile, val) {
+            if (tile.innerHTML == "" && valori.length < 2) {
+                tile.style.background = '#FFF';
+
+                var imgElement = document.createElement("img");
+                imgElement.src = val;
+                $(tile).append(imgElement);
+
+                if (valori.length == 0) {
+                    valori.push(val);
+                    tile_ids.push(tile.id);
+                } else if (valori.length == 1) {
+                    valori.push(val);
+                    tile_ids.push(tile.id);
+                    if (valori[0] == valori[1]) {
+                        flipped += 2;
+                        valori = [];
+                        tile_ids = [];
+                        if (flipped == variabile.length) {
+                            alert("Game over!");
+                            $('#board').empty();
+                            newPatrat();
+                        }
+                    } else {
+                        setTimeout(function () {
+                            var tile_1 = document.getElementById(tile_ids[0]);
+                            var tile_2 = document.getElementById(tile_ids[1]);
+                            $(tile_1).css('background', 'none').empty();
+                            $(tile_2).css('background', 'none').empty();
+                            valori = [];
+                            tile_ids = [];
+                        }, 700);
+                    }
+                }
+            }
+        }
+
+        function newPatrat() {
+            flipped = 0;
+            var output = '';
+            variabile.tile_shuffle();
+            for (var i = 0; i < variabile.length; i++) {
+                output += '<div id="tile_' + i + '"></div>';
+            }
+            $('#board').html(output);
+            $('#board div').click(function () {
+                var tile = this;
+                var index = $(tile).index();
+                FlipTile(tile, variabile[index]);
+            });
+        }
+        $(document).ready(function () {
+            newPatrat();
+        });
+    </script>
+</head>
+
+<body>
+<h1 align="center"> Memory Game </h1>
+<div id="board"></div>
+</body>
+
+</html>

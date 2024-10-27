@@ -1,0 +1,15 @@
+timp secunde: cuvinte_aleatoare MainController initialise linia82
+Random random=new Random();
+var i=random.nextInt(capat)+1;	//->generez nr random sau random.nextInt(1,4);->da intre 1-3
+conf random din baza->ghiceste_pozitie_matrice Server ServiceImplementation in login linia 48
+adaugam random in conf->cuvinte_aleatoare in login si in monopoly
+facem functie daca au acelasi nume cu nr la final ex getPoz1, getPoz2.. in cuvinte_aleatoare in choose_position ServiceImplementation
+initialise MainController monopoly -> afisam din prima valorile pe labeluri. luam game pe baza username si configuratia pe baza id
+pe choose_position daca zice ca tries e null facem tries=new ArrayList<>();
+dupa log in daca da eroare Cannot rollback transaction in current status[COMMITED] si nu se deschide -> adaug o configurare in tabela
+modificam game si configuration eventual+ dto; modificam in db; facem REST
+pt incepere joc modificam login in ServiceImplementaion; afisam tabelu ala pe MainView+label cu configuratie
+lbl.setText("blabla") 	btn.setDisable(true)
+String.valueOf(un int)
+on mouse clicked pe label
+cand punem put si post in postman alegem raw si json

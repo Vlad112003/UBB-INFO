@@ -1,0 +1,640 @@
+07 Apr 2024 11:13:50,445 TRACE org.springframework.context.support.AbstractApplicationContext 634 prepareRefresh - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@57576994, started on Sun Apr 07 11:13:50 EEST 2024
+07 Apr 2024 11:13:50,454 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+07 Apr 2024 11:13:50,454 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+07 Apr 2024 11:13:50,473 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+07 Apr 2024 11:13:50,474 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+07 Apr 2024 11:13:50,531 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.jbdsProperties()
+07 Apr 2024 11:13:50,531 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.volunteerRepository()
+07 Apr 2024 11:13:50,531 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.donorRepository()
+07 Apr 2024 11:13:50,532 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.caseRepository()
+07 Apr 2024 11:13:50,532 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.donationRepository()
+07 Apr 2024 11:13:50,532 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.Service()
+07 Apr 2024 11:13:50,533 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.authenticationService()
+07 Apr 2024 11:13:50,568 TRACE org.springframework.context.annotation.ConfigurationClassEnhancer 111 enhance - Successfully enhanced org.charity.AppConfig; enhanced class name is: org.charity.AppConfig$$EnhancerBySpringCGLIB$$660d7fcf
+07 Apr 2024 11:13:50,568 TRACE org.springframework.context.annotation.ConfigurationClassPostProcessor 450 enhanceConfigurationClasses - Replacing bean definition 'appConfig' existing class 'org.charity.AppConfig' with enhanced class 'org.charity.AppConfig$$EnhancerBySpringCGLIB$$660d7fcf'
+07 Apr 2024 11:13:50,569 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+07 Apr 2024 11:13:50,569 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+07 Apr 2024 11:13:50,570 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+07 Apr 2024 11:13:50,571 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+07 Apr 2024 11:13:50,571 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+07 Apr 2024 11:13:50,571 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+07 Apr 2024 11:13:50,572 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+07 Apr 2024 11:13:50,572 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+07 Apr 2024 11:13:50,573 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+07 Apr 2024 11:13:50,573 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+07 Apr 2024 11:13:50,574 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+07 Apr 2024 11:13:50,574 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+07 Apr 2024 11:13:50,575 TRACE org.springframework.context.support.AbstractApplicationContext 805 initMessageSource - No 'messageSource' bean, using [Empty MessageSource]
+07 Apr 2024 11:13:50,578 TRACE org.springframework.context.support.AbstractApplicationContext 829 initApplicationEventMulticaster - No 'applicationEventMulticaster' bean, using [SimpleApplicationEventMulticaster]
+07 Apr 2024 11:13:50,578 TRACE org.springframework.beans.factory.support.DefaultListableBeanFactory 924 preInstantiateSingletons - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@7e8dcdaa: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig,jbdsProperties,volunteerRepository,donorRepository,caseRepository,donationRepository,Service,authenticationService]; root of factory hierarchy
+07 Apr 2024 11:13:50,579 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+07 Apr 2024 11:13:50,579 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+07 Apr 2024 11:13:50,579 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+07 Apr 2024 11:13:50,579 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+07 Apr 2024 11:13:50,579 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'appConfig'
+07 Apr 2024 11:13:50,579 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'appConfig'
+07 Apr 2024 11:13:50,582 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'appConfig' to allow for resolving potential circular references
+07 Apr 2024 11:13:50,582 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'appConfig'
+07 Apr 2024 11:13:50,582 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'jbdsProperties'
+07 Apr 2024 11:13:50,582 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'jbdsProperties'
+07 Apr 2024 11:13:50,584 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 11:13:50,592 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'jbdsProperties' to allow for resolving potential circular references
+07 Apr 2024 11:13:50,593 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'jbdsProperties'
+07 Apr 2024 11:13:50,593 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'volunteerRepository'
+07 Apr 2024 11:13:50,593 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'volunteerRepository'
+07 Apr 2024 11:13:50,593 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 11:13:50,594 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'jbdsProperties'
+07 Apr 2024 11:13:50,599 INFO  org.charity.VolunteerRepository 21 <init> - Initializing VolunteerRepository with properties: {secretKey=S0xFWV9UT1BfU0VDUkVUSw==, jdbc.url=jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite}
+07 Apr 2024 11:13:50,601 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'volunteerRepository' to allow for resolving potential circular references
+07 Apr 2024 11:13:50,601 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'volunteerRepository'
+07 Apr 2024 11:13:50,601 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'donorRepository'
+07 Apr 2024 11:13:50,601 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'donorRepository'
+07 Apr 2024 11:13:50,601 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 11:13:50,602 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'jbdsProperties'
+07 Apr 2024 11:13:50,602 INFO  org.charity.DonorRepository 18 <init> - Initializing DonorRepository with properties: {secretKey=S0xFWV9UT1BfU0VDUkVUSw==, jdbc.url=jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite} 
+07 Apr 2024 11:13:50,603 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'donorRepository' to allow for resolving potential circular references
+07 Apr 2024 11:13:50,603 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'donorRepository'
+07 Apr 2024 11:13:50,603 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'caseRepository'
+07 Apr 2024 11:13:50,603 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'caseRepository'
+07 Apr 2024 11:13:50,603 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 11:13:50,604 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'jbdsProperties'
+07 Apr 2024 11:13:50,604 INFO  org.charity.CharitableCaseRepository 20 <init> - Initializing CharitableCaseRepository with properties: {secretKey=S0xFWV9UT1BfU0VDUkVUSw==, jdbc.url=jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite}
+07 Apr 2024 11:13:50,604 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'caseRepository' to allow for resolving potential circular references
+07 Apr 2024 11:13:50,605 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'caseRepository'
+07 Apr 2024 11:13:50,605 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'donationRepository'
+07 Apr 2024 11:13:50,605 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'donationRepository'
+07 Apr 2024 11:13:50,605 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 11:13:50,606 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'jbdsProperties'
+07 Apr 2024 11:13:50,606 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'donorRepository'
+07 Apr 2024 11:13:50,606 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'caseRepository'
+07 Apr 2024 11:13:50,606 INFO  org.charity.DonationRepository 26 <init> - Initializing DonationRepository with properties: {secretKey=S0xFWV9UT1BfU0VDUkVUSw==, jdbc.url=jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite}
+07 Apr 2024 11:13:50,607 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'donationRepository' to allow for resolving potential circular references
+07 Apr 2024 11:13:50,607 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'donationRepository'
+07 Apr 2024 11:13:50,607 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'Service'
+07 Apr 2024 11:13:50,607 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'Service'
+07 Apr 2024 11:13:50,607 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 11:13:50,608 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'caseRepository'
+07 Apr 2024 11:13:50,608 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'donorRepository'
+07 Apr 2024 11:13:50,608 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'donationRepository'
+07 Apr 2024 11:13:50,608 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'volunteerRepository'
+07 Apr 2024 11:13:50,608 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'Service' to allow for resolving potential circular references
+07 Apr 2024 11:13:50,609 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'Service'
+07 Apr 2024 11:13:50,609 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'authenticationService'
+07 Apr 2024 11:13:50,609 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'authenticationService'
+07 Apr 2024 11:13:50,609 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 11:13:50,609 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'volunteerRepository'
+07 Apr 2024 11:13:50,610 TRACE org.charity.service.AuthenticationService 25 <init> - Enter Starting Authentication Service. Initialize the secret key.
+07 Apr 2024 11:13:50,610 TRACE org.charity.service.AuthenticationService 32 loadSecretKey - Enter loading secret key
+07 Apr 2024 11:13:50,611 TRACE org.charity.service.AuthenticationService 42 loadSecretKey - Exit
+07 Apr 2024 11:13:50,611 TRACE org.charity.service.AuthenticationService 28 <init> - Exit
+07 Apr 2024 11:13:50,611 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'authenticationService' to allow for resolving potential circular references
+07 Apr 2024 11:13:50,611 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'authenticationService'
+07 Apr 2024 11:13:50,613 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.AppConfig$$EnhancerBySpringCGLIB$$660d7fcf
+07 Apr 2024 11:13:50,614 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.VolunteerRepository
+07 Apr 2024 11:13:50,614 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.DonorRepository
+07 Apr 2024 11:13:50,614 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.CharitableCaseRepository
+07 Apr 2024 11:13:50,615 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.DonationRepository
+07 Apr 2024 11:13:50,615 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.service.Service
+07 Apr 2024 11:13:50,615 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.service.AuthenticationService
+07 Apr 2024 11:13:50,616 TRACE org.springframework.context.support.AbstractApplicationContext 856 initLifecycleProcessor - No 'lifecycleProcessor' bean, using [DefaultLifecycleProcessor]
+07 Apr 2024 11:13:50,616 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'lifecycleProcessor'
+07 Apr 2024 11:13:50,617 TRACE org.springframework.core.env.PropertySourcesPropertyResolver 82 getProperty - Searching for key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties'
+07 Apr 2024 11:13:50,618 TRACE org.springframework.core.env.PropertySourcesPropertyResolver 82 getProperty - Searching for key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemEnvironment'
+07 Apr 2024 11:13:50,618 TRACE org.springframework.core.env.PropertySourcesPropertyResolver 96 getProperty - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+07 Apr 2024 11:13:50,621 TRACE org.springframework.core.io.support.SpringFactoriesLoader 103 loadFactories - Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+07 Apr 2024 11:13:50,623 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'Service'
+07 Apr 2024 11:13:50,623 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'authenticationService'
+07 Apr 2024 11:13:50,625 INFO  org.charity.CharityConcurrentServer 32 <init> - Server created successfully
+07 Apr 2024 11:13:50,625 INFO  org.charity.CharityConcurrentServer 49 acceptClients - Waiting for clients
+07 Apr 2024 11:14:05,633 INFO  org.charity.CharityConcurrentServer$1 66 run - Timeout reached. Closing server.
+07 Apr 2024 11:14:05,634 ERROR org.charity.CharityConcurrentServer 56 acceptClients - java.net.SocketException: Interrupted function call: accept failed
+07 Apr 2024 11:16:22,171 TRACE org.springframework.context.support.AbstractApplicationContext 634 prepareRefresh - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@490caf5f, started on Sun Apr 07 11:16:22 EEST 2024
+07 Apr 2024 11:16:22,180 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+07 Apr 2024 11:16:22,180 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+07 Apr 2024 11:16:22,187 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+07 Apr 2024 11:16:22,188 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+07 Apr 2024 11:16:22,217 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.jbdsProperties()
+07 Apr 2024 11:16:22,217 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.volunteerRepository()
+07 Apr 2024 11:16:22,217 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.donorRepository()
+07 Apr 2024 11:16:22,218 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.caseRepository()
+07 Apr 2024 11:16:22,218 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.donationRepository()
+07 Apr 2024 11:16:22,218 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.Service()
+07 Apr 2024 11:16:22,219 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.authenticationService()
+07 Apr 2024 11:16:22,253 TRACE org.springframework.context.annotation.ConfigurationClassEnhancer 111 enhance - Successfully enhanced org.charity.AppConfig; enhanced class name is: org.charity.AppConfig$$EnhancerBySpringCGLIB$$d6ba5a5a
+07 Apr 2024 11:16:22,254 TRACE org.springframework.context.annotation.ConfigurationClassPostProcessor 450 enhanceConfigurationClasses - Replacing bean definition 'appConfig' existing class 'org.charity.AppConfig' with enhanced class 'org.charity.AppConfig$$EnhancerBySpringCGLIB$$d6ba5a5a'
+07 Apr 2024 11:16:22,255 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+07 Apr 2024 11:16:22,255 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+07 Apr 2024 11:16:22,256 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+07 Apr 2024 11:16:22,256 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+07 Apr 2024 11:16:22,257 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+07 Apr 2024 11:16:22,257 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+07 Apr 2024 11:16:22,257 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+07 Apr 2024 11:16:22,257 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+07 Apr 2024 11:16:22,258 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+07 Apr 2024 11:16:22,258 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+07 Apr 2024 11:16:22,259 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+07 Apr 2024 11:16:22,259 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+07 Apr 2024 11:16:22,261 TRACE org.springframework.context.support.AbstractApplicationContext 805 initMessageSource - No 'messageSource' bean, using [Empty MessageSource]
+07 Apr 2024 11:16:22,263 TRACE org.springframework.context.support.AbstractApplicationContext 829 initApplicationEventMulticaster - No 'applicationEventMulticaster' bean, using [SimpleApplicationEventMulticaster]
+07 Apr 2024 11:16:22,264 TRACE org.springframework.beans.factory.support.DefaultListableBeanFactory 924 preInstantiateSingletons - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@708400f6: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig,jbdsProperties,volunteerRepository,donorRepository,caseRepository,donationRepository,Service,authenticationService]; root of factory hierarchy
+07 Apr 2024 11:16:22,264 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+07 Apr 2024 11:16:22,264 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+07 Apr 2024 11:16:22,264 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+07 Apr 2024 11:16:22,264 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+07 Apr 2024 11:16:22,264 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'appConfig'
+07 Apr 2024 11:16:22,264 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'appConfig'
+07 Apr 2024 11:16:22,267 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'appConfig' to allow for resolving potential circular references
+07 Apr 2024 11:16:22,267 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'appConfig'
+07 Apr 2024 11:16:22,267 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'jbdsProperties'
+07 Apr 2024 11:16:22,267 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'jbdsProperties'
+07 Apr 2024 11:16:22,269 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 11:16:22,277 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'jbdsProperties' to allow for resolving potential circular references
+07 Apr 2024 11:16:22,278 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'jbdsProperties'
+07 Apr 2024 11:16:22,278 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'volunteerRepository'
+07 Apr 2024 11:16:22,279 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'volunteerRepository'
+07 Apr 2024 11:16:22,279 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 11:16:22,280 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'jbdsProperties'
+07 Apr 2024 11:16:22,285 INFO  org.charity.VolunteerRepository 21 <init> - Initializing VolunteerRepository with properties: {secretKey=S0xFWV9UT1BfU0VDUkVUSw==, jdbc.url=jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite}
+07 Apr 2024 11:16:22,286 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'volunteerRepository' to allow for resolving potential circular references
+07 Apr 2024 11:16:22,286 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'volunteerRepository'
+07 Apr 2024 11:16:22,287 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'donorRepository'
+07 Apr 2024 11:16:22,287 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'donorRepository'
+07 Apr 2024 11:16:22,287 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 11:16:22,288 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'jbdsProperties'
+07 Apr 2024 11:16:22,288 INFO  org.charity.DonorRepository 18 <init> - Initializing DonorRepository with properties: {secretKey=S0xFWV9UT1BfU0VDUkVUSw==, jdbc.url=jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite} 
+07 Apr 2024 11:16:22,288 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'donorRepository' to allow for resolving potential circular references
+07 Apr 2024 11:16:22,289 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'donorRepository'
+07 Apr 2024 11:16:22,289 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'caseRepository'
+07 Apr 2024 11:16:22,289 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'caseRepository'
+07 Apr 2024 11:16:22,289 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 11:16:22,290 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'jbdsProperties'
+07 Apr 2024 11:16:22,290 INFO  org.charity.CharitableCaseRepository 20 <init> - Initializing CharitableCaseRepository with properties: {secretKey=S0xFWV9UT1BfU0VDUkVUSw==, jdbc.url=jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite}
+07 Apr 2024 11:16:22,290 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'caseRepository' to allow for resolving potential circular references
+07 Apr 2024 11:16:22,290 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'caseRepository'
+07 Apr 2024 11:16:22,290 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'donationRepository'
+07 Apr 2024 11:16:22,291 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'donationRepository'
+07 Apr 2024 11:16:22,291 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 11:16:22,292 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'jbdsProperties'
+07 Apr 2024 11:16:22,292 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'donorRepository'
+07 Apr 2024 11:16:22,292 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'caseRepository'
+07 Apr 2024 11:16:22,292 INFO  org.charity.DonationRepository 26 <init> - Initializing DonationRepository with properties: {secretKey=S0xFWV9UT1BfU0VDUkVUSw==, jdbc.url=jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite}
+07 Apr 2024 11:16:22,292 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'donationRepository' to allow for resolving potential circular references
+07 Apr 2024 11:16:22,292 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'donationRepository'
+07 Apr 2024 11:16:22,292 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'Service'
+07 Apr 2024 11:16:22,293 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'Service'
+07 Apr 2024 11:16:22,293 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 11:16:22,293 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'caseRepository'
+07 Apr 2024 11:16:22,293 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'donorRepository'
+07 Apr 2024 11:16:22,293 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'donationRepository'
+07 Apr 2024 11:16:22,293 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'volunteerRepository'
+07 Apr 2024 11:16:22,294 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'Service' to allow for resolving potential circular references
+07 Apr 2024 11:16:22,294 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'Service'
+07 Apr 2024 11:16:22,294 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'authenticationService'
+07 Apr 2024 11:16:22,294 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'authenticationService'
+07 Apr 2024 11:16:22,294 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 11:16:22,294 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'volunteerRepository'
+07 Apr 2024 11:16:22,295 TRACE org.charity.service.AuthenticationService 25 <init> - Enter Starting Authentication Service. Initialize the secret key.
+07 Apr 2024 11:16:22,295 TRACE org.charity.service.AuthenticationService 32 loadSecretKey - Enter loading secret key
+07 Apr 2024 11:16:22,296 TRACE org.charity.service.AuthenticationService 42 loadSecretKey - Exit
+07 Apr 2024 11:16:22,296 TRACE org.charity.service.AuthenticationService 28 <init> - Exit
+07 Apr 2024 11:16:22,296 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'authenticationService' to allow for resolving potential circular references
+07 Apr 2024 11:16:22,297 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'authenticationService'
+07 Apr 2024 11:16:22,299 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.AppConfig$$EnhancerBySpringCGLIB$$d6ba5a5a
+07 Apr 2024 11:16:22,299 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.VolunteerRepository
+07 Apr 2024 11:16:22,300 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.DonorRepository
+07 Apr 2024 11:16:22,300 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.CharitableCaseRepository
+07 Apr 2024 11:16:22,300 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.DonationRepository
+07 Apr 2024 11:16:22,301 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.service.Service
+07 Apr 2024 11:16:22,301 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.service.AuthenticationService
+07 Apr 2024 11:16:22,301 TRACE org.springframework.context.support.AbstractApplicationContext 856 initLifecycleProcessor - No 'lifecycleProcessor' bean, using [DefaultLifecycleProcessor]
+07 Apr 2024 11:16:22,302 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'lifecycleProcessor'
+07 Apr 2024 11:16:22,303 TRACE org.springframework.core.env.PropertySourcesPropertyResolver 82 getProperty - Searching for key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties'
+07 Apr 2024 11:16:22,303 TRACE org.springframework.core.env.PropertySourcesPropertyResolver 82 getProperty - Searching for key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemEnvironment'
+07 Apr 2024 11:16:22,303 TRACE org.springframework.core.env.PropertySourcesPropertyResolver 96 getProperty - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+07 Apr 2024 11:16:22,307 TRACE org.springframework.core.io.support.SpringFactoriesLoader 103 loadFactories - Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+07 Apr 2024 11:16:22,308 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'Service'
+07 Apr 2024 11:16:22,308 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'authenticationService'
+07 Apr 2024 11:16:22,311 INFO  org.charity.CharityConcurrentServer 32 <init> - Server created successfully
+07 Apr 2024 11:16:22,311 INFO  org.charity.CharityConcurrentServer 49 acceptClients - Waiting for clients
+07 Apr 2024 11:16:35,576 INFO  org.charity.CharityConcurrentServer 49 acceptClients - Waiting for clients
+07 Apr 2024 11:16:41,636 INFO  org.charity.CharityClientWorker 61 handleRequest - Login request ...
+07 Apr 2024 11:16:41,637 TRACE org.charity.service.AuthenticationService 82 login - Enter Entering login for: ion
+07 Apr 2024 11:16:41,637 TRACE org.charity.service.AuthenticationService 51 encrypt - Enter Encrypting password
+07 Apr 2024 11:16:41,668 TRACE org.charity.service.AuthenticationService 56 encrypt - Exit
+07 Apr 2024 11:16:41,668 TRACE org.charity.VolunteerRepository 115 findOneByUsername - Enter finding volunteer with id ion
+07 Apr 2024 11:16:41,668 TRACE org.charity.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 11:16:41,668 TRACE org.charity.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 11:16:41,668 INFO  org.charity.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite
+07 Apr 2024 11:16:41,668 INFO  org.charity.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 11:16:41,668 INFO  org.charity.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 11:16:41,908 TRACE org.charity.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@702d87cb)
+07 Apr 2024 11:16:41,921 TRACE org.charity.VolunteerRepository 124 findOneByUsername - Exit with(Volunteer{username='ion', password='uYdvWThmFIjWKI2dT51xbA==', _id=10})
+07 Apr 2024 11:16:41,922 TRACE org.charity.service.AuthenticationService 86 login - Exit Login successful for ion
+07 Apr 2024 11:16:41,923 INFO  org.charity.CharityClientWorker 65 handleRequest - Login successful
+07 Apr 2024 11:16:41,947 INFO  org.charity.CharityClientWorker 105 handleRequest - Get all cases request ...
+07 Apr 2024 11:16:41,947 TRACE org.charity.CharitableCaseRepository 114 findAll - Enter
+07 Apr 2024 11:16:41,947 TRACE org.charity.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 11:16:41,947 TRACE org.charity.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 11:16:41,947 INFO  org.charity.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite
+07 Apr 2024 11:16:41,947 INFO  org.charity.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 11:16:41,948 INFO  org.charity.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 11:16:41,948 TRACE org.charity.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@50d434fa)
+07 Apr 2024 11:16:41,951 TRACE org.charity.CharitableCaseRepository 131 findAll - Exit with([CharitableCase{caseName='Test Case 5', amount=6346.0, _id=1}, CharitableCase{caseName='Test Case', amount=1944.0, _id=2}])
+07 Apr 2024 11:16:44,946 INFO  org.charity.CharityClientWorker 90 handleRequest - Get donors request ...
+07 Apr 2024 11:16:44,946 TRACE org.charity.DonorRepository 164 findAllWithFilter - Enter
+07 Apr 2024 11:16:44,946 TRACE org.charity.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 11:16:44,946 TRACE org.charity.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 11:16:44,946 INFO  org.charity.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite
+07 Apr 2024 11:16:44,946 INFO  org.charity.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 11:16:44,947 INFO  org.charity.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 11:16:44,947 TRACE org.charity.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b0af203)
+07 Apr 2024 11:16:44,954 TRACE org.charity.DonorRepository 183 findAllWithFilter - Exit with([Donor{name='John Doe', address='john@example.com', phone='123-456-7890', _id=1}, Donor{name='aaa', address='aa', phone='999', _id=2}, Donor{name='bbb', address='bbb', phone='444', _id=3}])
+07 Apr 2024 11:16:53,131 TRACE org.charity.DonorRepository 42 save - Enter saving donor Donor{name='aaa', address='aa', phone='999', _id=2} 
+07 Apr 2024 11:16:53,131 TRACE org.charity.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 11:16:53,131 TRACE org.charity.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b0af203)
+07 Apr 2024 11:16:53,134 ERROR org.charity.DonorRepository 51 save - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_PRIMARYKEY] A PRIMARY KEY constraint failed (UNIQUE constraint failed: Donor.id)
+07 Apr 2024 11:16:53,134 TRACE org.charity.DonorRepository 54 save - Exit
+07 Apr 2024 11:16:53,134 TRACE org.charity.CharitableCaseRepository 74 update - Enter updating charitable case with id 1
+07 Apr 2024 11:16:53,134 TRACE org.charity.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 11:16:53,135 TRACE org.charity.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@50d434fa)
+07 Apr 2024 11:16:53,150 TRACE org.charity.CharitableCaseRepository 85 update - Exit
+07 Apr 2024 11:16:53,150 TRACE org.charity.DonationRepository 53 save - Enter saving donation Donation{donor=Donor{name='aaa', address='aa', phone='999', _id=2}, charitableCase=CharitableCase{caseName='Test Case 5', amount=6446.0, _id=1}, amount=100.0, _id=null}
+07 Apr 2024 11:16:53,151 TRACE org.charity.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 11:16:53,151 TRACE org.charity.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 11:16:53,151 INFO  org.charity.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite
+07 Apr 2024 11:16:53,151 INFO  org.charity.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 11:16:53,151 INFO  org.charity.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 11:16:53,151 TRACE org.charity.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@52d24ea5)
+07 Apr 2024 11:16:53,152 ERROR org.charity.DonationRepository 60 save - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_NOTNULL] A NOT NULL constraint failed (NOT NULL constraint failed: Donation.donor_id)
+07 Apr 2024 11:16:53,152 TRACE org.charity.DonationRepository 63 save - Exit
+07 Apr 2024 11:16:53,153 INFO  org.charity.CharityClientWorker 90 handleRequest - Get donors request ...
+07 Apr 2024 11:16:53,153 TRACE org.charity.DonorRepository 164 findAllWithFilter - Enter
+07 Apr 2024 11:16:53,153 TRACE org.charity.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 11:16:53,153 TRACE org.charity.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b0af203)
+07 Apr 2024 11:16:53,153 TRACE org.charity.DonorRepository 183 findAllWithFilter - Exit with([Donor{name='John Doe', address='john@example.com', phone='123-456-7890', _id=1}, Donor{name='aaa', address='aa', phone='999', _id=2}, Donor{name='bbb', address='bbb', phone='444', _id=3}])
+07 Apr 2024 11:16:53,155 INFO  org.charity.CharityClientWorker 105 handleRequest - Get all cases request ...
+07 Apr 2024 11:16:53,155 TRACE org.charity.CharitableCaseRepository 114 findAll - Enter
+07 Apr 2024 11:16:53,155 TRACE org.charity.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 11:16:53,155 TRACE org.charity.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@50d434fa)
+07 Apr 2024 11:16:53,155 TRACE org.charity.CharitableCaseRepository 131 findAll - Exit with([CharitableCase{caseName='Test Case 5', amount=6446.0, _id=1}, CharitableCase{caseName='Test Case', amount=1944.0, _id=2}])
+07 Apr 2024 11:16:56,390 INFO  org.charity.CharityClientWorker 90 handleRequest - Get donors request ...
+07 Apr 2024 11:16:56,391 TRACE org.charity.DonorRepository 164 findAllWithFilter - Enter
+07 Apr 2024 11:16:56,391 TRACE org.charity.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 11:16:56,392 TRACE org.charity.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b0af203)
+07 Apr 2024 11:16:56,392 TRACE org.charity.DonorRepository 183 findAllWithFilter - Exit with([Donor{name='bbb', address='bbb', phone='444', _id=3}])
+07 Apr 2024 11:17:01,032 INFO  org.charity.CharityClientWorker 74 handleRequest - Logout request ...
+07 Apr 2024 11:17:01,033 INFO  org.charity.CharityClientWorker 78 handleRequest - Closing connection ...
+07 Apr 2024 11:17:01,035 INFO  org.charity.CharityClientWorker 82 handleRequest - Connection closed
+07 Apr 2024 12:23:02,535 TRACE org.springframework.context.support.AbstractApplicationContext 634 prepareRefresh - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@490caf5f, started on Sun Apr 07 12:23:02 EEST 2024
+07 Apr 2024 12:23:02,545 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+07 Apr 2024 12:23:02,545 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+07 Apr 2024 12:23:02,553 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+07 Apr 2024 12:23:02,554 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+07 Apr 2024 12:23:02,586 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.jbdsProperties()
+07 Apr 2024 12:23:02,586 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.volunteerRepository()
+07 Apr 2024 12:23:02,586 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.donorRepository()
+07 Apr 2024 12:23:02,587 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.caseRepository()
+07 Apr 2024 12:23:02,587 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.donationRepository()
+07 Apr 2024 12:23:02,587 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.Service()
+07 Apr 2024 12:23:02,588 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.authenticationService()
+07 Apr 2024 12:23:02,624 TRACE org.springframework.context.annotation.ConfigurationClassEnhancer 111 enhance - Successfully enhanced org.charity.AppConfig; enhanced class name is: org.charity.AppConfig$$EnhancerBySpringCGLIB$$86858ea5
+07 Apr 2024 12:23:02,624 TRACE org.springframework.context.annotation.ConfigurationClassPostProcessor 450 enhanceConfigurationClasses - Replacing bean definition 'appConfig' existing class 'org.charity.AppConfig' with enhanced class 'org.charity.AppConfig$$EnhancerBySpringCGLIB$$86858ea5'
+07 Apr 2024 12:23:02,625 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+07 Apr 2024 12:23:02,625 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+07 Apr 2024 12:23:02,626 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+07 Apr 2024 12:23:02,627 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+07 Apr 2024 12:23:02,627 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+07 Apr 2024 12:23:02,627 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+07 Apr 2024 12:23:02,627 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+07 Apr 2024 12:23:02,628 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+07 Apr 2024 12:23:02,628 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+07 Apr 2024 12:23:02,628 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+07 Apr 2024 12:23:02,630 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+07 Apr 2024 12:23:02,630 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+07 Apr 2024 12:23:02,632 TRACE org.springframework.context.support.AbstractApplicationContext 805 initMessageSource - No 'messageSource' bean, using [Empty MessageSource]
+07 Apr 2024 12:23:02,634 TRACE org.springframework.context.support.AbstractApplicationContext 829 initApplicationEventMulticaster - No 'applicationEventMulticaster' bean, using [SimpleApplicationEventMulticaster]
+07 Apr 2024 12:23:02,635 TRACE org.springframework.beans.factory.support.DefaultListableBeanFactory 924 preInstantiateSingletons - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@708400f6: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig,jbdsProperties,volunteerRepository,donorRepository,caseRepository,donationRepository,Service,authenticationService]; root of factory hierarchy
+07 Apr 2024 12:23:02,635 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+07 Apr 2024 12:23:02,635 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+07 Apr 2024 12:23:02,635 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+07 Apr 2024 12:23:02,636 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+07 Apr 2024 12:23:02,636 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'appConfig'
+07 Apr 2024 12:23:02,636 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'appConfig'
+07 Apr 2024 12:23:02,638 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'appConfig' to allow for resolving potential circular references
+07 Apr 2024 12:23:02,638 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'appConfig'
+07 Apr 2024 12:23:02,639 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'jbdsProperties'
+07 Apr 2024 12:23:02,639 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'jbdsProperties'
+07 Apr 2024 12:23:02,640 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 12:23:02,649 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'jbdsProperties' to allow for resolving potential circular references
+07 Apr 2024 12:23:02,649 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'jbdsProperties'
+07 Apr 2024 12:23:02,649 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'volunteerRepository'
+07 Apr 2024 12:23:02,649 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'volunteerRepository'
+07 Apr 2024 12:23:02,650 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 12:23:02,651 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'jbdsProperties'
+07 Apr 2024 12:23:02,655 INFO  org.charity.VolunteerRepository 21 <init> - Initializing VolunteerRepository with properties: {secretKey=S0xFWV9UT1BfU0VDUkVUSw==, jdbc.url=jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite}
+07 Apr 2024 12:23:02,657 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'volunteerRepository' to allow for resolving potential circular references
+07 Apr 2024 12:23:02,657 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'volunteerRepository'
+07 Apr 2024 12:23:02,657 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'donorRepository'
+07 Apr 2024 12:23:02,657 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'donorRepository'
+07 Apr 2024 12:23:02,657 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 12:23:02,658 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'jbdsProperties'
+07 Apr 2024 12:23:02,658 INFO  org.charity.DonorRepository 18 <init> - Initializing DonorRepository with properties: {secretKey=S0xFWV9UT1BfU0VDUkVUSw==, jdbc.url=jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite} 
+07 Apr 2024 12:23:02,659 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'donorRepository' to allow for resolving potential circular references
+07 Apr 2024 12:23:02,659 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'donorRepository'
+07 Apr 2024 12:23:02,659 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'caseRepository'
+07 Apr 2024 12:23:02,659 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'caseRepository'
+07 Apr 2024 12:23:02,659 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 12:23:02,659 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'jbdsProperties'
+07 Apr 2024 12:23:02,660 INFO  org.charity.CharitableCaseRepository 20 <init> - Initializing CharitableCaseRepository with properties: {secretKey=S0xFWV9UT1BfU0VDUkVUSw==, jdbc.url=jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite}
+07 Apr 2024 12:23:02,660 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'caseRepository' to allow for resolving potential circular references
+07 Apr 2024 12:23:02,660 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'caseRepository'
+07 Apr 2024 12:23:02,661 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'donationRepository'
+07 Apr 2024 12:23:02,661 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'donationRepository'
+07 Apr 2024 12:23:02,661 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 12:23:02,662 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'jbdsProperties'
+07 Apr 2024 12:23:02,662 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'donorRepository'
+07 Apr 2024 12:23:02,662 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'caseRepository'
+07 Apr 2024 12:23:02,662 INFO  org.charity.DonationRepository 26 <init> - Initializing DonationRepository with properties: {secretKey=S0xFWV9UT1BfU0VDUkVUSw==, jdbc.url=jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite}
+07 Apr 2024 12:23:02,662 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'donationRepository' to allow for resolving potential circular references
+07 Apr 2024 12:23:02,663 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'donationRepository'
+07 Apr 2024 12:23:02,663 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'Service'
+07 Apr 2024 12:23:02,663 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'Service'
+07 Apr 2024 12:23:02,663 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 12:23:02,663 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'caseRepository'
+07 Apr 2024 12:23:02,663 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'donorRepository'
+07 Apr 2024 12:23:02,663 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'donationRepository'
+07 Apr 2024 12:23:02,663 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'volunteerRepository'
+07 Apr 2024 12:23:02,664 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'Service' to allow for resolving potential circular references
+07 Apr 2024 12:23:02,664 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'Service'
+07 Apr 2024 12:23:02,664 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'authenticationService'
+07 Apr 2024 12:23:02,664 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'authenticationService'
+07 Apr 2024 12:23:02,665 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 12:23:02,665 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'volunteerRepository'
+07 Apr 2024 12:23:02,666 TRACE org.charity.service.AuthenticationService 25 <init> - Enter Starting Authentication Service. Initialize the secret key.
+07 Apr 2024 12:23:02,666 TRACE org.charity.service.AuthenticationService 32 loadSecretKey - Enter loading secret key
+07 Apr 2024 12:23:02,667 TRACE org.charity.service.AuthenticationService 42 loadSecretKey - Exit
+07 Apr 2024 12:23:02,667 TRACE org.charity.service.AuthenticationService 28 <init> - Exit
+07 Apr 2024 12:23:02,667 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'authenticationService' to allow for resolving potential circular references
+07 Apr 2024 12:23:02,667 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'authenticationService'
+07 Apr 2024 12:23:02,669 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.AppConfig$$EnhancerBySpringCGLIB$$86858ea5
+07 Apr 2024 12:23:02,670 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.VolunteerRepository
+07 Apr 2024 12:23:02,670 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.DonorRepository
+07 Apr 2024 12:23:02,670 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.CharitableCaseRepository
+07 Apr 2024 12:23:02,670 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.DonationRepository
+07 Apr 2024 12:23:02,670 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.service.Service
+07 Apr 2024 12:23:02,670 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.service.AuthenticationService
+07 Apr 2024 12:23:02,671 TRACE org.springframework.context.support.AbstractApplicationContext 856 initLifecycleProcessor - No 'lifecycleProcessor' bean, using [DefaultLifecycleProcessor]
+07 Apr 2024 12:23:02,671 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'lifecycleProcessor'
+07 Apr 2024 12:23:02,673 TRACE org.springframework.core.env.PropertySourcesPropertyResolver 82 getProperty - Searching for key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties'
+07 Apr 2024 12:23:02,673 TRACE org.springframework.core.env.PropertySourcesPropertyResolver 82 getProperty - Searching for key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemEnvironment'
+07 Apr 2024 12:23:02,673 TRACE org.springframework.core.env.PropertySourcesPropertyResolver 96 getProperty - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+07 Apr 2024 12:23:02,678 TRACE org.springframework.core.io.support.SpringFactoriesLoader 103 loadFactories - Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+07 Apr 2024 12:23:02,679 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'Service'
+07 Apr 2024 12:23:02,679 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'authenticationService'
+07 Apr 2024 12:23:02,681 INFO  org.charity.CharityConcurrentServer 32 <init> - Server created successfully
+07 Apr 2024 12:23:02,681 INFO  org.charity.CharityConcurrentServer 49 acceptClients - Waiting for clients
+07 Apr 2024 12:23:17,054 INFO  org.charity.CharityConcurrentServer 49 acceptClients - Waiting for clients
+07 Apr 2024 12:23:23,863 INFO  org.charity.CharityClientWorker 61 handleRequest - Login request ...
+07 Apr 2024 12:23:23,864 TRACE org.charity.service.AuthenticationService 82 login - Enter Entering login for: ion
+07 Apr 2024 12:23:23,864 TRACE org.charity.service.AuthenticationService 51 encrypt - Enter Encrypting password
+07 Apr 2024 12:23:23,885 TRACE org.charity.service.AuthenticationService 56 encrypt - Exit
+07 Apr 2024 12:23:23,885 TRACE org.charity.VolunteerRepository 115 findOneByUsername - Enter finding volunteer with id ion
+07 Apr 2024 12:23:23,885 TRACE org.charity.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 12:23:23,885 TRACE org.charity.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 12:23:23,885 INFO  org.charity.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite
+07 Apr 2024 12:23:23,886 INFO  org.charity.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 12:23:23,886 INFO  org.charity.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 12:23:24,138 TRACE org.charity.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1e75f707)
+07 Apr 2024 12:23:24,148 TRACE org.charity.VolunteerRepository 124 findOneByUsername - Exit with(Volunteer{username='ion', password='uYdvWThmFIjWKI2dT51xbA==', _id=10})
+07 Apr 2024 12:23:24,148 TRACE org.charity.service.AuthenticationService 86 login - Exit Login successful for ion
+07 Apr 2024 12:23:24,149 INFO  org.charity.CharityClientWorker 65 handleRequest - Login successful
+07 Apr 2024 12:23:24,173 INFO  org.charity.CharityClientWorker 142 handleRequest - Add observer request ...
+07 Apr 2024 12:23:24,174 INFO  org.charity.CharityClientWorker 105 handleRequest - Get all cases request ...
+07 Apr 2024 12:23:24,174 TRACE org.charity.CharitableCaseRepository 114 findAll - Enter
+07 Apr 2024 12:23:24,175 TRACE org.charity.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 12:23:24,175 TRACE org.charity.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 12:23:24,175 INFO  org.charity.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite
+07 Apr 2024 12:23:24,175 INFO  org.charity.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 12:23:24,176 INFO  org.charity.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 12:23:24,176 TRACE org.charity.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@51f0368c)
+07 Apr 2024 12:23:24,179 TRACE org.charity.CharitableCaseRepository 131 findAll - Exit with([CharitableCase{caseName='Test Case 5', amount=6446.0, _id=1}, CharitableCase{caseName='Test Case', amount=1944.0, _id=2}])
+07 Apr 2024 12:23:37,363 INFO  org.charity.CharityConcurrentServer 49 acceptClients - Waiting for clients
+07 Apr 2024 12:23:43,690 INFO  org.charity.CharityClientWorker 61 handleRequest - Login request ...
+07 Apr 2024 12:23:43,691 TRACE org.charity.service.AuthenticationService 82 login - Enter Entering login for: ion
+07 Apr 2024 12:23:43,691 TRACE org.charity.service.AuthenticationService 51 encrypt - Enter Encrypting password
+07 Apr 2024 12:23:43,692 TRACE org.charity.service.AuthenticationService 56 encrypt - Exit
+07 Apr 2024 12:23:43,692 TRACE org.charity.VolunteerRepository 115 findOneByUsername - Enter finding volunteer with id ion
+07 Apr 2024 12:23:43,692 TRACE org.charity.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 12:23:43,692 TRACE org.charity.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1e75f707)
+07 Apr 2024 12:23:43,693 TRACE org.charity.VolunteerRepository 124 findOneByUsername - Exit with(Volunteer{username='ion', password='uYdvWThmFIjWKI2dT51xbA==', _id=10})
+07 Apr 2024 12:23:43,693 TRACE org.charity.service.AuthenticationService 86 login - Exit Login successful for ion
+07 Apr 2024 12:23:43,693 INFO  org.charity.CharityClientWorker 65 handleRequest - Login successful
+07 Apr 2024 12:23:43,714 INFO  org.charity.CharityClientWorker 142 handleRequest - Add observer request ...
+07 Apr 2024 12:23:43,715 INFO  org.charity.CharityClientWorker 105 handleRequest - Get all cases request ...
+07 Apr 2024 12:23:43,715 TRACE org.charity.CharitableCaseRepository 114 findAll - Enter
+07 Apr 2024 12:23:43,715 TRACE org.charity.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 12:23:43,715 TRACE org.charity.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@51f0368c)
+07 Apr 2024 12:23:43,716 TRACE org.charity.CharitableCaseRepository 131 findAll - Exit with([CharitableCase{caseName='Test Case 5', amount=6446.0, _id=1}, CharitableCase{caseName='Test Case', amount=1944.0, _id=2}])
+07 Apr 2024 12:23:50,771 INFO  org.charity.CharityClientWorker 90 handleRequest - Get donors request ...
+07 Apr 2024 12:23:50,772 TRACE org.charity.DonorRepository 164 findAllWithFilter - Enter
+07 Apr 2024 12:23:50,772 TRACE org.charity.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 12:23:50,772 TRACE org.charity.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 12:23:50,772 INFO  org.charity.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite
+07 Apr 2024 12:23:50,772 INFO  org.charity.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 12:23:50,772 INFO  org.charity.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 12:23:50,772 TRACE org.charity.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@37a87f1)
+07 Apr 2024 12:23:50,778 TRACE org.charity.DonorRepository 183 findAllWithFilter - Exit with([Donor{name='John Doe', address='john@example.com', phone='123-456-7890', _id=1}, Donor{name='aaa', address='aa', phone='999', _id=2}, Donor{name='bbb', address='bbb', phone='444', _id=3}])
+07 Apr 2024 12:24:00,081 TRACE org.charity.DonorRepository 42 save - Enter saving donor Donor{name='John Doe', address='john@example.com', phone='123-456-7890', _id=1} 
+07 Apr 2024 12:24:00,082 TRACE org.charity.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 12:24:00,082 TRACE org.charity.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@37a87f1)
+07 Apr 2024 12:24:00,084 ERROR org.charity.DonorRepository 51 save - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_PRIMARYKEY] A PRIMARY KEY constraint failed (UNIQUE constraint failed: Donor.id)
+07 Apr 2024 12:24:00,085 TRACE org.charity.DonorRepository 54 save - Exit
+07 Apr 2024 12:24:00,085 TRACE org.charity.CharitableCaseRepository 74 update - Enter updating charitable case with id 1
+07 Apr 2024 12:24:00,085 TRACE org.charity.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 12:24:00,085 TRACE org.charity.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@51f0368c)
+07 Apr 2024 12:24:00,090 TRACE org.charity.CharitableCaseRepository 85 update - Exit
+07 Apr 2024 12:24:00,091 TRACE org.charity.DonationRepository 53 save - Enter saving donation Donation{donor=Donor{name='John Doe', address='john@example.com', phone='123-456-7890', _id=1}, charitableCase=CharitableCase{caseName='Test Case 5', amount=6546.0, _id=1}, amount=100.0, _id=null}
+07 Apr 2024 12:24:00,091 TRACE org.charity.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 12:24:00,091 TRACE org.charity.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 12:24:00,091 INFO  org.charity.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite
+07 Apr 2024 12:24:00,091 INFO  org.charity.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 12:24:00,091 INFO  org.charity.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 12:24:00,092 TRACE org.charity.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@632233eb)
+07 Apr 2024 12:24:00,092 ERROR org.charity.DonationRepository 60 save - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_NOTNULL] A NOT NULL constraint failed (NOT NULL constraint failed: Donation.donor_id)
+07 Apr 2024 12:24:00,092 TRACE org.charity.DonationRepository 63 save - Exit
+07 Apr 2024 12:24:00,092 TRACE org.charity.CharitableCaseRepository 114 findAll - Enter
+07 Apr 2024 12:24:00,092 TRACE org.charity.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 12:24:00,092 TRACE org.charity.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@51f0368c)
+07 Apr 2024 12:24:00,093 TRACE org.charity.CharitableCaseRepository 131 findAll - Exit with([CharitableCase{caseName='Test Case 5', amount=6546.0, _id=1}, CharitableCase{caseName='Test Case', amount=1944.0, _id=2}])
+07 Apr 2024 12:24:00,101 INFO  org.charity.CharityClientWorker 90 handleRequest - Get donors request ...
+07 Apr 2024 12:24:00,102 TRACE org.charity.DonorRepository 164 findAllWithFilter - Enter
+07 Apr 2024 12:24:00,102 TRACE org.charity.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 12:24:00,102 TRACE org.charity.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@37a87f1)
+07 Apr 2024 12:24:00,103 TRACE org.charity.DonorRepository 183 findAllWithFilter - Exit with([Donor{name='John Doe', address='john@example.com', phone='123-456-7890', _id=1}, Donor{name='aaa', address='aa', phone='999', _id=2}, Donor{name='bbb', address='bbb', phone='444', _id=3}])
+07 Apr 2024 12:24:00,109 INFO  org.charity.CharityClientWorker 105 handleRequest - Get all cases request ...
+07 Apr 2024 12:24:00,109 TRACE org.charity.CharitableCaseRepository 114 findAll - Enter
+07 Apr 2024 12:24:00,109 TRACE org.charity.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 12:24:00,109 TRACE org.charity.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@51f0368c)
+07 Apr 2024 12:24:00,110 TRACE org.charity.CharitableCaseRepository 131 findAll - Exit with([CharitableCase{caseName='Test Case 5', amount=6546.0, _id=1}, CharitableCase{caseName='Test Case', amount=1944.0, _id=2}])
+07 Apr 2024 12:24:10,526 INFO  org.charity.CharityClientWorker 74 handleRequest - Logout request ...
+07 Apr 2024 12:24:10,526 INFO  org.charity.CharityClientWorker 78 handleRequest - Closing connection ...
+07 Apr 2024 12:24:10,528 INFO  org.charity.CharityClientWorker 82 handleRequest - Connection closed
+07 Apr 2024 12:24:16,453 INFO  org.charity.CharityClientWorker 74 handleRequest - Logout request ...
+07 Apr 2024 12:24:16,453 INFO  org.charity.CharityClientWorker 78 handleRequest - Closing connection ...
+07 Apr 2024 12:24:16,454 INFO  org.charity.CharityClientWorker 82 handleRequest - Connection closed
+07 Apr 2024 12:26:25,889 TRACE org.springframework.context.support.AbstractApplicationContext 634 prepareRefresh - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@490caf5f, started on Sun Apr 07 12:26:25 EEST 2024
+07 Apr 2024 12:26:25,898 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+07 Apr 2024 12:26:25,898 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+07 Apr 2024 12:26:25,906 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+07 Apr 2024 12:26:25,906 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+07 Apr 2024 12:26:25,936 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.jbdsProperties()
+07 Apr 2024 12:26:25,936 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.volunteerRepository()
+07 Apr 2024 12:26:25,936 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.donorRepository()
+07 Apr 2024 12:26:25,937 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.caseRepository()
+07 Apr 2024 12:26:25,937 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.donationRepository()
+07 Apr 2024 12:26:25,937 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.Service()
+07 Apr 2024 12:26:25,938 TRACE org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader 292 loadBeanDefinitionsForBeanMethod - Registering bean definition for @Bean method org.charity.AppConfig.authenticationService()
+07 Apr 2024 12:26:25,972 TRACE org.springframework.context.annotation.ConfigurationClassEnhancer 111 enhance - Successfully enhanced org.charity.AppConfig; enhanced class name is: org.charity.AppConfig$$EnhancerBySpringCGLIB$$86858ea5
+07 Apr 2024 12:26:25,973 TRACE org.springframework.context.annotation.ConfigurationClassPostProcessor 450 enhanceConfigurationClasses - Replacing bean definition 'appConfig' existing class 'org.charity.AppConfig' with enhanced class 'org.charity.AppConfig$$EnhancerBySpringCGLIB$$86858ea5'
+07 Apr 2024 12:26:25,974 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+07 Apr 2024 12:26:25,974 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+07 Apr 2024 12:26:25,975 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'org.springframework.context.event.internalEventListenerProcessor' to allow for resolving potential circular references
+07 Apr 2024 12:26:25,975 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerProcessor'
+07 Apr 2024 12:26:25,976 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+07 Apr 2024 12:26:25,976 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+07 Apr 2024 12:26:25,976 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'org.springframework.context.event.internalEventListenerFactory' to allow for resolving potential circular references
+07 Apr 2024 12:26:25,976 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'org.springframework.context.event.internalEventListenerFactory'
+07 Apr 2024 12:26:25,977 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+07 Apr 2024 12:26:25,977 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+07 Apr 2024 12:26:25,978 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+07 Apr 2024 12:26:25,979 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+07 Apr 2024 12:26:25,981 TRACE org.springframework.context.support.AbstractApplicationContext 805 initMessageSource - No 'messageSource' bean, using [Empty MessageSource]
+07 Apr 2024 12:26:25,982 TRACE org.springframework.context.support.AbstractApplicationContext 829 initApplicationEventMulticaster - No 'applicationEventMulticaster' bean, using [SimpleApplicationEventMulticaster]
+07 Apr 2024 12:26:25,983 TRACE org.springframework.beans.factory.support.DefaultListableBeanFactory 924 preInstantiateSingletons - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@708400f6: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,appConfig,jbdsProperties,volunteerRepository,donorRepository,caseRepository,donationRepository,Service,authenticationService]; root of factory hierarchy
+07 Apr 2024 12:26:25,984 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+07 Apr 2024 12:26:25,984 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+07 Apr 2024 12:26:25,984 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+07 Apr 2024 12:26:25,985 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+07 Apr 2024 12:26:25,985 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'appConfig'
+07 Apr 2024 12:26:25,985 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'appConfig'
+07 Apr 2024 12:26:25,987 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'appConfig' to allow for resolving potential circular references
+07 Apr 2024 12:26:25,988 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'appConfig'
+07 Apr 2024 12:26:25,988 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'jbdsProperties'
+07 Apr 2024 12:26:25,988 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'jbdsProperties'
+07 Apr 2024 12:26:25,990 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 12:26:25,998 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'jbdsProperties' to allow for resolving potential circular references
+07 Apr 2024 12:26:25,999 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'jbdsProperties'
+07 Apr 2024 12:26:25,999 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'volunteerRepository'
+07 Apr 2024 12:26:25,999 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'volunteerRepository'
+07 Apr 2024 12:26:25,999 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 12:26:26,000 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'jbdsProperties'
+07 Apr 2024 12:26:26,005 INFO  org.charity.VolunteerRepository 21 <init> - Initializing VolunteerRepository with properties: {secretKey=S0xFWV9UT1BfU0VDUkVUSw==, jdbc.url=jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite}
+07 Apr 2024 12:26:26,007 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'volunteerRepository' to allow for resolving potential circular references
+07 Apr 2024 12:26:26,007 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'volunteerRepository'
+07 Apr 2024 12:26:26,007 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'donorRepository'
+07 Apr 2024 12:26:26,007 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'donorRepository'
+07 Apr 2024 12:26:26,007 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 12:26:26,008 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'jbdsProperties'
+07 Apr 2024 12:26:26,008 INFO  org.charity.DonorRepository 18 <init> - Initializing DonorRepository with properties: {secretKey=S0xFWV9UT1BfU0VDUkVUSw==, jdbc.url=jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite} 
+07 Apr 2024 12:26:26,009 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'donorRepository' to allow for resolving potential circular references
+07 Apr 2024 12:26:26,009 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'donorRepository'
+07 Apr 2024 12:26:26,009 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'caseRepository'
+07 Apr 2024 12:26:26,009 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'caseRepository'
+07 Apr 2024 12:26:26,009 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 12:26:26,010 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'jbdsProperties'
+07 Apr 2024 12:26:26,010 INFO  org.charity.CharitableCaseRepository 20 <init> - Initializing CharitableCaseRepository with properties: {secretKey=S0xFWV9UT1BfU0VDUkVUSw==, jdbc.url=jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite}
+07 Apr 2024 12:26:26,010 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'caseRepository' to allow for resolving potential circular references
+07 Apr 2024 12:26:26,011 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'caseRepository'
+07 Apr 2024 12:26:26,011 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'donationRepository'
+07 Apr 2024 12:26:26,011 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'donationRepository'
+07 Apr 2024 12:26:26,011 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 12:26:26,012 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'jbdsProperties'
+07 Apr 2024 12:26:26,012 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'donorRepository'
+07 Apr 2024 12:26:26,012 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'caseRepository'
+07 Apr 2024 12:26:26,012 INFO  org.charity.DonationRepository 26 <init> - Initializing DonationRepository with properties: {secretKey=S0xFWV9UT1BfU0VDUkVUSw==, jdbc.url=jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite}
+07 Apr 2024 12:26:26,012 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'donationRepository' to allow for resolving potential circular references
+07 Apr 2024 12:26:26,013 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'donationRepository'
+07 Apr 2024 12:26:26,013 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'Service'
+07 Apr 2024 12:26:26,013 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'Service'
+07 Apr 2024 12:26:26,013 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 12:26:26,013 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'caseRepository'
+07 Apr 2024 12:26:26,013 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'donorRepository'
+07 Apr 2024 12:26:26,013 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'donationRepository'
+07 Apr 2024 12:26:26,014 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'volunteerRepository'
+07 Apr 2024 12:26:26,014 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'Service' to allow for resolving potential circular references
+07 Apr 2024 12:26:26,014 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'Service'
+07 Apr 2024 12:26:26,014 DEBUG org.springframework.beans.factory.support.DefaultSingletonBeanRegistry 225 getSingleton - Creating shared instance of singleton bean 'authenticationService'
+07 Apr 2024 12:26:26,014 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 507 createBean - Creating instance of bean 'authenticationService'
+07 Apr 2024 12:26:26,015 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'appConfig'
+07 Apr 2024 12:26:26,015 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'volunteerRepository'
+07 Apr 2024 12:26:26,016 TRACE org.charity.service.AuthenticationService 25 <init> - Enter Starting Authentication Service. Initialize the secret key.
+07 Apr 2024 12:26:26,016 TRACE org.charity.service.AuthenticationService 32 loadSecretKey - Enter loading secret key
+07 Apr 2024 12:26:26,017 TRACE org.charity.service.AuthenticationService 42 loadSecretKey - Exit
+07 Apr 2024 12:26:26,017 TRACE org.charity.service.AuthenticationService 28 <init> - Exit
+07 Apr 2024 12:26:26,017 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 610 doCreateBean - Eagerly caching bean 'authenticationService' to allow for resolving potential circular references
+07 Apr 2024 12:26:26,017 TRACE org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory 544 createBean - Finished creating instance of bean 'authenticationService'
+07 Apr 2024 12:26:26,019 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.AppConfig$$EnhancerBySpringCGLIB$$86858ea5
+07 Apr 2024 12:26:26,020 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.VolunteerRepository
+07 Apr 2024 12:26:26,020 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.DonorRepository
+07 Apr 2024 12:26:26,020 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.CharitableCaseRepository
+07 Apr 2024 12:26:26,020 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.DonationRepository
+07 Apr 2024 12:26:26,021 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.service.Service
+07 Apr 2024 12:26:26,021 TRACE org.springframework.context.event.EventListenerMethodProcessor 186 processBean - No @EventListener annotations found on bean class: org.charity.service.AuthenticationService
+07 Apr 2024 12:26:26,022 TRACE org.springframework.context.support.AbstractApplicationContext 856 initLifecycleProcessor - No 'lifecycleProcessor' bean, using [DefaultLifecycleProcessor]
+07 Apr 2024 12:26:26,022 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'lifecycleProcessor'
+07 Apr 2024 12:26:26,023 TRACE org.springframework.core.env.PropertySourcesPropertyResolver 82 getProperty - Searching for key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemProperties'
+07 Apr 2024 12:26:26,023 TRACE org.springframework.core.env.PropertySourcesPropertyResolver 82 getProperty - Searching for key 'spring.liveBeansView.mbeanDomain' in PropertySource 'systemEnvironment'
+07 Apr 2024 12:26:26,024 TRACE org.springframework.core.env.PropertySourcesPropertyResolver 96 getProperty - Could not find key 'spring.liveBeansView.mbeanDomain' in any property source
+07 Apr 2024 12:26:26,027 TRACE org.springframework.core.io.support.SpringFactoriesLoader 103 loadFactories - Loaded [org.springframework.beans.BeanInfoFactory] names: [org.springframework.beans.ExtendedBeanInfoFactory]
+07 Apr 2024 12:26:26,029 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'Service'
+07 Apr 2024 12:26:26,029 TRACE org.springframework.beans.factory.support.AbstractBeanFactory 265 doGetBean - Returning cached instance of singleton bean 'authenticationService'
+07 Apr 2024 12:26:26,031 INFO  org.charity.CharityConcurrentServer 32 <init> - Server created successfully
+07 Apr 2024 12:26:26,031 INFO  org.charity.CharityConcurrentServer 49 acceptClients - Waiting for clients
+07 Apr 2024 12:26:30,883 INFO  org.charity.CharityConcurrentServer 49 acceptClients - Waiting for clients
+07 Apr 2024 12:26:39,541 INFO  org.charity.CharityConcurrentServer 49 acceptClients - Waiting for clients
+07 Apr 2024 12:26:42,452 INFO  org.charity.CharityClientWorker 61 handleRequest - Login request ...
+07 Apr 2024 12:26:42,452 TRACE org.charity.service.AuthenticationService 82 login - Enter Entering login for: ion
+07 Apr 2024 12:26:42,452 TRACE org.charity.service.AuthenticationService 51 encrypt - Enter Encrypting password
+07 Apr 2024 12:26:42,478 TRACE org.charity.service.AuthenticationService 56 encrypt - Exit
+07 Apr 2024 12:26:42,478 TRACE org.charity.VolunteerRepository 115 findOneByUsername - Enter finding volunteer with id ion
+07 Apr 2024 12:26:42,478 TRACE org.charity.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 12:26:42,478 TRACE org.charity.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 12:26:42,478 INFO  org.charity.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite
+07 Apr 2024 12:26:42,479 INFO  org.charity.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 12:26:42,479 INFO  org.charity.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 12:26:42,733 TRACE org.charity.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@27d21abd)
+07 Apr 2024 12:26:42,742 TRACE org.charity.VolunteerRepository 124 findOneByUsername - Exit with(Volunteer{username='ion', password='uYdvWThmFIjWKI2dT51xbA==', _id=10})
+07 Apr 2024 12:26:42,742 TRACE org.charity.service.AuthenticationService 86 login - Exit Login successful for ion
+07 Apr 2024 12:26:42,743 INFO  org.charity.CharityClientWorker 65 handleRequest - Login successful
+07 Apr 2024 12:26:42,764 INFO  org.charity.CharityClientWorker 142 handleRequest - Add observer request ...
+07 Apr 2024 12:26:42,766 INFO  org.charity.CharityClientWorker 105 handleRequest - Get all cases request ...
+07 Apr 2024 12:26:42,766 TRACE org.charity.CharitableCaseRepository 114 findAll - Enter
+07 Apr 2024 12:26:42,767 TRACE org.charity.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 12:26:42,767 TRACE org.charity.JdbcUtils 25 getNewConnection - Enter
+07 Apr 2024 12:26:42,767 INFO  org.charity.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/Users/adrian.stan/Desktop/School/MPP/AplicatieCharity/Server/src/main/resources/identifier.sqlite
+07 Apr 2024 12:26:42,767 INFO  org.charity.JdbcUtils 31 getNewConnection - user: null
+07 Apr 2024 12:26:42,767 INFO  org.charity.JdbcUtils 32 getNewConnection - pass: null
+07 Apr 2024 12:26:42,767 TRACE org.charity.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@49c8b947)
+07 Apr 2024 12:26:42,770 TRACE org.charity.CharitableCaseRepository 131 findAll - Exit with([CharitableCase{caseName='Test Case 5', amount=6546.0, _id=1}, CharitableCase{caseName='Test Case', amount=1944.0, _id=2}])
+07 Apr 2024 12:26:50,224 INFO  org.charity.CharityClientWorker 61 handleRequest - Login request ...
+07 Apr 2024 12:26:50,225 TRACE org.charity.service.AuthenticationService 82 login - Enter Entering login for: ion
+07 Apr 2024 12:26:50,225 TRACE org.charity.service.AuthenticationService 51 encrypt - Enter Encrypting password
+07 Apr 2024 12:26:50,226 TRACE org.charity.service.AuthenticationService 56 encrypt - Exit
+07 Apr 2024 12:26:50,226 TRACE org.charity.VolunteerRepository 115 findOneByUsername - Enter finding volunteer with id ion
+07 Apr 2024 12:26:50,226 TRACE org.charity.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 12:26:50,226 TRACE org.charity.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@27d21abd)
+07 Apr 2024 12:26:50,226 TRACE org.charity.VolunteerRepository 124 findOneByUsername - Exit with(Volunteer{username='ion', password='uYdvWThmFIjWKI2dT51xbA==', _id=10})
+07 Apr 2024 12:26:50,226 TRACE org.charity.service.AuthenticationService 86 login - Exit Login successful for ion
+07 Apr 2024 12:26:50,226 INFO  org.charity.CharityClientWorker 65 handleRequest - Login successful
+07 Apr 2024 12:26:50,249 INFO  org.charity.CharityClientWorker 142 handleRequest - Add observer request ...
+07 Apr 2024 12:26:50,249 INFO  org.charity.CharityClientWorker 105 handleRequest - Get all cases request ...
+07 Apr 2024 12:26:50,249 TRACE org.charity.CharitableCaseRepository 114 findAll - Enter
+07 Apr 2024 12:26:50,249 TRACE org.charity.JdbcUtils 48 getConnection - Enter
+07 Apr 2024 12:26:50,250 TRACE org.charity.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@49c8b947)
+07 Apr 2024 12:26:50,250 TRACE org.charity.CharitableCaseRepository 131 findAll - Exit with([CharitableCase{caseName='Test Case 5', amount=6546.0, _id=1}, CharitableCase{caseName='Test Case', amount=1944.0, _id=2}])
+07 Apr 2024 12:26:57,339 INFO  org.charity.CharityClientWorker 74 handleRequest - Logout request ...
+07 Apr 2024 12:26:57,340 INFO  org.charity.CharityClientWorker 78 handleRequest - Closing connection ...
+07 Apr 2024 12:26:57,342 INFO  org.charity.CharityClientWorker 82 handleRequest - Connection closed
+07 Apr 2024 12:27:00,515 INFO  org.charity.CharityClientWorker 74 handleRequest - Logout request ...
+07 Apr 2024 12:27:00,516 INFO  org.charity.CharityClientWorker 78 handleRequest - Closing connection ...
+07 Apr 2024 12:27:00,517 INFO  org.charity.CharityClientWorker 82 handleRequest - Connection closed

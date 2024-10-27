@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="450.0" prefWidth="594.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controllers.MainController">
+    <children>
+        <Label fx:id="poz1" alignment="CENTER" layoutX="14.0" layoutY="82.0" maxHeight="50" maxWidth="100" prefHeight="44.0" prefWidth="81.0" style="-fx-border-color: black;" text="poz1" textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="poz2" alignment="CENTER" layoutX="109.0" layoutY="82.0" maxHeight="50" maxWidth="100" prefHeight="44.0" prefWidth="81.0" style="-fx-border-color: black;" text="poz2" textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="poz3" alignment="CENTER" layoutX="203.0" layoutY="82.0" maxHeight="50" maxWidth="100" prefHeight="44.0" prefWidth="81.0" style="-fx-border-color: black;" text="poz3" textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="poz5" alignment="CENTER" layoutX="413.0" layoutY="82.0" maxHeight="50" maxWidth="100" prefHeight="44.0" prefWidth="81.0" style="-fx-border-color: black;" text="poz5" textAlignment="CENTER" wrapText="true" />
+      <Label fx:id="poz4" alignment="CENTER" layoutX="308.0" layoutY="82.0" maxHeight="50" maxWidth="100" prefHeight="44.0" prefWidth="81.0" style="-fx-border-color: black;" text="poz4" textAlignment="CENTER" wrapText="true" />
+      <Button fx:id="btnRandom" layoutX="70.0" layoutY="213.0" mnemonicParsing="false" onAction="#generateRandom" text="Random" />
+      <Label fx:id="nPosition" layoutX="203.0" layoutY="216.0" prefHeight="18.0" prefWidth="60.0" text="Position" />
+      <Label fx:id="n" layoutX="383.0" layoutY="216.0" prefHeight="18.0" prefWidth="60.0" text="N" />
+    </children>
+</AnchorPane>

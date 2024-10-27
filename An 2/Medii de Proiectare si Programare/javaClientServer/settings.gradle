@@ -1,0 +1,6 @@
+rootProject.name = 'javaClientServer'
+include 'Model'
+include 'Peresistence'
+include 'Server'
+include 'Services'
+

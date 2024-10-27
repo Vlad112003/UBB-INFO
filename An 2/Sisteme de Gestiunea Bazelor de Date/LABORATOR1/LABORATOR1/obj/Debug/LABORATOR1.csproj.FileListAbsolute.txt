@@ -1,0 +1,9 @@
+D:\FacultaAn2Sem2\SGBD\LABORATOR1\LABORATOR1\bin\Debug\LABORATOR1.exe.config
+D:\FacultaAn2Sem2\SGBD\LABORATOR1\LABORATOR1\bin\Debug\LABORATOR1.exe
+D:\FacultaAn2Sem2\SGBD\LABORATOR1\LABORATOR1\bin\Debug\LABORATOR1.pdb
+D:\FacultaAn2Sem2\SGBD\LABORATOR1\LABORATOR1\obj\Debug\LABORATOR1.csproj.AssemblyReference.cache
+D:\FacultaAn2Sem2\SGBD\LABORATOR1\LABORATOR1\obj\Debug\LABORATOR1.Properties.Resources.resources
+D:\FacultaAn2Sem2\SGBD\LABORATOR1\LABORATOR1\obj\Debug\LABORATOR1.csproj.GenerateResource.cache
+D:\FacultaAn2Sem2\SGBD\LABORATOR1\LABORATOR1\obj\Debug\LABORATOR1.csproj.CoreCompileInputs.cache
+D:\FacultaAn2Sem2\SGBD\LABORATOR1\LABORATOR1\obj\Debug\LABORATOR1.exe
+D:\FacultaAn2Sem2\SGBD\LABORATOR1\LABORATOR1\obj\Debug\LABORATOR1.pdb

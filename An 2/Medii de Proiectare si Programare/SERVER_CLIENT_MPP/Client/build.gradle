@@ -1,0 +1,35 @@
+plugins {
+    id 'java'
+    id 'org.openjfx.javafxplugin' version '0.0.13'
+    id 'application'
+}
+
+group 'com.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    version = '17.0.6'
+    modules = ['javafx.controls', 'javafx.fxml']
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    implementation project(':Model')
+    implementation project(':Services')
+    implementation project(':Networking')
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.23.1'
+    implementation group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.23.1'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+application{
+    mainClass='com.example.StartRpcClientFX'
+}

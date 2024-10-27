@@ -1,0 +1,8 @@
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Model\obj\Debug\Model.csproj.AssemblyReference.cache
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Model\obj\Debug\Model.Properties.Resources.resources
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Model\obj\Debug\Model.csproj.GenerateResource.cache
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Model\bin\Debug\Model.dll
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Model\bin\Debug\Model.pdb
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Model\obj\Debug\Model.dll
+D:\FacultaAn2Sem2\SGBD\problema11ClientServer\Model\obj\Debug\Model.pdb

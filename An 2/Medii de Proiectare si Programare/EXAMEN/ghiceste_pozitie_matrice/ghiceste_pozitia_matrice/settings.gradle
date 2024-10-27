@@ -1,0 +1,9 @@
+rootProject.name = 'ghiceste_pozitia_matrice'
+include 'Model'
+include 'Persistance'
+include 'Services'
+include 'Server'
+include 'Network'
+include 'Client'
+include 'Rest_services'
+
