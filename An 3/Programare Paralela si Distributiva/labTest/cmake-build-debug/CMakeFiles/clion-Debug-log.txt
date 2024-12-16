@@ -1,0 +1,7 @@
+C:\Users\vladb\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/vladb/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S D:\FacultaAn3Sem1\PPD\labTest -B D:\FacultaAn3Sem1\PPD\labTest\cmake-build-debug
+-- Found MPI_C: C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib (found version "2.0")
+-- Found MPI_CXX: C:/Program Files (x86)/Microsoft SDKs/MPI/Lib/x64/msmpi.lib (found version "2.0")
+-- Found MPI: TRUE (found version "2.0")
+-- Configuring done (2.9s)
+-- Generating done (0.1s)
+-- Build files have been written to: D:/FacultaAn3Sem1/PPD/labTest/cmake-build-debug

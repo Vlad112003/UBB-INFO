@@ -1,0 +1,32 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "variable2&Sequence_11",
+        "age&Sequence_12",
+        "variable2&Sequence_12",
+        "name&Sequence_1",
+        "year&Sequence_1",
+        "variable1&Sequence_1",
+        "Age&Sequence_1",
+        "a&Flowchart_2",
+        "b&Flowchart_2",
+        "c&Flowchart_2",
+        "d&Flowchart_2"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

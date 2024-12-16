@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SzUAk6Du-0uWbFtRQdwYHA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="fakenamegenerator.com" CVScreenId="8493a09f-3a3c-4114-8cbe-e2fefd889663" CvElementArea="354, 164, 555, 763" CvType="Table" DesignTimeRectangle="543, 445, 355, 20" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl idx='13' isleaf='1' tag='DD' /&gt;" Guid="1294896c-b9ff-4e36-b825-f22ecd172ee0" ScopeSelectorArgument="&lt;html app='msedge.exe' title='Generate a Random Name - Fake Name Generator' /&gt;" SearchSteps="CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="1958180689caa16e50815fffc3a0cb62.png" xmlns="">0P9j5AjspLkeJGmVABkOYBg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">ExtractData</x:String>
+    <p:InArgument x:TypeArguments="x:String" x:Key="ExtractDataSettings" xml:space="preserve">&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='CV' AddCvHeader='true' IsScrollEnabled='false'&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Email Address' ReferenceIdx='0' Name='Email Address'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='LaverneWRojas@teleworm.us' ReferenceIdx='1' Name='LaverneWRojas@teleworm.us'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+&lt;/Table&gt;</p:InArgument>
+    <x:Null x:Key="NextLinkTarget" />
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

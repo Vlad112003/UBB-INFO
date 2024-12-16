@@ -1,0 +1,30 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "formOutput&",
+        "userName&",
+        "projectDetails&"
+      ],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "userName&3805bc6b-4163-40ae-b370-4e70a470058e",
+        "projectDetails&3805bc6b-4163-40ae-b370-4e70a470058e",
+        "formOutput&3805bc6b-4163-40ae-b370-4e70a470058e",
+        "profilesCount&Sequence_1",
+        "fileType&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}

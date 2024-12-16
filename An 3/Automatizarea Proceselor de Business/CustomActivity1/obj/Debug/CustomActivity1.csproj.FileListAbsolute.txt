@@ -1,0 +1,6 @@
+D:\FacultaAn3Sem1\Automatizarea Proceselor de Business\CustomActivity1\bin\Debug\CustomActivity1.dll
+D:\FacultaAn3Sem1\Automatizarea Proceselor de Business\CustomActivity1\bin\Debug\CustomActivity1.pdb
+D:\FacultaAn3Sem1\Automatizarea Proceselor de Business\CustomActivity1\obj\Debug\CustomActivity1.csproj.AssemblyReference.cache
+D:\FacultaAn3Sem1\Automatizarea Proceselor de Business\CustomActivity1\obj\Debug\CustomActivity1.csproj.CoreCompileInputs.cache
+D:\FacultaAn3Sem1\Automatizarea Proceselor de Business\CustomActivity1\obj\Debug\CustomActivity1.dll
+D:\FacultaAn3Sem1\Automatizarea Proceselor de Business\CustomActivity1\obj\Debug\CustomActivity1.pdb

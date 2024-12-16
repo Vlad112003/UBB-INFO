@@ -1,0 +1,10 @@
+Tip functie,Nr. Threads,Nr. Readers,Timp executie mediu
+secvential,1,0,0.2196
+paralel,4,1,0.6733
+paralel,6,1,0.847
+paralel,8,1,0.9214
+paralel,16,1,1.4789
+paralel,4,2,0.7412
+paralel,6,2,0.8088
+paralel,8,2,0.9158
+paralel,16,2,1.3947

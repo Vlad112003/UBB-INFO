@@ -1,0 +1,177 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1037,976" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <scg:List x:TypeArguments="x:String" Capacity="28">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Xml.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.InteropServices</x:String>
+    </scg:List>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="36">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Bcl.AsyncInterfaces</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ValueTuple</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Composition</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.Excel</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
+    </scg:List>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="486,911" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="sd:DataTable" Name="dt_employees" />
+      <Variable x:TypeArguments="x:Int32" Name="medie" />
+      <Variable x:TypeArguments="sd:DataTable" Name="dt_locations" />
+      <Variable x:TypeArguments="x:Int32" Name="no_locations">
+        <Variable.Default>
+          <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="no_locations" />
+        </Variable.Default>
+      </Variable>
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Read_from_excel workflow" sap:VirtualizedContainerService.HintSize="438,113" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_1" UnSafe="False" WorkflowFileName="Read_from_excel.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_dt_employees">[dt_employees]</OutArgument>
+        <OutArgument x:TypeArguments="sd:DataTable" x:Key="out_dt_locations">[dt_locations]</OutArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_filepath">D:\FacultaAn3Sem1\Automatizarea Proceselor de Business\TemaLab2\locations.xlsx</InArgument>
+        <InArgument x:TypeArguments="x:String" x:Key="in_range">A1:E6</InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+    </ui:InvokeWorkflowFile>
+    <ui:InvokeCode ContinueOnError="{x:Null}" Code="' Initialize variables&#xD;&#xA;Dim suma As Int32 = 0&#xD;&#xA;Dim no_locations As Int32 = 0&#xD;&#xA;&#xD;&#xA;' Loop through each row in the DataTable to calculate the sum of Revenue - Expenses&#xD;&#xA;For Each row As DataRow In dt_locations.Rows&#xD;&#xA;    suma += Convert.ToInt32(row(&quot;Revenue Q2 24&quot;)) - Convert.ToInt32(row(&quot;Expenses Q2 24&quot;))&#xD;&#xA;    no_locations += 1  ' Increment the location count&#xD;&#xA;Next&#xD;&#xA;&#xD;&#xA;' Assign the sum to out_medie (this can be used as the sum of Revenue - Expenses)&#xD;&#xA;out_medie = suma&#xD;&#xA;out_no_locations = no_locations  ' Store the number of locations as well&#xD;&#xA;" DisplayName="Calculate total revenue-expenses" sap:VirtualizedContainerService.HintSize="438,165" sap2010:WorkflowViewState.IdRef="InvokeCode_1">
+      <ui:InvokeCode.Arguments>
+        <OutArgument x:TypeArguments="x:Int32" x:Key="out_medie">
+          <mva:VisualBasicReference x:TypeArguments="x:Int32" ExpressionText="medie" />
+        </OutArgument>
+        <InArgument x:TypeArguments="sd:DataTable" x:Key="dt_locations">
+          <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dt_locations" />
+        </InArgument>
+        <OutArgument x:TypeArguments="x:Int32" x:Key="out_no_locations">
+          <mva:VisualBasicReference x:TypeArguments="x:Int32" ExpressionText="no_locations" />
+        </OutArgument>
+      </ui:InvokeCode.Arguments>
+    </ui:InvokeCode>
+    <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="438,415" sap2010:WorkflowViewState.IdRef="TryCatch_2">
+      <TryCatch.Try>
+        <ui:InvokeCode ContinueOnError="{x:Null}" Code="' Debugging: Check values before calculation&#xD;&#xA;Console.WriteLine(&quot;out_medie before average calculation: &quot; &amp; out_medie)&#xD;&#xA;Console.WriteLine(&quot;out_no_locations before average calculation: &quot; &amp; out_no_locations)&#xD;&#xA;&#xD;&#xA;' Initialize average as Int32&#xD;&#xA;Dim average As Int32 = 0&#xD;&#xA;&#xD;&#xA;' Ensure the number of locations is greater than 0 to avoid division by zero&#xD;&#xA;If out_no_locations &gt; 0 Then&#xD;&#xA;    ' Calculate the average by dividing the sum (out_medie) by the number of locations (out_no_locations)&#xD;&#xA;    average = Convert.ToInt32(out_medie / out_no_locations)&#xD;&#xA;Else&#xD;&#xA;    ' If no locations, set average to 0&#xD;&#xA;    average = 0&#xD;&#xA;End If&#xD;&#xA;&#xD;&#xA;' Output the result of the average calculation&#xD;&#xA;out_medie = average&#xD;&#xA;&#xD;&#xA;' Debugging: Check the result after calculation&#xD;&#xA;Console.WriteLine(&quot;Calculated average (out_medie): &quot; &amp; out_medie)&#xD;&#xA;" DisplayName="Calculate average of expenses" sap:VirtualizedContainerService.HintSize="334,165" sap2010:WorkflowViewState.IdRef="InvokeCode_2">
+          <ui:InvokeCode.Arguments>
+            <InOutArgument x:TypeArguments="x:Int32" x:Key="out_medie">
+              <mva:VisualBasicReference x:TypeArguments="x:Int32" ExpressionText="medie" />
+            </InOutArgument>
+            <InArgument x:TypeArguments="sd:DataTable" x:Key="dt_locations">
+              <mva:VisualBasicValue x:TypeArguments="sd:DataTable" ExpressionText="dt_locations" />
+            </InArgument>
+            <InArgument x:TypeArguments="x:Int32" x:Key="out_no_locations">
+              <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="no_locations" />
+            </InArgument>
+          </ui:InvokeCode.Arguments>
+        </ui:InvokeCode>
+      </TryCatch.Try>
+      <TryCatch.Catches>
+        <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="404,21" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ActivityAction x:TypeArguments="s:Exception">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+            </ActivityAction.Argument>
+            <ui:InvokeCode ContinueOnError="{x:Null}" Code="Console.WriteLine(&quot;Division by zero occurred. Please verify the input data.&quot;)&#xD;&#xA;out_medie = 0 ' Provide a default value&#xD;&#xA;" DisplayName="Invoke code" sap:VirtualizedContainerService.HintSize="334,165" sap2010:WorkflowViewState.IdRef="InvokeCode_3">
+              <ui:InvokeCode.Arguments>
+                <OutArgument x:TypeArguments="x:Int32" x:Key="out_medie">
+                  <mva:VisualBasicReference x:TypeArguments="x:Int32" ExpressionText="medie" />
+                </OutArgument>
+              </ui:InvokeCode.Arguments>
+            </ui:InvokeCode>
+          </ActivityAction>
+        </Catch>
+        <Catch x:TypeArguments="s:DivideByZeroException" sap:VirtualizedContainerService.HintSize="404,21" sap2010:WorkflowViewState.IdRef="Catch`1_2">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+              <x:Boolean x:Key="IsPinned">False</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <ActivityAction x:TypeArguments="s:DivideByZeroException">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="s:DivideByZeroException" Name="exception" />
+            </ActivityAction.Argument>
+            <ui:InvokeCode ContinueOnError="{x:Null}" Code="Console.WriteLine(&quot;An unexpected error occurred&quot;)&#xD;&#xA;out_medie = 0 ' Provide a fallback value&#xD;&#xA;" DisplayName="Invoke code" sap:VirtualizedContainerService.HintSize="334,165" sap2010:WorkflowViewState.IdRef="InvokeCode_4">
+              <ui:InvokeCode.Arguments>
+                <OutArgument x:TypeArguments="x:Int32" x:Key="out_medie">
+                  <mva:VisualBasicReference x:TypeArguments="x:Int32" ExpressionText="medie" />
+                </OutArgument>
+              </ui:InvokeCode.Arguments>
+            </ui:InvokeCode>
+          </ActivityAction>
+        </Catch>
+      </TryCatch.Catches>
+    </TryCatch>
+    <ui:InvokeWorkflowFile ArgumentsVariable="{x:Null}" ContinueOnError="{x:Null}" DisplayName="Invoke Write_to_file workflow" sap:VirtualizedContainerService.HintSize="434,25" sap2010:WorkflowViewState.IdRef="InvokeWorkflowFile_3" UnSafe="False" WorkflowFileName="Write_to_file.xaml">
+      <ui:InvokeWorkflowFile.Arguments>
+        <InArgument x:TypeArguments="x:Int32" x:Key="medie">
+          <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="medie" />
+        </InArgument>
+      </ui:InvokeWorkflowFile.Arguments>
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+    </ui:InvokeWorkflowFile>
+  </Sequence>
+</Activity>

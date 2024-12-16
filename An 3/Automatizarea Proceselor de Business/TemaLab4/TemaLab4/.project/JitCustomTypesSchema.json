@@ -1,0 +1,54 @@
+{
+  "exportedBy": null,
+  "bundleHash": null,
+  "version": "1.0.0.0",
+  "jitAssemblyCompilerCommands": [
+    {
+      "providerName": "CustomEntities",
+      "bundleOptions": {
+        "hash": "12002626541",
+        "bundleName": "fd12002626541",
+        "entitiesBundle": {
+          "Types": {
+            "FormData": {
+              "name": "FormData",
+              "properties": [
+                {
+                  "name": "Gender",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "NameSet",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "Country",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                },
+                {
+                  "name": "Language",
+                  "type": {
+                    "ClrType": "System.String, System.Private.CoreLib"
+                  }
+                }
+              ],
+              "baseType": null
+            }
+          },
+          "version": 1
+        }
+      },
+      "entityAssemblyKey": {
+        "name": "UiPath.UIAutomationNext.Activities.Design.SWEntities.fd12002626541",
+        "hash": "MTIwMDI2MjY1NDE",
+        "assemblyName": "fd12002626541.nQIX5UaJzD1TOzY02dyBHK"
+      }
+    }
+  ]
+}

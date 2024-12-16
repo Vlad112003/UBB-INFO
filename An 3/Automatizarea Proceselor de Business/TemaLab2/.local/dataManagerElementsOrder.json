@@ -1,0 +1,75 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_locations&Sequence_1",
+        "dt_employees&Sequence_1",
+        "medie&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Average_profit.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "suma&Sequence_1",
+        "no_locations&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "out_medie",
+        "dt_locations"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Medie_angajati.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "suma&Sequence_1",
+        "no_employees&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "dt_employees",
+        "out_medie"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Read_from_excel.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_range",
+        "in_filepath",
+        "out_dt_locations",
+        "out_dt_employees"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Write_to_file.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "medie"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>CustomActivity1</id>
+    <version>1.1.0</version>
+    <authors>Vlad112003</authors>
+    <description>Your custom activity description</description>
+    <tags>uiPath, custom, activity</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.6.1">
+        <dependency id="System.Data" version="4.3.0" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+  <file src="bin\Debug\CustomActivity1.dll" target="lib\net48\CustomActivity1.dll" />
+  <file src="readme.txt" target="readme.txt" />
+</files>
+
+</package>

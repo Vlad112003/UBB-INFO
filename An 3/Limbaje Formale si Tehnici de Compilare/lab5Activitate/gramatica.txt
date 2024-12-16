@@ -1,0 +1,3 @@
+S -> aSbS
+S -> aS
+S -> c

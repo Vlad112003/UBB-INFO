@@ -1,0 +1,9 @@
+<file> --> <alphabet>\n<states>\n<initial_states>\n<final_states>\n<transitions>
+<alphabet> --> 0|1|2|3|4|5|6|7|8|9|a|b|c|d|e|f|A|B|C|D|E|F|x|X|b|B|+|-|ul|lu
+<states> --> q0|q1|q2|q3
+<initial_states> --> q0
+<final_states> --> <states>|<states>,<final_states>
+<transitions> --> <transition>\n<transitions>|<transition>\n
+<transition> --> <states>,<states>,<integer>
+<integer> --> <digit>|<digit><integer>|-<digit>|-<digit><integer>|+<digit>|+<digit><integer>|<digit><integer>lu|<digit><integer>ul
+<digit> --> 0|1|2|3|4|5|6|7|8|9

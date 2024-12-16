@@ -1,0 +1,14 @@
+C:\Users\vladb\Desktop\vr\lab1rulabil\obj\Debug\net8.0-windows\lab1rulabil.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vladb\Desktop\vr\lab1rulabil\obj\Debug\net8.0-windows\lab1rulabil.AssemblyInfoInputs.cache
+C:\Users\vladb\Desktop\vr\lab1rulabil\obj\Debug\net8.0-windows\lab1rulabil.AssemblyInfo.cs
+C:\Users\vladb\Desktop\vr\lab1rulabil\obj\Debug\net8.0-windows\lab1rulabil.csproj.CoreCompileInputs.cache
+C:\Users\vladb\Desktop\vr\lab1rulabil\bin\Debug\net8.0-windows\lab1rulabil.exe
+C:\Users\vladb\Desktop\vr\lab1rulabil\bin\Debug\net8.0-windows\lab1rulabil.deps.json
+C:\Users\vladb\Desktop\vr\lab1rulabil\bin\Debug\net8.0-windows\lab1rulabil.runtimeconfig.json
+C:\Users\vladb\Desktop\vr\lab1rulabil\bin\Debug\net8.0-windows\lab1rulabil.dll
+C:\Users\vladb\Desktop\vr\lab1rulabil\bin\Debug\net8.0-windows\lab1rulabil.pdb
+C:\Users\vladb\Desktop\vr\lab1rulabil\obj\Debug\net8.0-windows\lab1rulabil.dll
+C:\Users\vladb\Desktop\vr\lab1rulabil\obj\Debug\net8.0-windows\refint\lab1rulabil.dll
+C:\Users\vladb\Desktop\vr\lab1rulabil\obj\Debug\net8.0-windows\lab1rulabil.pdb
+C:\Users\vladb\Desktop\vr\lab1rulabil\obj\Debug\net8.0-windows\lab1rulabil.genruntimeconfig.cache
+C:\Users\vladb\Desktop\vr\lab1rulabil\obj\Debug\net8.0-windows\ref\lab1rulabil.dll

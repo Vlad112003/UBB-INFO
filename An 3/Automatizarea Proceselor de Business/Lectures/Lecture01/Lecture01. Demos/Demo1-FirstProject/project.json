@@ -1,0 +1,74 @@
+{
+  "name": "Demo1-FirstProject",
+  "projectId": "716a9757-eace-4f3e-a7ca-6b367197b590",
+  "description": "First project in UiPath Studio with sequence and workflow creation.",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.12.3]",
+    "UiPath.Mail.Activities": "[1.15.2]",
+    "UiPath.System.Activities": "[22.4.5]",
+    "UiPath.UIAutomation.Activities": "[22.4.7]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.4.3.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": false,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "a644a21b-606f-42c9-bfa4-4b8b69895d1e",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Flowchart.xaml",
+      "uniqueId": "2da2242f-fdd9-427f-80c2-76550868b90f",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Sequence.xaml",
+      "uniqueId": "30d9cb14-7f68-4391-8ce9-d9e0444fb249",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

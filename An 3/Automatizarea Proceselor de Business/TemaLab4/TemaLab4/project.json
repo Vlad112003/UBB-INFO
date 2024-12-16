@@ -1,0 +1,65 @@
+{
+  "name": "TemaLab4",
+  "projectId": "7fe3edd3-86b9-4827-9bcc-175628f6f90c",
+  "description": "Design and automate a workflow that emphasizes the following:\r\n- the use of at least two different UI input methods (see Lecture 05);\r\n- the use of at least one screen scraping and one data scraping actions (see Lecture 05);\r\n- save the workflow output in a file, e.g., .csv, .txt, .xlsx;\r\n- [optional] handle at least one exception (business or system exception) using General Exception Handler (see Lecture 04).",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.Excel.Activities": "[2.24.3]",
+    "UiPath.Form.Activities": "[24.10.5]",
+    "UiPath.FormActivityLibrary": "[2.0.8]",
+    "UiPath.Mail.Activities": "[1.23.11]",
+    "UiPath.Persistence.Activities": "[1.5.9]",
+    "UiPath.System.Activities": "[24.11.0-preview]",
+    "UiPath.Testing.Activities": "[24.10.3]",
+    "UiPath.UIAutomation.Activities": "[24.10.10]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.6.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "entryPoints": [
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "81cbe053-096c-450e-acb1-da79e2b0b9ae",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

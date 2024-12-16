@@ -1,0 +1,76 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": []
+  },
+  "packageFolders": {
+    "C:\\Users\\vladb\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\vladb\\Desktop\\vr\\lab1rulabil\\lab1rulabil.csproj",
+      "projectName": "lab1rulabil",
+      "projectPath": "C:\\Users\\vladb\\Desktop\\vr\\lab1rulabil\\lab1rulabil.csproj",
+      "packagesPath": "C:\\Users\\vladb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vladb\\Desktop\\vr\\lab1rulabil\\obj\\",
+      "projectStyle": "PackageReference",
+      "UsingMicrosoftNETSdk": false,
+      "configFilePaths": [
+        "C:\\Users\\vladb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "D:\\FacultaAn3Sem1\\Automatizarea Proceselor de Business\\CustomActivity1": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Users\\vladb\\.dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

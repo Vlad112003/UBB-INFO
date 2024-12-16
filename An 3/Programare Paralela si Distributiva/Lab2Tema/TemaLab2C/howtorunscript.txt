@@ -1,0 +1,3 @@
+.\scriptC.ps1 .\Lab2C.exe 10 2 1000 1000 linii 3 0
+
+nume script, nume exe, nr rulari, nr threaduri, N, M, secvential/linii, n(matrice convolutie), check 1-yes/0-no

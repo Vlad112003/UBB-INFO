@@ -1,0 +1,42 @@
+﻿{
+  "Metadata": {
+    "Id": "ddcb8aee-431e-42e4-8da2-2dbb7f4c75c0",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "triggerForm",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "label": "Username",
+        "placeholder": "Enter your username",
+        "tableView": true,
+        "key": "userName",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Project Details",
+        "placeholder": "Enter project details",
+        "tableView": true,
+        "key": "projectDetails",
+        "type": "textfield",
+        "input": true
+      },
+      {
+        "label": "Start Scraping",
+        "action": "event",
+        "showValidations": false,
+        "tableView": false,
+        "key": "startScraping",
+        "type": "button",
+        "input": true
+      }
+    ]
+  }
+}

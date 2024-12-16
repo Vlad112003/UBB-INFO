@@ -1,0 +1,1042 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wwi00c"
+      binary: "D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wwi00c"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wwi00c'
+        
+        Run Build Command(s): C:/Users/vladb/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_97dcd
+        [1/2] C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_97dcd.dir/CMakeCCompilerABI.c.obj -c C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_97dcd.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_97dcd.dir/'
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_97dcd.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\vladb\\AppData\\Local\\Temp\\ccAmCfSb.s
+        GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "/win/include"
+        ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_97dcd.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_97dcd.dir/'
+         as -v -o CMakeFiles/cmTC_97dcd.dir/CMakeCCompilerABI.c.obj C:\\Users\\vladb\\AppData\\Local\\Temp\\ccAmCfSb.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../\x0d
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_97dcd.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_97dcd.dir/CMakeCCompilerABI.c.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe  -v -Wl,-v CMakeFiles/cmTC_97dcd.dir/CMakeCCompilerABI.c.obj -o cmTC_97dcd.exe -Wl,--out-implib,libcmTC_97dcd.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COMPILER_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_97dcd.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_97dcd.'
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_97dcd.exe C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_97dcd.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_97dcd.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        collect2 version 13.1.0
+        C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_97dcd.exe C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_97dcd.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_97dcd.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d
+        GNU ld (GNU Binutils) 2.40\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_97dcd.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_97dcd.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+          add: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+          add: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+          add: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        collapse include dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/include]
+        collapse include dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        collapse include dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/include;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-wwi00c']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/Users/vladb/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_97dcd]
+        ignore line: [[1/2] C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_97dcd.dir/CMakeCCompilerABI.c.obj -c C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_97dcd.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_97dcd.dir/']
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_97dcd.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\vladb\\AppData\\Local\\Temp\\ccAmCfSb.s]
+        ignore line: [GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "/win/include"]
+        ignore line: [ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../include"]
+        ignore line: [ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_97dcd.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_97dcd.dir/']
+        ignore line: [ as -v -o CMakeFiles/cmTC_97dcd.dir/CMakeCCompilerABI.c.obj C:\\Users\\vladb\\AppData\\Local\\Temp\\ccAmCfSb.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
+        ignore line: [COMPILER_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_97dcd.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_97dcd.dir/CMakeCCompilerABI.c.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe  -v -Wl -v CMakeFiles/cmTC_97dcd.dir/CMakeCCompilerABI.c.obj -o cmTC_97dcd.exe -Wl --out-implib libcmTC_97dcd.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_97dcd.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_97dcd.']
+        link line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_97dcd.exe C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_97dcd.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_97dcd.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+          arg [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_97dcd.exe] ==> ignore
+          arg [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> obj [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
+          arg [-LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
+          arg [-LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc] ==> dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc]
+          arg [-LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib]
+          arg [-LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_97dcd.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_97dcd.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-liconv] ==> lib [iconv]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> obj [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o]
+          arg [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> obj [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [collect2 version 13.1.0]
+        ignore line: [C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_97dcd.exe C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_97dcd.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_97dcd.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d]
+        linker tool for 'C': C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/ld.exe
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        collapse obj [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
+        collapse obj [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/lib/default-manifest.o]
+        collapse obj [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        collapse library dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0]
+        collapse library dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc]
+        collapse library dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib]
+        collapse library dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib]
+        implicit libs: [mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/lib/crt2.o;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/lib/default-manifest.o;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        implicit dirs: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/lib;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.40
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-diaroa"
+      binary: "D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-diaroa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-diaroa'
+        
+        Run Build Command(s): C:/Users/vladb/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_ac215
+        [1/2] C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_ac215.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ac215.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_ac215.dir/'
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ac215.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\vladb\\AppData\\Local\\Temp\\ccHL5j0Y.s
+        GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"
+        ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"
+        ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "/win/include"
+        ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: e75de627edc3c57e31324b930b15b056
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ac215.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_ac215.dir/'
+         as -v -o CMakeFiles/cmTC_ac215.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\vladb\\AppData\\Local\\Temp\\ccHL5j0Y.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ac215.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_ac215.dir/CMakeCXXCompilerABI.cpp.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe  -v -Wl,-v CMakeFiles/cmTC_ac215.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_ac215.exe -Wl,--out-implib,libcmTC_ac215.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COMPILER_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ac215.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_ac215.'
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_ac215.exe C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_ac215.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_ac215.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        collect2 version 13.1.0
+        C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_ac215.exe C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_ac215.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_ac215.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        GNU ld (GNU Binutils) 2.40
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ac215.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_ac215.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+          add: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+          add: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+          add: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+          add: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+          add: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+          add: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        end of search list found
+        collapse include dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+        collapse include dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+        collapse include dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+        collapse include dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        collapse include dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/include]
+        collapse include dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        collapse include dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include]
+        implicit include dirs: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/include;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-diaroa']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/Users/vladb/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_ac215]
+        ignore line: [[1/2] C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_ac215.dir/CMakeCXXCompilerABI.cpp.obj -c C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ac215.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_ac215.dir/']
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_ac215.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\vladb\\AppData\\Local\\Temp\\ccHL5j0Y.s]
+        ignore line: [GNU C++17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"]
+        ignore line: [ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "/win/include"]
+        ignore line: [ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../include"]
+        ignore line: [ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: e75de627edc3c57e31324b930b15b056]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ac215.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_ac215.dir/']
+        ignore line: [ as -v -o CMakeFiles/cmTC_ac215.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\vladb\\AppData\\Local\\Temp\\ccHL5j0Y.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
+        ignore line: [COMPILER_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ac215.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_ac215.dir/CMakeCXXCompilerABI.cpp.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe  -v -Wl -v CMakeFiles/cmTC_ac215.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_ac215.exe -Wl --out-implib libcmTC_ac215.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ac215.exe' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_ac215.']
+        link line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_ac215.exe C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_ac215.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_ac215.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+          arg [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_ac215.exe] ==> ignore
+          arg [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
+          arg [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> obj [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
+          arg [-LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
+          arg [-LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc] ==> dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc]
+          arg [-LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib]
+          arg [-LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_ac215.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_ac215.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-liconv] ==> lib [iconv]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> obj [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o]
+          arg [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> obj [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [collect2 version 13.1.0]
+        ignore line: [C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_ac215.exe C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_ac215.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_ac215.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        linker tool for 'CXX': C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/lib/crt2.o]
+        collapse obj [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
+        collapse obj [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/lib/default-manifest.o]
+        collapse obj [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        collapse library dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0]
+        collapse library dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc]
+        collapse library dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib]
+        collapse library dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;moldname;mingwex;kernel32]
+        implicit objs: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/lib/crt2.o;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/lib/default-manifest.o;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        implicit dirs: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/lib;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/ld.exe" "-v"
+      GNU ld (GNU Binutils) 2.40
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindOpenMP.cmake:238 (try_compile)"
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindOpenMP.cmake:506 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7jsli9"
+      binary: "D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7jsli9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7jsli9'
+        
+        Run Build Command(s): C:/Users/vladb/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_bce67
+        [1/2] C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fopenmp -v -fdiagnostics-color=always -o CMakeFiles/cmTC_bce67.dir/OpenMPTryFlag.c.obj -c "D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7jsli9/OpenMPTryFlag.c"
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_bce67.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_bce67.dir/'
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_MT -D_REENTRANT -U_REENTRANT D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7jsli9/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_bce67.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=nocona -mthreads -version -fdiagnostics-color=always -fopenmp -o C:\\Users\\vladb\\AppData\\Local\\Temp\\ccGaT4nx.s
+        GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "/win/include"
+        ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_bce67.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_bce67.dir/'
+         as -v -o CMakeFiles/cmTC_bce67.dir/OpenMPTryFlag.c.obj C:\\Users\\vladb\\AppData\\Local\\Temp\\ccGaT4nx.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../\x0d
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_bce67.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_bce67.dir/OpenMPTryFlag.c.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -fopenmp -v  CMakeFiles/cmTC_bce67.dir/OpenMPTryFlag.c.obj -o cmTC_bce67.exe -Wl,--out-implib,libcmTC_bce67.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -v  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COMPILER_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        Reading specs from C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/libgomp.spec
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_bce67.exe' '-v' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'cmTC_bce67.'
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_bce67.exe C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_bce67.dir/OpenMPTryFlag.c.obj --out-implib libcmTC_bce67.dll.a --major-image-version 0 --minor-image-version 0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -lgomp -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_bce67.exe' '-v' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'cmTC_bce67.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindOpenMP.cmake:282 (message)"
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindOpenMP.cmake:506 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:6 (find_package)"
+    message: |
+      Parsed C OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7jsli9']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/Users/vladb/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_bce67]
+        ignore line: [[1/2] C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fopenmp -v -fdiagnostics-color=always -o CMakeFiles/cmTC_bce67.dir/OpenMPTryFlag.c.obj -c "D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7jsli9/OpenMPTryFlag.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_bce67.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_bce67.dir/']
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_MT -D_REENTRANT -U_REENTRANT D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7jsli9/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_bce67.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=nocona -mthreads -version -fdiagnostics-color=always -fopenmp -o C:\\Users\\vladb\\AppData\\Local\\Temp\\ccGaT4nx.s]
+        ignore line: [GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "/win/include"]
+        ignore line: [ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../include"]
+        ignore line: [ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_bce67.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_bce67.dir/']
+        ignore line: [ as -v -o CMakeFiles/cmTC_bce67.dir/OpenMPTryFlag.c.obj C:\\Users\\vladb\\AppData\\Local\\Temp\\ccGaT4nx.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
+        ignore line: [COMPILER_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_bce67.dir/OpenMPTryFlag.c.obj' '-c' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_bce67.dir/OpenMPTryFlag.c.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -fopenmp -v  CMakeFiles/cmTC_bce67.dir/OpenMPTryFlag.c.obj -o cmTC_bce67.exe -Wl --out-implib libcmTC_bce67.dll.a -Wl --major-image-version 0 --minor-image-version 0  -v  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [Reading specs from C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/libgomp.spec]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_bce67.exe' '-v' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'cmTC_bce67.']
+        link line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_bce67.exe C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_bce67.dir/OpenMPTryFlag.c.obj --out-implib libcmTC_bce67.dll.a --major-image-version 0 --minor-image-version 0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -lgomp -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingwthrd -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d]
+          arg [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_bce67.exe] ==> ignore
+          arg [-LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
+          arg [-LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc] ==> dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc]
+          arg [-LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib]
+          arg [-LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
+          arg [CMakeFiles/cmTC_bce67.dir/OpenMPTryFlag.c.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_bce67.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lgdi32] ==> lib [gdi32]
+          arg [-lwinspool] ==> lib [winspool]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-lole32] ==> lib [ole32]
+          arg [-loleaut32] ==> lib [oleaut32]
+          arg [-luuid] ==> lib [uuid]
+          arg [-lcomdlg32] ==> lib [comdlg32]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lgomp] ==> lib [gomp]
+          arg [-lmingwthrd] ==> lib [mingwthrd]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-liconv] ==> lib [iconv]
+          arg [-lmingwthrd] ==> lib [mingwthrd]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        collapse library dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0]
+        collapse library dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc]
+        collapse library dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib]
+        collapse library dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib]
+        implicit libs: [kernel32;user32;gdi32;winspool;shell32;ole32;oleaut32;uuid;comdlg32;advapi32;gomp;mingwthrd;mingw32;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingwthrd;mingw32;gcc;moldname;mingwex;kernel32]
+        implicit objs: []
+        implicit dirs: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/lib;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindOpenMP.cmake:238 (try_compile)"
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindOpenMP.cmake:506 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h3eeh4"
+      binary: "D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h3eeh4"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h3eeh4'
+        
+        Run Build Command(s): C:/Users/vladb/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_6ecdb
+        [1/2] C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe   -fopenmp -v -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles/cmTC_6ecdb.dir/OpenMPTryFlag.cpp.obj -c "D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h3eeh4/OpenMPTryFlag.cpp"
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-std=gnu++20' '-o' 'CMakeFiles/cmTC_6ecdb.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_6ecdb.dir/'
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_MT -D_REENTRANT -U_REENTRANT D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h3eeh4/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_6ecdb.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -mthreads -std=gnu++20 -version -fdiagnostics-color=always -fopenmp -o C:\\Users\\vladb\\AppData\\Local\\Temp\\ccUj8Zk8.s
+        GNU C++20 (GCC) version 13.1.0 (x86_64-w64-mingw32)
+        	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"
+        ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"
+        ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"
+        ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"
+        ignoring nonexistent directory "/win/include"
+        ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"
+        ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"
+        ignoring nonexistent directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: e75de627edc3c57e31324b930b15b056
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-std=gnu++20' '-o' 'CMakeFiles/cmTC_6ecdb.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_6ecdb.dir/'
+         as -v -o CMakeFiles/cmTC_6ecdb.dir/OpenMPTryFlag.cpp.obj C:\\Users\\vladb\\AppData\\Local\\Temp\\ccUj8Zk8.s
+        GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
+        COMPILER_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../\x0d
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-std=gnu++20' '-o' 'CMakeFiles/cmTC_6ecdb.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_6ecdb.dir/OpenMPTryFlag.cpp.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -fopenmp -v  CMakeFiles/cmTC_6ecdb.dir/OpenMPTryFlag.cpp.obj -o cmTC_6ecdb.exe -Wl,--out-implib,libcmTC_6ecdb.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -v  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Using built-in specs.
+        COLLECT_GCC=C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
+        Target: x86_64-w64-mingw32
+        Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 13.1.0 (GCC) 
+        COMPILER_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/
+        LIBRARY_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
+        Reading specs from C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/libgomp.spec
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_6ecdb.exe' '-v' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'cmTC_6ecdb.'
+         C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_6ecdb.exe C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_6ecdb.dir/OpenMPTryFlag.cpp.obj --out-implib libcmTC_6ecdb.dll.a --major-image-version 0 --minor-image-version 0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -lstdc++ -lgomp -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_6ecdb.exe' '-v' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'cmTC_6ecdb.'\x0d
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindOpenMP.cmake:282 (message)"
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindOpenMP.cmake:506 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:6 (find_package)"
+    message: |
+      Parsed CXX OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: 'D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h3eeh4']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:/Users/vladb/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_6ecdb]
+        ignore line: [[1/2] C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe   -fopenmp -v -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles/cmTC_6ecdb.dir/OpenMPTryFlag.cpp.obj -c "D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h3eeh4/OpenMPTryFlag.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-std=gnu++20' '-o' 'CMakeFiles/cmTC_6ecdb.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_6ecdb.dir/']
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_MT -D_REENTRANT -U_REENTRANT D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-h3eeh4/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_6ecdb.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=nocona -mthreads -std=gnu++20 -version -fdiagnostics-color=always -fopenmp -o C:\\Users\\vladb\\AppData\\Local\\Temp\\ccUj8Zk8.s]
+        ignore line: [GNU C++20 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"]
+        ignore line: [ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include"]
+        ignore line: [ignoring nonexistent directory "/win/include"]
+        ignore line: [ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../include"]
+        ignore line: [ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++]
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32]
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward]
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include]
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include]
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed]
+        ignore line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: e75de627edc3c57e31324b930b15b056]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-std=gnu++20' '-o' 'CMakeFiles/cmTC_6ecdb.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_6ecdb.dir/']
+        ignore line: [ as -v -o CMakeFiles/cmTC_6ecdb.dir/OpenMPTryFlag.cpp.obj C:\\Users\\vladb\\AppData\\Local\\Temp\\ccUj8Zk8.s]
+        ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
+        ignore line: [COMPILER_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../\x0d]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-fopenmp' '-v' '-std=gnu++20' '-o' 'CMakeFiles/cmTC_6ecdb.dir/OpenMPTryFlag.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_6ecdb.dir/OpenMPTryFlag.cpp.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -fopenmp -v  CMakeFiles/cmTC_6ecdb.dir/OpenMPTryFlag.cpp.obj -o cmTC_6ecdb.exe -Wl --out-implib libcmTC_6ecdb.dll.a -Wl --major-image-version 0 --minor-image-version 0  -v  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
+        ignore line: [Target: x86_64-w64-mingw32]
+        ignore line: [Configured with: ../gcc-13.1.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --with-arch=nocona --with-tune=generic --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts --enable-libstdcxx-time --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 13.1.0 (GCC) ]
+        ignore line: [COMPILER_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
+        ignore line: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
+        ignore line: [Reading specs from C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/libgomp.spec]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_6ecdb.exe' '-v' '-shared-libgcc' '-mtune=generic' '-march=nocona' '-mthreads' '-pthread' '-dumpdir' 'cmTC_6ecdb.']
+        link line: [ C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_6ecdb.exe C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. CMakeFiles/cmTC_6ecdb.dir/OpenMPTryFlag.cpp.obj --out-implib libcmTC_6ecdb.dll.a --major-image-version 0 --minor-image-version 0 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -lstdc++ -lgomp -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingwthrd -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d]
+          arg [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pep] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_6ecdb.exe] ==> ignore
+          arg [-LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
+          arg [-LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc] ==> dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc]
+          arg [-LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib]
+          arg [-LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib]
+          arg [-LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib]
+          arg [-LC:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
+          arg [CMakeFiles/cmTC_6ecdb.dir/OpenMPTryFlag.cpp.obj] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_6ecdb.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lgdi32] ==> lib [gdi32]
+          arg [-lwinspool] ==> lib [winspool]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-lole32] ==> lib [ole32]
+          arg [-loleaut32] ==> lib [oleaut32]
+          arg [-luuid] ==> lib [uuid]
+          arg [-lcomdlg32] ==> lib [comdlg32]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lgomp] ==> lib [gomp]
+          arg [-lmingwthrd] ==> lib [mingwthrd]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-liconv] ==> lib [iconv]
+          arg [-lmingwthrd] ==> lib [mingwthrd]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse library dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0]
+        collapse library dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc]
+        collapse library dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib]
+        collapse library dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/lib]
+        collapse library dir [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib]
+        implicit libs: [kernel32;user32;gdi32;winspool;shell32;ole32;oleaut32;uuid;comdlg32;advapi32;stdc++;gomp;mingwthrd;mingw32;gcc_s;gcc;moldname;mingwex;kernel32;pthread;advapi32;shell32;user32;kernel32;iconv;mingwthrd;mingw32;gcc_s;gcc;moldname;mingwex;kernel32]
+        implicit objs: []
+        implicit dirs: [C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib/gcc;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/x86_64-w64-mingw32/lib;C:/Users/vladb/AppData/Local/Programs/CLion/bin/mingw/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lsrf5x"
+      binary: "D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lsrf5x"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lsrf5x'
+        
+        Run Build Command(s): C:/Users/vladb/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_f341a
+        [1/2] C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fopenmp -fdiagnostics-color=always -o CMakeFiles/cmTC_f341a.dir/OpenMPCheckVersion.c.obj -c "D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-lsrf5x/OpenMPCheckVersion.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -fopenmp  CMakeFiles/cmTC_f341a.dir/OpenMPCheckVersion.c.obj -o cmTC_f341a.exe -Wl,--out-implib,libcmTC_f341a.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindOpenMP.cmake:440 (try_compile)"
+      - "C:/Users/vladb/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-3.30/Modules/FindOpenMP.cmake:580 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:6 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6rbu9z"
+      binary: "D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6rbu9z"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: 'D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6rbu9z'
+        
+        Run Build Command(s): C:/Users/vladb/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_6583f
+        [1/2] C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe   -fopenmp -std=gnu++20 -fdiagnostics-color=always -o CMakeFiles/cmTC_6583f.dir/OpenMPCheckVersion.cpp.obj -c "D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-6rbu9z/OpenMPCheckVersion.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\vladb\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\g++.exe -fopenmp  CMakeFiles/cmTC_6583f.dir/OpenMPCheckVersion.cpp.obj -o cmTC_6583f.exe -Wl,--out-implib,libcmTC_6583f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        
+      exitCode: 0
+...

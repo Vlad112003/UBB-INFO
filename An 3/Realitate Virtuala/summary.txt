@@ -1,0 +1,16 @@
+Members: Popa Catalin, Mursa Vlad
+Title: Grimper!
+Phobia: fear of heights
+References:
+	https://psyche.co/guides/how-to-overcome-a-fear-of-heights-step-by-careful-step
+	https://www.healthline.com/health/acrophobia-or-fear-of-heights-symptoms-causes-and-treatment
+	https://www.psychologytools.com/resource/exposures-for-fear-of-heights
+Idea: we will implement gradual exposure to different heights through an application that simulates hiking an mountain
+Stages: we will get the player though different exposure levels:
+	1. Ground level (easy)
+	2. Climbing to the first checkpoint through a small forest, preparing
+the player for the next stage
+	3. Small cliffs overlooking the forest you've just walked through
+	4. Narrow paths on the montain sides
+	5. Wooden bridges between peaks
+	6. Summit, calm place, the end
