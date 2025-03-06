@@ -1,0 +1,33 @@
+{
+  "DisplayName": "Main",
+  "Tooltip": null,
+  "HelpLink": null,
+  "Color": null,
+  "OriginalIconFileName": null,
+  "Arguments": [
+    {
+      "Name": "senderEmail",
+      "DisplayName": "senderEmail",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "istealvideos123@gmail.com",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    },
+    {
+      "Name": "outputFolder",
+      "DisplayName": "outputFolder",
+      "Category": null,
+      "Tooltip": null,
+      "Placeholder": "D:\\\\An3Sem1\\\\Automatizarea Proceselor de Business\\\\TemaLab6\\\\lab6-2\\\\EmailAttachments",
+      "Widget": null,
+      "IsRequired": false,
+      "IsPrincipal": true,
+      "ArgumentType": 0,
+      "DataSourceItems": null
+    }
+  ]
+}

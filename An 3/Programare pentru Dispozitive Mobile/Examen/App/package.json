@@ -1,0 +1,25 @@
+{
+  "name": "App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@angular/core": "^19.1.4",
+    "@angular/platform-browser-dynamic": "^19.1.4",
+    "@angular/router": "^19.1.4",
+    "@ionic/angular": "^8.4.3",
+    "@ionic/pwa-elements": "^3.3.0",
+    "@ionic/storage-angular": "^4.0.0",
+    "axios": "^1.7.9",
+    "socket.io-client": "^4.8.1"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^19.1.6",
+    "@angular/cli": "19.1.6",
+    "typescript": "^5.5.3"
+  },
+  "private": true
+}

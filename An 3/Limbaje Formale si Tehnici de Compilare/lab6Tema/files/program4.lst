@@ -1,0 +1,62 @@
+     1                                  bits 32
+     2                                  global start
+     3                                  
+     4                                  extern exit
+     5                                  import exit msvcrt.dll
+     6                                  extern scanf
+     7                                  import scanf msvcrt.dll
+     8                                  extern printf
+     9                                  import printf msvcrt.dll
+    10                                  
+    11                                  segment data use32 class=data
+    12 00000000 <res 00000004>          	a		RESD		1
+    13 00000004 256400                  	str1	DB		'%d', 0
+    14 00000007 <res 00000018>          	tmp		RESD		6
+    15                                  
+    16                                  segment data use32 class=code
+    17                                  	start:
+    18                                  
+    19                                  	; a = 3
+    20 0000001F B803000000              		MOV		EAX,		3
+    21 00000024 A3[00000000]            		MOV		[a],		EAX
+    22                                  
+    23                                  	; [tmp + 0] = 2 * 2
+    24 00000029 BB02000000              		MOV		EBX,		2
+    25 0000002E B802000000              		MOV		EAX,		2
+    26 00000033 F7EB                    		IMUL	EBX
+    27 00000035 A3[07000000]            		MOV		[tmp + 0],		EAX
+    28                                  	; [tmp + 4] = [tmp + 0] * 2
+    29 0000003A 8B1D[07000000]          		MOV		EBX,		[tmp + 0]
+    30 00000040 B802000000              		MOV		EAX,		2
+    31 00000045 F7EB                    		IMUL	EBX
+    32 00000047 A3[0B000000]            		MOV		[tmp + 4],		EAX
+    33                                  	; [tmp + 8] = [tmp + 4] + [a]
+    34 0000004C A1[0B000000]            		MOV		EAX,		[tmp + 4]
+    35 00000051 0305[00000000]          		ADD		EAX,		[a]
+    36 00000057 A3[0F000000]            		MOV		[tmp + 8],		EAX
+    37                                  	; [tmp + 12] = [a] * [a]
+    38 0000005C 8B1D[00000000]          		MOV		EBX,		[a]
+    39 00000062 A1[00000000]            		MOV		EAX,		[a]
+    40 00000067 F7EB                    		IMUL	EBX
+    41 00000069 A3[13000000]            		MOV		[tmp + 12],		EAX
+    42                                  	; [tmp + 16] = [tmp + 8] - [tmp + 12]
+    43 0000006E A1[0F000000]            		MOV		EAX,		[tmp + 8]
+    44 00000073 2B05[13000000]          		SUB		EAX,		[tmp + 12]
+    45 00000079 A3[17000000]            		MOV		[tmp + 16],		EAX
+    46                                  	; [tmp + 20] = [tmp + 16] + 5
+    47 0000007E A1[17000000]            		MOV		EAX,		[tmp + 16]
+    48 00000083 83C005                  		ADD		EAX,		5
+    49 00000086 A3[1B000000]            		MOV		[tmp + 20],		EAX
+    50                                  	; a = [tmp + 20]
+    51 0000008B A1[1B000000]            		MOV		EAX,		[tmp + 20]
+    52 00000090 A3[00000000]            		MOV		[a],		EAX
+    53                                  
+    54                                  	; output statement
+    55 00000095 FF35[00000000]          		PUSH	DWORD		[a]
+    56 0000009B 68[04000000]            		PUSH	DWORD		str1
+    57 000000A0 FF15[00000000]          		CALL	[printf]
+    58 000000A6 83C408                  		ADD		ESP,		4 * 2
+    59                                  
+    60                                  	;exit
+    61 000000A9 6A00                    		PUSH		DWORD		0
+    62 000000AB FF15[00000000]          		CALL		[exit]
