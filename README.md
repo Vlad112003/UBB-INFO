@@ -39,10 +39,10 @@
     * [👨‍🎓Proiect de Cercetare](https://github.com/Vlad112003/UBB-INFO/tree/main/An%203/Proiect%20de%20Cercetare)
     * [🚀Automatizarea Proceselor de Businsess](https://github.com/Vlad112003/UBB-INFO/tree/main/An%203/Automatizarea%20Proceselor%20de%20Business) (RPA)
 * 📂 **Second Semester** 
-  * [📏Calcul Numeric]() (CN)
-  * [🧪Verificarea și Validarea Sistemelor Soft]() (VVSS)
-  * [🎓Elaborarea Lucrării de Licență]() (ELL)
+  * [📏Calcul Numeric](https://github.com/Vlad112003/UBB-INFO/tree/main/An%203/Calcul%20Numeric) (CN)
+  * [🧪Verificarea și Validarea Sistemelor Soft](https://github.com/Vlad112003/UBB-INFO/tree/main/An%203/Verificarea%20si%20Validarea%20Sistemelor%20Soft) (VVSS)
+  * 🎓Elaborarea Lucrării de Licență (ELL)
   * Optionale:
-    * [🎮Game Dev]()
-    * 📒Învățare Interactivă()
-    * [⛨Istoria Informaticii]()
+    * 🎮Game Dev
+    * [📒Învățare Interactivă](https://github.com/Vlad112003/UBB-INFO/tree/main/An%203/Invatare%20Interactiva)
+    * [⛨Istoria Informaticii](https://github.com/Vlad112003/UBB-INFO/tree/main/An%203/Istoria%20Informaticii)
