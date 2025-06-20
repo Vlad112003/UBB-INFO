@@ -1,0 +1,352 @@
+MULTIPLE CHOICE QUIZ
+
+Question 1: ** Care este originea etimologică a cuvântului "management"?
+A) Grecescul "manos" (mână)
+B) Francezul "manager" (a conduce)
+C) Latinescul "manus" (mână)
+D) Germanul "managen" (a administra)
+Answer: C
+
+Question 2: ** Cine este considerat părintele termenului "management"?
+A) Henry Fayol
+B) Peter Drucker
+C) Frederick Winslow Taylor
+D) Elton Mayo
+Answer: C
+
+Question 3: ** În ce an a publicat Frederick Winslow Taylor lucrarea "Principiile managementului ştiinţific"?
+A) 1906
+B) 1916
+C) 1911
+D) 1921
+Answer: C
+
+Question 4: ** Care dintre următoarele NU este o funcție de bază a managementului, conform lui Henry Fayol?
+A) Prognoză
+B) Comandă
+C) Inovare
+D) Organizare
+Answer: C
+
+Question 5: ** Câte principii de bază ale unui act managerial eficient a enunțat Henry Fayol?
+A) 10
+B) 12
+C) 14
+D) 16
+Answer: C
+
+Question 6: ** Aplicarea managementului teoretic implică:
+A) Doar cunoștințe teoretice
+B) Doar experiență practică
+C) Măiestrie, artă și creativitate
+D) Excluderea completă a empirismului
+Answer: C
+
+Question 7: ** Scopul final al unui management just este:
+A) Eliminarea totală a oricărui risc
+B) Maximizarea profiturilor economice
+C) Limitarea empirismului în favoarea conducerii raționale
+D) Aplicarea strictă a regulilor și procedurilor
+Answer: C
+
+Question 8: ** Principiile managementului științific pot fi aplicate:
+A) Doar în context economic
+B) Doar în activități de producție
+C) În multe domenii ale vieții sociale
+D) Exclusiv în administrația publică
+Answer: C
+
+Question 9: ** Care dintre următoarele domenii NU este menționat ca fiind conex cu managementul educațional?
+A) Economia
+B) Psihologia
+C) Fizica
+D) Sociologia
+Answer: C
+
+Question 10: ** Managementul educațional vizează:
+A) Doar activitatea profesorilor
+B) Activitatea unor persoane care direcționează activitatea celorlalți
+C) Doar administrarea resurselor financiare
+D) Doar elaborarea curriculumului școlar
+Answer: B
+
+Question 11: ** Esența managementului educațional poate fi concepută ca arta de a lucra cu:
+A) Doar resursele materiale
+B) Ideile, relațiile, oamenii și resursele
+C) Doar relațiile interpersonale
+D) Doar ideile și strategiile
+Answer: B
+
+Question 12: ** Care sunt cele două direcții importante în evoluția managementului educațional?
+A) Managementul resurselor umane și managementul financiar
+B) Managementul instituției școlare și managementul clasei de elevi
+C) Managementul curricular și managementul administrativ
+D) Managementul calității și managementul proiectelor
+Answer: B
+
+Question 13: ** Managementul instituției școlare se referă la:
+A) Doar administrarea clădirii școlii
+B) Aplicarea principiilor managementului științific la conducerea unității școlare
+C) Doar elaborarea orarului școlar
+D) Doar gestionarea relațiilor cu părinții
+Answer: B
+
+Question 14: ** Care dintre următoarele NU este o funcție managerială a unei conduceri științifice a școlii?
+A) Funcția prospectivă
+B) Funcția de organizare
+C) Funcția de inovare
+D) Funcția de coordonare
+Answer: C
+
+Question 15: ** Care funcție managerială asigură perspectivă și deschidere actelor de conducere?
+A) Funcția de control
+B) Funcția de evaluare
+C) Funcția prospectivă
+D) Funcția de decizie
+Answer: C
+
+Question 16: ** Ce reprezintă baza pentru pregătirea viitoarelor acțiuni legate de cadrul instituțional școlar?
+A) Controlul
+B) Prevederea
+C) Organizarea
+D) Evaluarea
+Answer: B
+
+Question 17: ** Organizarea activităților școlare se referă, în ultimă instanță, la:
+A) Doar structurarea claselor de elevi
+B) Transpunerea în fapt a programelor de acțiune adoptate
+C) Doar repartizarea sarcinilor didactice
+D) Doar corelarea activităților de învățământ în timp
+Answer: B
+
+Question 18: ** Coordonarea activităților școlii se realizează prin:
+A) Doar impunerea regulilor stricte
+B) Mecanisme de reglare și autoreglare a activităților
+C) Doar controlul strict al profesorilor
+D) Doar deciziile luate de directorul școlii
+Answer: B
+
+Question 19: ** Care dintre următoarele NU este o condiție pentru înfăptuirea funcțiilor de coordonare într-o școală?
+A) O rețea de comunicare bine structurată
+B) Dezvoltarea unei motivații active
+C) Centralizarea deciziilor la nivelul conducerii
+D) Delegarea de autoritate
+Answer: C
+
+Question 20: ** Obiectul deciziei în cadrul instituției școlare este definit în funcție de:
+A) Doar dorințele elevilor
+B) Condițiile concrete din fiecare instituție școlară
+C) Doar directivele Ministerului Educației
+D) Doar resursele financiare disponibile
+Answer: B
+
+Question 21: ** Scopul principal al oricărui control în activitățile de învățământ constă în:
+A) Sancționarea elevilor care nu învață
+B) Prevenirea și corectarea la timp a unor abateri
+C) Compararea rezultatelor elevilor
+D) Stabilirea notelor finale
+Answer: B
+
+Question 22: ** Controlul care nu este urmat de măsuri corective imediate și eficiente:
+A) Este o activitate importantă pentru statistică
+B) Este o activitate fără sens
+C) Este o activitate care stimulează elevii
+D) Este o activitate obligatorie prin lege
+Answer: B
+
+Question 23: ** Utilizarea unor tehnici și instrumente de evaluare validate constituie o cale pentru:
+A) Exagerarea subiectivismului
+B) Eliminarea subiectivismului și sporirea responsabilității
+C) Favorizarea anumitor elevi
+D) Simplificarea procesului de notare
+Answer: B
+
+Question 24: ** Evaluarea instituțională vizează:
+A) Doar activitățile didactice
+B) Doar performanțele elevilor
+C) Ansamblul activităților și perspectivele de dezvoltare a unității școlare
+D) Doar respectarea regulamentului școlar
+Answer: C
+
+Question 25: ** În sens larg, managementul clasei de elevi se referă la:
+A) Doar disciplina din clasă
+B) Mijloacele și modalitățile de conducere a activității la clasa de elevi
+C) Doar administrarea resurselor materiale
+D) Doar comunicarea cu părinții
+Answer: B
+
+Question 26: ** În educație, spre deosebire de industrie, eşecurile înregistrate în procesul de formare pot avea:
+A) Consecințe individuale și sociale nefaste
+B) Consecințe minore
+C) Consecințe care pot fi reparate ușor
+D) Același impact ca rebuturile din industrie
+Answer: A
+
+Question 27: ** În cadrul sistemului educațional, cadrele didactice trebuie să:
+A) Se concentreze doar pe transmiterea de cunoștințe
+B) Se raporteze continuu la cei pe care îi educă și să stabilească relații de colaborare
+C) Se bazeze doar pe autoritatea lor
+D) Se implice minim în problemele elevilor
+Answer: B
+
+Question 28: ** Managementul clasei de elevi a fost definit ca un domeniu care studiază:
+A) Doar perspectivele teoretice
+B) Doar structurile practice
+C) Atât perspectivele teoretice cât și structurile practice
+D) Doar metodele de evaluare
+Answer: C
+
+Question 29: ** Managementul clasei de elevi se referă la o activitate de:
+A) Doar supraveghere
+B) "Orchestrare" sau coordonare a secvențelor de învățare
+C) Doar control strict
+D) Doar organizare a activităților
+Answer: B
+
+Question 30: ** Managementul clasei de elevi este un domeniu teoretico-aplicativ care încearcă să adapteze la realitatea educațională:
+A) Doar principii economice
+B) Un set de principii și reguli manageriale ce-și au originea în cadrele economice
+C) Doar reguli de disciplina
+D) Doar metode de evaluare
+Answer: B
+
+Question 31: ** Printre primele studii realizate asupra tipologiei managerilor este cel realizat de Lewin, Lippit și White în anul:
+A) 1928
+B) 1938
+C) 1948
+D) 1958
+Answer: B
+
+Question 32: ** Care dintre următoarele NU este un stil managerial clasic, conform studiului lui Lewin, Lippit și White?
+A) Autoritar
+B) Democratic
+C) Laissez-faire
+D) Transformational
+Answer: D
+
+Question 33: ** Stilul managerial democratic se caracterizează prin:
+A) Control absolut
+B) Atmosferă participativă
+C) Lipsă de control
+D) Decizii luate doar de manager
+Answer: B
+
+Question 34: ** Stilul managerial laissez-faire este caracterizat prin:
+A) Control strict
+B) Participare activă
+C) Atmosferă permisivă și lipsită de control
+D) Decizii luate rapid
+Answer: C
+
+Question 35: ** Modelele contingenței pun în prim plan:
+A) Doar aspectele financiare
+B) Relațiile interumane și crearea unui mediu stimulativ
+C) Doar regulile și procedurile
+D) Doar atingerea obiectivelor
+Answer: B
+
+Question 36: ** Modelul contingenței propus de Tannenbaum și Schmidt include:
+A) Doar autoritatea profesorului
+B) Doar libertatea elevilor
+C) Atât autoritatea profesorului cât și libertatea elevilor
+D) Doar obiectivele de învățare
+Answer: C
+
+Question 37: ** În modelul lui Fiedler, managerul orientat către sarcină primează:
+A) Dezvoltarea relațiilor interumane
+B) Atingerea obiectivelor propuse
+C) Adaptarea la nevoile elevilor
+D) Crearea unui mediu plăcut
+Answer: B
+
+Question 38: ** Modelul managerial situațional dezvoltat de Hersey și Blanchard propune:
+A) Doar două nivele manageriale
+B) Patru nivele manageriale
+C) Șase nivele manageriale
+D) Opt nivele manageriale
+Answer: B
+
+Question 39: ** Stilul autocratic 1 de luare a deciziilor înseamnă că profesorul-manager:
+A) Discută cu fiecare elev în parte
+B) Discută cu întreaga clasă
+C) Rezolvă problemele utilizând doar informațiile pe care le are
+D) Obține informații suplimentare de la elevi
+Answer: C
+
+Question 40: ** Rolul de controlor și rolul de facilitator reprezintă:
+A) Două stiluri manageriale identice
+B) Extremitățile unui evantai comportamental al profesorului
+C) Roluri secundare
+D) Roluri specifice doar profesorilor cu experiență
+Answer: B
+
+Question 41: ** Profesorul poate adopta roluri precum:
+A) Doar cel de evaluator
+B) Planificare, organizare, comunicare, conducere, coordonare, motivare, consiliere, control, evaluare
+C) Doar cel de comunicator
+D) Doar cel de evaluator
+Answer: B
+
+Question 42: ** Eficiența activității didactice se află în strânsă relație cu:
+A) Doar respectarea programelor școlare
+B) Climatul educațional
+C) Doar numărul de elevi din clasă
+D) Doar dotarea materială
+Answer: B
+
+Question 43: ** Autoritatea de tip neformal a profesorului se bazează pe:
+A) O decizie administrativă
+B) Câștigarea unui concurs
+C) Prestigiu profesional și relații bune cu elevii
+D) Numirea pe un post
+Answer: C
+
+Question 44: ** Teoria sistemelor evolutive (TSE) ajută la analiza factorilor care influențează copiii, printre care:
+A) Doar familia
+B) Familia, comunitatea, procesele sociale, dezvoltarea cognitivă, școala, profesorii
+C) Doar școala
+D) Doar profesorii
+Answer: B
+
+Question 45: ** În TSE, motivația schimbării reprezintă:
+A) O proprietate extrinsecă
+B) O proprietate genetică
+C) O proprietate intrinsecă a unui sistem
+D) O proprietate a vârstei
+Answer: C
+
+Question 46: ** Relațiile elev-profesor pot fi cel mai bine caracterizate ca:
+A) Un sistem simplu
+B) Un sistem multinivelar
+C) O relație unilaterală
+D) O relație simetrică
+Answer: B
+
+Question 47: ** Îmbunătățirea relațiilor dintre elevi și profesori poate fi legată, la profesor, de:
+A) Doar impunerea autorității
+B) Creșterea încrederii în elevi
+C) Doar aplicarea regulamentului
+D) Doar sancționarea abaterilor
+Answer: B
+
+Question 48: ** Din perspectivă practică, relațiile dintre profesori și elevi ar trebui să fie:
+A) Foarte apropiate, fără limite
+B) Distante și formale
+C) Apropiate, dar în cadrele unor relații normale și firești
+D) Diferite în funcție de fiecare elev
+Answer: C
+
+Question 49: ** Funcția de integrare socială a clasei de elevi ca grup răspunde la nevoile de:
+A) Doar învățare
+B) Apartenență, recunoaștere, afirmare, statut
+C) Doar disciplină
+D) Doar competiție
+Answer: B
+
+Question 50: ** O clasă de elevi poate fi considerată o comunitate educațională dacă prezintă caracteristici specifice grupului mic, precum:
+A) Doar posibilitatea de instaurare a unor interacțiuni
+B) Unitatea de timp și loc, rațiunea de a fi împreună, soarta comună, posibilitatea perceperii, constituirea unei entități distincte, interacțiuni, normativitate
+C) Doar constituirea unei entități distincte
+D) Doar o durată de existență suficientă
+Answer: B
+

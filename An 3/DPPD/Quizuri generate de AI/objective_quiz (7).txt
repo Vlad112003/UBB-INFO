@@ -1,0 +1,158 @@
+OBJECTIVE QUIZ
+
+TRUE/FALSE QUESTIONS:
+1. Etimologia cuvântului management provine din latinescul "manus", care înseamnă mână. - True
+2. Henry Fayol a definit șapte funcții de bază ale managementului. - False
+3. Principiile managementului științific se aplică doar în contexte economice. - False
+4. Managementul educațional vizează activitatea unor persoane care determină și direcționează activitatea celorlalți. - False
+5. Profesorii educă doar la catedră sau în clasă. - True
+6. În industrie rebuturile pot fi recondiţionate şi reintroduse în circuitul economic, în educaţie, eşecurile înregistrate în procesul de formare pot avea consecinţe individuale şi sociale nefaste. - False
+
+MATCHING QUESTIONS:
+Matching Set 1: Funcțiile de bază ale managementului (după Fayol)
+A. Prognoză
+B. Organizare
+C. Coordonare
+D. Control
+
+1. Stabilirea structurii și a resurselor necesare pentru realizarea obiectivelor.
+2. Verificarea și ajustarea activităților pentru a asigura conformitatea cu planurile.
+3. Anticiparea viitorului și planificarea acțiunilor necesare.
+4. Asigurarea armoniei și a colaborării între diversele părți ale organizației.
+
+Answer Key: A=1, B=2, C=3, D=4
+
+Matching Set 2: Elemente ale managementului educațional
+A. Idei
+B. Relații
+C. Oameni
+D. Resurse
+
+1. Perspective, obiective, programe, strategii de acțiune
+2. Motivarea, delegarea autorității, stimularea, formarea, evaluarea
+3. Identificare, diversificare, procurare, adaptare, funcționare, integrare, perfecționare
+4. Structura organizatorică, legăturile între elemente și acțiuni, sarcini, echilibrul autoritate/libertate
+
+Answer Key: A=1, B=2, C=3, D=4
+
+Matching Set 3: Stiluri manageriale (după Lewin, Lippit și White)
+A. Autoritar
+B. Democratic
+C. Laissez
+
+1. Liderul ia decizii fără a consulta echipa.
+2. Liderul implică echipa în luarea deciziilor.
+3. Liderul oferă libertate totală echipei.
+
+Answer Key: A=1, B=2, C=3
+
+Matching Set 4: Roluri ale cadrului didactic (după R. Iucu, 2006)
+A. Iucu, 2006)
+B. Controlor
+C. Facilitator
+
+1. A. Controlor
+2. Rol orientat spre impunerea regulilor și monitorizarea strictă a elevilor.
+3. Rol orientat spre sprijinirea elevilor și crearea unui mediu de învățare pozitiv.
+
+Answer Key: A=1, B=2, C=3
+
+MULTIPLE CHOICE QUESTIONS:
+Question 1: Ce reprezintă etimologia cuvântului management?
+A) Artă de a conduce
+B) Abilitate de a organiza
+C) Activitate de administrare
+D) Manevrare, pilotare, conducere
+Answer: A, C, D
+
+Question 2: Cine a enumerat caracteristicile de bază ale activității manageriale în lucrarea Principiile managementului ştiinţific?
+A) Henry Fayol
+B) Frederick Winslow Taylor
+C) Max Weber
+D) Elton Mayo
+Answer: A, B, C, D
+
+Question 3: Care dintre următoarele nu este o funcție de bază a managementului, după Henry Fayol?
+A) Prognoză
+B) Planificare
+C) Motivare
+D) Coordonare
+Answer: A, C
+
+Question 4: Care este scopul final al unui management just?
+A) Creșterea empirismului
+B) Conducere rațională spre rezultate eficiente
+C) Centralizarea deciziilor
+D) Autocrația
+Answer: A, B, C, D
+
+Question 5: Ce integrează managementul educațional?
+A) Doar date din domeniul educației
+B) Date oferite de economie, psihologie, sociologie
+C) Doar date din economie
+D) Doar date din psihologie
+Answer: A, B, C, D
+
+Question 6: Care sunt cele două direcții importante în evoluția managementului educațional?
+A) Managementul instituției de învățământ superior și managementul învățământului preșcolar
+B) Managementul instituției școlare și managementul clasei de elevi
+C) Managementul clasei de elevi și managementul grădiniței
+D) Managementul clasei de elevi și managementul universitar
+Answer: A, B, C, D
+
+Question 7: Ce presupune o conducere științifică a școlii?
+A) Urmărirea intuițiilor
+B) Urmărirea principiilor și funcțiilor managementului general
+C) Improvizarea
+D) Control autoritar
+Answer: A, B, C
+
+Question 8: Ce factor trebuie adaptat stilului managerial al cadrului didactic?
+A) Doar competențelor elevilor
+B) Doar motivației elevilor
+C) Competențelor și motivației elevilor
+D) Stării emoționale a elevilor
+Answer: A, C
+
+Question 9: Ce reprezintă climatul educațional?
+A) Doar relațiile dintre elevi
+B) Doar relațiile dintre profesor și elevi
+C) Relațiile dintre elevii unei clase, cât și între aceștia și cadrul didactic
+D) Condițiile fizice din sala de clasă
+Answer: A, C, D
+
+Question 10: Cum este definit Managementul clasei de elevi?
+A) Domeniu de cercetare în ştiinţele educaţiei care studiază atât perspectivele teoretice de abordare ale clasei de elevi cât şi structurile dimensional-practice ale acesteia, în scopul facilitării intervenţiilor cadrelor didactice în situaţiile educaţionale concrete
+B) Arta conducătorului de a atinge scopurile prin mobilizarea eforturilor tuturor membrilor organizaţiei.
+C) Controlul total (specific unui stil managerial autoritar)
+D) Activitate de conducere a instituţiei de către o echipă managerială, urmărind principiile şi funcţiile managementului general.
+Answer: A, B, C, D
+
+Question 11: Care dintre următoarele este o modalitate prin care se pot stabili relaţii apropiate între profesori şi elevi?
+A) Oferind elevilor oportunităţi să îşi cunoască profesorii ca oameni obişnuiţi (nu la catedră jucând rolul de profesor)
+B) Intervenția disciplinară
+C) Strategia de dominare și coerciție
+D) Normativitatea
+Answer: A, B, C, D
+
+Question 12: Dacă un colectiv de elevi se constituie, o comunitate educaţională _________ prin eforturile elevilor şi profesorilor.
+A) se transformă
+B) se construiește
+C) se desființează
+D) se autodefinește
+Answer: B, C
+
+Question 13: Ce are drept scop norma?
+A) Echiparea elevilor cu ceea ce trebuie să ştie pentru a „funcţiona” cu succes în comunitatea şcolară.
+B) Modelarea comportamentelor elevilor în conformitate cu valorile grupului
+C) Echiparea elevilor cu mijloacele materiale didactice
+D) Excluderea elevilor care nu respectă regulile
+Answer: A, B, C, D
+
+Question 14: Ce reprezintă Asumarea consecinţelor?
+A) Responsabilitatea asumată în urma unor comportamente nedorite
+B) Modalitate de lucru dorită de nici una dintre părţile implicate in actul educaţional
+C) O modalitate de adresare de către profesor a unei cerinţe ferme pentru modificarea unor comportamente nedorite ale elevului.
+D) Un tip de pedeapsă.
+Answer: A, B, C, D
+

@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1647773216 source:c:\users\andre\desktop\ag\laboratoare\laborator_2\alg_moore\main.cpp
+	<iostream>
+	<queue>
+	<fstream>
+

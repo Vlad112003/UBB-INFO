@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/DEADLOCK1.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DirtyReads1.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/DirtyReads2.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/NonRepeatableReads2.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/PhantomReads1.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/PhantomReads2.sql" dialect="GenericSQL" />
+  </component>
+</project>

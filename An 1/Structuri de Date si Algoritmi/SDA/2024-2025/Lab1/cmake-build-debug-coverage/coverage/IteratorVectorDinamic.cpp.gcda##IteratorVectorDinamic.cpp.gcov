@@ -1,0 +1,68 @@
+        -:    0:Source:D:/An3Sem2/Structuri de Date si Algoritmi/Lab1/IteratorVectorDinamic.cpp
+        -:    0:Graph:D:\An3Sem2\Structuri de Date si Algoritmi\Lab1\cmake-build-debug-coverage\CMakeFiles\Lab1.dir\IteratorVectorDinamic.cpp.gcno
+        -:    0:Data:D:\An3Sem2\Structuri de Date si Algoritmi\Lab1\cmake-build-debug-coverage\CMakeFiles\Lab1.dir\IteratorVectorDinamic.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include "IteratorVectorDinamic.h"
+        -:    2:#include "VectorDinamic.h"
+        -:    3:#include <stdexcept>
+        -:    4:using namespace std;
+        -:    5:
+function _ZN21IteratorVectorDinamicC2ERK13VectorDinamic called 6 returned 100% blocks executed 100%
+        6:    6:IteratorVectorDinamic::IteratorVectorDinamic(const VectorDinamic& _v) : v(_v) {
+        6:    7:    curent = 0;
+        6:    8:}
+        -:    9:
+function _ZN21IteratorVectorDinamic4primEv called 5 returned 100% blocks executed 100%
+        5:   10:void IteratorVectorDinamic::prim() {
+        5:   11:    curent = 0;
+        5:   12:}
+        -:   13:
+function _ZNK21IteratorVectorDinamic5validEv called 800372 returned 100% blocks executed 100%
+   800372:   14:bool IteratorVectorDinamic::valid() const {
+   800372:   15:    return curent < v.dim();
+   800372:   15-block  0
+call    0 returned 800372
+        -:   16:}
+        -:   17:
+function _ZNK21IteratorVectorDinamic7elementEv called 200121 returned 100% blocks executed 56%
+   200121:   18:TElem IteratorVectorDinamic::element() const {
+   200121:   19:    if (!valid())
+   200121:   19-block  0
+call    0 returned 200121
+branch  1 taken 0 (fallthrough)
+branch  2 taken 200121
+    #####:   20:        throw out_of_range("Iterator out of range");
+    %%%%%:   20-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed (fallthrough)
+branch  3 never executed (throw)
+    %%%%%:   20-block  1
+call    4 never executed
+    $$$$$:   20-block  2
+call    5 never executed
+   200121:   21:    return v.e[curent];
+   200121:   21-block  0
+   200121:   21-block  1
+        -:   22:}
+        -:   23:
+function _ZN21IteratorVectorDinamic7urmatorEv called 400121 returned 100% blocks executed 50%
+   400121:   24:void IteratorVectorDinamic::urmator() {
+   400121:   25:    if (!valid())
+   400121:   25-block  0
+call    0 returned 400121
+branch  1 taken 0 (fallthrough)
+branch  2 taken 400121
+    #####:   26:        throw out_of_range("Iterator out of range");
+    %%%%%:   26-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed (fallthrough)
+branch  3 never executed (throw)
+    %%%%%:   26-block  1
+call    4 never executed
+    $$$$$:   26-block  2
+call    5 never executed
+   400121:   27:    curent++;
+   400121:   28:}
+   400121:   28-block  0

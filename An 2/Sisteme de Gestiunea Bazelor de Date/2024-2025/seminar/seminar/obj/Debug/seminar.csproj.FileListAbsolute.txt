@@ -1,0 +1,9 @@
+D:\An3Sem2\SGBD\seminar\seminar\bin\Debug\seminar.exe.config
+D:\An3Sem2\SGBD\seminar\seminar\bin\Debug\seminar.exe
+D:\An3Sem2\SGBD\seminar\seminar\bin\Debug\seminar.pdb
+D:\An3Sem2\SGBD\seminar\seminar\obj\Debug\seminar.csproj.AssemblyReference.cache
+D:\An3Sem2\SGBD\seminar\seminar\obj\Debug\seminar.Properties.Resources.resources
+D:\An3Sem2\SGBD\seminar\seminar\obj\Debug\seminar.csproj.GenerateResource.cache
+D:\An3Sem2\SGBD\seminar\seminar\obj\Debug\seminar.csproj.CoreCompileInputs.cache
+D:\An3Sem2\SGBD\seminar\seminar\obj\Debug\seminar.exe
+D:\An3Sem2\SGBD\seminar\seminar\obj\Debug\seminar.pdb

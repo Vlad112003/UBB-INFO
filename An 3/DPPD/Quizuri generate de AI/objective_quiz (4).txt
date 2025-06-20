@@ -1,0 +1,160 @@
+OBJECTIVE QUIZ
+
+TRUE/FALSE QUESTIONS:
+1. Etimologia cuvântului management provine din latinescul "manus", însemnând mână, manevrare, pilotare, conducere. - True
+2. Henry Fayol a enumerat cele şase funcţii de bază ale managementului în lucrarea sa din 1911. - False
+3. Principiile managementului ştiinţific nu pot fi aplicate în domeniul educațional. - False
+4. Managementul educaţional vizează doar activitatea profesorilor, nu a altor persoane din instituție. - True
+5. Managementul instituţiei şcolare se referă la managementul clasei de elevi. - True
+6. Controlul activităților de învățământ nu presupune existența unor obiective precizate. - True
+7. Managementul clasei de elevi se referă doar la activitățile desfășurate la catedră. - False
+8. Rebuturile din industrie pot fi recondiționate, în timp ce în educație, eșecurile au consecințe minore. - False
+
+MATCHING QUESTIONS:
+Matching Set 1: **Funcțiile de Bază ale Managementului (după Fayol)**
+A. Prognoză
+B. Organizare
+C. Comandă
+D. Control
+
+1. Stabilirea structurii și resurselor necesare pentru a atinge obiectivele.
+2. Verificarea rezultatelor obținute și compararea lor cu obiectivele stabilite.
+3. Anticiparea viitorului și stabilirea obiectivelor pe termen lung.
+4. Direcționarea eforturilor și asigurarea că sarcinile sunt îndeplinite eficient.
+
+Answer Key: A=1, B=2, C=3, D=4
+
+Matching Set 2: **Elemente ale Managementului Educațional**
+A. Economie
+B. Sociologie
+C. Psihosociologie
+D. Politologie
+
+1. Dimensiunile personalității managerului în exercitarea rolurilor.
+2. Luarea deciziilor, organizarea, conducerea grupurilor conform unor obiective.
+3. Organizarea și utilizarea eficientă a resurselor educației, în raport cu obiectivele.
+4. Managementul organizațiilor, grupurilor, relațiilor, fenomenelor sociale generate în câmpul educațional.
+
+Answer Key: A=1, B=2, C=3, D=4
+
+Matching Set 3: **Funcții Manageriale ale Conducerii Școlii**
+A. Funcția Prospectivă
+B. Funcția de Organizare
+C. Funcția de Coordonare
+D. Funcția de Control
+
+1. Verificarea și măsurarea aspectelor cantitative și calitative ale rezultatelor obținute.
+2. Asigură perspectiva și deschidere actelor de conducere, orientată către viitor.
+3. Realizarea prin mecanisme de reglare și autoreglare a activităților din școală.
+4. Transpunerea în fapt a programelor de acțiune adoptate.
+
+Answer Key: A=1, B=2, C=3, D=4
+
+Matching Set 4: **Tipuri de Norme**
+A. Norme Explicite
+B. Norme Implicite
+
+1. Sunt cunoscute sub numele de „normativitate didactică” și decurg din caracteristicile procesului de predare învățare.
+2. Sunt normele ascunse, care se construiesc în cadrul grupului, produse de viața în comun.
+
+Answer Key: A=1, B=2
+
+MULTIPLE CHOICE QUESTIONS:
+Question 1: Cine a definit cele șase funcții de bază ale managementului?
+A) Frederick Winslow Taylor
+B) Henry Fayol
+C) Gordon Allport
+D) David Kolb
+Answer: A, B, C
+
+Question 2: Care este scopul final al unui management corect?
+A) Promovarea empirismului.
+B) Limitarea empirismului în favoarea conducerii raționale.
+C) Concentrarea exclusivă pe mijloace, nu și pe rezultate.
+D) Ignorarea mijloacelor și focalizarea doar pe rezultate.
+Answer: A, B, C, D
+
+Question 3: Care dintre următoarele NU este un domeniu conex valorificat de managementul educațional?
+A) Economia
+B) Psihologia
+C) Astronomia
+D) Sociologia
+Answer: A, C
+
+Question 4: Ce presupune funcția de organizare în managementul instituției școlare?
+A) Anticiparea viitoarelor activități școlare.
+B) Verificarea și măsurarea rezultatelor obținute.
+C) Transpunerea în fapt a programelor de acțiune adoptate.
+D) Reglarea și autoreglarea activităților din școală.
+Answer: A, C, D
+
+Question 5: Care dintre următoarele este o condiție pentru coordonarea activităților școlii?
+A) Ignorarea problemelor școlii pentru a nu crea panică.
+B) O rețea de comunicare bine structurată și definită.
+C) Centralizarea tuturor deciziilor la nivelul echipei manageriale.
+D) Limitarea delegării de autoritate pentru a menține controlul.
+Answer: A, B, C, D
+
+Question 6: Ce reprezintă conceptul de interacțiune în cadrul Teoriei Sistemelor Evolutive (TSE)?
+A) Interacțiuni doar pe orizontală, între aceleași nivele.
+B) Interacțiuni doar pe verticală, între nivele diferite.
+C) Interacțiuni atât pe orizontală, cât și pe verticală, între și în interiorul nivelelor.
+D) Lipsa interacțiunilor, fiecare nivel funcționând independent.
+Answer: A, C
+
+Question 7: Care dintre următoarele strategii NU este menționată pentru constituirea și menținerea unor relații pozitive între profesori și elevi?
+A) Crearea unor căi de comunicare nonformale.
+B) Menținerea unui raport echilibrat între aprecieri și critici.
+C) Plasarea elevilor în situații repetate de eșec pentru a-i motiva.
+D) Distribuirea controlului și responsabilităților în clasă.
+Answer: A, C, D
+
+Question 8: Care dintre următoarele elemente NU caracterizează o comunitate educațională?
+A) Scopuri Comune.
+B) Valori împărtășite.
+C) Interese Individuale izolate.
+D) Norme Stabilite.
+Answer: A, C, D
+
+Question 9: Care dintre următoarele strategii manageriale are drept scop modificarea comportamentale pentru acei elevi care manifestă comportamente nedorite?
+A) Ierarhia.
+B) Criza Educațională.
+C) Strategia de Intervenție Disciplinară.
+D) Planul Individual de Management.
+Answer: A, C, D
+
+Question 10: Care dintre următoarele este o caracteristică a stilului vizual de învățare? (Multiple-Answer Question)
+A) Individul preferă să vadă lucrurile.
+B) Individul preferă să vorbească și să asculte.
+C) Individul preferă hărți și diagrame.
+D) Individul are nevoie să atingă și să se implice fizic.
+Answer: A, C, D
+
+Question 11: Care dintre următoarele afirmații descrie corect stilul "Asimilator" de învățare, conform lui David Kolb?
+A) Indivizii sunt interesați de ceilalți oameni și preferă activitățile de grup.
+B) Indivizii sunt orientați către rezolvarea de probleme și găsirea de soluții practice.
+C) Indivizii au nevoie de explicații clare, precise, la obiect.
+D) Indivizii se bazează mai ales pe intuiție decât pe rațiune și logică.
+Answer: A, B, C, D
+
+Question 12: Care dintre următoarele reprezintă deprinderi necesare promovării activităților și strategiilor didactice de grup? (Multiple-Answer Question)
+A) Tipul de Grup.
+B) Responsabilitățile.
+C) Excluderea elevilor.
+D) Nivel de feed-back.
+Answer: A, B, C, D
+
+Question 13: Cum ar trebui să fie amenajarea sălilor de clasă care folosesc calculatoare? (Multiple-Answer Question)
+A) Designul mobilierului trebuie să aibă în vedere elementele legate de: hardware, traseele electrice și cablaje, spațiile de deplasare, luminarea sălii (direcția din care vine lumina naturală și cea artificială), în sensul că este contraindicat ca lumina să bată direct în monitoarele ordinatoarelor.
+B) Orientarea clasei ar trebui să fie către sud-est.
+C) Mobilierul trebuie să țină cont de caracteristicile somatice ale elevilor.
+D) Tablouri, hărți, citate care pot contribui la estetica spațiului educațional.
+Answer: A, B, C, D
+
+Question 14: În contextul a două atribute care definesc un timp educațional eficient , care dintre următoarele afirmații sunt corecte? (Multiple-Answer Question)
+A) Timpul educațional trebuie să fie folosit pentru activități inutile
+B) Timpul educațional trebuie să fie folosit pentru activități utile, folositoare pentru elev.
+C) Nu este neapărat important timpul educațional dacă nu este un succes educațional.
+D) Timpul educațional trebuie să conducă spre atingerea unei performanțe cât de mici și către obținerea unui succes educațional.
+Answer: A, B, C, D
+

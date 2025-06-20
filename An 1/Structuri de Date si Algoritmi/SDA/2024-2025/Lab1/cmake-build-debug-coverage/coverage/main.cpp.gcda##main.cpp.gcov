@@ -1,0 +1,28 @@
+        -:    0:Source:D:/An3Sem2/Structuri de Date si Algoritmi/Lab1/main.cpp
+        -:    0:Graph:D:\An3Sem2\Structuri de Date si Algoritmi\Lab1\cmake-build-debug-coverage\CMakeFiles\Lab1.dir\main.cpp.gcno
+        -:    0:Data:D:\An3Sem2\Structuri de Date si Algoritmi\Lab1\cmake-build-debug-coverage\CMakeFiles\Lab1.dir\main.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include <iostream>
+        -:    2:#include "TestExtins.h"
+        -:    3:#include "TestScurt.h"
+        -:    4:
+        -:    5:using namespace std;
+        -:    6:
+        -:    7:
+function main called 1 returned 100% blocks executed 100%
+        1:    8:int main() {
+        -:    9:
+        -:   10:
+        1:   11:    testAll();
+        1:   11-block  0
+call    0 returned 1
+        1:   12:    cout<<"Test scurt ended Successfully"<<endl;
+call    0 returned 1
+call    1 returned 1
+        1:   13:    testAllExtins();
+call    0 returned 1
+        1:   14:    cout<<"Test extins ended Successfully"<<endl;
+call    0 returned 1
+call    1 returned 1
+        -:   15:
+        1:   16:}

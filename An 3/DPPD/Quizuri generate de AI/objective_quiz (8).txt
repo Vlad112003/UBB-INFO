@@ -1,0 +1,134 @@
+OBJECTIVE QUIZ
+
+TRUE/FALSE QUESTIONS:
+1. Etimologia cuvântului management provine doar din limba engleză. - True
+2. Henry Fayol a definit 14 funcții de bază ale managementului. - False
+3. Managementul educațional se poate contura doar prin apelul la domeniul economiei. - True
+4. Managementul clasei de elevi se referă la mijloacele și modalitățile de conducere a activității la clasa de elevi. - False
+5. Managementul clasei de elevi se referă doar la spațiul fizic. - False
+6. Lewin, Lippit și White au definit doar două stiluri manageriale. - False
+7. Climatul educațional nu influențează eficiența activității didactice. - False
+8. Teoria sistemelor evolutive (TSE) ajută la analiza factorilor care influențează copiii. - True
+
+MATCHING QUESTIONS:
+Matching Set 1: Funcțiile Managementului Școlar
+A. Prospectivă
+B. Organizare
+C. Coordonare
+D. Control
+
+1. Asigură perspectiva și deschiderea actelor de conducere.
+2. Se referă la transpunerea în fapt a programelor de acțiune adoptate.
+3. Se realizează prin mecanisme de reglare și autoreglare a activităților din școală.
+4. Constă în verificarea și măsurarea aspectelor cantitative și calitative ale rezultatelor obținute.
+
+Answer Key: A=1, B=2, C=3, D=4
+
+Matching Set 2: Elemente ale Managementului Educațional
+A. Ideile
+B. Relațiile
+C. Oamenii
+D. Resursele
+
+1. Structura organizatorică, legăturile între elemente și acțiuni, sarcini, echilibrul autoritate/libertate.
+2. Perspectiva, obiectivele, programele, strategiile de acțiune.
+3. Identificare, diversificare, procurare, adaptare, funcționare, integrare, perfecționare.
+4. Motivarea, delegarea autorității, stimularea, formarea, evaluarea.
+
+Answer Key: A=1, B=2, C=3, D=4
+
+Matching Set 3: Stiluri Manageriale (Lewin, Lippit și White)
+A. Autocratic
+B. Democratic
+C. Laissez
+
+1. Profesorul ia toate deciziile singur, fără consultarea elevilor.
+2. Profesorul implică elevii în luarea deciziilor și încurajează discuțiile.
+3. Profesorul oferă elevilor libertate totală și intervine minim în activitatea lor.
+
+Answer Key: A=1, B=2, C=3
+
+Matching Set 4: Consecințe ale Comportamentelor Nedorite
+A. Restituirea
+B. Restaurarea
+C. Restricționarea
+D. Reflecția
+
+1. Revenirea la un comportament normal.
+2. A unor drepturi sau privilegii.
+3. Lucrurilor, obiectelor, timpului care au fost luate, pierdute sau distruse.
+4. Asupra comportamentului perturbator și găsirea de soluții pentru rezolvarea situației.
+
+Answer Key: A=1, B=2, C=3, D=4
+
+MULTIPLE CHOICE QUESTIONS:
+Question 1: Care dintre următoarele nu este o funcție de bază a managementului, conform lui Henry Fayol?
+A) Prognoză
+B) Planificare
+C) Control
+D) Motivare
+Answer: A, C, D
+
+Question 2: Ce reprezintă managementul educațional dintr-o perspectivă generală?
+A) Un sistem de concepte, metode, instrumente de orientare, conducere și coordonare, utilizat în realizarea obiectivelor educației
+B) Doar conducerea financiară a instituțiilor de învățământ
+C) Strict supravegherea cadrelor didactice
+D) Organizarea evenimentelor școlare
+Answer: A, B, C, D
+
+Question 3: Care dintre următoarele este o caracteristică a funcției prospective în managementul școlar?
+A) Evaluarea performanțelor elevilor
+B) Asigurarea perspectivei și deschiderii actelor de conducere
+C) Controlul activităților didactice
+D) Repartizarea sarcinilor administrative
+Answer: A, B, C, D
+
+Question 4: Ce presupune coordonarea activităților școlii?
+A) Implicarea doar a directorului în luarea deciziilor
+B) Existența unei rețele de comunicare bine structurată și definită
+C) Centralizarea completă a autorității
+D) Ignorarea problemelor elevilor
+Answer: A, B, C, D
+
+Question 5: În managementul clasei de elevi, ce presupune interpelarea imperativă?
+A) Pedeapsa elevilor pentru comportamentele nedorite
+B) Adresarea de către profesor a unei cerințe ferme pentru modificarea unor comportamente nedorite ale elevului
+C) Ignorarea comportamentelor perturbatoare
+D) Implicarea părinților în rezolvarea problemelor disciplinare
+Answer: A, B, C, D
+
+Question 6: Care dintre următoarele strategii de intervenție în situații de criză educațională face apel la autoritatea formală a cadrului didactic și se bazează pe pedeapsă?
+A) Negocierea
+B) Fraternizarea
+C) Strategia de dominare și coerciție
+D) Terapia ocupațională
+Answer: A, C, D
+
+Question 7: Ce reprezintă învățarea activă?
+A) Un proces în care i se permite subiectului învățării să intre în contact direct cu materialul de însușit/studiat, prin implicare activă și interacțiune directă
+B) Memorarea mecanică a informațiilor
+C) Ascultarea pasivă a lecțiilor
+D) Realizarea de exerciții repetitive
+Answer: A, B, C, D
+
+Question 8: Stilurile de învățare pot fi clasificate după:
+A) Modalitatea senzorială implicată
+B) Vârsta elevului
+C) Statutul social al elevului
+D) Preferințele culinare ale elevului
+Answer: A, C, D
+
+Question 9: Ce influențează stilul individual de învățare, conform lui Kolb? (multiple answers)
+A) Ereditatea
+B) Personalitatea individului
+C) Metodele didactice utilizate
+D) Evenimentele politice actuale
+Answer: A, B, C, D
+
+Question 10: Managementul clasei trebuie sa fie :
+A) Rigid
+B) Improvizator
+C) flexibil
+D) distant
+Answer: B, C
+

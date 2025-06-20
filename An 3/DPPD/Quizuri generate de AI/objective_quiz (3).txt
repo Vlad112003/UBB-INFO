@@ -1,0 +1,122 @@
+OBJECTIVE QUIZ
+
+TRUE/FALSE QUESTIONS:
+1. Etimologia cuvântului management provine din latinescul "manus", care înseamnă mână. - True
+2. Henry Fayol a identificat 14 funcții de bază ale managementului. - False
+3. Managementul educațional vizează activitatea unor persoane care determină și direcționează activitatea celorlalți. - True
+4. În educație, rebuturile pot fi recondiționate și reintroduse în circuitul economic. - True
+5. Modelul managerial situațional propune două nivele manageriale. - False
+6. Evaluarea instituțională se face doar pe baza criteriilor stabilite intern de unitatea școlară. - False
+7. Relațiile profesor - True
+8. Normele implicite sunt norme prescriptive, cunoscute, clar exprimate. - False
+
+MATCHING QUESTIONS:
+Matching Set 1: Funcțiile Managementului Școlar
+A. Funcția prospectivă
+B. Funcția de organizare
+C. Funcția de coordonare
+D. Funcția de control
+
+1. Asigură perspectiva și deschiderea actelor de conducere.
+2. Se referă la transpunerea în fapt a programelor de acțiune adoptate.
+3. Se realizează prin mecanisme de reglare și autoreglare a activităților din școală.
+4. Constă în verificarea și măsurarea aspectelor cantitative și calitative ale rezultatelor obținute.
+
+Answer Key: A=1, B=2, C=3, D=4
+
+Matching Set 2: Elementele Managementului Educațional
+A. Ideile
+B. Relațiile
+C. Oamenii
+D. Resursele
+
+1. Perspectiva, obiectivele, programele, strategiile de acțiune.
+2. Structura organizatorică, legăturile între elemente și acțiuni, sarcini, echilibrul autoritate/libertate, centralizare/descentralizare.
+3. Motivarea, delegarea autorității, stimularea, formarea, evaluarea.
+4. Identificare, diversificare, procurare, adaptare, funcționare, integrare, perfecționare.
+
+Answer Key: A=1, B=2, C=3, D=4
+
+Matching Set 3: Stiluri Manageriale
+A. Autocratic
+B. Democratic
+C. Laissez
+D. Situațional
+
+1. Profesorul ia deciziile singur, impune reguli stricte.
+2. Profesorul implică elevii în luarea deciziilor, promovează colaborarea.
+3. Profesorul oferă libertate maximă, intervine minim.
+4. Profesorul adaptează stilul în funcție de context.
+
+Answer Key: A=1, B=2, C=3, D=4
+
+Matching Set 4: Roluri ale Cadrului Didactic
+A. Controlor
+B. Facilitator
+C. Consilier
+D. Model
+
+1. Monitorizează și reglementează comportamentul elevilor.
+2. Sprijină și ghidează elevii în procesul de învățare.
+3. Oferă sprijin și îndrumare elevilor.
+4. Oferă un exemplu pozitiv elevilor.
+
+Answer Key: A=1, B=2, C=3, D=4
+
+MULTIPLE CHOICE QUESTIONS:
+Question 1: Care dintre următoarele este considerată a fi condiția primă pentru practicarea unui management de calitate?
+A) Aplicarea empirică a metodelor
+B) Cunoașterea teoriei manageriale
+C) Ignorarea contextului social
+D) Concentrarea exclusivă pe rezultate
+Answer: A, B, C
+
+Question 2: Ce integrează și adaptează managementul educațional?
+A) Doar datele oferite de economie
+B) Datele oferite de științe conexe socio-umane
+C) Doar datele oferite de psihologie
+D) Nicio dată oferită de alte științe
+Answer: A, B, C, D
+
+Question 3: Ce reprezintă funcția prospectivă în managementul instituției școlare?
+A) Transpunerea în fapt a programelor adoptate
+B) Verificarea aspectelor calitative ale rezultatelor
+C) Asigurarea perspectivei și deschiderii actelor de conducere
+D) Reglarea activităților din școală
+Answer: A, C, D
+
+Question 4: Care dintre următoarele NU este o componentă esențială a managementului educațional?
+A) Ideile
+B) Relațiile
+C) Oamenii
+D) Empirismul
+Answer: C, D
+
+Question 5: Care dintre următoarele este un stil managerial propus de Lewin, Lippit și White?
+A) Laissez-faire
+B) Tranzacțional
+C) Transformational
+D) Contingent
+Answer: A, C
+
+Question 6: Ce presupune interpelarea imperativă ca intervenție disciplinară?
+A) O discuție lungă și detaliată cu elevul în fața colegilor
+B) Adresarea unei cerințe ferme pentru modificarea comportamentului
+C) Aplicarea unei pedepse imediate
+D) Ignorarea comportamentului elevului
+Answer: A, B, C, D
+
+Question 7: Care dintre următoarele este o caracteristică a unei comunități educaționale?
+A) Indiferența față de scopurile comune
+B) Relații funcționale limitate
+C) Element împărtășite de toți membrii (norme, valori, scopuri, idealuri)
+D) Individualism accentuat
+Answer: A, B, C, D
+
+Question 8: Ce reprezintă normativitatea în cadrul clasei?
+A) Un set de reguli negociabile impuse de elevi
+B) Un ansamblu de reguli care reglementează desfășurarea unei activități educaționale
+C) Un ansamblu de reguli care reies din constrângere
+D) Un set de reguli opționale ce nu au consecințe grave
+Answer: A, B, C, D
+

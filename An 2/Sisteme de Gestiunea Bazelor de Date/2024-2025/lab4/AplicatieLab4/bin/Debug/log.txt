@@ -1,0 +1,8 @@
+20/05/2025 15:39:08: Transaction 2 error: Transaction (Process ID 65) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
+20/05/2025 15:39:08: Transaction 1 completed successfully.
+20/05/2025 15:39:11: Transaction 2 completed successfully.
+20/05/2025 15:39:11: Execution completed.
+20/05/2025 15:41:55: Transaction 2 error: Transaction (Process ID 75) was deadlocked on lock resources with another process and has been chosen as the deadlock victim. Rerun the transaction.
+20/05/2025 15:41:55: Transaction 1 completed successfully.
+20/05/2025 15:41:58: Transaction 2 completed successfully.
+20/05/2025 15:41:58: Execution completed.

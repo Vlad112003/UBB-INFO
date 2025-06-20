@@ -1,0 +1,6 @@
+D:\An3Sem2\SGBD\labb4\AplicatieLab4\bin\Debug\AplicatieLab4.exe
+D:\An3Sem2\SGBD\labb4\AplicatieLab4\bin\Debug\AplicatieLab4.pdb
+D:\An3Sem2\SGBD\labb4\AplicatieLab4\obj\Debug\AplicatieLab4.csproj.AssemblyReference.cache
+D:\An3Sem2\SGBD\labb4\AplicatieLab4\obj\Debug\AplicatieLab4.csproj.CoreCompileInputs.cache
+D:\An3Sem2\SGBD\labb4\AplicatieLab4\obj\Debug\AplicatieLab4.exe
+D:\An3Sem2\SGBD\labb4\AplicatieLab4\obj\Debug\AplicatieLab4.pdb

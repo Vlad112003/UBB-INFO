@@ -1,4 +1,0 @@
-D:\PyCharm\ToolBox\apps\CLion\ch-0\222.4345.21\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=D:/PyCharm/ToolBox/apps/CLion/ch-0/222.4345.21/bin/ninja/win/ninja.exe -G Ninja -S D:\FacultaSem2\SDA\colectie_cu_main -B D:\FacultaSem2\SDA\colectie_cu_main\cmake-build-debug
--- Configuring done
--- Generating done
--- Build files have been written to: D:/FacultaSem2/SDA/colectie_cu_main/cmake-build-debug

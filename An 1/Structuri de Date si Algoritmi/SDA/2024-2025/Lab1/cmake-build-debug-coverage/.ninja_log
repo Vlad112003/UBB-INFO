@@ -1,0 +1,15 @@
+# ninja log v6
+17	493	7635272710366580	CMakeFiles/Lab1.dir/TestExtins.cpp.obj	fabc2d734db563db
+18	377	7635272045583436	CMakeFiles/Lab1.dir/IteratorVectorDinamic.cpp.obj	ce43daab5ac6b511
+74	450	7635270801436293	CMakeFiles/Lab1.dir/App.cpp.obj	fdc8c925aa6028a6
+18	369	7635273452460440	CMakeFiles/Lab1.dir/VectorDinamic.cpp.obj	792d0fcd49c647c0
+25	454	7635273920165108	CMakeFiles/Lab1.dir/main.cpp.obj	d5bebc69ac6716a
+454	587	7635273924460950	Lab1.exe	ca699bd934dcc6a
+17	447	7635272258427035	CMakeFiles/Lab1.dir/TestScurt.cpp.obj	fc1bbf89599ecbe5
+15	320	7635274403517230	build.ninja	39ce2c05c95098de
+40	1109	7642430151810419	CMakeFiles/Lab1.dir/IteratorVectorDinamic.cpp.obj	ce43daab5ac6b511
+66	1122	7642430152070471	CMakeFiles/Lab1.dir/VectorDinamic.cpp.obj	792d0fcd49c647c0
+28	1299	7642430151690382	CMakeFiles/Lab1.dir/main.cpp.obj	d5bebc69ac6716a
+57	1339	7642430151990451	CMakeFiles/Lab1.dir/TestScurt.cpp.obj	fc1bbf89599ecbe5
+48	1453	7642430151890430	CMakeFiles/Lab1.dir/TestExtins.cpp.obj	fabc2d734db563db
+1453	2157	7642430165941661	Lab1.exe	ca699bd934dcc6a

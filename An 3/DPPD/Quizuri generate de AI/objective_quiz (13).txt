@@ -1,0 +1,156 @@
+OBJECTIVE QUIZ
+
+TRUE/FALSE QUESTIONS:
+1. Etimologia cuvântului management provine de la latinescul "manus", însemnând mână. - True
+2. Frederick Winslow Taylor este considerat părintele termenului de "management". - True
+3. Henry Fayol a definit șase funcții de bază ale managementului, inclusiv prognoză și planificare. - True
+4. Empirismul este preferabil conducerii raționale în management. - False
+5. Managementul educațional nu poate fi influențat de economie, psihologie sau sociologie. - False
+6. Managementul educațional vizează activitatea persoanelor care direcționează activitatea celorlalți spre obiective organizaționale. - True
+7. Managementul clasei de elevi este identic cu managementul instituției școlare. - False
+8. În managementul clasei, rebuturile pot fi recondiționate ca în industrie. - False
+9. Stilul managerial dictatorial oferă elevilor o libertate considerabilă. - False
+10. Relațiile profesor-elev nu sunt analizate prin prisma Teoriei Sistemelor Evolutive (TSE). - False
+11. În TSE, motivația schimbării este considerată o proprietate extrinsecă a unui sistem. - False
+12. Competența copiilor este independentă de caracteristicile contextelor în care evoluează. - False
+13. Modelele comportamentale nu pot fi surse de învățare. - False
+14. În relația profesor-elev, adultul are diferite nivele de responsabilitate. - True
+15. Încercarea de a menține un control total asupra elevilor este eficientă și posibilă. - False
+
+MATCHING QUESTIONS:
+Matching Set 1: **Funcțiile Managementului Școlar**
+A. Prospectivă
+B. Organizare
+C. Coordonare
+D. Control
+
+1. Asigurarea perspectivei și deschiderii actelor de conducere.
+2. Transpunerea în fapt a programelor de acțiune adoptate.
+3. Mecanisme de reglare și autoreglare a activităților din școală.
+4. Verificarea și măsurarea aspectelor cantitative și calitative ale rezultatelor obținute.
+
+Answer Key: A=1, B=2, C=3, D=4
+
+Matching Set 2: **Stiluri Manageriale (Lewin, Lippit, White)**
+A. Autoritar
+B. Democratic
+C. Laissez-faire
+D. Participativ
+
+1. Deciziile sunt luate de lider, cu puțină sau deloc implicare a celorlalți.
+2. Implică luarea deciziilor în mod participativ, promovând implicarea elevilor.
+3. Caracterizat de o lipsă de implicare și control din partea liderului.
+4. Un mix intre stilurile democratic și autoritar, adaptat la situatie.
+
+Answer Key: A=1, B=2, C=3, D=4
+
+Matching Set 3: **Modele Manageriale (Hersey și Blanchard)**
+A. Delegarea
+B. Participarea
+C. Convingerea
+D. Îndrumarea directă
+
+1. Profesorul încredințează elevilor responsabilitatea pentru realizarea sarcinii.
+2. Profesorul implică elevii în luarea deciziilor.
+3. Profesorul încearcă să motiveze elevii să realizeze sarcina.
+4. Profesorul oferă instrucțiuni clare și precise pentru realizarea sarcinii.
+
+Answer Key: A=1, B=2, C=3, D=4
+
+Matching Set 4: **Rolurile Profesorului (Iucu)**
+A. Controlor
+B. Facilitator
+C. Evaluator
+D. Organizator
+
+1. Stabilește reguli și monitorizează respectarea lor.
+2. Ajută elevii să descopere și să învețe singuri.
+3. Stabilește criteriile și evaluează performanțele elevilor.
+4. Structurarea activităților educaționale.
+
+Answer Key: A=1, B=2, C=3, D=4
+
+Matching Set 5: **Componente ale Relațiilor Profesori-Elevi**
+A. Caracteristici individuale
+B. Modele de reprezentare
+C. Procese de schimb a informațiilor
+D. Factori genetici
+
+1. Include personalitatea și experiențele profesorului și elevului.
+2. Include convingeri, motivații și așteptări.
+3. Include feedback, comunicare verbală și nonverbală.
+4. Incluse in context pentru a distrage.
+
+Answer Key: A=1, B=2, C=3, D=4
+
+MULTIPLE CHOICE QUESTIONS:
+Question 1: Ce reprezintă managementul educațional dintr-o perspectivă generală?
+A) Un set strict de reguli și proceduri.
+B) Un sistem de concepte, metode și instrumente de orientare, conducere și coordonare.
+C) O aplicare directă a principiilor managementului economic fără adaptare.
+D) Doar evaluarea performanțelor elevilor.
+Answer: A, B, C, D
+
+Question 2: Care dintre următoarele NU este considerată o funcție managerială în conducerea școlii?
+A) Funcția prospectivă.
+B) Funcția de control.
+C) Funcția de creație artistică.
+D) Funcția de organizare.
+Answer: A, C, D
+
+Question 3: Care este scopul principal al controlului activităților de învățământ?
+A) Sancționarea elevilor cu rezultate slabe.
+B) Prevenirea și corectarea la timp a unor abateri de la deciziile de optimizare a procesului.
+C) Evaluarea strictă a performanțelor cantitative.
+D) Compararea rezultatelor cu standarde internaționale.
+Answer: A, B, C, D
+
+Question 4: Ce implică asumarea consecințelor în contextul problemelor disciplinare?
+A) Aplicarea unei pedepse severe.
+B) Însușirea comportamentelor corespunzătoare, opuse celor nedorite.
+C) Eliminarea elevului din clasă.
+D) Ignorarea comportamentului nedorit.
+Answer: A, B, C, D
+
+Question 5: Ce reprezintă învățarea activă? (multiple-answer)
+A) Un proces în care elevul este pasiv și ascultă doar explicațiile profesorului.
+B) Un proces în care elevul intră în contact direct cu materialul de studiat prin implicare activă.
+C) Un proces în care scopul fundamental este cunoscut de ambii actori educaționali.
+D) Un proces pasiv bazat pe memorarea informațiilor.
+Answer: A, B, C
+
+Question 6: Care este rolul profesorului în strategia învățării mediate?
+A) Să ofere instrucțiuni precise și să controleze fiecare pas al învățării.
+B) Să faciliteze dezvoltarea elevului prin sprijin declarativ și procedural.
+C) Să ignore dificultățile elevilor și să îi lase să se descurce singuri.
+D) Să impună standarde înalte fără a oferi sprijin.
+Answer: A, B, C, D
+
+Question 7: Care dintre următoarele NU este un stil de învățare propus de David Kolb?
+A) Stilul Divergent.
+B) Stilul Asimilator.
+C) Stilul Acomodator.
+D) Stilul Reflexiv.
+Answer: C, D
+
+Question 8: Ce implică deprinderile legate de managementul ritmului de desfășurare a actului didactic? (multiple-answer)
+A) Evitarea discontinuității.
+B) Accelerarea ritmului indiferent de nivelul de înțelegere al elevilor.
+C) Evitarea încetinirii ritmului.
+D) Ignorarea feedback-ului elevilor.
+Answer: A, C, D
+
+Question 9: Ce este proxemica?
+A) Studiul formelor geometrice în arhitectura școlară.
+B) Studiul efectului de comunicare în cadrul spațiului fizic.
+C) Studiul relațiilor dintre elevi și părinți.
+D) Studiul istoriei educației.
+Answer: A, B, C, D
+
+Question 10: Ce principiu constructiv de bază susține arhitectura sălii de clasă în privința luminii naturale?
+A) Suprafețele vitrate trebuie să fie de minimum 1/10 din suprafața pardoselii.
+B) Suprafețele vitrate trebuie să fie de minimum 1/3 din suprafața pardoselii.
+C) Nu există reguli precise privind suprafața vitrată.
+D) Suprafețele vitrate trebuie să fie de minimum 1/2 din suprafața pardoselii.
+Answer: A, B, C, D
+

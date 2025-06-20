@@ -1,0 +1,8 @@
+# ninja log v6
+6	123	7684160866528958	CMakeFiles/Proiect.dir/Matrice.cpp.obj	be3922203c173c53
+14	420	7684747953266148	CMakeFiles/Proiect.dir/main.cpp.obj	eb372364645d9894
+1557	1842	7684776188973286	Proiect.exe	7ecb10ae6bacf383
+34	1481	7684776173744650	CMakeFiles/Proiect.dir/TestScurt.cpp.obj	9b3096500bfcb760
+42	1557	7684776173815728	CMakeFiles/Proiect.dir/TestExtins.cpp.obj	58d7845b2bf0203c
+26	393	7684776173663552	CMakeFiles/Proiect.dir/IteratorMultime.cpp.obj	464831b9974537a9
+15	421	7684776173560994	CMakeFiles/Proiect.dir/Multime.cpp.obj	e462ae1b981b5126

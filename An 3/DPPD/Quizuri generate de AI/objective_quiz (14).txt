@@ -1,0 +1,149 @@
+OBJECTIVE QUIZ
+
+TRUE/FALSE QUESTIONS:
+1. Etimologia cuvântului management provine din latinescul "manus" care înseamnă mână. - True
+2. Frederick Winslow Taylor este cel care a definit cele șase funcții de bază ale managementului. - False
+3. Managementul educațional nu are legătură cu alte domenii precum economia sau sociologia. - False
+4. Managementul clasei de elevi se referă doar la activitatea dirigintelui. - False
+5. Aplicarea principiilor managementului științific la conducerea unității școlare este Managementul clasei de elevi. - False
+6. Funcția prospectivă este funcția de bază care asigură perspectivă și deschidere actelor de conducere. - True
+7. Evaluarea instituțională se face pe baza unor criterii stabilite de organisme specializate și a unei metodologii specifice. - True
+8. Modelul contingenței nu are aplicabilitate în contextul educațional. - False
+9. Stilul managerial dictatorial oferă multă libertate elevilor. - False
+10. Climatul educațional nu influențează eficiența activității didactice. - False
+11. Modelele negative nu influențează elevii. - False
+12. Teoria sistemelor evolutive (TSE) nu poate fi aplicată în analiza relațiilor elev-profesor. - False
+13. În cadrul TSE, motivația schimbării este o proprietate intrinsecă a unui sistem și a activității acestuia. - True
+14. Profesorul trebuie să se implice foarte accentuat în viața personală a elevilor. - False
+15. Controlul total asupra elevilor și comportamentelor acestora conduce la eficiență. - False
+16. Controlul care nu este urmat de măsuri corective imediate și eficiente constituie o activitate fără sens. - True
+
+MATCHING QUESTIONS:
+Matching Set 1: **Funcțiile Managementului**
+A. Planificare
+B. Organizare
+C. Coordonare
+D. Control
+
+1. Stabilirea modului în care se vor desfășura activitățile
+2. Alocarea resurselor și responsabilităților
+3. Asigurarea armoniei între diversele activități
+4. Verificarea și corectarea abaterilor
+
+Answer Key: A=1, B=2, C=3, D=4
+
+Matching Set 2: **Stiluri Manageriale (după Lewin, Lippit și White)**
+A. Autoritar
+B. Democratic
+C. Laissez-faire
+D. Centrat pe sarcină
+
+1. Liderul ia toate deciziile și impune reguli stricte.
+2. Liderul implică membrii grupului în luarea deciziilor.
+3. Liderul oferă puțină sau deloc direcție și lasă membrii grupului să decidă singuri.
+4. Liderul se concentrează pe atingerea obiectivelor, mai degrabă decât pe relațiile umane.
+
+Answer Key: A=1, B=2, C=3, D=4
+
+Matching Set 3: **Elemente ale Managementului Educațional**
+A. Idei
+B. Relații
+C. Oameni
+D. Resurse
+
+1. Perspectiva, obiectivele, programele, strategiile de acțiune.
+2. Structura organizatorică, legăturile între elemente și acțiuni.
+3. Motivarea, delegarea autorității, stimularea, formarea, evaluarea.
+4. Identificare, diversificare, procurare, adaptare, funcționare, integrare.
+
+Answer Key: A=1, B=2, C=3, D=4
+
+Matching Set 4: **Tipuri de Norme**
+A. Norme Explicite
+B. Norme Implicite
+
+1. Norme prescriptive, cunoscute, clar exprimate, cu rol de reglementare a activității școlare.
+2. Norme ascunse, care se construiesc în cadrul grupului.
+
+Answer Key: A=1, B=2
+
+Matching Set 5: **Strategii de Intervenție**
+A. Strategia de dominare și coerciție
+B. Strategia de negociere
+C. Strategia de fraternizare
+D. Terapia ocupațională
+
+1. Fac apel la autoritatea formală a cadrului didactic și se bazează, ca formă de intervenție, pe pedeapsă
+2. Poate fi utilă în scopul realizării unei înțelegeri asupra unei chestiuni care vizează întregul colectiv al clasei
+3. Se întâlnește mai ales la unele cadre didactice tinere, fără multă experiență pedagogică și care au de-a face cu elevi care se găsesc spre sfârșitul ciclului liceal
+4. Sporește dinamica clasei cu precădere la nivel fizic, cultivând mișcarea ca formă de intervenție în situații de abatere
+
+Answer Key: A=1, B=2, C=3, D=4
+
+MULTIPLE CHOICE QUESTIONS:
+Question 1: Cine a atribuit paternitatea termenului de "management"?
+A) Henry Fayol
+B) Frederick Winslow Taylor
+C) Edward Deming
+D) Peter Drucker
+Answer: A, B, C, D
+
+Question 2: Câte principii de bază ale unui act managerial eficient a enunțat Henry Fayol?
+A) 6
+B) 10
+C) 14
+D) 20
+Answer: C
+
+Question 3: Care dintre următoarele NU este un domeniu conex managementului educațional?
+A) Economia
+B) Psihologia
+C) Astrologia
+D) Sociologia
+Answer: A, C
+
+Question 4: Care dintre următoarele NU este o funcție managerială în conducerea școlii?
+A) Funcția prospectivă
+B) Funcția de organizare
+C) Funcția de teleportare
+D) Funcția de coordonare
+Answer: A, C, D
+
+Question 5: Care dintre următoarele sunt elemente ale normativității în cadrul clasei? (multiple answers)
+A) Norme
+B) Reguli
+C) Proceduri (rutine)
+D) Teorii
+Answer: A, B, C, D
+
+Question 6: Ce este managementul clasei de elevi?
+A) Aplicarea unor metode de predare moderne
+B) Mijloacele și modalitățile de conducere a activității la clasa de elevi
+C) Amenajarea fizică a clasei
+D) Organizarea serbărilor școlare
+Answer: A, B, C, D
+
+Question 7: Care dintre următoarele NU face parte din elementele de susținere în cadrul învățării mediate?
+A) profesorul este cel care facilitează dezvoltarea elevului prin sprijin declarativ și procedural
+B) sprijinul se oferă in funcție de diagnosticarea blocajelor cognitive din evaluare
+C) recunoașterea zonei de dezvoltare la care elevul are acces prin medierea unui adult
+D) impunerea de sarcini care să testeze limitele elevului
+Answer: A, C, D
+
+Question 8: Care este rolul profesorului în dezbateri?
+A) Să impună punctul său de vedere
+B) Să fie facilitator, îndrumător, ghid
+C) Să arbitreze și să dea dreptate unei părți
+D) Să evite implicarea în discuții
+Answer: A, B, C, D
+
+FILL IN THE BLANK:
+1. Manus inseamna in latina _________ (answer: mână)
+2. Henry Fayol a definit șase ______ de bază ale managementului (answer: funcții)
+3. Managementul educațional integrează date oferite de științe conexe _______-_______. (answer: socio-umane)
+4. Scopul principal al oricărui control constă în prevenirea și ________ la timp a unor abateri de la deciziile de optimizare a procesului. (answer: corectarea)
+5. În sens larg, managementul clasei de elevi se referă la mijloacele și modalitățile de _________ a activității la clasa de elevi. (answer: conducere)
+6. Clasa de elevi poate fi o comunitate orientată către un scop _________ comun. (answer: educațional)
+7. O ________ a mobilierului în manieră tradițională (3 rânduri de bănci, fiecare cu câte 2 locuri) se pretează mai ales pentru activitățile de tip frontal. (answer: dispunere)
+8. Timpul general alocat (macrotimpul) se supune unor condiționări ________. (answer: externe)
+

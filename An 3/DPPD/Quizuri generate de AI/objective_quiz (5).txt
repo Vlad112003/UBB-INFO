@@ -1,0 +1,144 @@
+OBJECTIVE QUIZ
+
+TRUE/FALSE QUESTIONS:
+1. Etimologia cuvântului management provine din latinescul "manus" care înseamnă mână. - False
+2. Cele şase funcţii de bază ale managementului sunt prognoză, planificare, organizare, comandă, coordonare şi control. - False
+3. Scopul final al unui management corect se referă la o creştere a empirismului. - False
+4. Managementul educaţional integrează date oferite doar de economia şi sociologia. - False
+5. Managementul clasei de elevi şi Managementul instituţiei şcolare reprezintă două direcţii importante în evoluţia managementului educaţional. - False
+6. Funcţia prospectivă este funcţia de bază care asigură perspectivă şi deschidere actelor de conducere. - False
+
+MATCHING QUESTIONS:
+Matching Set 1: Funcțiile Managementului Școlar
+A. Funcția prospectivă
+B. Funcția de organizare
+C. Funcția de coordonare
+D. Funcția de decizie
+
+1. Asigură perspectivă şi deschidere actelor de conducere.
+2. Se referă la transpunerea în fapt a programelor de acţiune adoptate.
+3. Se realizează prin mecanisme de reglare şi autoreglare a activităţilor din şcoală.
+4. Este definit în funcţie de condiţiile concrete din fiecare instituţie şcolară.
+
+Answer Key: A=1, B=2, C=3, D=4
+
+Matching Set 2: Perspectiva Teoriei Sistemelor Evolutive (TSE)
+A. A. Sistem
+B. Interacțiuni
+C. Perspective integratoare
+D. Motivare și schimbare
+
+1. Unități formate din seturi de componente relaționate între ele, fiecare acționând în mod organizat și independent.
+2. Au loc în cadrul aceluiași nivel și între nivele, fiind reciproce.
+3. Comportamentul uman poate fi conceput în termenii unor tipare de relații dintre diverse elemente componente ale sistemului larg.
+4. Reprezintă o proprietate intrinsecă a unui sistem și a activității acestuia.
+
+Answer Key: A=1, B=2, C=3, D=4
+
+Matching Set 3: Tipuri de Autoritate ale Profesorului
+A. Autoritate formală
+B. Autoritate câştigată
+
+1. Este atribuită prin rolul didactic.
+2. Este obţinută prin prestigiu şi respect.
+
+Answer Key: A=1, B=2
+
+Matching Set 4: Abordări manageriale
+A. Strategia de dominare şi coerciţie
+B. Negocierea
+C. Fraternizarea
+D. Terapia ocupaţională
+
+1. Face apel la autoritatea formală a cadrului didactic şi se bazează pe pedeapsă.
+2. Modalitate de intervenţie utilă în scopul realizării unei înţelegeri asupra unei chestiuni care vizează întregul colectiv al clasei.
+3. Are drept caracteristică fluidizarea graniţelor rolurilor interpretate de partenerii educaţionali.
+4. Sporește dinamica clasei, cultivând mișcarea ca formă de intervenție.
+
+Answer Key: A=1, B=2, C=3, D=4
+
+MULTIPLE CHOICE QUESTIONS:
+Question 1: Care este originea cuvântului "management"?
+A) Greacă
+B) Latină
+C) Franceză
+D) Germană
+Answer: A, B, C
+
+Question 2: Cine a enumerat câteva caracteristici de bază ale activităţii manageriale în lucrarea sa "Principiile managementului ştiinţific"?
+A) Henry Fayol
+B) Peter Drucker
+C) Frederick Winslow Taylor
+D) Max Weber
+Answer: A, C, D
+
+Question 3: Cine a definit cele şase funcţii de bază ale managementului?
+A) Frederick Winslow Taylor
+B) Henry Fayol
+C) Peter Drucker
+D) Abraham Maslow
+Answer: A, B, C
+
+Question 4: Ce reprezintă managementul educaţional dintr-o perspectivă generală?
+A) Un set de reguli stricte
+B) Un sistem de concepte, metode, instrumente de orientare, conducere şi coordonare, utilizat în realizarea obiectivelor educaţiei
+C) O simplă aplicare a economiei în educaţie
+D) Un domeniu complet izolat de alte ştiinţe
+Answer: A, B, C, D
+
+Question 5: Care sunt elementele esenţiale ale managementului educaţional?
+A) Idei, reguli, structuri, resurse
+B) Idei, relaţii, oameni, resurse
+C) Structuri, autoritate, control, personal
+D) Planificare, coordonare, directori, resurse
+Answer: A, B, C, D
+
+Question 6: Ce presupune o conducere ştiinţifică a şcolii?
+A) Ignorarea funcţiilor manageriale
+B) Urmărirea principiilor şi funcţiilor managementului general
+C) Aplicarea strictă a politicilor economice
+D) Centralizarea deciziilor
+Answer: A, B, C
+
+Question 7: Care sunt condiţiile necesare pentru coordonarea activităţilor şcolii?
+A) Ignorarea problemelor şcolii
+B) O reţea de comunicare bine structurată, motivaţie activă, eşalonarea deciziilor, delegarea de autoritate
+C) Centralizarea deciziilor
+D) Lipsa de raporturi între echipa managerială şi salariaţi
+Answer: A, B, C, D
+
+Question 8: Ce presupune managementul clasei de elevi?
+A) Mijloacele şi modalităţile de conducere a activităţii la clasa de elevi
+B) Aplicarea principiilor managementului economic
+C) Centralizarea autorităţii
+D) Ignorarea relaţiei cu părinţii
+Answer: A, C, D
+
+Question 9: Ce reprezintă "climatul educaţional"?
+A) Problemele disciplinare
+B) Dezvoltarea unor relaţii corespunzătoare între elevi şi cadrul didactic
+C) Structura organizaţională
+D) Normele implicite
+Answer: A, B, C, D
+
+Question 10: Care este principalul model conceptual în dezvoltarea umană, conform textului?
+A) Psihologia behavioristă
+B) Teoria sistemelor evolutive
+C) Genetica
+D) Psihologia cognitivă
+Answer: A, B, C
+
+Question 11: Care sunt componentele principale ale relațiilor profesori-elevi? (multiple-answer)
+A) Numai caracteristicile individuale
+B) Modelele de reprezentare
+C) Caracteristicile individuale
+D) Procesele de schimb a informaţiilor
+Answer: A, C, D
+
+Question 12: Care sunt modalităţile în care se pot stabili relaţii apropiate între profesori şi elevi? (multiple-answer)
+A) Oferind elevilor oportunităţi să îşi cunoască profesorii ca oameni obişnuiţi
+B) Adoptând o poziţie deschisă faţă de problemele, preocupările şi incertitudinile elevilor
+C) Profesorul trebuie să nu se implice foarte accentuat în viața personală a elevilor
+D) Numai oferind elevilor oportunități să își cunoască profesorii ca oameni obișnuiți.
+Answer: A, B, C, D
+

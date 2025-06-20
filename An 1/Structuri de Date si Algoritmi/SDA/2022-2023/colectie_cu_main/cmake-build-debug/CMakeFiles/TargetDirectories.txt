@@ -1,0 +1,3 @@
+D:/Git/UBB-INFO/An 1/Structuri de Date si Algoritmi/SDA/colectie_cu_main/cmake-build-debug/CMakeFiles/colectie_cu_main.dir
+D:/Git/UBB-INFO/An 1/Structuri de Date si Algoritmi/SDA/colectie_cu_main/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/Git/UBB-INFO/An 1/Structuri de Date si Algoritmi/SDA/colectie_cu_main/cmake-build-debug/CMakeFiles/rebuild_cache.dir

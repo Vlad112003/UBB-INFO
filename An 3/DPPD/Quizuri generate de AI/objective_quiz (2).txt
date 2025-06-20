@@ -1,0 +1,106 @@
+OBJECTIVE QUIZ
+
+TRUE/FALSE QUESTIONS:
+1. Etimologia cuvântului management provine din latinescul "manus" care înseamnă mână. - True
+2. Henry Fayol a definit şase funcţii de bază ale managementului. - True
+3. Managementul educaţional poate fi văzut ca un sistem de concepte, metode, instrumente de orientare, conducere şi coordonare. - True
+4. Managementul clasei de elevi nu presupune colaborarea cu părinţii. - False
+5. Scopul principal al oricărui control constă în prevenirea şi corectarea la timp a unor abateri de la deciziile de optimizare a procesului. - True
+6. Normele sunt absolute și nu pot fi negociate. - False
+7. Managementul problemelor de disciplină impune o serie de câteva practice, punctuale. - True
+8. Există un singur stil de învăţare. - False
+
+MATCHING QUESTIONS:
+Matching Set 1: Funcţiile Managementului Şcolar**
+A. Funcţia prospectivă
+B. Funcţia de organizare
+C. Funcţia de coordonare
+D. Funcţia de control
+
+1. Se referă la transpunerea în fapt a programelor de acţiune adoptate. - B
+2. Asigură perspectivă şi deschidere actelor de conducere. - A
+3. Constă în verificarea şi măsurarea aspectelor cantitative şi calitative ale rezultatelor obţinute. - D
+4. Se realizează prin mecanisme de reglare şi autoreglare a activităţilor din şcoală. - C
+
+Answer Key: A=1, B=2, C=3, D=4
+
+Matching Set 2: Elementele Managementului Educaţional**
+A. Ideile
+B. Relaţiile
+C. Oamenii
+D. Resursele
+
+1. Motivarea, delegarea autorităţii, stimularea, formarea, evaluarea. - C
+2. Identificare, diversificare, procurare, adaptare, funcţionare, integrare, perfecţionare. - D
+3. Structura organizatorică, legăturile între elemente şi acţiuni, sarcini, echilibrul autoritate/libertate. - B
+4. Perspectiva, obiectivele, programele, strategiile de acţiune. - A
+
+Answer Key: A=1, B=2, C=3, D=4
+
+Matching Set 3: Stiluri Manageriale (după Lewin, Lippit şi White)**
+A. Autoritar
+B. Democratic
+C. Laissez
+
+1. Implică participarea membrilor echipei în luarea deciziilor. - B
+2. Conducătorul ia toate deciziile fără a consulta echipa. - A
+3. Permite membrilor echipei să ia decizii cu minimă implicare a conducătorului. - C
+
+Answer Key: A=1, B=2, C=3
+
+Matching Set 4: Strategii de Intervenție**
+A. Interpelarea imperativă
+B. Asumarea consecinţelor
+C. Pedeapsa
+D. Planul individual de intervenţie
+
+1. Se referă la cerinţele şi la problemele specifice ale unui anumit elev. - D
+2. Adresarea unei cerinţe ferme pentru modificarea unor comportamente nedorite ale elevului. - A
+3. Încearcă să înlăture comportamentul nedorit. - C
+4. Responsabilitatea asumată în urma unor comportamente nedorite. - B
+
+Answer Key: A=1, B=2, C=3, D=4
+
+MULTIPLE CHOICE QUESTIONS:
+Question 1: Care este scopul final al unui management just?
+A) Favorizarea empirismului.
+B) O limitare a empirismului în favoarea unei conduceri raţionale.
+C) Ignorarea mijloacelor şi concentrarea pe rezultate.
+D) O conducere haotică.
+Answer: B
+
+Question 2: Ce reprezintă managementul clasei de elevi?
+A) Doar menţinerea disciplinei.
+B) Mijloacele şi modalităţile de conducere a activităţii la clasa de elevi.
+C) O activitate simplă şi necomplexă.
+D) Ignorarea relaţiei cu părinţii.
+Answer: B
+
+Question 3: Care dintre următoarele nu este o funcţie managerială a şcolii?
+A) Funcţia prospectivă.
+B) Funcţia de organizare.
+C) Funcţia de control.
+D) Funcţia de amuzament.
+Answer: D
+
+Question 4: Care sunt domeniile esenţiale de evaluare managerială? (Alege toate variantele corecte)
+A) Evaluarea instituţională.
+B) Evaluarea activităţii personalului didactic.
+C) Evaluarea aportului diriginţilor.
+D) Evaluarea contribuţiei personalului administrativ.
+Answer: A, B, C, D
+
+Question 5: Ce reprezintă climatul educaţional?
+A) Doar aspectul fizic al sălii de clasă.
+B) Dezvoltarea unor relaţii corespunzătoare între elevi şi cadrul didactic.
+C) Numărul de elevi dintr-o clasă.
+D) Regulile impuse de conducerea şcolii.
+Answer: B
+
+Question 6: Potrivit textului, ce factori influențează copiii, conform TSE (Teoria Sistemelor Evolutive)? (Alege toate variantele corecte)
+A) Familia
+B) Comunitatea
+C) Procesele sociale
+D) Dezvoltarea cognitiva
+Answer: A, B, C, D
+

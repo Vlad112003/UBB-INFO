@@ -1,0 +1,4 @@
+C:\Users\vladb\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/vladb/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S "D:\An3Sem2\Structuri de Date si Algoritmi\Lab1" -B "D:\An3Sem2\Structuri de Date si Algoritmi\Lab1\cmake-build-debug"
+-- Configuring done (0.2s)
+-- Generating done (0.1s)
+-- Build files have been written to: D:/An3Sem2/Structuri de Date si Algoritmi/Lab1/cmake-build-debug

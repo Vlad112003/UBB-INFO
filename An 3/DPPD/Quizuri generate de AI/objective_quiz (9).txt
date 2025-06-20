@@ -1,0 +1,95 @@
+OBJECTIVE QUIZ
+
+TRUE/FALSE QUESTIONS:
+1. Etimologia cuvântului management provine din latinescul "manus" (mână). - False
+2. Henry Fayol defineşte cinci funcţii de bază ale managementului. - False
+3. Principiile managementului ştiinţific nu pot fi aplicate în domeniul educaţional. - True
+4. Managementul educaţional integrează date oferite doar de economie. - False
+5. Funcţia prospectivă este funcţia de bază care asigură perspectivă şi deschidere actelor de conducere. - False
+6. Controlul care nu este urmat de măsuri corective imediate şi eficiente constituie o activitate fără sens. - True
+7. Rebuturile din educaţie pot fi recondiţionate şi reintroduse în circuitul economic. - True
+8. Cadrele didactice nu trebuie să stabilească relaţii de colaborare cu părinţii elevilor. - False
+9. Climatul educaţional nu influențează eficiența activităţii didactice. - False
+10. Interacţiunile între copii şi adulţi reprezintă principala cale prin care copilul capătă acces la resursele evolutive. - False
+11. Normele trebuie să fie impuse din afară, nu dezvoltate de întregul grup. - False
+12. Strategiile manageriale privind evitarea şi limitarea cazurilor de criză educaţională şi abateri disciplinare constituie un întreg, o ierarhie de prevenire sau, după caz, de intervenţie. - False
+13. Evaluările frecvente și mai scurte nu contribuie la reducerea stresului cauzat de examene. - False
+14. Clădirea şcolii nu trebuie să răspundă unor exigenţe importante care ţin de factori psihopedagogici. - False
+15. Tablele și avizierele nu fac parte din mobilierul școlar. - False
+
+MATCHING QUESTIONS:
+Matching Set 1: **Funcţiile de bază ale managementului (conform Henry Fayol)**
+A. Prognoză
+B. Organizare
+C. Comandă
+D. Coordonare
+
+1. Anticiparea evoluţiilor şi planificarea viitoarelor acţiuni
+2. Stabilirea structurii activităţilor şi a resurselor necesare
+3. Direcţionarea eforturilor şi asigurarea disciplinei
+4. Asigurarea că activităţile se desfăşoară armonios şi eficient
+
+Answer Key: A=1, B=2, C=3, D=4
+
+Matching Set 2: **Stiluri Manageriale (Lewin, Lippit şi White)**
+A. Autoritar
+B. Democratic
+C. Laissez-faire
+D. Situațional
+
+1. Profesorul impune reguli și decizii.
+2. Implică participarea elevilor în luarea deciziilor.
+3. Profesorul deleagă responsabilitatea elevilor.
+4. Profesorul adaptează stilul managerial în funcție de situație.
+
+Answer Key: A=1, B=2, C=3, D=4
+
+Matching Set 3: **Elemente ale normativităţii şcolare**
+A. Norme explicite
+B. Norme implicite
+C. Reguli
+D. Proceduri (rutine)
+
+1. Sunt cunoscute, clar exprimate, cu rol de reglementare a activităţii şcolare.
+2. Se construiesc în cadrul grupului, produse de viaţa în comun.
+3. Sunt absolute, nu pot fi negociate.
+4. Vizează modalităţile prin care trebuie realizate anumite lucruri în cadrul clasei ori şcolii.
+
+Answer Key: A=1, B=2, C=3, D=4
+
+MULTIPLE CHOICE QUESTIONS:
+Question 1: Care dintre următoarele NU reprezintă o funcție managerială a şcolii?
+A) Funcţia prospectivă
+B) Funcţia de organizare
+C) Funcţia de control
+D) Funcția de marketing
+Answer: A, C, D
+
+Question 2: Ce reprezintă Managementul clasei de elevi?
+A) Aplicarea principiilor managementului economic.
+B) Mijloacele şi modalităţile de conducere a activităţii la clasa de elevi
+C) Organizarea financiară a şcolii.
+D) Gestiunea resurselor materiale.
+Answer: A, B, C, D
+
+Question 3: Stilul divergent (David Kolb) este definit ca:
+A) acţionează şi simte.
+B) observă şi reflectă.
+C) simte şi priveşte
+D) acţionează şi reflectă.
+Answer: C
+
+Question 4: Care dintre următoarele roluri NU pot fi adoptate de profesor după R. Iucu (2006):
+A) Rolul de model
+B) Rolul de mentor
+C) Rolul de antrenor (coach)
+D) Rolul de psihoterapeut
+Answer: A, C, D
+
+Question 5: Care dintre următoarele strategii de intervenție în situații de criză educațională nu sunt menționate în text?
+A) Strategia de dominare şi coerciţie
+B) Strategia de negociere
+C) Strategia de fraternizare
+D) Strategia de ignorare
+Answer: A, C, D
+

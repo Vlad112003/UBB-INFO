@@ -1,0 +1,791 @@
+OBJECTIVE QUIZ
+
+MULTIPLE CHOICE QUESTIONS:
+Question 1: Cine a creat motorul diferențial și motorul analitic?
+A) Ada Lovelace
+B) Steve Jobs
+C) Charles Babbage
+D) Bill Gates
+✅ Correct answer: C
+
+Explanation: Charles Babbage a creat motorul diferențial și motorul analitic în anii 1800, considerate primele mașini de calcul cu scop general.
+
+Question 2: Cine a fost primul programator din istorie?
+A) John von Neumann
+B) Charles Babbage
+C) Alan Turing
+D) Ada Lovelace
+✅ Correct answer: D
+
+Explanation: Ada Lovelace este considerată primul programator din istorie, scriind un program pentru motorul analitic al lui Charles Babbage.
+
+Question 3: De ce nu a funcționat programul lui Ada Lovelace?
+A) Nu era scris într-un limbaj de programare adecvat.
+B) Motorul analitic nu a fost niciodată construit.
+C) Avea o eroare de runtime.
+D) Avea o eroare de compilare.
+✅ Correct answer: B
+
+Explanation: Programul lui Ada Lovelace nu a funcționat deoarece motorul analitic pentru care a fost scris nu a fost construit în timpul vieții ei.
+
+Question 4: Care era problema cu tabelele matematice înainte de 1800?
+A) Erau scrise doar în latină.
+B) Erau greu de găsit.
+C) Valorile funcțiilor diferă între cărți.
+D) Erau foarte scumpe.
+✅ Correct answer: C
+
+Explanation: Înainte de 1800, valorile funcțiilor din tabelele matematice variau între cărți, ceea ce a motivat crearea unui calculator mecanic.
+
+Question 5: Pentru ce a cerut Charles Babbage finanțare de la guvernul britanic?
+A) Pentru a scrie cărți de matematică.
+B) Pentru a inventa un nou limbaj de programare.
+C) Pentru a construi un motor diferențial.
+D) Pentru a preda matematică.
+✅ Correct answer: C
+
+Explanation: Charles Babbage a solicitat finanțare de la guvernul britanic pentru a construi un motor diferențial, o mașină de calcul mecanică.
+
+Question 6: De ce nu a fost construit motorul diferențial în timpul vieții lui Charles Babbage?
+A) Nu avea cunoștințe matematice suficiente.
+B) Nu a găsit pe nimeni care să-l ajute.
+C) Echipamentele industriale nu erau suficient de precise.
+D) Nu a primit suficientă finanțare.
+✅ Correct answer: C
+
+Explanation: Motorul diferențial nu a fost construit în timpul vieții lui Charles Babbage din cauza lipsei de precizie a echipamentelor industriale și a dificultăților sale de a colabora cu alții.
+
+Question 7: Ce operații puteau efectua motorul diferențial și motorul analitic?
+A) Numai operații logice.
+B) Adunare și scădere.
+C) Numai adunare, scădere, înmulțire și împărțire.
+D) Operații complexe precum exponențiale, logaritmi, trigonometrie și polinoame.
+✅ Correct answer: D
+
+Explanation: Motorul diferențial și motorul analitic puteau efectua operații complexe, precum exponențiale, logaritmi, trigonometrie și polinoame, pe lângă cele patru operații de bază.
+
+Question 8: Ce capacitate de stocare avea memoria motorului analitic?
+A) 4000 numere de 10 cifre.
+B) 100 numere de 10 cifre.
+C) 1000 numere de 40 cifre.
+D) 10000 numere de 4 cifre.
+✅ Correct answer: C
+
+Explanation: Memoria motorului analitic putea stoca 1000 de numere de 40 de cifre fiecare.
+
+Question 9: Când a apărut termenul "computer science" (informatică)?
+A) În 1970.
+B) În 1800.
+C) În 1900.
+D) În 1959.
+✅ Correct answer: D
+
+Explanation: Termenul "computer science" (informatică) a apărut pentru prima dată într-un articol în Communications of the ACM în 1959.
+
+Question 10: Ce domeniu al informaticii include structuri de date, algoritmi și teoria calculabilității?
+A) Informatică teoretică.
+B) Inginerie software.
+C) Aplicații computerizate.
+D) Teoria sistemelor de calcul.
+✅ Correct answer: A
+
+Explanation: Domeniul informaticii teoretice include structuri de date, algoritmi, teoria calculabilității, informații și teoria codificării și limbaje de programare.
+
+Question 11: Ce domeniu al informaticii include arhitectura computerelor, sistemele de operare și rețelele de calculatoare?
+A) Teoria sistemelor de calcul.
+B) Aplicații computerizate.
+C) Inginerie software.
+D) Informatică teoretică.
+✅ Correct answer: A
+
+Explanation: Teoria sistemelor de calcul include arhitectura computerelor, sistemele de operare, rețelele de calculatoare și bazele de date.
+
+Question 12: Când au apărut primele mașini de calcul mecanice?
+A) În 1950.
+B) În 1800.
+C) În 1600.
+D) În 2700 î.Hr.
+✅ Correct answer: C
+
+Explanation: Mașinile de calcul mecanice (echivalente cu calculatoarele de buzunar) au apărut pentru prima dată în anii 1600.
+
+Question 13: Cine a inventat termenul "algoritm"?
+A) Muhammad ibn Musa al-Khwarizmi
+B) Pitagora
+C) Ada Lovelace
+D) Euclid
+✅ Correct answer: A
+
+Explanation: Termenul "algoritm" a fost inventat de matematicianul arab Muhammad ibn Musa al-Khwarizmi.
+
+Question 14: În ce an a fost scrisă cartea în care al-Khwarizmi a inventat termenul "algoritm"?
+A) 820
+B) 1600
+C) 1200
+D) 1000
+✅ Correct answer: A
+
+Explanation: Cartea în care al-Khwarizmi a inventat termenul "algoritm" a fost scrisă în anul 820.
+
+Question 15: Ce înseamnă definiția modernă a unui algoritm?
+A) O descriere a unui computer.
+B) O formulă matematică.
+C) O teorie științifică.
+D) O secvență de pași pentru a rezolva o problemă specifică.
+✅ Correct answer: D
+
+Explanation: Definiția modernă a unui algoritm este o secvență de pași necesari pentru a rezolva o problemă specifică, împreună cu un set de date pe care operează pașii.
+
+Question 16: Cine a creat algoritmul pentru cel mai mare divizor comun?
+A) Eratostene
+B) Al-Khwarizmi
+C) Pitagora
+D) Euclid
+✅ Correct answer: D
+
+Explanation: Euclid a dezvoltat algoritmul pentru calcularea celui mai mare divizor comun, cunoscut și sub numele de Algoritmul lui Euclid.
+
+Question 17: Ce popor antic a trăit în Mesopotamia?
+A) Egiptenii
+B) Grecii
+C) Mayașii
+D) Babilonienii
+✅ Correct answer: D
+
+Explanation: Babilonienii au trăit în Mesopotamia, o regiune care corespunde în mare parte teritoriilor actuale ale Turciei și Siriei.
+
+Question 18: Cum se numea scrierea babilonienilor?
+A) Morse
+B) Alfabet
+C) Hieroglife
+D) Cuneiformă
+✅ Correct answer: D
+
+Explanation: Scrierea babilonienilor se numea cuneiformă, deoarece literele și cifrele lor arătau ca niște cuie.
+
+Question 19: Ce sistem numeric foloseau babilonienii?
+A) Baza 20
+B) Baza 60
+C) Baza 10
+D) Baza 100
+✅ Correct answer: B
+
+Explanation: Babilonienii foloseau un sistem numeric în baza 60, numit sistem sexagesimal.
+
+Question 20: Cine a popularizat cifra zero în Europa?
+A) Al-Khwarizmi
+B) Fibonacci
+C) Euclid
+D) Pitagora
+✅ Correct answer: B
+
+Explanation: Fibonacci a popularizat cifra zero în Europa prin publicarea cărții "De libero abaci" la începutul anilor 1000.
+
+Question 21: Ce cunoștințe matematice aveau babilonienii?
+A) Numai adunare și scădere.
+B) Numai geometrie.
+C) Extragerea rădăcinii pătrate și cubice, lucrul cu triplete pitagoreice, cunoștințe despre pi.
+D) Numai algebră.
+✅ Correct answer: C
+
+Explanation: Babilonienii aveau cunoștințe matematice avansate, inclusiv extracția rădăcinii pătrate și cubice, lucrul cu triplete pitagoreice și cunoștințe despre pi.
+
+Question 22: Ce fel de cunoștințe matematice aveau egiptenii?
+A) Mai mult geometrice
+B) Mai mult aritmetice
+C) Numai statistică
+D) Numai algebră
+✅ Correct answer: A
+
+Explanation: Egiptenii aveau cunoștințe matematice mai mult geometrice datorită necesității de a măsura terenurile după inundațiile Nilului.
+
+Question 23: Ce sistem numeric foloseau egiptenii?
+A) Baza 60
+B) Baza 10
+C) Baza 20
+D) Baza 2
+✅ Correct answer: B
+
+Explanation: Egiptenii foloseau un sistem numeric în baza 10, cu cifre desenate cu ajutorul unor bețe simple.
+
+Question 24: Cum se numea teorema lui Pitagora în China antică?
+A) Teorema Cercului
+B) Legea lui Thales
+C) Algoritmul lui Eratostene
+D) Regula Gougu
+✅ Correct answer: D
+
+Explanation: Chinezii numeau teorema lui Pitagora "Regula Gougu".
+
+Question 25: Cum se numea cea mai faimoasă carte de matematică din istoria Chinei antice?
+A) Arithmetica
+B) De libero abaci
+C) Elementele
+D) Nouă capitole despre arta matematică
+✅ Correct answer: D
+
+Explanation: Cea mai faimoasă carte de matematică din istoria Chinei antice se numea "Nouă capitole despre arta matematică" (Jiuzhang suanshu).
+
+Question 26: În ce bază numerică numărau Mayașii?
+A) Baza 2
+B) Baza 20
+C) Baza 60
+D) Baza 10
+✅ Correct answer: B
+
+Explanation: Mayașii foloseau un sistem numeric în baza 20.
+
+Question 27: Ce civilizație antică avea un simbol pentru zero?
+A) Grecii
+B) Babilonienii
+C) Egiptenii
+D) Mayașii
+✅ Correct answer: D
+
+Explanation: Civilizația Maya avea un simbol pentru zero, dar nu îl foloseau foarte mult.
+
+Question 28: Câte calendare aveau Mayașii?
+A) Unul
+B) Patru
+C) Două
+D) Trei
+✅ Correct answer: C
+
+Explanation: Mayașii aveau două calendare: unul ritual/religios de 260 de zile și unul civil folosit în agricultură de 365 de zile.
+
+Question 29: Cum se numea algoritmul lui Euclid pentru a afla cel mai mare divizor comun?
+A) Criba lui Eratostene
+B) Algoritmul lui Euclid
+C) Teorema lui Pitagora
+D) Legea lui Arhimede
+✅ Correct answer: B
+
+Explanation: Algoritmul lui Euclid este folosit pentru a calcula cel mai mare divizor comun a două numere.
+
+Question 30: Cine a construit o hartă a stelelor cu 675 de stele?
+A) Ptolemeu
+B) Eratostene
+C) Euclid
+D) Arhimede
+✅ Correct answer: B
+
+Explanation: Eratostene a construit o hartă a stelelor cu 675 de stele și a măsurat diametrul Pământului.
+
+Question 31: Cine a formulat formula de calcul a ariei unui triunghi folosind semiperimetrul?
+A) Arhimede
+B) Heron din Alexandria
+C) Euclid
+D) Eratostene
+✅ Correct answer: B
+
+Explanation: Heron din Alexandria este renumit pentru formula de calcul a ariei unui triunghi folosind semiperimetrul.
+
+Question 32: Cine este faimos pentru Legea lui Arhimede?
+A) Arhimede
+B) Heron din Alexandria
+C) Eratostene
+D) Euclid
+✅ Correct answer: A
+
+Explanation: Arhimede este faimos pentru Legea lui Arhimede, care descrie forța de flotabilitate asupra unui corp scufundat într-un fluid.
+
+Question 33: Ce model al spațiului a formulat Klaudios Ptolemaios?
+A) Geocentric
+B) Niciunul
+C) Heliocentric
+D) Ambele
+✅ Correct answer: A
+
+Explanation: Klaudios Ptolemaios a formulat modelul geocentric al spațiului, care afirma că Pământul era centrul universului cunoscut.
+
+Question 34: Cine este cunoscut ca "părintele algebrei"?
+A) Arhimede
+B) Ptolemeu
+C) Euclid
+D) Diophantos din Alexandria
+✅ Correct answer: D
+
+Explanation: Diophantos din Alexandria este cunoscut ca "părintele algebrei" pentru scrierea colecției de 13 cărți "Arithmetica".
+
+Question 35: Cum au fost aduse cunoștințele europene în India?
+A) Prin intermediul babilonienilor.
+B) Prin intermediul mayașilor.
+C) Prin intermediul egiptenilor.
+D) Prin intermediul lui Alexandru cel Mare.
+✅ Correct answer: D
+
+Explanation: Cunoștințele europene au fost aduse în India de Alexandru cel Mare, când a cucerit India.
+
+Question 36: Ce a inventat Aryabhata?
+A) Numărul zero
+B) Nu a inventat nimic.
+C) Geometria axiomatică
+D) Algebra
+✅ Correct answer: A
+
+Explanation: Aryabhata a inventat cifra zero și a aprobat teoria heliocentrismului.
+
+Question 37: Cine a scris prima carte care a tratat zero ca pe un număr?
+A) Euclid
+B) Ptolemeu
+C) Brahmagupta
+D) Aryabhata
+✅ Correct answer: C
+
+Explanation: Brahmagupta a scris prima carte care a tratat zero ca pe un număr și a încercat să definească împărțirea la zero (0/0=0).
+
+Question 38: Cine este considerat "părintele algebrei" în lumea arabă?
+A) Euclid
+B) Ptolemeu
+C) Aryabhata
+D) Muhammad bin Musa al-Khwarizmi
+✅ Correct answer: D
+
+Explanation: Abu Abdullah Muhammad bin Musa al-Khwarizmi este considerat "părintele algebrei" pentru scrierea cărții "Al-jabr w'al-muqabala".
+
+Question 39: Din ce limbă provine cuvântul "algoritm"?
+A) Latină
+B) Arabă
+C) Greacă
+D) Engleză
+✅ Correct answer: B
+
+Explanation: Cuvântul "algoritm" provine din numele latin al lui al-Khwarizmi, "Algoritmi".
+
+Question 40: Ce fel de calculatoare erau motorul diferențial și motorul analitic create de Charles Babbage?
+A) Electromecanice
+B) Mecanice
+C) Optice
+D) Electronice
+✅ Correct answer: B
+
+Explanation: Motorul diferențial și motorul analitic create de Charles Babbage erau calculatoare mecanice.
+
+Question 41: Ce metodă matematică stă la baza motorului diferențial?
+A) Metoda elementelor finite
+B) Calculul infinitezimal
+C) Calculul integral
+D) Metoda diferențelor finite
+✅ Correct answer: D
+
+Explanation: Metoda diferențelor finite este ideea matematică principală care stă la baza conceptului motorului diferențial.
+
+Question 42: Ce tip de memorie avea motorul analitic?
+A) Pe cartele perforate
+B) Pe relee
+C) Pe tranzistori
+D) Magnetică
+✅ Correct answer: A
+
+Explanation: Inputul motorului analitic se făcea pe cartele perforate, iar memoria era capabilă să stocheze 1000 de numere de 40 de cifre fiecare.
+
+Question 43: Cine a venit cu ideea de a folosi cartele perforate pentru programarea războaielor de țesut?
+A) Hermann Hollerith
+B) Ada Lovelace
+C) Charles Babbage
+D) Joseph Marie Jacquard
+✅ Correct answer: D
+
+Explanation: Joseph Marie Jacquard a venit cu ideea de a folosi cartele perforate pentru a descrie un model de cusut și a programa războaiele de țesut.
+
+Question 44: Când au fost folosite cartelele perforate în România până în?
+A) 1992
+B) 2000
+C) 1970
+D) 1989
+✅ Correct answer: A
+
+Explanation: În România, cartelele perforate au fost folosite până în 1992.
+
+Question 45: Ce folosea Hermann Hollerith pentru a stoca date statistice în Statele Unite?
+A) Cartele perforate
+B) Discuri optice
+C) Cărți
+D) Benzi magnetice
+✅ Correct answer: A
+
+Explanation: Hermann Hollerith a folosit cartele perforate pentru a stoca date statistice în biroul de recensământ al Statelor Unite.
+
+Question 46: Cum se numea compania lui Hermann Hollerith?
+A) Intel
+B) Tabulating Machine Company
+C) Apple
+D) IBM
+✅ Correct answer: B
+
+Explanation: Compania lui Hermann Hollerith se numea Tabulating Machine Company.
+
+Question 47: Ce companie a fost formată prin fuziunea companiei lui Hermann Hollerith cu alte trei companii?
+A) Intel
+B) Apple
+C) Microsoft
+D) IBM
+✅ Correct answer: D
+
+Explanation: Compania lui Hermann Hollerith a fuzionat cu alte trei companii și a format International Business Machines (IBM).
+
+Question 48: Cine a propus o listă de probleme matematice nerezolvate în 1900?
+A) John von Neumann
+B) David Hilbert
+C) Alan Turing
+D) Kurt Goedel
+✅ Correct answer: B
+
+Explanation: David Hilbert a propus o listă de probleme matematice nerezolvate în 1900.
+
+Question 49: Care problemă din lista lui Hilbert se referă la axiomele aritmeticii?
+A) A doua
+B) Prima
+C) A treia
+D) A patra
+✅ Correct answer: A
+
+Explanation: A doua problemă din lista lui Hilbert se referă la demonstrarea faptului că axiomele aritmeticii sunt consistente.
+
+Question 50: Ce a demonstrat Kurt Goedel în 1931?
+A) Axiomele aritmeticii sunt incomplete.
+B) Teorema lui Fermat.
+C) Axiomele aritmeticii sunt complete.
+D) Teorema lui Pitagora.
+✅ Correct answer: A
+
+Explanation: Kurt Goedel a demonstrat teorema incompletitudinii în 1931, care afirmă că axiomele aritmeticii sunt incomplete.
+
+Question 51: Ce particularitate avea Kurt Goedel?
+A) Era homosexual.
+B) Se temea că va fi otrăvit.
+C) Avea probleme cu alcoolul.
+D) Nu știa să conducă.
+✅ Correct answer: B
+
+Explanation: Kurt Goedel se temea că va fi otrăvit și mânca doar mâncare preparată de soția sa.
+
+Question 52: Ce particularitate avea Alan Turing?
+A) Nu știa să conducă.
+B) Era homosexual.
+C) Avea probleme cu alcoolul.
+D) Se temea că va fi otrăvit.
+✅ Correct answer: B
+
+Explanation: Alan Turing era homosexual, iar homosexualitatea era ilegală în Anglia la acea vreme.
+
+Question 53: Ce a inventat Alan Turing?
+A) Legea lui Arhimede
+B) Motorul analitic
+C) Algoritmul lui Euclid
+D) Testul Turing
+✅ Correct answer: D
+
+Explanation: Alan Turing a inventat Testul Turing, un test pentru inteligența artificială.
+
+Question 54: Ce mașină a creat Alan Turing în timpul celui de-al doilea război mondial?
+A) Bomba
+B) EDVAC
+C) Colossus
+D) ENIAC
+✅ Correct answer: A
+
+Explanation: Alan Turing a creat mașina numită "Bomba" pentru a descifra mesajele criptate de mașina germană Enigma.
+
+Question 55: Ce a făcut Alan Turing în Bletchley Park?
+A) A construit bombe
+B) A scris cărți
+C) A spart coduri
+D) A programat computere
+✅ Correct answer: C
+
+Explanation: Alan Turing a lucrat în Bletchley Park, unde a spart codurile generate de mașina Enigma.
+
+Question 56: Ce se presupune că a scurtat munca de descifrare a lui Alan Turing la Bletchley Park al doilea război mondial cu?
+A) Zece ani
+B) Cinci ani
+C) Un an
+D) Doi ani
+✅ Correct answer: D
+
+Explanation: Se presupune că munca de descifrare a lui Alan Turing în Bletchley Park a scurtat al doilea război mondial cu doi ani.
+
+Question 57: Ce a inventat Robert Kahn?
+A) Bomba
+B) Colossus
+C) ARPANET
+D) Computerul lui Charles Babbage
+✅ Correct answer: C
+
+Explanation: ARPANET a fost creat de un grup condus de Frank Heart de la BBN (Bolt Beranek and Newman), împreună cu Robert (Bob) Kahn care a creat arhitectura ARPANET.
+
+Question 58: Ce a inventat Robert Metcalfe în 1973 la Xerox PARC?
+A) Ecranele tactile
+B) Mouse-ul
+C) Computerul
+D) Tehnologia Ethernet
+✅ Correct answer: D
+
+Explanation: Tehnologia Ethernet a fost dezvoltată de Bob Metcalfe în 1973 la Xerox PARC.
+
+Question 59: Ce tip de criptare a fost Enigma?
+A) Criptare cuantică
+B) Criptare simetrică
+C) Nu era criptare
+D) Criptare asimetrică
+✅ Correct answer: B
+
+Explanation: Enigma a fost un sistem de criptare simetrică.
+
+Question 60: Cum a murit Alan Turing?
+A) De bătrânețe.
+B) Într-un accident de mașină.
+C) De cancer.
+D) De otrăvire cu cianură.
+✅ Correct answer: D
+
+Explanation: Alan Turing a murit de otrăvire cu cianură, probabil sinucidere.
+
+Question 61: Ce premiu este cel mai faimos în informatică și poartă numele lui Alan Turing?
+A) Medalia Fields
+B) Premiul Nobel
+C) Premiul Pulitzer
+D) Premiul Turing
+✅ Correct answer: D
+
+Explanation: Premiul Turing este cel mai faimos premiu în informatică și este acordat de ACM (Association for Computing Machinery).
+
+Question 62: Ce particularitate avea John von Neumann?
+A) Avea probleme cu alcoolul.
+B) Se temea că va fi otrăvit.
+C) Nu știa să conducă, dar avea întotdeauna o mașină nouă.
+D) Era homosexual.
+✅ Correct answer: C
+
+Explanation: John von Neumann era un șofer foarte slab, dar era bogat și își permitea să aibă o mașină nouă în fiecare an.
+
+Question 63: Ce proiect a reunit un grup de oameni de știință americani, matematicieni și fizicieni?
+A) Proiectul ARPANET
+B) Proiectul Apollo
+C) Proiectul Manhattan
+D) Proiectul ENIAC
+✅ Correct answer: C
+
+Explanation: Proiectul Manhattan a reunit un grup de oameni de știință americani, matematicieni și fizicieni pentru a dezvolta bomba atomică.
+
+Question 64: Ce algoritm a inventat John von Neumann în 1945?
+A) Algoritmul lui Eratostene
+B) Algoritmul lui Dijkstra
+C) Algoritmul de sortare prin interclasare (Merge Sort)
+D) Algoritmul lui Euclid
+✅ Correct answer: C
+
+Explanation: John von Neumann a inventat algoritmul de sortare prin interclasare (Merge Sort) în 1945.
+
+Question 65: Ce arhitectură de calculator a descris John von Neumann?
+A) Arhitectura Turing
+B) Arhitectura Harvard
+C) Arhitectura Von Neumann
+D) Arhitectura Babbage
+✅ Correct answer: C
+
+Explanation: John von Neumann a descris arhitectura computerelor în care programul și datele sunt stocate în aceeași memorie.
+
+Question 66: Ce puteri avea John von Neumann?
+A) Își putea memora rapid pagini întregi din cartea de telefoane.
+B) Era foarte bun la sport.
+C) Era homosexual.
+D) Era foarte bun la matematică.
+✅ Correct answer: A
+
+Explanation: Von Neumann putea memora rapid pagini întregi din cartea de telefoane.
+
+Question 67: Ce fel de mașini de calcul au fost motorul diferențial și motorul analitic create de Charles Babbage?
+A) Electronice
+B) Optice
+C) Mecanice
+D) Electromecanice
+✅ Correct answer: C
+
+Explanation: Motorul diferențial și motorul analitic au fost mașini de calcul mecanice.
+
+Question 68: Ce dispozitiv antic a fost folosit pentru a efectua calcule aritmetice?
+A) Mecanismul Antikythera
+B) Motorul analitic
+C) Abacul
+D) Ceasul castelului lui Al-Jazari
+✅ Correct answer: C
+
+Explanation: Abacul a fost un dispozitiv antic folosit pentru a efectua calcule aritmetice.
+
+Question 69: Ce prezice Mecanismul Antikythera?
+A) Ceasul.
+B) Anul
+C) Ora.
+D) Pozitiile astronomice.
+✅ Correct answer: D
+
+Explanation: Mecanismul Antikythera prezicea pozițiile astronomice, urmărea mișcările lunii și prezicea eclipsele.
+
+Question 70: Ce dispozitiv a fost creat de Al-Jazari?
+A) Ceasul castelului
+B) Abacul
+C) Motorul analitic
+D) Mecanismul Antikythera
+✅ Correct answer: A
+
+Explanation: Al-Jazari a creat un ceas de castel care funcționa cu apă și afișa zodia, poziția solară și orbitele lunare.
+
+Question 71: Ce puteau face oasele lui John Napier?
+A) Efectuau operații aritmetice.
+B) Preziceau pozițiile astronomice.
+C) Afișau ora.
+D) Generau muzică.
+✅ Correct answer: A
+
+Explanation: Oasele lui John Napier, sau tabelele de calcul, puteau fi folosite pentru a efectua adunări, scăderi, înmulțiri și împărțiri.
+
+Question 72: Ce tip de calculator a construit Wilhelm Schickard în 1623?
+A) Analogic
+B) Digital
+C) Electronic
+D) Hidraulic
+✅ Correct answer: B
+
+Explanation: În 1623, Wilhelm Schickard a construit primul calculator mecanic digital.
+
+Question 73: Cum se numea mașina de calcul construită de Blaise Pascal?
+A) Addiator
+B) Thomas Arithmometer
+C) Stepped Reckoner
+D) Pascaline
+✅ Correct answer: D
+
+Explanation: Mașina de calcul construită de Blaise Pascal se numea Pascaline.
+
+Question 74: Câte cifre puteau aduna sau scădea Stepped Reckoner al lui Leibniz?
+A) Douăzeci
+B) Doisprezece
+C) Opt
+D) Șaisprezece
+✅ Correct answer: C
+
+Explanation: Stepped Reckoner al lui Leibniz putea adăuga sau scădea numere de opt cifre de la/la un număr de 16 cifre.
+
+Question 75: Ce tip de calculator a fost Arithmometerul lui Thomas?
+A) Primul dispozitiv mecanic de calcul electric.
+B) Primul dispozitiv mecanic de calcul comercial.
+C) Primul dispozitiv mecanic de calcul optic.
+D) Primul dispozitiv mecanic de calcul hidraulic.
+✅ Correct answer: B
+
+Explanation: Thomas Arithmometer a fost primul dispozitiv mecanic de calcul comercial.
+
+Question 76: Ce dispozitiv folosit în Berlin între 1920-1982 putea efectua în mod natural adunări și scăderi?
+A) Comptometer
+B) Monroe machine.
+C) Arithmometerul lui Thomas.
+D) Addiator
+✅ Correct answer: D
+
+Explanation: Addiator putea efectua în mod natural adunări și scăderi.
+
+Question 77: Unde a fost folosit Comptometer?
+A) Berlin.
+B) Regatul Unit
+C) Austria
+D) Statele Unite
+✅ Correct answer: D
+
+Explanation: Comptometer a fost folosit în Statele Unite.
+
+Question 78: Unde a fost folosită mașina Monroe?
+A) Statele Unite
+B) Austria
+C) Berlin.
+D) Regatul Unit
+✅ Correct answer: A
+
+Explanation: Mașina Monroe a fost folosită în Statele Unite.
+
+Question 79: Unde a fost folosit Curta?
+A) Regatul Unit
+B) Statele Unite
+C) Austria
+D) Berlin.
+✅ Correct answer: C
+
+Explanation: Curta a fost folosit în Austria.
+
+Question 80: Unde a fost folosit ANITA MarkVIII?
+A) Berlin.
+B) Statele Unite
+C) Austria
+D) Regatul Unit
+✅ Correct answer: D
+
+Explanation: ANITA MarkVIII a fost folosit în Regatul Unit.
+
+Question 81: Ce tipuri de părți conțineau primele computere mecanice-electrice?
+A) Doar relee electrice
+B) Doar părți mecanice
+C) Ambele părți mecanice și relee electrice
+D) Numai tuburi vidate
+✅ Correct answer: C
+
+Explanation: Primele computere mecanice-electrice conțineau atât părți mecanice, cât și relee electrice.
+
+Question 82: Care era funcția releelor electrice?
+A) Efectuarea de calcule
+B) Generarea de energie
+C) Stocarea de date
+D) Acționarea ca un comutator electric
+✅ Correct answer: D
+
+Explanation: Releele electrice funcționează ca un comutator electric, permițând curentului să treacă sau să se oprească.
+
+Question 83: Cine a inventat seria de computere Z1, Z2, Z3 și Z4?
+A) Konrad Zuse
+B) Alan Turing
+C) John von Neumann
+D) Charles Babbage
+✅ Correct answer: A
+
+Explanation: Konrad Zuse a inventat seria de computere Z1, Z2, Z3 și Z4.
+
+Question 84: Ce computer inventat de Zuse a fost primul computer digital programabil funcțional din lume?
+A) Z1
+B) Z4
+C) Z2
+D) Z3
+✅ Correct answer: D
+
+Explanation: Z3 a fost primul computer digital programabil funcțional din lume.
+
+Question 85: Ce înseamnă termenul "frecvență de ceas"?
+A) Numărul de tranzistori dintr-un CPU
+B) Numărul de bătăi sau semnale de ceas pe secundă
+C) Cantitatea de memorie pe un computer
+D) Cantitatea de căldură generată de un computer
+✅ Correct answer: B
+
+Explanation: Frecvența de ceas este numărul de bătăi sau semnale de ceas pe secundă, măsurată în hertzi (Hz).
+
+Question 86: Ce componente electronice au fost folosite pentru a construi computerele din prima generație?
+A) Tranzistori
+B) Microprocesoare
+C) Circuite integrate
+D) Tuburi vidate
+✅ Correct answer: D
+
+Explanation: Tuburile vidate au fost folosite pentru a construi computerele din prima generație.
+
+Question 87: Unde se află cateva dintre fabricile care mai produc tuburi vidate pentru instrumente muzicale?
+A) China, Rusia și Republica Cehă
+B) Rusia, Germania și Statele Unite
+C) Statele Unite, România și China
+D) Anglia, Statele Unite și China
+✅ Correct answer: A
+
+Explanation: Unele fabrici care mai produc tuburi vidate pentru amplificatoare muzicale se află în China, Rusia și Republica Cehă.
+
+Question 88: Unde a fost creat Colossus?
+A) Statele
+B) Germania
+✅ Correct answer: B
+

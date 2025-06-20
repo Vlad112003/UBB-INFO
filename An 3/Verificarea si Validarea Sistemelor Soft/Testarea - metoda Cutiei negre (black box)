@@ -1,0 +1,26 @@
+Testarea - metoda Cutiei negre (black box)
+
+Problema1:
+
+Sa se verifice daca un nr natural este prim.
+
+Specificatiile
+
+X = ()
+gamma(x) = ()
+Z = ()
+Phi(X,Z) = ()
+
+Aplicarea tehicii ECP (clase de echivalenta)
+Identificarea ECs pe baza conditiile
+
+NR Ec | Conditie | EC valida | EC Non-valida |
+
+
+
+Proiectarea cazurilor de testare pe baza ECs
+
+NrTC| EC in | EC out | Input | Output | Obs
+
+
+Aplicarea tehnicii BVA (Valori la limita -1 Limita +1)

@@ -1,0 +1,312 @@
+Q1. Determinati numarul de teste necesar pentru a avea 100% statement coverage(sc)
+
+Program Grading
+
+StudentScore: Integer
+Result: String
+
+Begin
+
+Read StudentScore
+
+If StudentScore > 79
+Then Result = "Distinction"
+Else
+	If StudentScore > 59
+	Then Result = "Merit"
+	Else
+		If StudentScore > 39
+		Then Result = "Pass"
+		Else Result = "Fail"
+		Endif
+	Endif
+Endif
+Print("Your result is", Result)
+End
+
+Raspunsuri:
+1
+2
+3
+4 - raspuns corect
+5
+
+Q2. Determinati numarul de teste necesar pentru a avea 100% decision coverage(dc).
+
+Program Counting numbers
+
+A: Integer
+Count: Integer
+
+Begin
+Count = 0
+Read A
+While A <> -1
+Do
+	Count = Count + 1
+	Read A
+EndDo
+
+Print("There are", Count, "numbers in the list")
+End
+
+Raspunsuri:
+
+0
+1 - raspuns corect
+2
+3
+4
+
+Q3. Determinati procentul de acoperire a deciziilor daca se foloseste un singur test, TC: A = -1.
+
+Program Counting numbers
+
+A: Integer
+Count: Integer
+
+Begin
+Count = 0
+Read A
+While A <> -1
+Do
+	Count = Count + 1
+	Read A
+EndDo
+
+Print("There are", Count, "numbers in the list")
+End
+
+Raspunsuri:
+
+25%
+50% - raspuns corect
+75%
+100%
+
+Q4. Un automat permite achizitionarea de bauturi calde si reci. Daca bautura este calda (cafea sau ceai) trebuie sa indicam daca dorim lapte si apoi zahar. Acestea vor fi adaugate ulterior, iar bautura va fi eliberate.
+Alaturi este prezentat un CFG al procesului de utilizare a automatului.
+
+Se considera testele:
+Test 1: Cold drink
+Test 2: Hot drink with milk and sugar
+
+Determinati procentul de acoperire a instructiunilor(sc)?
+
+CFG:
+Hot or cold?
+  ├── Hot → Select drink (coffee, tea)
+  │       ├── Milk?
+  │       │      ├── Yes → Add milk
+  │       │      ├── No → (Next step)
+  │       ├── Sugar?
+  │       │      ├── Yes → Add sugar
+  │       │      ├── No → (Next step)
+  │       ├── Dispense drink
+  ├── Cold → Select drink (H2O, cola)
+      ├── Dispense drink
+
+Raspunsuri:
+25%
+50%
+75% 
+100% - raspuns corect
+
+Q5. Un automat permite achizitionarea de bauturi calde si reci. Daca bautura este calda (cafea sau ceai) trebuie sa indicam daca dorim lapte si apoi zahar. Acestea vor fi adaugate ulterior, iar bautura va fi eliberate.
+Alaturi este prezentat un CFG al procesului de utilizare a automatului.
+
+Se considera testele:
+Test 1: Cold drink
+Test 2: Hot drink with milk and sugar
+
+Determinati procentul de acoperire a deciziilor(dc)?
+
+CFG:
+Hot or cold?
+  ├── Hot → Select drink (coffee, tea)
+  │       ├── Milk?
+  │       │      ├── Yes → Add milk
+  │       │      ├── No → (Next step)
+  │       ├── Sugar?
+  │       │      ├── Yes → Add sugar
+  │       │      ├── No → (Next step)
+  │       ├── Dispense drink
+  ├── Cold → Select drink (H2O, cola)
+      ├── Dispense drink
+
+Raspunsuri:
+45%
+67% - raspuns corect
+76%
+100%
+
+
+Q6. Un automat permite achizitionarea de bauturi calde si reci. Daca bautura este calda (cafea sau ceai) trebuie sa indicam daca dorim lapte si apoi zahar. Acestea vor fi adaugate ulterior, iar bautura va fi eliberate.
+Alaturi este prezentat un CFG al procesului de utilizare a automatului.
+
+Se considera testele:
+Test 1: Cold drink
+Test 2: Hot drink with milk and sugar
+
+Ce caz de testare trebuie adaugat pentru a avea acoperire 100% la nivelul deciziilor(dc).
+
+CFG:
+Hot or cold?
+  ├── Hot → Select drink (coffee, tea)
+  │       ├── Milk?
+  │       │      ├── Yes → Add milk
+  │       │      ├── No → (Next step)
+  │       ├── Sugar?
+  │       │      ├── Yes → Add sugar
+  │       │      ├── No → (Next step)
+  │       ├── Dispense drink
+  ├── Cold → Select drink (H2O, cola)
+      ├── Dispense drink
+
+
+CFG in pseudocod:
+Begin
+    Read choice
+    If choice = "Cold" Then
+        Select drink (H2O, cola)
+        Dispense drink
+    Else If choice = "Hot" Then
+        Select drink (coffee, tea)
+        
+        Read milk_choice
+        If milk_choice = "Yes" Then
+            Add milk
+        EndIf
+        
+        Read sugar_choice
+        If sugar_choice = "Yes" Then
+            Add sugar
+        EndIf
+        
+        Dispense drink
+    EndIf
+End
+
+Raspunsuri:
+
+Niciun test, avem deja 100% dc
+Test 3: Hot drink, no milk, no sugar - raspuns corect
+Test 3: Hot drink with milk, no sugar
+Test 3: Hot drink, no milk, with sugar
+
+
+
+Q7. Determinati numarul de teste necesar pentru a avea 100% statement coverage (sc).
+
+Begin
+Read Time
+If Time < 12 Then
+	Print(Time, "am")
+Endif
+If Time > 12 Then
+	Print(Time -12, "pm")
+Endif
+If Time = 12 Then
+	Print(Time, "noon")
+Endif
+End
+
+Raspunsuri:
+1
+2
+3 - raspuns corect
+4
+5
+
+
+Q8. Determinati numarul de teste necesar pentru a avea 100% decision coverage (dc).
+
+Begin
+Read Time
+If Time < 12 Then
+	Print(Time, "am")
+Endif
+If Time > 12 Then
+	Print(Time -12, "pm")
+Endif
+If Time = 12 Then
+	Print(Time, "noon")
+Endif
+End
+
+Raspunsuri:
+1
+2
+3 - raspuns corect
+4
+5
+
+Q9. Se considera urmatoarele teste:
+TC01: Time = 11;
+TC02: Time = 15.
+Care este acoperirea la nivelul deciziilor(dc)?
+
+Begin
+Read Time
+If Time < 12 Then
+	Print(Time, "am")
+Endif
+If Time > 12 Then
+	Print(Time -12, "pm")
+Endif
+If Time = 12 Then
+	Print(Time, "noon")
+Endif
+End
+
+Raspunsuri:
+67% (4/6)
+50% (3/6)
+83% (5/6) - raspuns corect
+100% (6/6)
+
+
+
+Q10. Se considera urmatoarele teste:
+
+TC01: Time = 11;
+TC02: Time = 12.
+
+Ce test trebuie adaugat suplimentar pentru a avea 100% acoperire la nivelul deciziilor?
+
+
+Begin
+Read Time
+If Time < 12 Then
+	Print(Time, "am")
+Endif
+If Time > 12 Then
+	Print(Time -12, "pm")
+Endif
+If Time = 12 Then
+	Print(Time, "noon")
+Endif
+End
+
+Raspunsuri:
+
+TC03: Time=10
+TC03: Time=8
+TC03: Time=13 - raspuns corect
+TC03: Time=9
+
+Q11.
+Care din urmatoarele afirmatii sunt adevarate referitor la relatia dintre statement coverage si decision coverage? 
+
+A. 100% decision coverage inseamna 100% statement coverage. 
+B. 100% statement coverage se realizeaza daca decision coverage este cel putin 90%.
+C. 100% decision coverage se realizeaza daca statement coverage este cel putin 90%.
+D. 100% statement coverage inseamna 100% decision coverage
+
+
+Raspunsuri: 
+
+a si b
+a - raspuns corect
+d
+c si d

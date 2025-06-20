@@ -1,3 +1,0 @@
-D:/FacultaSem2/SDA/colectie_cu_main/cmake-build-debug/CMakeFiles/colectie_cu_main.dir
-D:/FacultaSem2/SDA/colectie_cu_main/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/FacultaSem2/SDA/colectie_cu_main/cmake-build-debug/CMakeFiles/rebuild_cache.dir

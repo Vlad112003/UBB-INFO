@@ -1,0 +1,766 @@
+OBJECTIVE QUIZ
+
+MULTIPLE CHOICE QUESTIONS:
+Question 1: Cine a creat motorul diferențial și motorul analitic?
+A) Blaise Pascal
+B) Gottfried Leibniz
+C) Charles Babbage
+D) Ada Lovelace
+✅ Correct answer: C
+
+Explanation: Charles Babbage a creat motorul diferențial și motorul analitic, considerate primele mașini de calcul universale.
+
+Question 2: Cine a fost primul programator din istorie?
+A) Alan Turing
+B) Ada Lovelace
+C) Charles Babbage
+D) John von Neumann
+✅ Correct answer: B
+
+Explanation: Ada Lovelace a scris primul program din istorie pentru motorul analitic al lui Charles Babbage, deși acesta nu a fost niciodată executat.
+
+Question 3: De ce programul Adei Lovelace nu a funcționat?
+A) Avea erori de compilare.
+B) Limbajul de programare era incorect.
+C) Motorul analitic nu a fost niciodată construit în timpul vieții ei.
+D) Avea erori de runtime.
+✅ Correct answer: C
+
+Explanation: Programul Adei Lovelace nu a funcționat deoarece motorul analitic pentru care a fost scris nu a fost niciodată construit în timpul vieții ei.
+
+Question 4: Înainte de anii 1800, ce utilizau oamenii pentru a calcula formule matematice?
+A) Tabele tipărite în cărți
+B) Calculatoare mecanice
+C) Calculatorul lui Pascal
+D) Abacul
+✅ Correct answer: A
+
+Explanation: Înainte de 1800, oamenii utilizau tabele tipărite în cărți complicate pentru a găsi valorile funcțiilor matematice.
+
+Question 5: De ce a creat Charles Babbage motorul diferențial?
+A) Pentru a înlocui abacul.
+B) Pentru a juca jocuri video.
+C) Pentru a calcula și tipări tabele precise cu valori matematice.
+D) Pentru a construi un calculator de buzunar.
+✅ Correct answer: C
+
+Explanation: Charles Babbage a creat motorul diferențial pentru a putea calcula și tipări tabele precise cu valori matematice, eliminând discrepanțele din cărțile existente.
+
+Question 6: Câți bani a primit Charles Babbage de la guvernul britanic pentru motorul diferențial?
+A) 1000 de lire sterline
+B) 1700 de lire sterline
+C) 17000 de lire sterline
+D) Nu a primit finanțare.
+✅ Correct answer: C
+
+Explanation: Charles Babbage a primit în total 17000 de lire sterline de la guvernul britanic pentru proiectul motorului diferențial.
+
+Question 7: De ce nu a fost finalizat motorul diferențial în timpul vieții lui Charles Babbage?
+A) Nu avea o echipă de tehnicieni.
+B) Echipamentele industriale nu erau suficient de precise și Babbage era o persoană dificilă.
+C) Finanțarea a fost insuficientă.
+D) Guvernul britanic a anulat finanțarea.
+✅ Correct answer: B
+
+Explanation: Motorul diferențial nu a fost finalizat din cauza lipsei de precizie a echipamentelor industriale și a personalității dificile a lui Charles Babbage.
+
+Question 8: Care dintre următoarele operații nu putea fi realizată de motorul analitic?
+A) Navigare pe internet
+B) Împărțire
+C) Scădere
+D) Adunare
+✅ Correct answer: A
+
+Explanation: Motorul analitic putea realiza adunări, scăderi, împărțiri și înmulțiri, dar nu avea capacitatea de a naviga pe internet.
+
+Question 9: Ce fel de date putea stoca memoria motorului analitic?
+A) Imagini
+B) Text
+C) 1000 de numere de 40 de cifre zecimale fiecare
+D) Muzică
+✅ Correct answer: C
+
+Explanation: Memoria motorului analitic putea stoca 1000 de numere, fiecare având 40 de cifre zecimale.
+
+Question 10: Ce a folosit Ada Lovelace pentru a scrie programe pentru motorul analitic?
+A) Carduri perforate
+B) Ecran
+C) Hârtie și creion
+D) Tastatură
+✅ Correct answer: A
+
+Explanation: Ada Lovelace a scris programe pentru motorul analitic folosind carduri perforate.
+
+Question 11: Când a apărut termenul "computer science" (știința calculatoarelor)?
+A) În 1990
+B) În anii 1800
+C) În anii 1600
+D) În 1959
+✅ Correct answer: D
+
+Explanation: Termenul "computer science" a apărut prima dată într-un articol în Communications of the ACM în 1959.
+
+Question 12: Care matematician arab este considerat inventatorul conceptului de algoritm?
+A) Pitagora
+B) Euclid
+C) Muhammad ibn Musa al-Khwarizmi
+D) Arhimede
+✅ Correct answer: C
+
+Explanation: Muhammad ibn Musa al-Khwarizmi, numit și părintele algebrei, a inventat conceptul de algoritm.
+
+Question 13: De unde provine cuvântul "algoritm"?
+A) Din numele matematicianului Al-Khwarizmi
+B) Din greacă antică
+C) Din latină
+D) Din babiloniană
+✅ Correct answer: A
+
+Explanation: Cuvântul "algoritm" este derivat din numele matematicianului arab Al-Khwarizmi.
+
+Question 14: Care este definiția modernă a unui algoritm?
+A) O formulă matematică.
+B) Un limbaj de programare.
+C) O secvență de pași necesari pentru a rezolva o problemă.
+D) Un tip de computer.
+✅ Correct answer: C
+
+Explanation: Definiția modernă a unui algoritm este o secvență de pași necesari pentru a rezolva o problemă specifică și un set de date pe care pașii operează.
+
+Question 15: Ce scriau babilonienii pe tăblițe de lut?
+A) Tabele matematice și texte
+B) Rețete de gătit
+C) Poezii
+D) Legi
+✅ Correct answer: A
+
+Explanation: Babilonienii scriau pe tăblițe de lut texte și rezultate matematice, inclusiv tabele.
+
+Question 16: Ce sistem de numerație foloseau babilonienii?
+A) Baza 16
+B) Baza 10
+C) Baza 2
+D) Baza 60
+✅ Correct answer: D
+
+Explanation: Babilonienii foloseau un sistem de numerație în baza 60, un sistem sexagesimal.
+
+Question 17: Care civilizație antică nu folosea cifra zero?
+A) Babilonienii
+B) Indienii
+C) Toate cele de mai sus
+D) Mayașii
+✅ Correct answer: A
+
+Explanation: Babilonienii, ca și multe alte civilizații antice, nu foloseau cifra zero.
+
+Question 18: Ce metodă foloseau babilonienii pentru a efectua diviziuni?
+A) Foloseau tabele de reciproce
+B) Foloseau scrierea cuneiformă
+C) Foloseau abacul
+D) Foloseau mașini de calcul
+✅ Correct answer: A
+
+Explanation: Babilonienii foloseau tabele de reciproce și algoritmi bazați pe înmulțire pentru a calcula diviziunile.
+
+Question 19: Ce cunoștințe matematice aveau babilonienii?
+A) Cunoștințe despre pi
+B) Extragerea rădăcinii pătrate și cubice
+C) Toate cele de mai sus
+D) Lucrul cu triplete pitagoreice
+✅ Correct answer: C
+
+Explanation: Babilonienii aveau cunoștințe avansate în matematică, inclusiv despre rădăcina pătrată și cubică, triplete pitagoreice și pi.
+
+Question 20: Care civilizație antică avea mai multe cunoștințe geometrice decât aritmetice?
+A) Grecii
+B) Egiptenii
+C) Chinezii
+D) Babilonienii
+✅ Correct answer: B
+
+Explanation: Egiptenii aveau mai multe cunoștințe geometrice datorită necesității de a remăsura terenurile după inundațiile Nilului.
+
+Question 21: Ce sistem de numerație foloseau egiptenii?
+A) Baza 10
+B) Baza 60
+C) Baza 20
+D) Baza 2
+✅ Correct answer: A
+
+Explanation: Egiptenii foloseau un sistem de numerație în baza 10.
+
+Question 22: Cum era scris sistemul de numerație egiptean?
+A) Cu cifre arabe
+B) Cu simboluri asemănătoare unghiilor
+C) Cu puncte și linii
+D) Cu bețișoare simple
+✅ Correct answer: D
+
+Explanation: Sistemul de numerație egiptean era scris în principal cu bețișoare simple.
+
+Question 23: Cum se numea teorema Pitagora în China antică?
+A) Teorema lui Thales
+B) Sieve of Eratosthenes
+C) Legea lui Arhimede
+D) Regula Gougu
+✅ Correct answer: D
+
+Explanation: În China antică, teorema lui Pitagora era cunoscută sub numele de regula Gougu.
+
+Question 24: Cum se numea cea mai faimoasă carte din istoria matematicii chinezești?
+A) Al-jabr w'al-muqabala
+B) Nouă capitole ale artei matematice
+C) Arithmetica
+D) Elementele
+✅ Correct answer: B
+
+Explanation: Cea mai faimoasă carte din istoria matematicii chinezești era intitulată "Nouă capitole ale artei matematice".
+
+Question 25: Când a trăit civilizația Maya?
+A) Între 600 î.Hr. și 500 d.Hr.
+B) Între 100 d.Hr. și 800 d.Hr.
+C) Între 2000 î.Hr. și 600 î.Hr.
+D) Între 250 d.Hr. și 900 d.Hr.
+✅ Correct answer: D
+
+Explanation: Civilizația Maya a trăit între 250 d.Hr. și 900 d.Hr.
+
+Question 26: Ce sistem de numerație foloseau mayașii?
+A) Baza 10
+B) Baza 60
+C) Baza 20
+D) Baza 2
+✅ Correct answer: C
+
+Explanation: Mayașii foloseau un sistem de numerație în baza 20.
+
+Question 27: Ce simbol foloseau mayașii în sistemul lor de numerație?
+A) Toate cele de mai sus
+B) Numere arabe
+C) Zero
+D) Litere
+✅ Correct answer: C
+
+Explanation: Mayașii aveau un simbol pentru zero în sistemul lor de numerație.
+
+Question 28: Ce operații matematice nu foloseau mayașii?
+A) Scăderea
+B) Toate cele de mai sus
+C) Adunarea
+D) Înmulțirea
+✅ Correct answer: D
+
+Explanation: Mayașii foloseau adunarea și scăderea, dar nu foloseau înmulțirea și diviziunea.
+
+Question 29: Cum se numea codexul cel mai bine conservat al civilizației Maya?
+A) Codexul Dresda
+B) Codexul Borgia
+C) Codexul Florentin
+D) Codexul Madrid
+✅ Correct answer: A
+
+Explanation: Codexul Dresda este codexul cel mai bine conservat al civilizației Maya.
+
+Question 30: Cine a enunțat teorema despre triunghiurile similare?
+A) Euclid
+B) Pitagora din Samos
+C) Tales din Milet
+D) Eratostene
+✅ Correct answer: C
+
+Explanation: Tales din Milet a enunțat teorema despre triunghiurile similare.
+
+Question 31: În ce credea Tales din Milet în astronomie?
+A) Pământul era centrul universului
+B) Pământul se rotea în jurul Soarelui
+C) Universul era infinit
+D) Pământul era plat și plutea pe un ocean infinit
+✅ Correct answer: D
+
+Explanation: Tales din Milet credea că Pământul era un disc plat care plutea pe un ocean infinit.
+
+Question 32: Ce simbol avea cultul pitagoreic?
+A) Pentagrama
+B) Cercul
+C) Triunghiul echilateral
+D) Pătratul
+✅ Correct answer: A
+
+Explanation: Cultul pitagoreic avea pentagrama ca simbol.
+
+Question 33: Ce credeau membrii cultului pitagoreic?
+A) Reîncarnarea
+B) Toate cele de mai sus
+C) Nu mâncau fasole
+D) Numerele sunt zei și guvernează totul
+✅ Correct answer: B
+
+Explanation: Membrii cultului pitagoreic credeau că numerele sunt zei, credeau în reîncarnare și aveau reguli stricte, cum ar fi să nu mănânce fasole.
+
+Question 34: Ce au inventat pitagoreicii, care este încă folosit astăzi?
+A) Algebra
+B) Geometria analitică
+C) Calculul integral
+D) Fundamentele teoriei muzicii
+✅ Correct answer: D
+
+Explanation: Pitagoreicii au inventat fundamentele teoriei muzicii, care sunt încă folosite astăzi.
+
+Question 35: Cine este considerat părintele geometriei axiomatice?
+A) Eratostene
+B) Arhimede
+C) Euclid
+D) Pitagora
+✅ Correct answer: C
+
+Explanation: Euclid este considerat părintele geometriei axiomatice.
+
+Question 36: Cum se numea cartea lui Euclid care a pus bazele geometriei axiomatice?
+A) Al-jabr w'al-muqabala
+B) Nouă capitole ale artei matematice
+C) Elementele
+D) Arithmetica
+✅ Correct answer: C
+
+Explanation: Cartea lui Euclid, care a pus bazele geometriei axiomatice, se numea "Elementele".
+
+Question 37: Ce algoritm este asociat cu numele lui Eratostene?
+A) Teorema lui Pitagora
+B) Algoritmul lui Euclid
+C) Ciurul lui Eratostene
+D) Legea lui Arhimede
+✅ Correct answer: C
+
+Explanation: Eratostene este faimos pentru algoritmul numit "Ciurul lui Eratostene", care calculează toate numerele prime naturale mai mici decât un număr dat.
+
+Question 38: Ce formulă este asociată cu numele lui Heron din Alexandria?
+A) Formula pentru aria unui triunghi folosind semiperimetrul
+B) Legea lui Arhimede
+C) Formula lui Euler
+D) Teorema lui Pitagora
+✅ Correct answer: A
+
+Explanation: Heron din Alexandria este faimos pentru formula de calcul a ariei unui triunghi folosind semiperimetrul.
+
+Question 39: Ce lege este asociată cu numele lui Arhimede din Siracuza?
+A) Teorema lui Pitagora
+B) Ciurul lui Eratostene
+C) Legea lui Arhimede
+D) Formula lui Heron
+✅ Correct answer: C
+
+Explanation: Arhimede este faimos pentru legea lui Arhimede, care spune că un corp solid scufundat într-un volum de apă este împins de jos în sus de o forță egală cu greutatea lichidului dislocuit de acel corp solid.
+
+Question 40: Ce model al universului a formulat Klaudios Ptolemaios?
+A) Modelul Big Bang
+B) Modelul geocentric
+C) Modelul universului în expansiune
+D) Modelul heliocentric
+✅ Correct answer: B
+
+Explanation: Klaudios Ptolemaios a formulat modelul geocentric al universului, care afirmă că Pământul este centrul universului cunoscut.
+
+Question 41: Cine este cunoscut drept părintele algebrei?
+A) Euclid
+B) Diophantos din Alexandria
+C) Eratostene
+D) Arhimede
+✅ Correct answer: B
+
+Explanation: Diophantos din Alexandria este cunoscut drept părintele algebrei.
+
+Question 42: Cum se numea colecția de cărți scrise de Diophantos?
+A) Elementele
+B) Nouă capitole ale artei matematice
+C) Arithmetica
+D) Al-jabr w'al-muqabala
+✅ Correct answer: C
+
+Explanation: Colecția de cărți scrise de Diophantos se numea "Arithmetica".
+
+Question 43: Ce a scris Pierre de Fermat pe marginea unei pagini din "Arithmetica" a lui Diophantos?
+A) O demonstrație a teoremei lui Pitagora
+B) Teorema lui Fermat (ultima teoremă a lui Fermat)
+C) O soluție pentru ecuațiile diofantiene
+D) O metodă de calcul a numerelor prime
+✅ Correct answer: B
+
+Explanation: Pierre de Fermat a scris pe marginea unei pagini din "Arithmetica" că nu există triplete pitagoreice pentru n > 2, adică ultima teoremă a lui Fermat.
+
+Question 44: Cine a rezolvat ultima teoremă a lui Fermat în 1995?
+A) Gottfried Leibniz
+B) Pierre de Fermat
+C) Isaac Newton
+D) Andrew Wiles
+✅ Correct answer: D
+
+Explanation: Andrew Wiles a rezolvat ultima teoremă a lui Fermat în 1995.
+
+Question 45: Cine a adus cunoștințele europene în India?
+A) Chinezi
+B) Mongolii
+C) Arabii
+D) Alexandru cel Mare
+✅ Correct answer: D
+
+Explanation: Alexandru cel Mare a adus cunoștințele europene în India prin cuceririle sale.
+
+Question 46: Cine a inventat cifra zero?
+A) Indienii
+B) Romanii
+C) Grecii
+D) Babilonienii
+✅ Correct answer: A
+
+Explanation: Indienii au inventat cifra zero.
+
+Question 47: Cine a scris prima carte care tratează zero ca pe un număr?
+A) Aryabhata
+B) Pitagora
+C) Brahmagupta
+D) Al-Khwarizmi
+✅ Correct answer: C
+
+Explanation: Brahmagupta a scris prima carte care tratează zero ca pe un număr.
+
+Question 48: Ce civilizație a adoptat sistemul de numerație în baza 10 de la indieni și l-a adus în Europa?
+A) Arabii
+B) Romanii
+C) Grecii
+D) Egiptenii
+✅ Correct answer: A
+
+Explanation: Arabii au adoptat sistemul de numerație în baza 10 de la indieni și l-au adus în Europa.
+
+Question 49: Cine este considerat "părintele algebrei" în cultura arabă?
+A) Aryabhata
+B) Brahmagupta
+C) Al-Khwarizmi
+D) Euclid
+✅ Correct answer: C
+
+Explanation: Al-Khwarizmi este considerat "părintele algebrei" în cultura arabă.
+
+Question 50: Cum se numea cartea scrisă de Al-Khwarizmi care a introdus conceptul de "algebra"?
+A) Arithmetica
+B) Al-jabr w'al-muqabala
+C) Elementele
+D) Algoritmi de numero Indorum
+✅ Correct answer: B
+
+Explanation: Cartea scrisă de Al-Khwarizmi care a introdus conceptul de "algebra" se numea "Al-jabr w'al-muqabala".
+
+Question 51: Cum a fost tradus numele lui Al-Khwarizmi în latină?
+A) Euclid
+B) Brahmagupta
+C) Algoritmi
+D) Diophantos
+✅ Correct answer: C
+
+Explanation: Numele lui Al-Khwarizmi a fost tradus în latină ca "Algoritmi".
+
+Question 52: În ce an a primit Charles Babbage finanțare de la guvernul britanic pentru prima dată pentru motorul diferențial?
+A) 1822
+B) 1800
+C) 1823
+D) 1842
+✅ Correct answer: C
+
+Explanation: Charles Babbage a primit finanțare de la guvernul britanic în 1823 pentru a construi motorul diferențial.
+
+Question 53: Ce problemă a încercat să rezolve Charles Babbage prin construirea motorului diferențial?
+A) Necesarul de a naviga mai rapid
+B) Inconsistențele în tabelele matematice
+C) Lipsa de fonduri pentru cercetare
+D) Lipsa calculatoarelor de buzunar
+✅ Correct answer: B
+
+Explanation: Charles Babbage a încercat să rezolve problema inconsistențelor în tabelele matematice utilizate de guvernul britanic și industrie.
+
+Question 54: Ce metodă matematică stă la baza conceptului motorului diferențial?
+A) Algebra liniară
+B) Calculul diferențial
+C) Calculul integral
+D) Metoda diferențelor finite
+✅ Correct answer: D
+
+Explanation: Metoda diferențelor finite stă la baza conceptului motorului diferențial.
+
+Question 55: Care era principalul avantaj al metodei diferențelor finite?
+A) Nu necesita operații de înmulțire și împărțire.
+B) Era mai rapidă decât alte metode.
+C) Era mai precisă decât alte metode.
+D) Necesita operații de înmulțire și împărțire.
+✅ Correct answer: A
+
+Explanation: Avantajul metodei diferențelor finite este că nu necesită operații de înmulțire și împărțire, folosind doar adunări și scăderi.
+
+Question 56: În ce an a fost construit motorul diferențial la Muzeul Științei din Londra?
+A) 1950
+B) 1842
+C) 1990
+D) 1995
+✅ Correct answer: D
+
+Explanation: Motorul diferențial a fost construit la Muzeul Științei din Londra în 1995.
+
+Question 57: Ce tip de memorie avea motorul analitic?
+A) Memorie pe carduri perforate
+B) Memorie internă capabilă să stocheze 1000 de numere de 40 de cifre zecimale fiecare
+C) Nu avea memorie
+D) Memorie pe bandă magnetică
+✅ Correct answer: B
+
+Explanation: Motorul analitic avea o memorie internă capabilă să stocheze 1000 de numere de 40 de cifre zecimale fiecare.
+
+Question 58: Cine a inventat cardurile perforate utilizate în războiul de țesut?
+A) Ada Lovelace
+B) Hermann Hollerith
+C) Joseph Marie Jacquard
+D) Charles Babbage
+✅ Correct answer: C
+
+Explanation: Joseph Marie Jacquard a inventat cardurile perforate pentru a controla războaiele de țesut automat.
+
+Question 59: Când a folosit Charles Babbage ideea de carduri perforate pentru motorul analitic?
+A) 1970
+B) 1837
+C) 1804
+D) 1822
+✅ Correct answer: B
+
+Explanation: Charles Babbage a folosit ideea de carduri perforate în 1837 pentru motorul analitic.
+
+Question 60: Până în ce an au fost folosite cardurile perforate în România?
+A) 1992
+B) 1989
+C) 2000
+D) 1970
+✅ Correct answer: A
+
+Explanation: Cardurile perforate au fost folosite în România până în 1992.
+
+Question 61: Ce cod era folosit de obicei pentru a codifica simbolurile pe cardurile perforate?
+A) UNICODE
+B) Baza 60
+C) 6-bit BCDIC
+D) ASCII
+✅ Correct answer: C
+
+Explanation: Cele mai multe formate de carduri perforate foloseau codul 6-bit BCDIC.
+
+Question 62: În ce an a lucrat Hermann Hollerith pentru US Census Bureau?
+A) 1819
+B) 1804
+C) 1880
+D) 1890
+✅ Correct answer: A
+
+Explanation: Hermann Hollerith a lucrat pentru US Census Bureau în 1819.
+
+Question 63: Ce mașini a construit Hermann Hollerith pentru a procesa datele de recensământ?
+A) Războaie de țesut
+B) Motoare diferențiale
+C) Mașini de tabulat
+D) Calculatoare de buzunar
+✅ Correct answer: C
+
+Explanation: Hermann Hollerith a construit mașini de tabulat pentru a procesa datele de recensământ.
+
+Question 64: Ce companie a fost formată din fuziunea companiei lui Hermann Hollerith?
+A) IBM
+B) Apple
+C) Microsoft
+D) Intel
+✅ Correct answer: A
+
+Explanation: Compania lui Hermann Hollerith a fuzionat cu alte trei companii și a format IBM (International Business Machine).
+
+Question 65: Cine a propus o listă de probleme matematice nerezolvate în 1900?
+A) John von Neumann
+B) Kurt Gödel
+C) David Hilbert
+D) Alan Turing
+✅ Correct answer: C
+
+Explanation: David Hilbert a propus o listă de probleme matematice nerezolvate în 1900.
+
+Question 66: Care dintre următoarele este una dintre problemele lui Hilbert?
+A) Demonstrarea teoremei lui Pitagora
+B) Găsirea unui algoritm pentru a determina dacă o ecuație diofantică polinomială are o soluție întreagă
+C) Inventarea cardurilor perforate
+D) Construirea unui motor diferențial
+✅ Correct answer: B
+
+Explanation: Una dintre problemele lui Hilbert este găsirea unui algoritm pentru a determina dacă o ecuație diofantică polinomială are o soluție întreagă.
+
+Question 67: Ce spune conjectura lui Goldbach?
+A) Toate numerele prime sunt impare.
+B) Toate numerele pare mai mari decât doi pot fi descrise ca suma a două numere prime.
+C) Toate numerele impare sunt prime.
+D) Există o infinitate de numere prime.
+✅ Correct answer: B
+
+Explanation: Conjectura lui Goldbach spune că fiecare număr par mai mare decât doi poate fi descris ca suma a două numere prime.
+
+Question 68: Ce problemă de pe lista lui Hilbert a studiat Kurt Gödel?
+A) Rezolvarea ecuațiilor diofantiene
+B) Demonstrarea că axiomele aritmeticii sunt consistente
+C) Găsirea numerelor prime
+D) Demonstrarea teoremei lui Pitagora
+✅ Correct answer: B
+
+Explanation: Kurt Gödel a studiat problema demonstrației că axiomele aritmeticii sunt consistente.
+
+Question 69: Ce a demonstrat Kurt Gödel în 1931?
+A) Axiomele aritmeticii nu sunt complete.
+B) Axiomele aritmeticii sunt inconsistente.
+C) Axiomele aritmeticii sunt complete.
+D) Teorema lui Pitagora este greșită.
+✅ Correct answer: A
+
+Explanation: Kurt Gödel a demonstrat că axiomele aritmeticii nu sunt complete, prin teorema incompletenei.
+
+Question 70: Ce spunea Kurt Gödel despre alimentele consumate?
+A) Că trebuie consumate doar alimente gătite de soția lui, din cauza temerilor de otrăvire de către comuniștii ruși.
+B) Că trebuie consumate doar alimente proaspete.
+C) Că trebuie mâncat multă fasole.
+D) Că trebuie mâncat doar mâncare organică.
+✅ Correct answer: A
+
+Explanation: Kurt Gödel consuma doar alimente gătite de soția sa, din cauza temerilor de otrăvire de către comuniștii ruși.
+
+Question 71: Care a fost particularitatea lui Alan Turing?
+A) Era căsătorit cu Albert Einstein.
+B) Era homosexual, lucru ilegal în Anglia.
+C) Avea 10 copii.
+D) Era foarte înalt.
+✅ Correct answer: B
+
+Explanation: Particularitatea lui Alan Turing era faptul că era homosexual, lucru ilegal în Anglia la acea vreme.
+
+Question 72: Cum se numește filmul despre viața lui Alan Turing?
+A) Codul Enigma
+B) O minte sclipitoare
+C) Imitation Game
+D) Jocul Minții
+✅ Correct answer: C
+
+Explanation: Filmul despre viața lui Alan Turing se numește "The Imitation Game".
+
+Question 73: În ce lucrare a demonstrat Alan Turing teorema lui Gödel folosind Mașinile Turing Universale?
+A) „Elementele”
+B) „Despre numerele computabile, cu o aplicație la Entscheidungsproblem”
+C) „Arithmetica”
+D) „Al-jabr w'al-muqabala”
+✅ Correct answer: B
+
+Explanation: Alan Turing a demonstrat teorema lui Gödel în lucrarea „Despre numerele computabile, cu o aplicație la Entscheidungsproblem”.
+
+Question 74: În ce problemă a transformat Alan Turing problema decidabilității lui Kurt Gödel?
+A) Problema lui Pitagora
+B) Problema diofantică
+C) Problema opririi
+D) Problema numerelor prime
+✅ Correct answer: C
+
+Explanation: Alan Turing a transformat problema decidabilității lui Kurt Gödel în problema opririi.
+
+Question 75: Ce este o Mașină Turing Universală?
+A) Un calculator electronic
+B) Un model matematic al unui calculator abstract
+C) Un calculator mecanic
+D) Un limbaj de programare
+✅ Correct answer: B
+
+Explanation: Mașina Turing Universală este un model matematic al unui calculator abstract.
+
+Question 76: Cu ce a contribuit Alan Turing la Al Doilea Război Mondial?
+A) A fost medic pe front.
+B) A antrenat soldați.
+C) A inventat bomba atomică
+D) A creat computere electromeanice numite Bombe, folosite pentru a decripta mesajele germane Enigma.
+✅ Correct answer: D
+
+Explanation: Alan Turing a ajutat la efortul de război prin inventarea unui calculator electromecanic numit Bomba, folosit pentru a decripta mesajele germane Enigma.
+
+Question 77: Cum se numea testul de inteligență artificială inventat de Alan Turing?
+A) Testul Von Neumann
+B) Testul Turing
+C) Testul Gödel
+D) Testul Bomba
+✅ Correct answer: B
+
+Explanation: Alan Turing a inventat testul Turing pentru a evalua inteligența artificială.
+
+Question 78: Din ce cauză a fost judecat Alan Turing?
+A) Pentru homosexualitate
+B) Pentru furt
+C) Pentru trădare
+D) Pentru spionaj
+✅ Correct answer: A
+
+Explanation: Alan Turing a fost judecat pentru homosexualitate, care era ilegală în Marea Britanie.
+
+Question 79: Ce se întâmplă cu Alan Turing în 1954?
+A) Devine prim ministru.
+B) Se mută în Statele Unite.
+C) Moare din cauza otrăvirii cu cianură, probabil sinucidere.
+D) Devine miliardar.
+✅ Correct answer: C
+
+Explanation: Alan Turing a murit în 1954 din cauza otrăvirii cu cianură, probabil sinucidere.
+
+Question 80: Cum se numește cel mai faimos premiu în informatică, denumit în onoarea lui Alan Turing?
+A) Premiul Turing
+B) Medalia Fields
+C) Premiul Nobel pentru Informatică
+D) Premiul von Neumann
+✅ Correct answer: A
+
+Explanation: Cel mai faimos premiu în informatică se numește Premiul Turing.
+
+Question 81: Cine era Kurt Gödel pentru John von Neumann?
+A) Frate
+B) Prieten
+C) Nu aveau nicio legătură
+D) Soț
+✅ Correct answer: B
+
+Explanation: Kurt Gödel și John von Neumann erau prieteni.
+
+Question 82: Care a fost numele original al lui John von Neumann?
+A) Kurt Gödel
+B) Janos Lajos
+C) Alan Turing
+D) Albert Einstein
+✅ Correct answer: B
+
+Explanation: Numele original al lui John von Neumann a fost Janos Lajos.
+
+Question 83: Din ce cauză s-a mutat John von Neumann în Statele Unite?
+A) Pentru a scăpa de Holocaust și naziști
+B) Pentru că i s-a oferit un post la Princeton
+C) Pentru a obține un doctorat
+D) Pentru a lucra cu Alan Turing
+✅ Correct answer: A
+
+Explanation: John von Neumann s-a mutat în Statele Unite pentru a scăpa de Holocaust și de acțiunile naziștilor împotriva evreilor.
+
+Question 84: Ce proiect important a implicat John von Neumann în timpul celui de-al doilea război mondial?
+A) Proiectul ARPANET
+B) Proiectul Enigma
+C) Proiectul Manhattan
+D) Proiectul Colossus
+✅ Correct answer: C
+
+Explanation: John von Neumann a participat la Proiectul Manhattan.
+
+Question 85: De ce a murit John von Neumann?
+A) Din cauza unui accident de mașină
+B) Din cauza unei boli de inimă
+C) Din cauza efectelor radiațiilor nucleare
+D) Din cauza unei supradoze de medicamente
+✅ Correct answer: C
+

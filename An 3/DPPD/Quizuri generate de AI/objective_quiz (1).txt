@@ -1,0 +1,151 @@
+OBJECTIVE QUIZ
+
+TRUE/FALSE QUESTIONS:
+1. The word "management" comes from the Latin word "manus" meaning hand. - True - True
+2. The six basic functions of management, according to Fayol, include prognosis and planning. - True - True
+3. Management principles developed for economic contexts cannot be applied to other areas of social life. - False - False
+4. Management can be conceived as the art of working with ideas, people, relations and resources. - True - True
+5. Prospective function in school management is less important than the other management functions. - False - False
+6. Management of the class of students refers to management techniques and methods used for students' families. - False - False
+7. In education, failures recorded during the training process do not have negative individual and social consequences. - False - False
+8. It is important to recognize the relevance of management in class. - True - True
+
+MATCHING QUESTIONS:
+Matching Set 1: Functions of School Management**
+A. Prospective Function
+B. Organizing Function
+C. Coordinating Function
+D. Decision Function
+
+1. Transposing adopted action programs into reality. - B
+2. Ensuring perspective and openness to management acts. - A
+3. The outcome of a very complex process depending on the concrete conditions. - D
+4. Achieved through regulatory and self-regulatory mechanisms. - C
+
+Answer Key: A=1, B=2, C=3, D=4
+
+Matching Set 2: Elements of Educational Management**
+A. Ideas
+B. Relations
+C. People
+D. Resources
+
+1. Motivation, delegation, stimulation, formation, evaluation. - C
+2. Perspective, objectives, programs, action strategies. - A
+3. Identification, diversification, procurement, adaptation, functioning, integration, perfection. - D
+4. Organizational structure, links between elements and actions, tasks, balance authority/freedom, centralization/decentralization. - B
+
+Answer Key: A=1, B=2, C=3, D=4
+
+Matching Set 3: Teacher Manager Styles**
+A. Authoritarian
+B. Democratic
+C. Laissez
+
+1. Hands-off approach; provides minimal guidance. - C
+2. Exercises high control and direction; makes decisions unilaterally. - A
+3. Involves students in decision-making; encourages collaboration. - B
+
+Answer Key: A=1, B=2, C=3
+
+Matching Set 4: Norms in the classroom**
+A. Explicit Norms
+B. Implicit Norms
+
+1. These norms are prescriptive, known, clearly expressed, with role of regulation of the school activity. - A
+2. These norms are hidden, which are built within the group, produced by life in common. - B
+
+Answer Key: A=1, B=2
+
+Matching Set 5: Consequences following misbehavior**
+A. Restitution
+B. Restoration
+C. Restriction
+D. Reflection
+
+1. Returning to a normal behavior. - B
+2. (of some rights or privileges). - C
+3. (upon disruptive behavior and find solutions to resolve the situation). - D
+4. (of things, objects, time that has been taken, lost or destroyed). - A
+
+Answer Key: A=1, B=2, C=3, D=4
+
+MULTIPLE CHOICE QUESTIONS:
+Question 1: Multiple Choice Questions:**
+A) Who is generally credited with establishing some basic characteristicsof the managerial activity?
+B) Henry Fayol
+C) Frederick Winslow Taylor
+D) Peter Drucker
+E) Max Weber
+F) Henry Fayol defined the following number of basic management functions:
+G) Four
+H) Five
+I) Six
+J) Seven
+K) Which of the following is NOT a core element that management is the art of working with?
+L) Emotions
+M) Ideas
+N) Relations
+O) Resources
+P) Management education is seen as a system of:
+Q) Rigidity and control.
+R) Concepts, methods, and tools
+S) Financial resources only.
+T) Intuition and guesswork.
+U) Which social sciences are linked to Education Management? (Multiple answers):
+V) Sociology
+W) Psihosociology
+X) Politology
+Y) Engineering
+Z) School management must have:
+[) A narrow perspective
+\) A wide perspective on the future evolution of school activity
+]) No perspective at all.
+^) To follow only school regulations.
+_) The most important role for a teacher in a class is:
+`) Controlor
+a) Facilitator
+b) Supervisor
+c) Examiner
+d) Teachers show authority when:
+e) Are feared
+f) Are respected
+g) Are unfriendly
+h) They punish everyone
+i) The evolution of human beings in complex social interactions, is what drives:
+j) General behaviour
+k) Cognition
+l) Human development
+m) Genetics
+n) The principles of the TSE are applied in order to analise several factors that influence children, which factors? (Multiple answers):
+o) The family
+p) The community
+q) Cognition
+r) The school
+s) If some students are talking during lessons without permission, the teacher should:
+t) Shout at them
+u) Set down rules of behavior
+v) Ignore them
+w) Make them leave
+x) A method to develop creativity in class is:
+y) Discussion inside a group
+z) Ask everyone to be quiet
+{) Tell them stories
+|) Punish those who make mistakes.
+}) What are the different styles to approach learning from Kolb theory? (Multiple answers)
+~) Divergent
+) Asimilator
+) Convergent
+) Acomodator
+) During lectures is better:
+) To listen to everyone at the same time
+) Ignore external situations
+) Give personal space to think
+) Do other things.
+) During school building, constructivelly point of view, the school needs to have: (Multiple answers)
+) Safety conditions
+) Health regulations
+) Social regulations
+) Educational regulations
+Answer: C, D, A, C, A, C, D, C, C, C, D, A, C, D, E, C, A, A, C, D, E, D, A, C, D, E
+

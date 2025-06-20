@@ -1,0 +1,159 @@
+OBJECTIVE QUIZ
+
+TRUE/FALSE QUESTIONS:
+1. Etimologia cuvântului management provine din latinescul "manus", care înseamnă mână. - True
+2. Henry Fayol a definit cele patru funcții de bază ale managementului în lucrarea sa din 1916. - False
+3. Managementul educațional poate fi văzut ca un sistem de concepte, metode și instrumente utilizate în realizarea obiectivelor educației. - False
+4. Managementul educațional vizează activitatea unor persoane care determină și direcționează activitatea celorlalți. - True
+5. În educație, eşecurile înregistrate în procesul de formare pot fi recondiționate și reintroduse în circuitul economic. - True
+6. Stilurile manageriale nu pot fi translate în cadre educaționale. - True
+7. Modelul managerial situațional nu propune delegarea activităților și sarcinilor. - False
+8. Climatul educațional nu are influență asupra eficienței activității didactice. - False
+
+MATCHING QUESTIONS:
+Matching Set 1: Funcțiile Managementului Școlar**
+A. Funcția Prospectivă
+B. Funcția de Organizare
+C. Funcția de Coordonare
+D. Funcția de Control
+
+1. Se referă la transpunerea în fapt a programelor de acțiune adoptate.
+2. Asigură perspectiva și deschidere actelor de conducere.
+3. Constă în verificarea și măsurarea aspectelor cantitative și calitative ale rezultatelor obținute.
+4. Se realizează prin mecanisme de reglare și autoreglare a activităților din școală.
+
+Answer Key: A=2, B=1, C=4, D=3
+
+Matching Set 2: Elementele Managementului Educațional**
+A. Ideile
+B. Relațiile
+C. Oamenii
+D. Resursele
+
+1. Perspectiva, obiectivele, programele, strategiile de acțiune.
+2. Structura organizatorică, legăturile între elemente și acțiuni, sarcini, echilibrul autoritate/libertate, centralizare/descentralizare.
+3. Identificare, diversificare, procurare, adaptare, funcționare, integrare, perfecționare.
+4. Motivarea, delegarea autorității, stimularea, formarea, evaluarea.
+
+Answer Key: A=1, B=2, C=4, D=3
+
+Matching Set 3: Stiluri Manageriale Lewin, Lippit și White**
+A. Autoritar
+B. Democratic
+C. Laissez-faire
+
+1. Profesorul lasă elevilor libertatea de a lua decizii, cu o minimă intervenție din partea sa.
+2. Profesorul implică elevii în luarea deciziilor și încurajează colaborarea.
+3. Profesorul ia toate deciziile și controlează strict activitatea elevilor.
+
+Answer Key: A=3, B=2, C=1
+
+Matching Set 4: Categorii de Consecințe**
+A. Restituirea
+B. Restaurarea
+C. Restricționarea
+D. Reflecția
+
+1. (lucrurilor, obiectelor, timpului care au fost luate, pierdute sau distruse).
+2. A unor drepturi sau privilegii.
+3. Asupra comportamentului perturbator și găsirea de soluții pentru rezolvarea situației.
+4. Revenirea la un comportament normal.
+
+Answer Key: A=1, B=4, C=2, D=3
+
+Matching Set 5: Componentele relațiilor profesori-elevi**
+A. Caracteristicile individuale
+B. Modelele de reprezentare
+C. Procesele de schimb a informațiilor
+
+1. reprezintă principala cale prin care copilul capătă acces la resursele evolutive.
+2. sunt importante pentru adaptarea copilului la contextul în care acesta evoluează – sala de clasă sau căminul.
+3. se afla ele însele în interacţiuni dinamice şi reciproce, în aşa maniera încât comportamentul profesorului faţă de copil şi invers influenţează reprezentările şi atributele copilului sau ale profesorului.
+
+Answer Key: A=1, B=2, C=3
+
+MULTIPLE CHOICE QUESTIONS:
+Question 1: Cine a atribuit paternitatea termenului de "management" lui Frederick Winslow Taylor?
+A) Henry Fayol
+B) R. Iucu
+C) Textul însuși
+D) Nimeni (corect)
+Answer: A
+
+Question 2: Care dintre următoarele nu este o funcție de bază a managementului, conform lui Henry Fayol?
+A) Prognoză
+B) Planificare
+C) Marketing
+D) Control
+Answer: A, C
+
+Question 3: Managementul educațional integrează date oferite de:
+A) Economie
+B) Psihologie
+C) Sociologie
+D) Toate cele de mai sus (corect)
+Answer: A
+
+Question 4: Din ce perspectivă poate fi conceput managementul educațional?
+A) Arta de a lucra cu ideile
+B) Arta de a lucra cu relațiile
+C) Arta de a lucra cu resursele
+D) Toate cele de mai sus (corect)
+Answer: A
+
+Question 5: Care dintre următoarele este un scop al controlului activităților de învățământ?
+A) Prevenirea unor abateri de la deciziile de optimizare a procesului (corect)
+B) Impunerea unor sancțiuni elevilor indisciplinați
+C) Monitorizarea prezenței elevilor la ore
+D) Evaluarea resurselor financiare ale școlii
+Answer: A
+
+Question 6: Conform teoriei lui Fiedler, care sunt cele două stiluri manageriale? (Multiple Answer)
+A) Centrarea pe sarcina
+B) Centrarea pe profit
+C) Centrarea pe relația umană
+D) Centrarea pe competiție
+Answer: A, C, D
+
+Question 7: În contextul realității educaționale, ce se recomandă în ceea ce privește stilurile manageriale?
+A) Adoptarea unui singur stil managerial pe tot parcursul evoluției clasei
+B) Adecvarea la situația concretă, o succesiune a stilurilor manageriale pe măsura evoluției clasei de elevi (corect)
+C) Aplicarea strictă a stilului directiv
+D) Luarea deciziilor doar individual de către profesor
+Answer: A
+
+Question 8: Ce reprezintă climatul educațional?
+A) Totalitatea regulilor din școală
+B) Dezvoltarea unor relații corespunzătoare între elevi și cadre didactice (corect)
+C) Numărul de elevi dintr-o clasă
+D) Resursele financiare ale școlii
+Answer: A
+
+Question 9: Care sunt elementele constituente ale normativității școlare? (Multiple Answer)
+A) Norme
+B) Reguli
+C) Proceduri (rutine)
+D) Pedeapsa
+Answer: A, B, C
+
+Question 10: Care este scopul intervențiilor disciplinare?
+A) Sancționarea elevilor cu abateri disciplinare
+B) Modificări comportamentale pentru elevii care manifestă comportamente nedorite (corect)
+C) Eliminarea elevilor cu probleme disciplinare
+D) Menținerea unui climat strict în clasă
+Answer: A
+
+Question 11: Cu ce se referă asumarea consecințelor?
+A) La responsabilitatea asumată în urma unor comportamente nedorite (corect)
+B) La pedeapsa impusă elevilor cu abateri disciplinare
+C) La ignorarea comportamentelor nedorite
+D) La excluderea elevilor din activitățile școlare
+Answer: A
+
+Question 12: Care sunt elementele ce trebuie luate în considerare în contextul acțional-managerial? (Multiple Answer)
+A) Structura grupului clasă
+B) Finalitățile și obiectivele activității educaționale
+C) Interesele factorilor externi
+D) Caracteristicile contextului de desfășurare a activității
+Answer: A, B, C, D
+

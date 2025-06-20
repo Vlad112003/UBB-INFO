@@ -1,0 +1,185 @@
+Grafuri simple și izomorfism
+
+graf 1.
+[muchii 1-2 pondere b, 1-2 pondere a, 1-3 pondere c, 2-3 pondere d, 3-3 pondere e]
+
+
+multigraf
+G = (V, E, g)
+V = vid
+E
+g:E -> V (x) V
+(w:E->R) graf ponderat
+
+g(c) = {1,3} 
+g(a)=g(b)={1,2} - muchii paralele
+g(e) = {3,3}
+
+
+Grafuri simple
+
+graf 2.
+(un triunghi cu varfurile 1, 2, 3)
+
+G=(V,E)
+n=|V|
+m=|E|
+
+Este un graf complet K ind(3), K ind(n) = graf complet (exista muchie intre fiecare nod)
+
+K ind(n) - eulerian? (eulerian = un ciclu care trece prin toate nodurile o singura data)
+			=> nu este eulerian (este eulerian daca gradele varfurilor sunt numere pare)
+		- hamiltonian
+
+Graf 3.
+
+(un patrat cu diagonale)
+
+K ind(n)
+
+d ind(K ind(n)) (x) = n - 1
+d(x) - gradul varfului x
+
+d(x) = |N ind(g) (x)| - cardinalul multimii de vecini (N - neighbourhood)
+
+N ind(g) (x) = {y apartine lui V | e apartine lui E, g(e) = {x, y}}
+
+delta ind(G) = grad max (aici e delta mare)
+
+d lunguiet ind(G) = grad minim (presupun ca d lunguiet e delta mic)
+
+
+
+T. Euler
+
+Suma gradelor trebuie sa fie 2 * nr muchii
+
+Sigma x apartine V d(x) = 2*m
+
+presupunem ca suma gradelor este 2m
+		Sigma x apartine V d(x) = 2*m, G=(V,E)
+
+Fie (a,b) apartine E si G = {V, E\{(a,b)}}
+
+		Sigma x apartine V d(x) = d'(a) + d'(b) + suma rest grade      d'(a) = d(a) - 1
+		= 2m-2 = 2(m-1)
+		.
+		.
+		.
+		G ind(0) = (V, vid)
+		Sigma x apartine V d(x) = 2 * 0 = 0.
+
+P. Euler
+
+Nr varfurilor de grad impar este un nr par.
+
+V = V1 reunit V2
+
+V1 = varfurile pt care gradul este un nr par
+	 {x apartine V | d(x) - par}
+
+V2 = varfurile pt care gradul este un nr impar
+	 {x apartine V | d(x) - impar}
+
+V = V1 reunit cu V2 => suma gradelor tuturor varfurilor => 
+=>  Sigma x aparine V d(x) = Sigma x aparine V1 d(x) + Sigma x aparine V2 d(x) = 2m (par)
+
+
+Fie un graf simplu si matricea de adiacenta asociata grafului A,
+pt A + A^2, a ind(ij) > 0
+Este G conex? DA
+
+(un graf ce are 3 varfuri {1,2,3} , si muchiile 1-2 si 2-3)
+
+A = 0 1 0  		A^2 = 1 0 1 
+	1 0 1  			  0 2 0
+	0 1 0  			  1 0 1
+
+A + A^2 = 1 1 1
+		  1 2 1
+		  1 1 1
+
+(un graf ce are 5 varfuri {1,2,3,4,5}, si muchiile 1-2 2-3 4-5)
+
+A = 0 1 0 0 0		A^2 = 1 0 1 0 0
+	1 0 1 0 0			  0 2 0 0 0
+	0 1 0 0 0			  1 0 1 0 0
+	0 0 0 0 1 			  0 0 0 1 0
+	0 0 0 1 0 			  0 0 0 0 1
+
+A + A^2 = 1 1 1 0 0
+	      1 2 1 0 0
+	      1 1 1 0 0 
+	      0 0 0 1 1
+	      0 0 0 1 1
+
+Kn
+
+d ind(Kn) = n -1
+
+m ind(Kn) = Combinari de n luate cate 2 = n(n-1) / 2
+
+n min? astfel incat Kn sa aiba cel putin 400 muchii
+
+n(n-1) / 2 >= 400 => n = 29 (29 * 28 = 812)
+
+Se poate reprezenta un graf pt care gradeel vf sunt 
+a) 1, 2, 3, 4, 5, 6 X (NU)
+b) 2, 3, 2, 3, 3 X (NU)			X = NU
+
+
+Fie V o multime de n elemente. Sa se determine
+a) Numarul grafurilor neorientate, fara bucle, care au multimea varfurilor V?
+
+2 ^ Combinari de n luate cate 2 = 2 ^ n(n-1) / 2
+
+b) Numarul grafurilor orientate, fara bucle, care au multimea varfurilor V?
+
+2 ^ n(n-1) = 2 ^ aranjamente de n luate cate 2
+
+c) Numarul grafurilor orientate, fara bucle si antisimetrice, care au multimea varfurilor V?
+
+(graf simetric - noduri a, b, muchii a -> b, b -> a, => graf antisimetric - noduri a, b, muchii a -> b sau b -> a sau nicio muchie intre ele).
+
+3 ^ combinari de n luate cate 2 = 3 ^ n(n-1) / 2
+
+d) Numarul grafurilor care au gradele varfurilor distincte?
+
+0
+
+(eu refuz sa mai descriu ce deseneaza omu asta)
+
+(un desen G1 in care avem varfuri A, B, C, D, E, F, G, muchii A-B, B-E, E-G, G-F, F-C, C-A, A-D, D-G)
+
+
+(alt desen G2 in care avem varfuri 1, 2, 3, 4, 5, 6, 7, muchii 1-2, 2-3, 3-7, 7-6, 6-5, 4-5, 4-7, 1-6)
+
+Def. Grafurile G1 = (V1, E1) si G2 = (V2, E2) sunt izomorfe, (se noteaza =~), daca f bijectiva
+
+f:V1 -> V2 a i daca
+(a,b) apartine V1 => (f(a), f(b)) apartine V2
+
+------------------
+   |A B C D E F G
+------------------
+f  |7 4 3 6 5 2 1
+------------------
+
+n G1 = 7   				n G2 = 7
+m G1 = 9   				m G2 = 9
+delta_mic G1 = 2 		delta_mic G2 = 2
+delta_mare G1 = 3 		delta_mare G2 = 3  => G1 =~ G2
+
+(un desen G1 in care avem varfuri A, B, C, D, E, F, muchii A-C, C-E, E-F, F-D, D-B, B-A, A-F, B-E, C-D)
+
+(un alt desen G2 in care avem varfuri 1, 2, 3, 4, 5, 6, muchii 1-2, 2-3, 3-4, 4-5, 5-6, 6-1, 1-4, 2-6, 3-5)
+
+----------------
+   |A B C D E F 
+----------------
+f  |     
+----------------
+
+A-B-D-C ciclu minim (grad 4), 1-2-6 ciclu minim (grad 3)
+
+=> G1 =~/~= G2

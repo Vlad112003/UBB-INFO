@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1646653311 source:c:\users\andre\desktop\ag\laboratoare\laborator_2\problema_1\main.cpp
+	<iostream>
+	<limits.h>
+	<fstream>
+

@@ -1,0 +1,207 @@
+        -:    0:Source:D:/An3Sem2/Structuri de Date si Algoritmi/Lab1/VectorDinamic.cpp
+        -:    0:Graph:D:\An3Sem2\Structuri de Date si Algoritmi\Lab1\cmake-build-debug-coverage\CMakeFiles\Lab1.dir\VectorDinamic.cpp.gcno
+        -:    0:Data:D:\An3Sem2\Structuri de Date si Algoritmi\Lab1\cmake-build-debug-coverage\CMakeFiles\Lab1.dir\VectorDinamic.cpp.gcda
+        -:    0:Runs:1
+        -:    1:#include "VectorDinamic.h"
+        -:    2:#include "IteratorVectorDinamic.h"
+        -:    3:#include <stdexcept>
+        -:    4:
+        -:    5:using namespace std;
+        -:    6:
+function _ZN13VectorDinamic5redimEv called 18 returned 100% blocks executed 90%
+       18:    7:void VectorDinamic::redim() {
+      18*:    8:    TElem *eNou = new int[2 * cp];
+       18:    8-block  0
+branch  0 taken 18 (fallthrough)
+branch  1 taken 0
+       18:    8-block  1
+    %%%%%:    8-block  2
+call    2 never executed
+       18:    8-block  3
+call    3 returned 18
+   205037:    9:    for (int i = 0; i < n; i++)
+   205037:    9-block  0
+branch  0 taken 205019
+branch  1 taken 18 (fallthrough)
+   205019:   10:        eNou[i] = e[i];
+   205019:   10-block  0
+       18:   11:    cp = 2 * cp;
+       18:   12:    delete[] e;
+       18:   12-block  0
+branch  0 taken 18 (fallthrough)
+branch  1 taken 0
+       18:   12-block  1
+call    2 returned 18
+       18:   13:    e = eNou;
+       18:   14:}
+        -:   15:
+function _ZN13VectorDinamicC2Ei called 7 returned 100% blocks executed 80%
+        7:   16:VectorDinamic::VectorDinamic(int cp) {
+        7:   17:    this->cp = cp;
+       7*:   18:    e = new TElem[cp];
+        7:   18-block  0
+branch  0 taken 7 (fallthrough)
+branch  1 taken 0
+        7:   18-block  1
+    %%%%%:   18-block  2
+call    2 never executed
+        7:   18-block  3
+call    3 returned 7
+        7:   19:    this->n = 0;
+        7:   20:}
+        -:   21:
+function _ZN13VectorDinamicD2Ev called 7 returned 100% blocks executed 100%
+        7:   22:VectorDinamic::~VectorDinamic() {
+        7:   23:    delete[] e;
+        7:   23-block  0
+branch  0 taken 7 (fallthrough)
+branch  1 taken 0
+        7:   23-block  1
+call    2 returned 7
+        7:   24:}
+        -:   25:
+function _ZNK13VectorDinamic3dimEv called 1200808 returned 100% blocks executed 100%
+  1200808:   26:int VectorDinamic::dim() const {
+  1200808:   27:    return n;
+  1200808:   27-block  0
+        -:   28:}
+        -:   29:
+function _ZNK13VectorDinamic7elementEi called 318 returned 100% blocks executed 89%
+      318:   30:TElem VectorDinamic::element(int i) const {
+      318:   31:    if (i < 0 || i >= n)
+      318:   31-block  0
+branch  0 taken 318 (fallthrough)
+branch  1 taken 0
+      318:   31-block  1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 317
+        1:   32:        throw out_of_range("Index out of range");
+        1:   32-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   32-block  1
+call    4 returned 0
+    $$$$$:   32-block  2
+call    5 never executed
+      317:   33:    return e[i];
+      317:   33-block  0
+      317:   33-block  1
+        -:   34:}
+        -:   35:
+function _ZN13VectorDinamic13adaugaSfarsitEi called 200413 returned 100% blocks executed 100%
+   200413:   36:void VectorDinamic::adaugaSfarsit(TElem e) {
+   200413:   37:    if (n == cp)
+   200413:   37-block  0
+branch  0 taken 15 (fallthrough)
+branch  1 taken 200398
+       15:   38:        redim();
+       15:   38-block  0
+call    0 returned 15
+   200413:   39:    this->e[n++] = e;
+   200413:   40:}
+        -:   41:
+function _ZN13VectorDinamic6adaugaEii called 12 returned 100% blocks executed 69%
+       12:   42:void VectorDinamic::adauga(int i, TElem e) {
+       12:   43:    if (i < 0 || i > n)
+       12:   43-block  0
+branch  0 taken 12 (fallthrough)
+branch  1 taken 0
+       12:   43-block  1
+branch  2 taken 0 (fallthrough)
+branch  3 taken 12
+    #####:   44:        throw out_of_range("Index out of range");
+    %%%%%:   44-block  0
+call    0 never executed
+call    1 never executed
+branch  2 never executed (fallthrough)
+branch  3 never executed (throw)
+    %%%%%:   44-block  1
+call    4 never executed
+    $$$$$:   44-block  2
+call    5 never executed
+       12:   45:    if (n == cp)
+       12:   45-block  0
+branch  0 taken 3 (fallthrough)
+branch  1 taken 9
+        3:   46:        redim();
+        3:   46-block  0
+call    0 returned 3
+       52:   47:    for (int j = n; j > i; j--)
+       12:   47-block  0
+       52:   47-block  1
+branch  0 taken 40
+branch  1 taken 12 (fallthrough)
+       40:   48:        this->e[j] = this->e[j - 1];
+       40:   48-block  0
+       12:   49:    this->e[i] = e;
+       12:   50:    n++;
+       12:   51:}
+       12:   51-block  0
+        -:   52:
+function _ZN13VectorDinamic8modificaEii called 3 returned 67% blocks executed 89%
+        3:   53:TElem VectorDinamic::modifica(int i, TElem e) {
+        3:   54:    if (i < 0 || i >= n)
+        3:   54-block  0
+branch  0 taken 3 (fallthrough)
+branch  1 taken 0
+        3:   54-block  1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 2
+        1:   55:        throw out_of_range("Index out of range");
+        1:   55-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   55-block  1
+call    4 returned 0
+    $$$$$:   55-block  2
+call    5 never executed
+        2:   56:    TElem old = this->e[i];
+        2:   57:    this->e[i] = e;
+        2:   58:    return old;
+        2:   58-block  0
+        2:   58-block  1
+        -:   59:}
+        -:   60:
+function _ZN13VectorDinamic6stergeEi called 200305 returned 100% blocks executed 92%
+   200305:   61:TElem VectorDinamic::sterge(int i) {
+   200305:   62:    if (i < 0 || i >= n)
+   200305:   62-block  0
+branch  0 taken 200305 (fallthrough)
+branch  1 taken 0
+   200305:   62-block  1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 200304
+        1:   63:        throw out_of_range("Index out of range");
+        1:   63-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   63-block  1
+call    4 returned 0
+    $$$$$:   63-block  2
+call    5 never executed
+   200304:   64:    TElem removed = this->e[i];
+   215360:   65:    for (int j = i; j < n - 1; j++)
+   200304:   65-block  0
+   215360:   65-block  1
+branch  0 taken 15056
+branch  1 taken 200304 (fallthrough)
+    15056:   66:        this->e[j] = this->e[j + 1];
+    15056:   66-block  0
+   200304:   67:    n--;
+   200304:   68:    return removed;
+   200304:   68-block  0
+   200304:   68-block  1
+        -:   69:}
+        -:   70:
+function _ZN13VectorDinamic8iteratorEv called 6 returned 100% blocks executed 100%
+        6:   71:IteratorVectorDinamic VectorDinamic::iterator() {
+        6:   72:    return IteratorVectorDinamic(*this);
+        6:   72-block  0
+call    0 returned 6
+        -:   73:}
