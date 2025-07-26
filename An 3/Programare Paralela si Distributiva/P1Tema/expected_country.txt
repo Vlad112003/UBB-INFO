@@ -1,5 +1,0 @@
-USA: 2791
-Romania: 2424
-France: 2369
-Germany: 1897
-Italy: 1570

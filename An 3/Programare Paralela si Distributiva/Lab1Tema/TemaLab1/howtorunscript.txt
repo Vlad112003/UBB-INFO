@@ -1,5 +1,0 @@
-.\scriptJ.ps1 TemaLab1.jar 10 2 10000 10000 linii 5
-
-numebuildgradle.jar nrRulari, nrThreaduri, N matrice, M matrice, numeFunctie, n matrice convolutie
-
-am ramas la .\scriptJ.ps1 TemaLab1.jar 10 4 10000 10000 linii 5

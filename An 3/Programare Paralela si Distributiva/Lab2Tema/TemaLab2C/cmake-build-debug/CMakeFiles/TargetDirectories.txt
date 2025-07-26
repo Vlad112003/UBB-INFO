@@ -1,3 +1,0 @@
-D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/TemaLab2C.dir
-D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/An3Sem1/Programare Paralela si Distributiva/Lab2Tema/TemaLab2C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

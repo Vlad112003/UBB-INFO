@@ -1,9 +1,0 @@
-int main(){
-    int a, b, s, media;
-    cin>>a>>b;
-    s=0;
-    s=s+a;
-    s=s+b;
-    media=s/2;
-    cout<<"Media numerelor este: "<<media;
-}
