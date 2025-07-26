@@ -1,4 +1,0 @@
-D:/FacultaAn3Sem1/PPD/InClass3/cmake-build-debug/CMakeFiles/InClass3.dir
-D:/FacultaAn3Sem1/PPD/InClass3/cmake-build-debug/CMakeFiles/part2.dir
-D:/FacultaAn3Sem1/PPD/InClass3/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/FacultaAn3Sem1/PPD/InClass3/cmake-build-debug/CMakeFiles/rebuild_cache.dir

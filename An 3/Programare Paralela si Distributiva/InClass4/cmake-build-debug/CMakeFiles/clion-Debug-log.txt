@@ -1,7 +1,0 @@
-C:\Users\vladb\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/vladb/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S D:\FacultaAn3Sem1\PPD\InClass4 -B D:\FacultaAn3Sem1\PPD\InClass4\cmake-build-debug
--- Found OpenMP_C: -fopenmp (found version "4.5")
--- Found OpenMP_CXX: -fopenmp (found version "4.5")
--- Found OpenMP: TRUE (found version "4.5")
--- Configuring done (2.2s)
--- Generating done (0.1s)
--- Build files have been written to: D:/FacultaAn3Sem1/PPD/InClass4/cmake-build-debug

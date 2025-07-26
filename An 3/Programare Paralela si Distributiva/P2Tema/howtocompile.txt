@@ -1,1 +1,0 @@
- nvcc -o P2Tema.exe main.cu -I"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/include" -L"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v12.6/lib/x64" -lcudart

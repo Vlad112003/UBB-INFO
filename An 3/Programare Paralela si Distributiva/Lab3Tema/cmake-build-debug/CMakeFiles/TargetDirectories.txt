@@ -1,3 +1,0 @@
-D:/FacultaAn3Sem1/PPD/Lab3Tema/cmake-build-debug/CMakeFiles/Lab3Tema.dir
-D:/FacultaAn3Sem1/PPD/Lab3Tema/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/FacultaAn3Sem1/PPD/Lab3Tema/cmake-build-debug/CMakeFiles/rebuild_cache.dir

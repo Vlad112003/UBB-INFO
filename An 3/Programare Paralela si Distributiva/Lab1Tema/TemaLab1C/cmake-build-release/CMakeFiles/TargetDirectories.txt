@@ -1,5 +1,0 @@
-D:/FacultaAn3Sem1/PPD/Lab1Tema/TemaLab1C/cmake-build-release/CMakeFiles/TemaLab1C.dir
-D:/FacultaAn3Sem1/PPD/Lab1Tema/TemaLab1C/cmake-build-release/CMakeFiles/TemaLab1CDinamic.dir
-D:/FacultaAn3Sem1/PPD/Lab1Tema/TemaLab1C/cmake-build-release/CMakeFiles/HelloWorld.dir
-D:/FacultaAn3Sem1/PPD/Lab1Tema/TemaLab1C/cmake-build-release/CMakeFiles/edit_cache.dir
-D:/FacultaAn3Sem1/PPD/Lab1Tema/TemaLab1C/cmake-build-release/CMakeFiles/rebuild_cache.dir
