@@ -1,0 +1,8 @@
+int main() {
+    float x, y, z;
+    cin >> x >> y;
+    z = 0;
+    z = z + x;
+    z = z + y;
+    cout << z;
+}

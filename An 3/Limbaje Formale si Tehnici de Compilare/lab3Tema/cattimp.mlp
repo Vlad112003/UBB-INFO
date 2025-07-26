@@ -1,0 +1,9 @@
+int main(){
+    int a = 2;
+    cat timp (a) executa
+    {
+        a = a--;
+    }
+    sf cat timp;
+    cout<<a;
+}

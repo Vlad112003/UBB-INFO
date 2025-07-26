@@ -1,0 +1,14 @@
+int main(){
+	int n, nr, i, s;
+	i=1;
+	s=0;
+	cout<<"Cate numere vreti sa adunati: "
+	cin>>n;
+	while(i<=n){
+		cout<<"Introduceti numarul de pe pozitia"<<i<<": ";
+		cin>>nr;
+		s=s+nr;
+		i=i+1;
+	}
+	cout<<"Suma numerelor date este: "<<s;
+}

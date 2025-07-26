@@ -1,0 +1,4 @@
+C:\Users\vladb\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/vladb/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S D:\FacultaAn3Sem1\PPD\lab2C -B D:\FacultaAn3Sem1\PPD\lab2C\cmake-build-debug
+-- Configuring done (0.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/FacultaAn3Sem1/PPD/lab2C/cmake-build-debug

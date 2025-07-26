@@ -1,0 +1,108 @@
+CONST -> mulțimea numerelor reale (ex. 1,2, -1, -3/4, 3.14)
+MESAJ -> Orice mesaj scris între ghilimele
+
+
+<program> -> "int" "main "(" ")" "{" <lista_instr> "}"
+<lista_instr> -> <instr> <lista_instr> | <instr> ";"
+<instr> -> <io> | <atr> | <cond> | <rep> | <decl>
+
+<io> -> "cin" ">>" ID ";" | "cout" "<<" <output_chain> ";"
+<output_chain> -> <output> | <output> "<<" <output_chain>
+<output> -> ID | CONST | MESAJ | "endl"
+
+<atr> -> ID "=" <expr> ";"
+<expr> -> ID | CONST | ID <op> ID | ID <op> CONST | ID <op> <expr>
+<op> -> "+" | "-" | "*" | "/" | "%" | "==" | "!=" | "++" | "--"
+
+<decl> -> <tip> <lista_id> ";"
+<tip> -> "int" | "float" | "char" | "string"
+<lista_id> -> ID | ID "," <lista_id>
+
+<cond> -> "if" "(" <logic> ")" <lista_instr>
+<logic> -> ID <op_logic> ID | ID <op_logic> CONST
+<op_logic> -> "==" | "!=" | ">" | "<" | ">=" | "<="
+<rep> -> "while" "(" <logic> ")"  "{" <lista_instr> "}" | "do" "{" <lista_instr> "}" "while" "(" <logic> ")" ";"
+
+
+
+
+2.1 calculeaza perimetrul si aria cercului de o raza data data
+
+int main(){
+	float raza, perimetru, arie;
+	cout<<"Introduceti raza cercului: ";
+	cin>>raza;
+	perimetru = 2 * 3.14 * raza;
+	arie = 3.14 * raza * raza;
+
+	cout<<"Perimetrul cercului cu raza data este: ";
+	cout<<perimetru<<endl;
+	
+	cout<<"Aria cercului cu raza data este: ";
+	cout<<arie<<endl;
+}
+
+2.2
+determina cmmdc a 2 nr naturale
+
+int main(){
+	int a, b;
+
+	cout<<"Introduceti primul numar: ";
+	cin>>a;
+	cout<<"Introduceti al doilea numar: ";
+	cin>>b;
+
+	while(b != 0){
+		int rest = a%b;
+		a=b;
+		b=rest;
+	}
+	cout<<"CMMDC-ul celor doua numere este: " <<a<<endl;
+}
+
+2.3
+calculeaza suma a n numere citite de la tastatura
+
+int main(){
+	int n, nr, i, s;
+	i=1;
+	s=0;
+	cout<<"Cate numere vreti sa adunati: "
+	cin>>n;
+	while(i<=n){
+		cout<<"Introduceti numarul de pe pozitia"<<i<<": ";
+		cin>>nr;
+		s=s+nr;
+		i=i+1;
+	}
+	cout<<"Suma numerelor date este: "<<s; 
+}
+
+3. Se cer textele sursa a doua programe care contin erori conform MLP-ului
+definit:
+
+3.1 Unul dintre programe contine doua erori care sunt in acelasi timp
+erori in limbajul original (pentru care MLP defineste un subset)
+
+int main() {
+    float x, y;
+    cin>> x >> y //lipseste ';' de la final
+    z = x + y; //z nu este declarat.
+    cout << "Suma este: " << z;
+}
+
+3.2 Al doilea program contine doua erori conform MLP, dar care nu sunt
+erori in limbajul original. Se cere ca acesta sa fie compilat si
+executat in limbajul original ales.
+
+
+int main() {
+    int a = 5, b;
+    a++; //a++ nu este definita ca o operatie standalone in mlp si poate fi folosita doar ca a = b++;
+    b = a == 5; //b primeste 1 sau true, iar in mlp nu am acest tip de atribuire prin comparatie.
+    cout << "Valoarea lui b este: " << b << endl;
+}
+
+in C++ se afiseaza "Valoarea lui b este 1".
+

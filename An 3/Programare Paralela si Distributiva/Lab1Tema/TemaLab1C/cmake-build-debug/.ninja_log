@@ -1,0 +1,7 @@
+# ninja log v6
+2	756	7514135927639410	CMakeFiles/TemaLab1C.dir/main.cpp.obj	2edd24da62adcde5
+760	908	7514135935229670	TemaLab1C.exe	a88f92c800262517
+3	732	7514136443922574	CMakeFiles/TemaLab1CDinamic.dir/dinamic.cpp.obj	7c1cd72c27d3de7
+733	865	7514136451228934	TemaLab1CDinamic.exe	10b89cf43179f374
+3	416	7514136661807964	CMakeFiles/HelloWorld.dir/helloWorld.cpp.obj	fd0828501d8a586
+417	528	7514136665944257	HelloWorld.exe	c90ae34bd604ce67

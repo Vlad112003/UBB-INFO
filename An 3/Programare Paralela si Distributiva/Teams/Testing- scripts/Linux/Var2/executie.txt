@@ -1,0 +1,19 @@
+#how is called:
+#sh repeta.sh  30 > date.csv 
+#sh repeta.sh  30 "java Test_Example" > date.csv 
+#-----------------------------------------
+#retries is the number of executions
+retries=$1
+ns="2 4 8 16"
+for n in $ns
+do
+   i=1
+   while [ $i -le $retries ]
+   do
+      java -cp commons-math3-3.6.1.jar:. Test_Example $n
+#     $2 $n
+      i=`expr $i + 1`
+   done
+done
+
+#-------------------------------------------

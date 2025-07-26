@@ -1,0 +1,31 @@
+     1                                  bits 32
+     2                                  global start
+     3                                  
+     4                                  extern exit
+     5                                  import exit msvcrt.dll
+     6                                  extern scanf
+     7                                  import scanf msvcrt.dll
+     8                                  extern printf
+     9                                  import printf msvcrt.dll
+    10                                  
+    11                                  segment data use32
+    12 00000000 <res 00000004>          	a		RESD		1
+    13 00000004 256400                  	str1	DB		'%d', 0
+    14                                  	tmp		RESD		0
+    15                                  
+    16                                  segment data use32
+    17                                  	start:
+    18                                  
+    19                                  	; a = 4
+    20 00000007 B804000000              		MOV		EAX,		4
+    21 0000000C A3[00000000]            		MOV		[a],		EAX
+    22                                  
+    23                                  	; output statement
+    24 00000011 FF35[00000000]          		PUSH	DWORD		[a]
+    25 00000017 68[04000000]            		PUSH	DWORD		str1
+    26 0000001C FF15[00000000]          		CALL	[printf]
+    27 00000022 83C408                  		ADD		ESP,		4 * 2
+    28                                  
+    29                                  	;exit
+    30 00000025 6A00                    		PUSH		DWORD		0
+    31 00000027 FF15[00000000]          		CALL		[exit]
